@@ -1,0 +1,7 @@
+.idea/
+scholar.log
+diag-tmp.bib
+*.bak
+*.sav
+JabRef*
+__pycache__
