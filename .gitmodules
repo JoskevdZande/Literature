@@ -1,0 +1,3 @@
+[submodule "pdf"]
+	path = pdf
+	url = ../diag-literature-pdf.git
