@@ -1,0 +1,50 @@
+name: Maintenance
+
+on: [push, pull_request]
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Setup python
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.8
+      - name: Run clean up bib files
+        run: python scripts/cleanup.py
+      - name: Commit changes
+        run: sudo bash scripts/commit_action.sh
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          force: true
+
+  checks:
+    needs: cleanup
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Setup python
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.8
+      - name: Install packages
+        run: pip install -r tests/requirements.txt
+      - name: Run bib file inspection
+        run: pytest
+
+  websites-workflow-dispatch:
+    needs: checks
+    if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Trigger rebuild of the websites
+        run: bash scripts/build_websites.sh
+        env:
+          WEB_TEAM_TOKEN: ${{ secrets.WEB_TEAM_TOKEN }}
