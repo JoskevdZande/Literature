@@ -25832,4 +25832,18 @@ Funding for this study: Research grant from MeVis Medical Solutions AG.},
   revised         = {2022-04-20},
 }
 
+@article{Noot22,
+  author = {Julia M. H. Noothout and Nikolas Lessmann and Matthijs C. van Eede and Louis D. van Harten and Ecem Sogancioglu and Friso G. Heslinga and Mitko Veta and Bram van Ginneken and Ivana Išgum},
+  title = {Knowledge distillation with ensembles of convolutional neural networks for medical image segmentation},
+  journal = JMI,
+  year = {2022},
+  volume = {9},
+  number = {5},
+  pages = {052407},
+  doi = {10.1117/1.JMI.9.5.052407},
+  abstract = {Purpose: Ensembles of convolutional neural networks (CNNs) often outperform a single CNN in medical image segmentation tasks, but inference is computationally more expensive and makes ensembles unattractive for some applications. We compared the performance of differently constructed ensembles with the performance of CNNs derived from these ensembles using knowledge distillation, a technique for reducing the footprint of large models such as ensembles. Approach: We investigated two different types of ensembles, namely, diverse ensembles of networks with three different architectures and two different loss-functions, and uniform ensembles of networks with the same architecture but initialized with different random seeds. For each ensemble, additionally, a single student network was trained to mimic the class probabilities predicted by the teacher model, the ensemble. We evaluated the performance of each network, the ensembles, and the corresponding distilled networks across three different publicly available datasets. These included chest computed tomography scans with four annotated organs of interest, brain magnetic resonance imaging (MRI) with six annotated brain structures, and cardiac cine-MRI with three annotated heart structures. Results: Both uniform and diverse ensembles obtained better results than any of the individual networks in the ensemble. Furthermore, applying knowledge distillation resulted in a single network that was smaller and faster without compromising performance compared with the ensemble it learned from. The distilled networks significantly outperformed the same network trained with reference segmentation instead of knowledge distillation. Conclusion: Knowledge distillation can compress segmentation ensembles of uniform or diverse composition into a single CNN while maintaining the performance of the ensemble.},
+  file = {Noot22.pdf:pdf\\Noot22.pdf:PDF},
+  optnote = {DIAG, RADIOLOGY},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}
