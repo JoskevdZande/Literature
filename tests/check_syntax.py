@@ -21,3 +21,4 @@ def check_syntax(bibfile, strfile, subtests):
         with subtests.test(key=key):
             fields = diagbib.entries[key].fields
             assert "journaltitle" not in fields or "journal" in fields
+            assert "date" not in fields or "year" in fields
