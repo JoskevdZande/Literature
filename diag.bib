@@ -25915,6 +25915,50 @@ The presented CNNs are valid tools to yield objective quantitative information o
   year            = {2022},
 }
 
+@Article{Mari21,
+  author    = {Niccol{\`{o}} Marini and Sebastian Ot{\'{a}}lora and Damian Podareanu and Mart van Rijthoven and Jeroen van der Laak and Francesco Ciompi and Henning Müller and Manfredo Atzori},
+  title     = {Multi{\_}Scale{\_}Tools: A Python Library to Exploit Multi-Scale Whole Slide Images},
+  doi       = {10.3389/fcomp.2021.684521},
+  editor    = {Nianyin Zeng, Heimo Müller,},
+  volume    = {3},
+  abstract  = {Algorithms proposed in computational pathology can allow to automatically analyze digitized tissue samples of histopathological images to help diagnosing diseases. Tissue samples are scanned at a high-resolution and usually saved as images with several magnification levels, namely whole slide images (WSIs). Convolutional neural networks (CNNs) represent the state-of-the-art computer vision methods targeting the analysis of histopathology images, aiming for detection, classification and segmentation. However, the development of CNNs that work with multi-scale images such as WSIs is still an open challenge. The image characteristics and the CNN properties impose architecture designs that are not trivial. Therefore, single scale CNN architectures are still often used. This paper presents Multi_Scale_Tools, a library aiming to facilitate exploiting the multiscale structure of WSIs. Multi_Scale_Tools currently include four components: a preprocessing component, a scale detector, a multi-scale CNN for classification and a multiscale CNN for segmentation of the images. The pre-processing component includes methods to extract patches at several magnification levels. The scale detector allows to identify the magnification level of images that do not contain this information, such as images from the scientific literature. The multi-scale CNNs are trained combining features and predictions that originate from different magnification levels. The components are developed using private datasets, including colon and breast cancer tissue samples. They are tested on private and public external data sources, such as The Cancer Genome Atlas (TCGA). The results of the library demonstrate its effectiveness and applicability. The scale detector accurately predicts multiple levels of image magnification and generalizes well to independent external data. The multi-scale CNNs outperform the single-magnification CNN for both classification and segmentation tasks. The code is developed in Python and it will be made publicly available upon publication. It aims to be easy to use and easy to be improved with additional functions.},
+  day       = {9},
+  file      = {Mari21.pdf:pdf\\Mari21.pdf:PDF},
+  journal   = {Frontiers in Computer Science},
+  keywords  = {multi-scale approaches, computational pathology, scale detection, classification, segmentation, deep learning},
+  optone    = {DIAG},
+  publisher = {Frontiers Media {SA}},
+  year      = {2021},
+}
+
+@Article{Satt22,
+  author          = {Satturwar, Swati and Girolami, Ilaria and Munari, Enrico and Ciompi, Francesco and Eccher, Albino and Pantanowitz, Liron},
+  title           = {Program death ligand-1 immunocytochemistry in lung cancer cytological samples: A systematic review.},
+  doi             = {10.1002/dc.24955},
+  issn            = {1097-0339},
+  issue           = {6},
+  pages           = {313--323},
+  pubstate        = {ppublish},
+  volume          = {50},
+  abstract        = {In this era of personalized medicine, targeted immunotherapies like immune checkpoint inhibitors (ICI) blocking the programmed death-1 (PD-1)/program death ligand-1 (PD-L1) axis have become an integral part of treating advanced stage non-small cell lung carcinoma (NSCLC) and many other cancer types. Multiple monoclonal antibodies are available commercially to detect PD-L1 expression in tumor cells by immunohistochemistry (IHC). As most clinical trials initially required tumor biopsy for PD-L1 detection by IHC, many of the currently available PD-1/PD-L1 assays have been developed and validated on formalin fixed tissue specimens. The majority (>50%) of lung cancer cases do not have a surgical biopsy or resection specimen available for ancillary testing and instead must rely primarily on fine needle aspiration biopsy specimens for diagnosis, staging and ancillary tests. Review of the literature shows multiple studies exploring the feasibility of PD-L1 IHC on cytological samples. In addition, there are studies addressing various aspects of IHC validation on cytology preparations including pre-analytical (e.g., different fixatives), analytical (e.g., antibody clone, staining platforms, inter and intra-observer agreement, cytology-histology concordance) and post-analytical (e.g., clinical outcome) issues. Although promising results in this field have emerged utilizing cytology samples, many important questions still need to be addressed. This review summarizes the literature of PD-L1 IHC in lung cytology specimens and provides practical tips for optimizing analysis.},
+  chemicals       = {B7-H1 Antigen, Biomarkers, Tumor, CD274 protein, human, Programmed Cell Death 1 Receptor},
+  citation-subset = {IM},
+  completed       = {2022-05-06},
+  country         = {United States},
+  file            = {Satt22.pdf:pdf\\Satt22.pdf:PDF},
+  issn-linking    = {1097-0339},
+  journal         = {Diagnostic cytopathology},
+  keywords        = {B7-H1 Antigen, metabolism; Biomarkers, Tumor, metabolism; Biopsy, Fine-Needle; Humans; Immunohistochemistry; Lung Neoplasms, metabolism; Programmed Cell Death 1 Receptor, analysis, therapeutic use; FNA; PD1/PDL1; cancer; concordance; cytology; immunohistochemistry; lung},
+  month           = {6},
+  nlm-id          = {8506895},
+  optone          = {DIAG, RADIOLOGY},
+  owner           = {NLM},
+  pmid            = {35293692},
+  pubmodel        = {Print-Electronic},
+  revised         = {2022-05-06},
+  year            = {2022},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}
 
 @Comment{jabref-meta: grouping:
