@@ -1,3 +1,4 @@
+% Encoding: UTF-8
 @string{AA = _Age_and_Ageing_}
 @string{AAC = _Antimicrobial_Agents_and_Chemotherapy_}
 @string{AACC = _AACN_Advanced_Critical_Care_}
@@ -25848,26 +25849,7 @@ Funding for this study: Research grant from MeVis Medical Solutions AG.},
   file = {Noot22.pdf:pdf\\Noot22.pdf:PDF},
   optnote = {DIAG, RADIOLOGY},
 }
-
-@Article{Soga22,
-  author       = {Ecem Sogancioglu and Keelin Murphy and Ernst Th. Scholten and Luuk H. Boulogne and Mathias Prokop and Bram van Ginneken},
-  year         = {2022},
-  journal      = MP,
-  volume = {49},
-  number = {7},
-  pages = {4466-4477},
-  title        = {Automated estimation of total lung volume using chest radiographs and deep learning},
-  doi          = {10.1002/mp.15655},
-  language     = {en},
-  url          = {https://onlinelibrary.wiley.com/doi/abs/10.1002/mp.15655},
-  urldate      = {2022-06-09},
-  optnote = {DIAG},
-  abstract     = {Background Total lung volume is an important quantitative biomarker and is used for the assessment of restrictive lung diseases. Purpose In this study, we investigate the performance of several deep-learning approaches for automated measurement of total lung volume from chest radiographs. Methods About 7621 posteroanterior and lateral view chest radiographs (CXR) were collected from patients with chest CT available. Similarly, 928 CXR studies were chosen from patients with pulmonary function test (PFT) results. The reference total lung volume was calculated from lung segmentation on CT or PFT data, respectively. This dataset was used to train deep-learning architectures to predict total lung volume from chest radiographs. The experiments were constructed in a stepwise fashion with increasing complexity to demonstrate the effect of training with CT-derived labels only and the sources of error. The optimal models were tested on 291 CXR studies with reference lung volume obtained from PFT. Mean absolute error (MAE), mean absolute percentage error (MAPE), and Pearson correlation coefficient (Pearson's r) were computed. Results The optimal deep-learning regression model showed an MAE of 408 ml and an MAPE of 8.1\% using both frontal and lateral chest radiographs as input. The predictions were highly correlated with the reference standard (Pearson's r = 0.92). CT-derived labels were useful for pretraining but the optimal performance was obtained by fine-tuning the network with PFT-derived labels. Conclusion We demonstrate, for the first time, that state-of-the-art deep-learning solutions can accurately measure total lung volume from plain chest radiographs. The proposed model is made publicly available and can be used to obtain total lung volume from routinely acquired chest radiographs at no additional cost. This deep-learning system can be a useful tool to identify trends over time in patients referred regularly for chest X-ray.},
-  file         = {Soga22.pdf:pdf\\Soga22.pdf:PDF},,
-  keywords     = {artificial intelligence, chest radiograph, chest x-ray, deep learning, total lung volume},
-}
-
-@Article{Anto22,
+{Anto22,
   author       = {Antonelli, Michela and  Reinke, Annika and  Bakas, Spyridon and  Farahani, Keyvan and  Kopp-Schneider, Annette and  Landman, Bennett A. and  Litjens, Geert and  Menze, Bjoern and  Ronneberger, Olaf and  Summers, Ronald M. and  van Ginneken, Bram and  Bilello, Michel and  Bilic, Patrick and  Christ, Patrick F. and  Do, Richard K. G. and  Gollub, Marc J. and  Heckers, Stephan H. and  Huisman, Henkjan and  Jarnagin, William R. and  McHugo, Maureen K. and  Napel, Sandy and  Pernicka, Jennifer S. Golia and  Rhode, Kawal and  Tobon-Gomez, Catalina and  Vorontsov, Eugene and  Meakin, James A. and  Ourselin, Sebastien and  Wiesenfarth, Manuel and  Arbeláez, Pablo and  Bae, Byeonguk and  Chen, Sihong and  Daza, Laura and  Feng, Jianjiang and  He, Baochun and  Isensee, Fabian and  Ji, Yuanfeng and  Jia, Fucang and  Kim, Ildoo and  Maier-Hein, Klaus and  Merhof, Dorit and  Pai, Akshay and  Park, Beomhee and  Perslev, Mathias and  Rezaiifar, Ramin and  Rippel, Oliver and  Sarasua, Ignacio and  Shen, Wei and  Son, Jaemin and  Wachinger, Christian and  Wang, Liansheng and  Wang, Yan and  Xia, Yingda and  Xu, Daguang and  Xu, Zhanwei and  Zheng, Yefeng and  Simpson, Amber L. and  Maier-Hein, Lena and  Cardoso, M. Jorge},
   year         = {2022},
   journal      = NATCOM,
@@ -25906,12 +25888,14 @@ Funding for this study: Research grant from MeVis Medical Solutions AG.},
 @Article{Herm22,
   author   = {Meyke Hermsen AND Francesco Ciompi AND Adeyemi Adefidipe AND Aleksandar Denic AND Amélie Dendooven AND Byron H. Smith AND Dominique van Midden AND Jan Hinrich Bräsen AND Jesper Kers AND Mark D. Stegall AND Péter Bándi AND Tri Nguyen AND Zaneta Swiderska-Chadaj AND Bart Smeets AND Luuk B. Hilbrands AND Jeroen A. W. M. van der Laak},
   title    = {Convolutional neural networks for the evaluation of chronic and inflammatory lesions in kidney transplant biopsies},
+  journal  = AJPAT,
+  year     = {2022},
+  doi      = {https://doi.org/10.1016/j.ajpath.2022.06.009},
   abstract = {In kidney transplant biopsies, both inflammation and chronic changes are important features that predict long-term graft survival. Quantitative scoring of these features is important for transplant diagnostics and kidney research. However, visual scoring is poorly reproducible and labor-intensive. The goal of this study was to investigate the potential of convolutional neural networks (CNNs) to quantify inflammation and chronic features in kidney transplant biopsies.
 A structure segmentation CNN and a lymphocyte detection CNN were applied on 125 whole-slide image pairs of PAS-, and CD3-stained slides. The CNN results were used to quantify healthy and sclerotic glomeruli, interstitial fibrosis, tubular atrophy, and inflammation both within non-atrophic and atrophic tubuli, and in areas of interstitial fibrosis. The computed tissue features showed high correlations with Banff lesion scores of five pathologists. Analyses on a small subset showed a moderate correlation towards higher CD3+ cell density within scarred regions and higher CD3+ cell count inside atrophic tubuli correlated with long-term change of estimated glomerular filtration rate.
 The presented CNNs are valid tools to yield objective quantitative information on glomeruli number, fibrotic tissue, and inflammation within scarred and non-scarred kidney parenchyma in a reproducible fashion. CNNs have the potential to improve kidney transplant diagnostics and will benefit the community as a novel method to generate surrogate endpoints for large-scale clinical studies.},
-  journal  = AJPAT,
+  file     = {Herm22.pdf:pdf\\Herm22.pdf:PDF},
   optnote  = {DIAG, INPRESS},
-  year     = {2022},
 }
 
 @Article{Litj22,
