@@ -26109,6 +26109,14 @@ Conclusion: The developed deep-learning based biomarker quantifies the proportio
   optnote   = {RADIOLOGY,DIAG},
 }
 
+@Conference{Alves22b,
+  author    = {Alves, Natália and Bosma, Joeran and Huisman, Henkjan},
+  booktitle =  RSNA,
+  title     = {Towards Safe Clinical Use of Artificial Intelligence for Cancer Detection Through Uncertainty Quantification},
+  abstract  = {Purpose: Investigate whether quantifying deep learning (DL) models' uncertainty can help identify low performance cases that require expert attention. Materials and Methods: This retrospective study included two use cases: pancreatic cancer detection on contrast-enhanced computed tomography and clinically significant prostate cancer (csPCa) detection on biparametric magnetic resonance imaging. The pancreatic cohort consisted of 242 (119 cancer) in-house cases for training and 361 cases (80 healthy, 281 cancer) from two external, public datasets for testing. The csPCa cohort consisted of 7756 (3022 csPCa) in-house examinations for training and 300 cases (88 csPCa) from an external center for testing. All tumor cases in the independent test sets were histopathology confirmed. The uncertainty of the proposed automatic cancer detection algorithms was computed using model ensembling. Fifteen DL models were trained with the nnUNet framework and integrated into previously established pipelines for each use case. The models were applied independently to the test sets and uncertainty was quantified in a case level as the standard deviation (sd) of the ensemble. Cases with sd lower than 10% were classified as having low prediction uncertainty, while the remaining were classified as having high prediction uncertainty. The mean and 95% confidence intervals (CI) of the area under the receiver operating characteristic curves (AUC) for the high and low uncertainty groups were calculated. The permutation test was used to assess statistical significance. Results: The DL frameworks’ performances for the uncertain groups were significantly lower than for the certain groups for both use cases. For pancreatic cancer detection, the mean AUC dropped from 98.0% (95%CI: 96.2%-99.8%) for the low uncertainty group to 78.0% (95%CI: 68.2%-87.8%) for the high uncertainty group (p<10-4). For csPCa, the mean AUC dropped from 92.4% (95%CI: 90.4%-94.4%) for the low uncertainty group to 65.7% (95%CI: 54.7%-76.7%) for the high uncertainty group (p<10-4). The low uncertainty groups included 41% of the pancreatic and 78% of the csPCa test sets. Conclusions: The proposed ensembling method can be used to identify cases where AI models’ predictions are uncertain and show low performance. Clinical Relevance Statement: To be safely integrated in the clinic, AI can predict uncertainty and identify uncertain cases with lower performance that should be handled with extra care},
+ optnote   = {DIAG, RADIOLOGY},
+  year      = {2022},
+}
 
 
 @Comment{jabref-meta: databaseType:biblatex;}
