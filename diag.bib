@@ -26128,6 +26128,15 @@ Conclusion: The developed deep-learning based biomarker quantifies the proportio
   year      = {2022},
 }
 
+@Conference{Jong22,
+  author    = {de Jong, Steffen and Alves, Natália and Schuurmans, Megan and Hermans, John and Huisman, Henkjan},
+  booktitle =  RSNA,
+  title     = {Deep Learning for Automatic Contrast Enhancement Phase Detection on Abdominal Computed Tomography},
+  abstract  = {Purpose: Develop and validate a convolutional neural network (CNN) for automatic classification of intravenous contrast enhancement (CE) phase on abdominal computed tomography (CT) scans. Materials and Methods: This retrospective study included 2000 abdominal CE-CT scans from our centre, which had information about the CE phase on the DICOM header. In addition to the baseline non-contrast scan (non-CE), three contrast phases were considered at different time intervals after contrast agent administration: the arterial phase (AP) at 40-50 seconds, the portal-venous phase (PVP) at 60-70 seconds and the delayed phase (DP) at 150-240 seconds. The distribution of CE phases on the training/validation dataset was 25.3% non-CE, 25.3% AP, 27.7% PVP and 21.7% DP. Half of the scans were used for model training/validation and a half for independent model testing. A 3-dimensional Inception CNN was trained to perform this multiclass classification task using stratified 4-fold cross-validation for 100 epochs. The model predictions from the 4 folds were ensembled to generate a final likelihood score for each contrast phase in the independent test set. The phase with the highest score was then chosen as the final model output. Results: The overall accuracy for the multiclass CNN was 92.4%, with only 76 out of the 1000 scans in the independent test set being incorrectly classified. The individual accuracies for each phase were 97.6% (244-250) for non-CE, 95.6% (239-50) for AP, 85.6% (214-250) for PVP and 90.8% (227-250) for DP. The most frequent mistake was in differentiating between the portal venous and delayed phases. This can be explained by the reduced amount of contrast agent in the abdomen and the high patient-specific and varied appearance of these two phases within the same protocol. Increasing the size and variety of the training data may improve performance for these two phases. Conclusion: Deep learning can accurately determine intravenous CE phase on multi-phase CE abdominal CT scans. Clinical Relevance Statement: CE information is critical to diagnosis but often lacks from the image metadata. DL can accurately classify CE phases, important for AI automation and the curation of high-quality training datasets.},
+  optnote   = {DIAG, RADIOLOGY},
+  year      = {2022},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}
 
 @Comment{jabref-meta: grouping:
