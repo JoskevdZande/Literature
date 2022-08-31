@@ -1,4 +1,3 @@
-% Encoding: UTF-8
 @string{AA = _Age_and_Ageing_}
 @string{AAC = _Antimicrobial_Agents_and_Chemotherapy_}
 @string{AACC = _AACN_Advanced_Critical_Care_}
@@ -25909,6 +25908,7 @@ Funding for this study: Research grant from MeVis Medical Solutions AG.},
   file = {Noot22.pdf:pdf\\Noot22.pdf:PDF},
   optnote = {DIAG, RADIOLOGY},
 }
+
 {Anto22,
   author       = {Antonelli, Michela and  Reinke, Annika and  Bakas, Spyridon and  Farahani, Keyvan and  Kopp-Schneider, Annette and  Landman, Bennett A. and  Litjens, Geert and  Menze, Bjoern and  Ronneberger, Olaf and  Summers, Ronald M. and  van Ginneken, Bram and  Bilello, Michel and  Bilic, Patrick and  Christ, Patrick F. and  Do, Richard K. G. and  Gollub, Marc J. and  Heckers, Stephan H. and  Huisman, Henkjan and  Jarnagin, William R. and  McHugo, Maureen K. and  Napel, Sandy and  Pernicka, Jennifer S. Golia and  Rhode, Kawal and  Tobon-Gomez, Catalina and  Vorontsov, Eugene and  Meakin, James A. and  Ourselin, Sebastien and  Wiesenfarth, Manuel and  Arbeláez, Pablo and  Bae, Byeonguk and  Chen, Sihong and  Daza, Laura and  Feng, Jianjiang and  He, Baochun and  Isensee, Fabian and  Ji, Yuanfeng and  Jia, Fucang and  Kim, Ildoo and  Maier-Hein, Klaus and  Merhof, Dorit and  Pai, Akshay and  Park, Beomhee and  Perslev, Mathias and  Rezaiifar, Ramin and  Rippel, Oliver and  Sarasua, Ignacio and  Shen, Wei and  Son, Jaemin and  Wachinger, Christian and  Wang, Liansheng and  Wang, Yan and  Xia, Yingda and  Xu, Daguang and  Xu, Zhanwei and  Zheng, Yefeng and  Simpson, Amber L. and  Maier-Hein, Lena and  Cardoso, M. Jorge},
   year         = {2022},
@@ -26144,10 +26144,9 @@ Conclusion: The developed deep-learning based biomarker quantifies the proportio
 
 @Conference{Schuurmans22b,
   author    = {Schuurmans, Megan and Alves, Natália and Huisman, Henkjan and Hermans, John},
-  booktitle =  RSNA,
+  booktitle = RSNA,
   title     = {Deep Learning for Detection of Iso-attenuating Pancreatic Adenocarcinoma in Computed Tomography},
-  abstract  = {Purpose: Investigate the ability of deep learning to localize iso-attenuating pancreatic adenocacinoma (pCa) in computed tomography (CT) images and assess the effect of including prior anatomy information on localization performance. This retrospective study included contrast-enhanced CT scans in the portal venous phase of 44 patients from the public Medical Segmentation Decathlon dataset, who had a visually iso-attenuating tumour. Two previously developed deep learning (DL) algorithms based on the 3D nnUnet framework were applied to the set of iso-attenuating lesions: one considering only tumour information for training (nnUnet_T) and one considering surrounding anatomical structures, namely  the pancreas parenchyma, common bile duct, pancreatic duct, arteries and veins in additional to the tumor (nnUNet_MS). Each model creates 10 different outputs, based on 2 random initialisations and 5-fold crossvalidation. The performance of the two models at pCa localization was evaluated with average precision and a permutation test was performed to show statistical significance. Results: The average precision for the nnUNet_MS was 80.03 % ± 8.6%, while for the nnUnet_T model it was 72.87% ± 7.1% (p<0.05). This indicates that surrounding anatomy aids the localization of iso-attenuating pCa lesions. By having access to prior anatomy information during training the network can better focus on the regions of the image where the tumor is located, avoiding confusion with other anatomical structures. Conclusion: In current clinical workup the detection of iso-attenuating pCa lesions on CT is very challenging, as the attenuation is similar to the pancreas parenchyma. The proposed 3D nnUnet_MS model can be used to detect and localize iso-attenuating lesions. Clinical relevance statement: Iso-attenuating pCa is linked to earlier stages of disease and better outcome, but is challenging to detect on CT. DL can accurately detect iso-attenuating lesions and benefits from anatomy information.
-},
+  abstract  = {Purpose: Investigate the ability of deep learning to localize iso-attenuating pancreatic adenocacinoma (pCa) in computed tomography (CT) images and assess the effect of including prior anatomy information on localization performance. This retrospective study included contrast-enhanced CT scans in the portal venous phase of 44 patients from the public Medical Segmentation Decathlon dataset, who had a visually iso-attenuating tumour. Two previously developed deep learning (DL) algorithms based on the 3D nnUnet framework were applied to the set of iso-attenuating lesions: one considering only tumour information for training (nnUnet_T) and one considering surrounding anatomical structures, namely  the pancreas parenchyma, common bile duct, pancreatic duct, arteries and veins in additional to the tumor (nnUNet_MS). Each model creates 10 different outputs, based on 2 random initialisations and 5-fold crossvalidation. The performance of the two models at pCa localization was evaluated with average precision and a permutation test was performed to show statistical significance. Results: The average precision for the nnUNet_MS was 80.03 % ± 8.6%, while for the nnUnet_T model it was 72.87% ± 7.1% (p<0.05). This indicates that surrounding anatomy aids the localization of iso-attenuating pCa lesions. By having access to prior anatomy information during training the network can better focus on the regions of the image where the tumor is located, avoiding confusion with other anatomical structures. Conclusion: In current clinical workup the detection of iso-attenuating pCa lesions on CT is very challenging, as the attenuation is similar to the pancreas parenchyma. The proposed 3D nnUnet_MS model can be used to detect and localize iso-attenuating lesions. Clinical relevance statement: Iso-attenuating pCa is linked to earlier stages of disease and better outcome, but is challenging to detect on CT. DL can accurately detect iso-attenuating lesions and benefits from anatomy information.},
   optnote   = {DIAG, RADIOLOGY},
   year      = {2022},
 }
@@ -26159,6 +26158,25 @@ Conclusion: The developed deep-learning based biomarker quantifies the proportio
   abstract  = {Purpose: Develop and validate a convolutional neural network (CNN) for automatic classification of intravenous contrast enhancement (CE) phase on abdominal computed tomography (CT) scans. Materials and Methods: This retrospective study included 2000 abdominal CE-CT scans from our centre, which had information about the CE phase on the DICOM header. In addition to the baseline non-contrast scan (non-CE), three contrast phases were considered at different time intervals after contrast agent administration: the arterial phase (AP) at 40-50 seconds, the portal-venous phase (PVP) at 60-70 seconds and the delayed phase (DP) at 150-240 seconds. The distribution of CE phases on the training/validation dataset was 25.3% non-CE, 25.3% AP, 27.7% PVP and 21.7% DP. Half of the scans were used for model training/validation and a half for independent model testing. A 3-dimensional Inception CNN was trained to perform this multiclass classification task using stratified 4-fold cross-validation for 100 epochs. The model predictions from the 4 folds were ensembled to generate a final likelihood score for each contrast phase in the independent test set. The phase with the highest score was then chosen as the final model output. Results: The overall accuracy for the multiclass CNN was 92.4%, with only 76 out of the 1000 scans in the independent test set being incorrectly classified. The individual accuracies for each phase were 97.6% (244-250) for non-CE, 95.6% (239-50) for AP, 85.6% (214-250) for PVP and 90.8% (227-250) for DP. The most frequent mistake was in differentiating between the portal venous and delayed phases. This can be explained by the reduced amount of contrast agent in the abdomen and the high patient-specific and varied appearance of these two phases within the same protocol. Increasing the size and variety of the training data may improve performance for these two phases. Conclusion: Deep learning can accurately determine intravenous CE phase on multi-phase CE abdominal CT scans. Clinical Relevance Statement: CE information is critical to diagnosis but often lacks from the image metadata. DL can accurately classify CE phases, important for AI automation and the curation of high-quality training datasets.},
   optnote   = {DIAG, RADIOLOGY},
   year      = {2022},
+}
+
+@PhdThesis{Chle22,
+  author     = {Grzegorz Chlebus},
+  title      = {Deep Learning-Based Segmentation in Multimodal Abdominal Imaging},
+  abstract   = {This thesis is devoted to the applications of deep learning segmentation algorithms to multimodal abdominal imaging. It focuses on the segmentation of liver, prostate, and liver tumors in CT and MRI images. 
+It aims not only to propose and evaluate new segmentation architectures, but also to investigate aspects such as the required time for the correction of automatic segmentation results, the impact on the inter-observer variability, and the optimization of annotation effort. 
+The following objectives were undertaken as part of this thesis:
+
+1. The development of a two-stage cascade system for liver and liver tumor segmentation in CT images (Chapter 2);
+2. The development of an ensemble of three orthogonal 2D CNNs for liver segmentation in late-phase T1W MRI images (Chapter 3); 
+3. The investigation of various active learning strategies to optimally select a set of CT slices to obtain the best possible liver segmentation method in CT without the need to manually annotate a large amount of training data (Chapter 4);
+4. The development of a novel multi-planar 3D anisotropic CNN architecture for prostate segmentation in multi-planar T2W MRI images (Chapter 5).},
+  copromotor = {H. Meine and A. Schenk},
+  file       = {Chle22.pdf:pdf/Chle22.pdf:PDF},
+  optnote    = {DIAG, RADIOLOGY},
+  promotor   = {B. van Ginneken and H. K. Hahn},
+  school     = {Radboud University, Nijmegen},
+  year       = {2022},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}
