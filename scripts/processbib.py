@@ -46,7 +46,7 @@ from pdf2image.exceptions import (
 allowed_fields = frozenset(
     ['author', 'title', 'journal', 'year', 'volume', 'issue', 'month', 'pages', 'doi', 'abstract', 'file',
      'optnote', 'pmid', 'gsid', 'gscites', 'booktitle', 'school', 'number', 'url', 'copromotor', 'promotor',
-     'publisher', 'series', 'algorithm', 'code'])
+     'publisher', 'series', 'algorithm', 'code', 'taverne_url'])
 
 
 def recode(chars):
@@ -223,7 +223,8 @@ class BibEntry:
         assert (j > i)
         self.key = self.line[i + 1:j].strip()
         self.line = self.line[j + 1:len(self.line)].strip()
-        assert (self.line[-1] == "}")
+
+        assert (self.line[-1] == "}"), f"{self.line}"
         self.line = self.line[:-1] + ",}"  # possibly extra comma, makes sure there is one!
 
         # next we process the rest of the entry, field by field
@@ -237,9 +238,12 @@ class BibEntry:
         return self.pdf
 
 
-def read_bibfile(filename):
+def read_bibfile(filename, full_path=None):
     entries = []
-    fp = open(literature_root + '/' + filename, encoding='utf-8')
+    if full_path == None:
+        fp = open(literature_root + '/' + filename, encoding='utf-8')
+    else:
+        fp = open(full_path, encoding='utf-8')
     line = fp.readline()
     while line and line.find("@") != 0:
         line = fp.readline()  # find first entry
@@ -791,7 +795,7 @@ def check_accents(entries, field='author'):
                         print('Not changing author field')
 
 
-def save_to_file(entries, fname):
+def save_to_file(entries, fname, full_path=None):
     # sort on strings by key, followed by other entries
     keys = list()
     stringkeys = list()
@@ -804,7 +808,11 @@ def save_to_file(entries, fname):
     keys.sort()
     stringkeys.sort()
 
-    file = io.open(literature_root + '/' + fname, 'w', newline='\r\n', encoding="utf-8")
+    if full_path == None:
+        file = io.open(literature_root + '/' + fname, 'w', newline='\r\n', encoding="utf-8")
+    else:
+        file = io.open(full_path, 'w', newline='\r\n', encoding="utf-8")
+
     for i in stringkeys:
         for j in entries:
             if j.key == i:
