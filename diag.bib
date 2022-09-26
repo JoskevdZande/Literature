@@ -18461,6 +18461,17 @@ optnote = {DIAG}
 }
 
 
+@mastersthesis{Saha20d,
+  author    = {Anindo Saha and Matin Hosseinzadeh and Henkjan Huisman},
+  title     = {Computer-Aided Detection of Clinically Significant Prostate Cancer in mpMRI},
+  abstract  = {Non-invasive multiparametric MR imaging (mpMRI) can facilitate the early detection of clinically significant prostate cancer (csPCa). However, interpretation of radiological findings is susceptible to overdiagnosis and low inter-reader agreement, as current assessment standards share a limited ability to distinguish csPCa from benign prostate cancer (PCa) and other non-malignant conditions. In this research, we propose a novel multi-stage computer-aided detection (CAD) model to perform automated voxel-level detection of csPCa in prostate mpMRI. The model is driven by convolutional neural networks (CNN), which use anisotropically-strided 3D convolutions to leverage the spatial context between adjacent MRI slices, without forgoing computational efficiency. It combines spatial and channel-wise attention mechanisms to adaptively target the most salient prostatic structures and discriminative feature dimensions in mpMRI volumes, at multiple resolutions. It uses an additional 3D residual classifier for independent false positive reduction. Finally, it exploits an anatomical prior, which captures the spatial prevalence of csPCa and its zonal distinction, to infuse clinical priori into the CNN architecture for guided inference and feature extraction. For 487 institutional testing scans, the 3D CAD system achieves 83.95% and 89.94% detection sensitivity at 0.5 and 1.0 false positive per patient, respectively, along with 0.884 AUROC in patient-based diagnosis. For 296 external testing scans, the 3D CAD system exhibits moderate agreement with a consensus of expert radiologists (77.70%; kappa = 0.543) and independent pathologists (78.04%; kappa = 0.527), thereby demonstrating a strong ability to generalize to histologically-confirmed csPCa detection using radiologist-supported training samples only.},
+  url       = {http://eia.udg.edu/~aoliver/maiaDocs/bookMaia3rd_small.pdf},
+  optnote   = {RADIOLOGY,DIAG},
+  school    = {University of Girona, UNICAS, University of Bourgogne, Radboud University Medical Center},
+  year      = {2020},
+}
+
+
 @article{Saha21a,
   author    = {Anindo Saha and Matin Hosseinzadeh and Henkjan Huisman},
   title     = {End-to-end Prostate Cancer Detection in bpMRI via 3D CNNs: Effects of Attention Mechanisms, Clinical Priori and Decoupled False Positive Reduction},
