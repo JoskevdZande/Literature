@@ -5,3 +5,4 @@ diag-tmp.bib
 *.sav
 JabRef*
 __pycache__
+.DS_Store
