@@ -26306,4 +26306,159 @@ False positive DL-CAD csPCa predictions are due to unavailable clinical variable
   year     = {2020},
 }
 
+@MastersThesis{Boer19,
+  author   = {Tim Boers},
+  title    = {Interactive Residual 3D U-net for the Segmentation of the Pancreas in Computed Tomography Scans},
+  abstract = {The thesis is divided into two main parts. Part A will focus on the clinical background, theoretical background of deep learning and will also denote a prior experiment which did not end up in the paper. Part B contains the main product of this thesis and will be provided in paper format.},
+  file     = {Boer19.pdf:pdf/Boer19.pdf:PDF},
+  optnote  = {DIAG},
+  school   = {University of Twente},
+  year     = {2019},
+}
+
+@MastersThesis{Bagu18,
+  author   = {Inês Correia Bagulho},
+  title    = {Reference Tissue Normalization of Prostate MRI with automatic Multi-Organ Deep Learning Pelvis segmentation},
+  abstract = {Prostate cancer is the most common cancer among male patients and second leading cause of death
+  from cancer in men (excluding non-melanoma skin cancer). Magnetic Resonance Imaging (MRI) is
+  currently becoming the modality of choice for clinical staging of localized prostate cancer. However,
+  MRI lacks intensity quantification which hinders its diagnostic ability. The overall aim of this dissertation
+  is to automate a novel normalization method that can potentially quantify general MR intensities, thus
+  improving the diagnostic ability of MRI.
+  Two Prostate multi-parametric MRI cohorts, of 2012 and 2016, were used in this retrospective study. To
+  improve the diagnostic ability of T2-Weighted MRI, a novel multi-reference tissue normalization method
+  was tested and automated. This method consists of computing the average intensity of the referencetissues
+  and the corresponding normalized reference values to define a look-up-table through interpolation.
+  Since the method requires delineation of multiple reference tissues, an MRI-specific Deep Learning
+  model, Aniso-3DUNET, was trained on manual segmentations and tested to automate this segmentation
+  step. The output of the Deep Learning model, that consisted of automatic segmentations, was validated
+  and used in an automatic normalization approach. The effect of the manual and automatic normalization
+  approaches on diagnostic accuracy of T2-weighted intensities was determined with Receiver Operating
+  Characteristic (ROC) analyses. The Areas Under the Curve (AUC) were compared.
+  The automatic segmentation of multiple reference-tissues was validated with an average DICE score
+  higher than 0.8 in the test phase. Thereafter, the method developed demonstrated that the normalized
+  intensities lead to an improved diagnostic accuracy over raw intensities using the manual approach, with
+  an AUC going from 0.54 (raw) to 0.68 (normalized), and automatic approach, with an AUC going from
+  0.68 to 0.73.
+  This study demonstrates that multi-reference tissue normalization improves quantification of T2-weighted
+  images and diagnostic accuracy, possibly leading to a decrease in radiologist’s interpretation variability.
+  It is also possible to conclude that this novel T2-weighted MRI normalization method can be automatized,
+  becoming clinically applicable.},
+  file     = {Bagu18.pdf:pdf/Bagu18.pdf:PDF},
+  optnote  = {DIAG},
+  school   = {Universidade De Lisboa},
+  year     = {2018},
+}
+
+@MastersThesis{Schi20,
+  author   = {Martijn Schilpzand},
+  title    = {Automatic Placenta Localisation from Ultrasound Imaging in a Resource-Limited Setting},
+  abstract = {Placenta previa and low-lying placenta are dangerous conditions that can cause severe
+  maternal and fetal complications. Obstetric ultrasound imaging is commonly used to
+  detect these maternal risk factors. Unfortunately, low-income countries suffer from a
+  shortage of trained sonographers to perform ultrasound examinations. To address this
+  problem, this study presents an algorithm to automatically detect low-lying placenta or
+  placenta previa from ultrasound data acquired with a standardized acquisition protocol.
+  This acquisition protocol can be taught to any healthcare worker within two hours. The
+  detection algorithm was optimized for performance and efficiency so that it can run on
+  a smartphone in combination with low-cost ultrasound equipment. The dataset used
+  in this study originates from St. Luke’s hospital in Wolisso, Ethiopia and was acquired
+  with a low-cost ultrasound device. The detection algorithm consisted of two parts. First,
+  the placenta was segmented by a deep learning model with a U-Net architecture. This
+  segmentation model achieved a median test Dice of 0.835 on 2D ultrasound images.
+  Then, the segmentation data was used as input for a binary classifier which classified a
+  case as either normal placenta or as a class which includes both low-lying placenta and
+  placenta previa. The classification model achieved a sensitivity of 85% and a specificity
+  of 86%.},
+  file     = {Schi20.pdf:pdf/Schi20.pdf:PDF},
+  optnote  = {DIAG},
+  school   = {Radboud University Nijmegen},
+  year     = {2020},
+}
+
+@MastersThesis{Lux20,
+  author   = {Klaus-Michael Lux},
+  title    = {Neuromuscular disease screening with deep learning},
+  abstract = {Ultrasound images have already been successfully leveraged in the early screening for neuromuscular disease (NMD). However, the current rule-based screening method requires the manual annotation of regions of interest (ROI) and can only be extended to new ultrasound machines after the costly collection of a reference sample. This work proposes to solve both these problems with end-to-end training of a deep-learning classier on multiple images per patient. We demonstrate the suitability of the method for screening, with no need for ROI annotation. We also investigate various methods for domain adaptation. Simple adaptation methods are shown to already work well and could allow easy transfer of the screening method between different ultrasound devices.},
+  file     = {Lux20.pdf:pdf/Lux20.pdf:PDF},
+  optnote  = {DIAG},
+  school   = {Radboud University Nijmegen},
+  year     = {2020},
+}
+
+@MastersThesis{Hout20,
+  author   = {Thijs van den Hout},
+  title    = {Automatic muscle and fat segmentation in 3D abdominal CT images for body composition assessment},
+  abstract = {Body composition is an informative biomarker in the treatment of cancer. In particular, low muscle mass has been associated with higher chemotherapy toxicity, shorter time to tumor progression, poorer surgical outcomes, impaired functional status, and shorter survival. However, because CT-based body composition assessment requires outlining the different tissues in the image, which is timeconsuming, its practical value is currently limited. To form an estimate of body composition, different tissues are often segmented manually in a single 2D slice from the abdomen.
+  For use in both routine care and in research studies, automatic segmentation of the different tissue types in the abdomen is desirable. 
+  This study focuses on the development and testing of an automatic approach to segment muscle and fat tissue in the entire abdomen. The four classes of interest are skeletal muscle (SM), inter-muscular adipose tissue (IMAT), visceral adipose tissue (VAT), and subcutaneous adipose tissue (SAT). A deep neural network is trained on two-dimensional CT slices at the level of the third lumbar vertebra. Three experiments were carried out with the goal of improving the network with information from other, unannotated data sources. Active learning methods were applied to sample additional data to annotate and include in the training of the model. The proposed algorithm combines two models to segment muscle and fat in the entire abdomen and achieves state-of-the-art results. Dice scores of 0.91, 0.84, 0.97, and 0.97 were attained for SM, IMAT, VAT, and SAT, respectively, averaged over five locations throughout the abdomen.},
+  file     = {Hout20.pdf:pdf/Hout20.pdf:PDF},
+  optnote  = {DIAG},
+  school   = {Radboud University Medical Center},
+  year     = {2020},
+}
+
+@MastersThesis{Verb21,
+  author   = {Jeroen Verboom},
+  title    = {Deep Learning for Fracture Detection in the Radius and Ulna on Conventional Radiographs},
+  abstract = {This work gives a compartmentalized overview of a fracture detection tool to detect and localize fractures in the radius and ulna on conventional radiographs using deep learning.
+  This contrasts earlier studies in that it proposes a more efficient object detector, demonstrates the generalizability of fracture detection models to data from a different hospital, and employs more advanced class activation mapping methods for fracture localization.
+  Both RadboudUMC and the Jeroen Bosch Ziekenhuis provided data to create a multi-institutional dataset.
+  The two data sources enabled me to demonstrate how fracture detection classifiers trained on data from only one institution significantly perform less when tested on data from another institution.
+  Moreover, this study demonstrates a more efficient bone localization method that yields adequate performance to be used for cropping regions of interest, and a newer fracture localization method (ScoreCAM) that outperforms its predecessors in terms of highlighting less redundant information.
+  I conclude that the algorithms presented in this work show the potential to be incorporated in a clinically usable fracture detection tool.
+  However, more research needs to be conducted using multi-institutional for training fracture detection classifiers.},
+  file     = {Verb21.pdf:pdf/Verb21.pdf:PDF},
+  optnote  = {DIAG},
+  school   = {Tilburg University},
+  year     = {2021},
+}
+
+@MastersThesis{Hack21,
+  author   = {Roel HACKING},
+  title    = {Combining CT scans and clinical features for improved automated COVID-19 detection},
+  abstract = {During the first peak of the COVID-19 pandemic, hospitals in hard-hit regions were overflowing with patients at the emergency unit with respiratory complaints. Since the RT-PCR test was in limited supply at the time and test results took a long time to obtain, many hospitals opted to use chest CT scans of COVID-19 suspects. 
+  As a result of this, several studies examined the possibility of automating the detection of COVID-19 in CT scans. One such study, by Lessmann et al., 2020, developed a model to predict COVID-19 severity scores based on these chest CT scans. In this thesis, we extended their model in several ways to take into account additional clinical values (such as blood values, sex, and age) to predict either PCR outcomes or clinical diagnoses.
+  Based on data from the Canisius-Wilhelmina Ziekenhuis (CWZ) hospital and Radboudumc hospitals, as well as the COVID-19 dataset by Ning et al., 2020, we found that integrating these two modalities can indeed lead to improved performance when both clinical and visual features are of sufficient quality. When training on data from the CWZ hospital and evaluating on data from the Radboudumc hospital, models using only clinical features or visual features achieved Area Under the ROC Curve (AUC) values of 0.773 and 0.826, respectively; their combination resulted in an AUC of 0.851. 
+  Similarly, when training on data from the Union hospital in the iCTCF dataset and predicting on data from the Union hospital in that same dataset, we obtained AUCs of 0.687 and 0.812 for clinical and visual features, respectively; their combination resulted in an AUC of 0.862.
+  However, we also discovered that the patterns of missing data present in these clinical feature datasets can play an essential role in the performance of the models fitted on them. We thus developed additional methods to analyze and mitigate this effect to obtain fairer evaluations and increase model generalizability. Still, the high diagnostic performance of some of our models suggests that they could be adapted into clinical practice, and our methods pertaining to missing data could be used to aid further research using clinical feature datasets.},
+  file     = {Hack21.pdf:pdf/Hack21.pdf:PDF},
+  optnote  = {DIAG},
+  school   = {Radboud University},
+  year     = {2021},
+}
+
+@MastersThesis{Vyaw22,
+  author   = {Sanyog Vyawahare},
+  title    = {Automated Cephalometric Analysis on Lateral Headplates for Orthodontic Diagnosis},
+  abstract = {Cephalometric analysis is the process of placing anatomical landmark points on lateral headplate X-ray scans. Placing these points with precision is crucial as the angle and distancemeasurements required during treatment are calculated using these points. This project aimed to automate the process of cephalometric analysis on lateral headplates X-ray scans. An object detection model followed by a heatmap regression was proposed to find the landmark locations. In total, 1000 images were acquired fromthe Radboud UMC, Department of Dentistry. Experiments with different network architecture, bounding box sizes, anchor optimisation methods, augmentations, and heatmap regression strategies were performed to converge the model resulting in low loss and high average precision and recall score. The best performing model was Cascade RCNN with a pre-trained ResNet101 as the backbone, without the additional heatmap regressor unit. The final network achieved a mean radial error (MRE) of 1.12 with a standard deviation (SD) of 0.81 and success detection rate(SDR) of 85.76%. The average precision with intersection over union (IOU) ranging 0.5:0.9 and step size increase of 0.05 was 0.857. The automated cephalometric analysis model will save time, provide objective results, and help the orthodontists and surgeons in initial screening and mid-treatment assessment.},
+  file     = {Vyaw22.pdf:pdf/Vyaw22.pdf:PDF},
+  optnote  = {DIAG},
+  school   = {Radboud University Medical Center},
+  year     = {2022},
+}
+
+@MastersThesis{Mooi19,
+  author   = {Germonda Mooij},
+  title    = {Using GANs to synthetically stain histopathological images to generate training data for automatic mitosis detection in breast tissue},
+  abstract = {Generative adversarial networks (GANs) have been proven effective at mapping medical images from one domain to another (e.g. from CT to MRI).
+  In this study we investigate the effectiveness of GANs at mapping images of breast tissue between histopathological stains.
+  Breast cancer is the most common cancer in women worldwide. Counting mitotic figures in histological images of breast cancer tissue has been shown to be a reliable and independent prognostic marker. Most successful methods for automatic counting involve training deep neural networks on H&E stained slides. This training requires extensive manual annotations of mitotic figures in H&E stained slides, which suffers from a low inter-observer agreement. Manual counting in PHH3 stained slides has a much higher inter-observer agreement.
+  In this project we aimed to train GANs to map PHH3 slides to synthetic H&E slides and vice versa. A mitosis classifier is used to quantify the quality of the synthetic images, by comparing its performance after training on synthetic images with training on real images.},
+  file     = {Mooi19.pdf:pdf/Mooi19.pdf:PDF},
+  optnote  = {DIAG},
+  school   = {Radboud University Medical Center},
+  year     = {2019},
+}
+
+@MastersThesis{Boer18,
+  author   = {Marjolijn den Boer},
+  title    = {Automated structure segmentation and lymphocyte detection in kidney transplant whole slide images using a convolutional neural network},
+  abstract = {Much research is done to understand and prevent renal allograft rejection. Where acute rejection is brought back to a minimum, late rejection still occurs too frequent. Renal allografts with declined function are classified into rejection types by pathologists to improve treatment. This classification is based upon various grading criteria in stained pathological slides. Criteria depend on the different structures present in the kidney and quantification of inflammation. Since the digitization of pathological slides into whole slide images (WSIs), computer aided analyses have proven useful. Artificial neural networks have shown consistent in automated image analyses with quality comparable to trained experts. Here, we examine a convolutional neural networks as a means to aid analysis of renal allograft WSIs on two subjects: segmentation of kidney structures and segmentation of lymphocytes. A dataset of renal allograft biopsies from the Radboud University Medical Centre, Nijmegen, the Netherlands was used. Overall structure segmentation performance is good with a dice coefficient of 0.88. Segmentation of certain specific structures could be increased, but overall the segmentation maps are presumably valuable. Performance of lymphocyte segmentation proves more difficult with a dice coefficient of 0.60 and a large amount of false positives in lymphocyte instance detection. Segmentation performance of the model is currently not sufficient for the difficult task, but indicates future possibilities for lymphocyte segmentation using convolutional neural networks.},
+  file     = {Boer18.pdf:pdf/Boer18.pdf:PDF},
+  optnote  = {DIAG},
+  school   = {Radboud University Medical Center},
+  year     = {2018},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}
