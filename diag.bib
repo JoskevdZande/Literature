@@ -26483,4 +26483,82 @@ The 3D CAD system agrees with expert’s suggestions about the existence of the 
   year     = {2022},
 }
 
+@Article{Schi22,
+  author          = {Schilpzand, Martijn and Neff, Chase and van Dillen, Jeroen and van Ginneken, Bram and Heskes, Tom and de Korte, Chris and van den Heuvel, Thomas},
+  title           = {Automatic Placenta Localization From Ultrasound Imaging in a Resource-Limited Setting Using a Predefined Ultrasound Acquisition Protocol and Deep Learning.},
+  doi             = {10.1016/j.ultrasmedbio.2021.12.006},
+  issn            = {1879-291X},
+  issue           = {4},
+  pages           = {663--674},
+  pubstate        = {ppublish},
+  volume          = {48},
+  abstract        = {Placenta localization from obstetric 2-D ultrasound (US) imaging is unattainable for many pregnant women in low-income countries because of a severe shortage of trained sonographers. To address this problem, we present a method to automatically detect low-lying placenta or placenta previa from 2-D US imaging. Two-dimensional US data from 280 pregnant women were collected in Ethiopia using a standardized acquisition protocol and low-cost equipment. The detection method consists of two parts. First, 2-D US segmentation of the placenta is performed using a deep learning model with a U-Net architecture. Second, the segmentation is used to classify each placenta as either normal or a class including both low-lying placenta and placenta previa. The segmentation model was trained and tested on 6574 2-D US images, achieving a median test Dice coefficient of 0.84 (interquartile range = 0.23). The classifier achieved a sensitivity of 81% and a specificity of 82% on a holdout test set of 148 cases. Additionally, the model was found to segment in real time (19 ± 2 ms per 2-D US image) using a smartphone paired with a low-cost 2-D US device. This work illustrates the feasibility of using automated placenta localization in a resource-limited setting.},
+  citation-subset = {IM},
+  completed       = {2022-04-06},
+  country         = {England},
+  file            = {Schi22.pdf:pdf\\Schi22.pdf:PDF},
+  issn-linking    = {0301-5629},
+  journal         = {Ultrasound in medicine & biology},
+  keywords        = {Deep Learning; Female; Humans; Image Processing, Computer-Assisted; Placenta, diagnostic imaging; Placenta Previa; Pregnancy; Ultrasonography; Ultrasonography, Prenatal; Computer-aided diagnosis; Machine learning; Neural network; Obstetrics; Placenta previa; Prenatal; Resource-limited countries; Segmentation; Ultrasound},
+  nlm-id          = {0410553},
+  optnote         = {DIAG, RADIOLOGY},
+  owner           = {NLM},
+  pii             = {S0301-5629(21)00520-2},
+  pmid            = {35063289},
+  pubmodel        = {Print-Electronic},
+  revised         = {2022-04-06},
+  year            = {2022},
+}
+
+@Article{Call22a,
+  author          = {Calli, Erdi and Van Ginneken, Bram and Sogancioglu, Ecem and Murphy, Keelin},
+  title           = {FRODO: An in-depth analysis of a system to reject outlier samples from a trained neural network.},
+  doi             = {10.1109/TMI.2022.3221898},
+  issn            = {1558-254X},
+  pubstate        = {aheadofprint},
+  volume          = {PP},
+  abstract        = {An important limitation of state-of-the-art deep learning networks is that they do not recognize when their input is dissimilar to the data on which they were trained and proceed to produce outputs that will be unreliable or nonsensical. In this work, we describe FRODO (Free Rejection of Out-of-Distribution), a publicly available method that can be easily employed for any trained network to detect input data from a different distribution than is expected. FRODO uses the statistical distribution of intermediate layer outputs to define the expected in-distribution (ID) input image properties. New samples are judged based on the Mahalanobis distance (MD) of their layer outputs from the defined distribution. The method can be applied to any network, and we demonstrate the performance of FRODO in correctly rejecting OOD samples on three distinct architectures for classification, localization, and segmentation tasks in chest X-rays. A dataset of 21,576 X-ray images with 3,655 in-distribution samples is defined for testing. The remaining images are divided into four OOD categories of varying levels of difficulty, and performance at rejecting each type is evaluated using receiver operating characteristic (ROC) analysis. FRODO achieves areas under the ROC (AUC) of between 0.815 and 0.999 in distinguishing OOD samples of different types. This is shown to be comparable with the best-performing state-of-the-art method tested, with the substantial advantage that FRODO integrates seamlessly with any network and requires no extra model to be constructed and trained.},
+  citation-subset = {IM},
+  country         = {United States},
+  file            = {Call22a.pdf:pdf\\Call22a.pdf:PDF},
+  issn-linking    = {0278-0062},
+  journal         = {IEEE transactions on medical imaging},
+  nlm-id          = {8310780},
+  optnote         = {DIAG, RADIOLOGY},
+  owner           = {NLM},
+  pmid            = {36374875},
+  pubmodel        = {Print-Electronic},
+  revised         = {2022-11-15},
+  year            = {2022},
+}
+
+@Article{Noot22,
+  author   = {Julia M. Noothout and Nikolas Lessmann and Matthijs Van Eede and Louis van Harten and Ecem Sogancioglu and Friso Heslinga and Mitko Veta and Bram van Ginneken and Ivana Išgum},
+  title    = {Knowledge distillation with ensembles of convolutional neural networks for medical image segmentation},
+  doi      = {https://doi.org/10.1117/1.JMI.9.5.052407},
+  abstract = {Purpose: Ensembles of convolutional neural networks (CNNs) often outperform a single CNN in medical image segmentation tasks, but inference is computationally more expensive and makes ensembles unattractive for some applications. We compared the performance of differently constructed ensembles with the performance of CNNs derived from these ensembles using knowledge distillation, a technique for reducing the footprint of large models such as ensembles.
+
+Approach: We investigated two different types of ensembles, namely, diverse ensembles of networks with three different architectures and two different loss-functions, and uniform ensembles of networks with the same architecture but initialized with different random seeds. For each ensemble, additionally, a single student network was trained to mimic the class probabilities predicted by the teacher model, the ensemble. We evaluated the performance of each network, the ensembles, and the corresponding distilled networks across three different publicly available datasets. These included chest computed tomography scans with four annotated organs of interest, brain magnetic resonance imaging (MRI) with six annotated brain structures, and cardiac cine-MRI with three annotated heart structures.
+
+Results: Both uniform and diverse ensembles obtained better results than any of the individual networks in the ensemble. Furthermore, applying knowledge distillation resulted in a single network that was smaller and faster without compromising performance compared with the ensemble it learned from. The distilled networks significantly outperformed the same network trained with reference segmentation instead of knowledge distillation.
+
+Conclusion: Knowledge distillation can compress segmentation ensembles of uniform or diverse composition into a single CNN while maintaining the performance of the ensemble.},
+  file     = {Noot22.pdf:pdf\\Noot22.pdf:PDF},
+  journal  = {Journal of Medical Imaging},
+  month    = {05},
+  optnote  = {DIAG, RADIOLOGY},
+  year     = {2022},
+}
+
+@MastersThesis{Vala19,
+  author   = {Valacchi, Lorenzo},
+  title    = {Analysis and endotracheal tube detection in chest x-rays using deep learning},
+  abstract = {The following work is focusing on the development of two deep learning models applied to chest x-rays. The first model, Imagesorter, provides a solution for sorting chest x-ray images where metadata is not available or is unreliable. This is frequently the case when accessing large collection of radiographs and can result in very time consuming procedures to obtain reliable data. Specifically, the algorithm returns four properties of the image: the type of image presented, rotation (wheather the image is rotated), inversion (whether the grayscale level of the radiograph inverted) and orientation (whether a lateral chest x-ray is mirrored). Nearly 30,000 radiographs were gathered and used to train, validate and test a deep convolutional neural network. For the purpose, a ResNet50 network pretrained on ImageNet and finetuned on the chest x-ray dataset was used. Moreover, the network architechture was modified to return all the four features at once. The model achieved very good results over the test set and can be consider a valid tool to efficiently explore and sort large x-ray collections. The second model, Endotracheal-Tube, detect the presence of an endotracheal tube in a chest x-ray. Many automated methods require to gather chest x-rays where an endotracheal tube is present. The presented algorithm can help gather reliable data from large collection in a short amount of time. A large dataset was created for the project and a preprocessing method to crop a square area of the image where the tube lays is presented. Four models are trained, validated and tested over the same dataset to assess the best. At the end an InceptionV3 network pretrained on ImageNet and finetuned on the dataset achieved the best results (AUC = 0.993).
+  Both projects are part of OpenCXR, an open source library developed by the Chest X-Ray teams at the Dignostic Image Analysis Group at the Radboud University Medical Center, Nijmegen, The Netherlands.},
+  file     = {Vala19.pdf:pdf\\Vala19.pdf:PDF},
+  optnote  = {DIAG, RADIOLOGY},
+  school   = {Università di Siena},
+  year     = {2019},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}
