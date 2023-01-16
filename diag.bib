@@ -23315,6 +23315,25 @@
   optnote = {DIAG, RADIOLOGY},
 }
 
+@inproceedings{Stud22,
+  author = {Linda Studer and John-Melle Bokhorst and Francesco Ciompi and Andreas Fischer and Heather Dawson},
+  title = {Building-T-cell score is a potential predictor for more aggressive treatment in pT1 colorectal cancers},
+  journal = {Proceedings of the ECDP 2022 18th European Congress on Digital Pathology},
+  year = {2022},
+  optnote = {DIAG, RADIOLOGY},
+  file = {Stud22.pdf:pdf/Stud22.pdf:PDF},
+  abstract = {Introduction
+As pT1 colorectal cancers (CRC) tend to be overtreated, we investigate the previously proposed BTS (budding-T-cell-score = (#tumor-buds+1)/(#T-cells+1)) as a predictive marker to assess patients' need for resection. BTS was shown to be a better predictor of survival and other clinical factors than individual scoring.
+
+Materials and Methods
+We consider hotspots annotated by a pathologist according to the ITBCC guidelines on double-stained (AE1-AE3 pan-cytokeratin and CD8+) WSI from our pT1 CRC cohort (N=573). Within hotspots, tumor-buds and T-cells are automatically detected using convolutional neural networks and counted. The patients are divided into two groups based on their need for resection (no: N0 / follow-up without recurrence; yes: N1 / follow-up with recurrence). The dataset is imbalanced (89.2%/10.8%). To predict the patient group, we train a support-vector machine with data-balancing using the tumor-buds or T-cell counts individually, together, and just the BTS. We report the weighted accuracy, and sensitivity and specificity for the “yes” group.
+
+Results
+The highest weighted accuracy (62.8土6.5%) and precision (17.6土3.7%) are achieved using the tumor-buds count. Using the BTS achieves a sensitivity of 98.3土2.9%, which outperforms the other models by more than 30%.
+
+Conclusion
+We show that combined assessment of tumor-buds and T-cells has the potential to serve as a predictive marker for the need of resection in pT1 cancers. However, there is still much room for improvement, as the low specificity still leads to overtreatment. We aim to address this in future work by also considering the spatial relationship of tumor-buds and T-cells and other predictive factors of nodal metastasis.},}
+
 @article{Stur19,
   author = {Sturm, Bart and Creytens, David and Cook, Martin G and Smits, Jan and van Dijk, Marcory C R F and Eijken, Erik and Kurpershoek, Eline and Kusters-Vandevelde, Heidi V N and Ooms, Ariadne H A G and Wauters, Carla and Blokx, Willeke A M and van der Laak, Jeroen A W M},
   title = {Validation of Whole-slide Digitally Imaged Melanocytic Lesions: Does Z-Stack Scanning Improve Diagnostic Accuracy?},
@@ -26659,7 +26678,7 @@ keywords = {Segmentation, Liver, Liver tumor, Deep learning, Benchmark, CT},
 abstract = {In this work, we report the set-up and results of the Liver Tumor Segmentation Benchmark (LiTS), which was organized in conjunction with the IEEE International Symposium on Biomedical Imaging (ISBI) 2017 and the International Conferences on Medical Image Computing and Computer-Assisted Intervention (MICCAI) 2017 and 2018. The image dataset is diverse and contains primary and secondary tumors with varied sizes and appearances with various lesion-to-background levels (hyper-/hypo-dense), created in collaboration with seven hospitals and research institutions. Seventy-five submitted liver and liver tumor segmentation algorithms were trained on a set of 131 computed tomography (CT) volumes and were tested on 70 unseen test images acquired from different patients. We found that not a single algorithm performed best for both liver and liver tumors in the three events. The best liver segmentation algorithm achieved a Dice score of 0.963, whereas, for tumor segmentation, the best algorithms achieved Dices scores of 0.674 (ISBI 2017), 0.702 (MICCAI 2017), and 0.739 (MICCAI 2018). Retrospectively, we performed additional analysis on liver tumor detection and revealed that not all top-performing segmentation algorithms worked well for tumor detection. The best liver tumor detection method achieved a lesion-wise recall of 0.458 (ISBI 2017), 0.515 (MICCAI 2017), and 0.554 (MICCAI 2018), indicating the need for further research. LiTS remains an active benchmark and resource for research, e.g., contributing the liver-related segmentation tasks in http://medicaldecathlon.com/. In addition, both data and online evaluation are accessible via www.lits-challenge.com.}
 }
 
-@Conference{Chel22,
+@InProceedings{Chel22,
   author    = {Eduard Chelebian and Francesco Ciompi},
   booktitle = {Learning Meaningful Representations of Life, NeurIPS 2022},
   title     = {Seeded iterative clustering for histology region identification},
