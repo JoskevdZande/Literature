@@ -1786,6 +1786,7 @@
   doi = {10.1117/12.2581943},
 }
 
+
 @inproceedings{Avoi13,
   author = {van der Avoird, Andre and Lin, Ning and van Ginneken, Bram and Manniesing, Rashindra},
   title = {A Hardware Implementation of a Levelset Algorithm for Carotid Lumen Segmentation in {CTA}},
@@ -5460,6 +5461,30 @@
   pmid = {34772487},
   year = {2021},
   taverne_url = {https://repository.ubn.ru.nl/handle/2066/252113},
+}
+
+@conference{Eeke22,
+  author = {Leander van Eekelen and Enrico Munari and Ilaria Girolami and Albino Eccher and Jeroen van der Laak and Katrien Grünberg and Monika Looijen-Salamon and Shoko Vos and Francesco Ciompi},
+  title = {Inter-rater agreement of pathologists on determining PD-L1 status in non-small cell lung cancer},
+  booktitle = {ECP},
+  year = {2022},
+  abstract = {Artificial intelligence (AI) based quantification of cell-level PD-L1 status enables spatial analysis and allows reliable and reproducible assessment of the tumor proportion score. In this study, we assess the cell-level inter-pathologist agreement as human benchmark for AI development and validation. Three pathologists manually annotated the centers of all nuclei within 53 regions of interest in 12 whole- slide images (40X magnification) of NSCLC cases and classified them as PD-L1 negative/positive tumor cells, PD-L1 positive immune cells or other cells. Agreement was quantified using F1 score analysis, with agreement defined as annotations less than 10 um apart and of the same class. An average of 9044 nuclei (1550 negative, 2367 positive tumor cells, 1244 positive immune cells, 3881 other cells) were manually annotated by the three pathologists. The mean F1 score over pairs of pathologists at dataset level was 0.59 (range 0.54-0.65). When split across classes, the mean per-pair F1 scores stay approximately the same, indicating the readers perform similarly regardless of cell type. Besides human variability in manual point annotations with respect to the center of nuclei, lack of context contributed to disagreement: readers who reported they solely examined the ROIs tended to disagree more with readers that reported they also looked outside the ROIs for additional (morphological/density) information.
+
+In conclusion, agreement on determining the PD-L1 status of individual cells is only moderate, suggesting a role for AI. By quantifying the inter-rater agreement of pathologists, we have created a human benchmark which may serve as an upper bound (and could be combined via majority vote) for the validation of AI at celllevel, something not done previously. Cell-level AI-based assessment of PD-L1 may supersede slide level scoring, adding significant information on the heterogeneity and spatial distribution over the tumor.},
+  optnote = {DIAG, RADIOLOGY},
+}
+
+@conference{Eeke22a,
+  author = {Leander van Eekelen and Enrico Munari and Luca Dulce Meesters and Gabriel Silva de Souza and Muradije Demirel-Andishmand and Daan Zegers and Monika Looijen-Salamon and Shoko Vos and Francesco Ciompi},
+  title = {Nuclei detection with YOLOv5 in PD-L1 stained non-small cell lung cancer whole slide images},
+  booktitle = {ECP},
+  year = {2022},
+  abstract = {Nuclei detection in histopathology images is an important prerequisite step of downstream research and clinical analyses, such as counting cells and spatial interactions. In this study, we developed an AI-based nuclei detector using the YOLOv5 framework in whole-slide NSCLC cases. Our dataset consisted of 42 PD-L1 stained cases (30 training, 12 test). Four trained (non-expert) readers manually annotated all nuclei (both positive/negative) within regions of interest (ROIs) viewed at 40X magnification. We trained a YOLOv5(s) network on annotations of one reader. Performance was measured using F1 score analysis; hits were defined as being less than 10 um away from annotations.
+
+We evaluate YOLOv5 on the test set by pairing it against all four readers separately. There, YOLOv5 performs excellently, falling within the interrater variability of the four readers: the mean F1 score over algorithm-reader pairs is 0.84 (range 0.76-0.92) while the mean F1 score over pairs of readers is 0.82 (range 0.76-0.86). When we determine the cell count (number of annotations/predictions) per ROI in the test set, agreement of algorithm-reader pairs and reader pairs is equally well aligned: 0.93 (range 0.90-0.97) versus 0.94 (range 0.92-0.96). Visual inspection indicates YOLOv5 performs equally well on PD-L1 positive and negative cells.
+
+In future work, we could extend this detector to additional tissues and immunohistochemistry stainings. Moreover, this detector could be used as a AI-assisted manual point annotation tool: while human readers perform the (context-driven) task of delineating homogeneous regions (e.g. clusters of PD-L1positive stained cells), the detector performs the (local, yet laborious) task of identifying individual nuclei within these regions, providing labelled point annotations.},
+  optnote = {DIAG, RADIOLOGY},
 }
 
 @conference{Eerd18,
@@ -22853,6 +22878,25 @@
   optnote = {DIAG, RADIOLOGY},
   school = {Universiteit van Amsterdam},
   journal = {Master thesis},
+}
+
+@conference{Spro22,
+  author = {Spronck, J. and Eekelen, L.V. and Tessier, L. and Bogaerts, J. and van der Woude, L. and van den Heuvel, M. and Theelen, W. and Ciompi, F.},
+  title = {Deep learning-based quantification of immune infiltrate for predicting response to pembrolizumab from pre-treatment biopsies of metastatic non-small cell lung cancer: A study on the PEMBRO-RT phase II trial},
+  booktitle = {Immuno-Oncology and Technology},
+  year = {2022},
+  abstract = {Background
+Immunotherapy has become the standard of care for metastatic non-small cell lung cancer (mNSCLC) without a targetable driver alteration, yet we still lack insight into which patients (pts) will benefit from such treatments. To that end, we investigated characteristics of the immune infiltrate in the tumor microenvironment in relation to immunotherapy response. We report the results of an automated deep learning approach applied to digital H&E whole slide images (WSIs) of pre-treatment biopsies from the PEMBRO-RT clinical trial.
+
+Methods
+61 quality-checked H&E WSIs were processed with 3 deep learning algorithms. We extracted a tissue mask using an existing method (Bándi et al., 2019), and detected tumor and immune cells using HoVerNet (Graham et al., 2019). Tumor clusters were identified by combining the output of HoVerNet and tumor segmentation from an nnUnet (Isensee et al., 2021) model that we trained on external NSCLC images. From the output of this pipeline, we extracted immune infiltrate-based density metrics, calculated over all tissue (allINF), stroma within 500um from the tumor border (sINF), tumor region (tINF), and the combination of stroma and tumor (t+sINF). All metrics were used in ROC analysis after dichotomizing pts as responders and non-responders (response was defined as complete or partial response at any time point or stable disease for ≥12 weeks according to RECIST 1.1 measurement). Differences in metric distributions between the two groups were tested with a two-sided Welch t-test. Kaplan-Meier (KM) analysis was performed on progression-free survival (5-year follow-up).
+
+Results
+Our automated analysis reported denser immune infiltrates in responders, although not statistically significant (0.05<p≤0.2). All immune infiltrate metrics showed some predictive value with AUCs > 0.63, where tINF reported an AUC of 0.70. KM analysis showed p=0.07 if pts were stratified based on the median tINF, and p=0.02 if stratified based on the optimal operating point of its ROC curve.
+
+Conclusions
+Deep learning models that analyze the immune infiltrate density on H&E WSIs can identify mNSCLC responders to pembrolizumab.},
+  optnote = {DIAG, RADIOLOGY},
 }
 
 @article{Srik12,
