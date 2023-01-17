@@ -8480,7 +8480,7 @@ In future work, we could extend this detector to additional tissues and immunohi
 }
 
 @conference{Hadd19,
-  author = {Tariq Haddad and Navid Farahani and John-Melle Bokhorst and Femke Doubrava-Simmer and Francesco Ciompi and Iris Nagtegaal and Jeroen van der Laak1},
+  author = {Tariq Haddad and Navid Farahani and John-Melle Bokhorst and Femke Doubrava-Simmer and Francesco Ciompi and Iris Nagtegaal and Jeroen van der Laak},
   title = {A Colorectal Carcinoma in 3D: Merging Knife-Edge Scanning Microscopy and Deep Learning},
   booktitle = {EACR},
   year = {2019},
@@ -8493,6 +8493,15 @@ A Knife-Edge Scanning Microscope (KESM), developed by Strateos (San Francisco, C
 Results: The convolutional neural network was used to process roughly 1200 slices of KESM data. The stitched and rendered segmentation maps demonstrate the formalin-fixed paraffin-embedded carcinoma of roughly 5 millimeters in depth. As shown in the figure, the tumor invasive margin can be seen advancing into the surrounding tumor stroma.
 
 Conclusion: Based on our findings, we were capable of training a segmentation model on the 3D KESM data to create an accurate representation of a formalin-fixed paraffin-embedded colorectal carcinoma tissue block segmented into five tissue classifications. Going forward, this can have much broader implications on the research and understanding of invasive tumors.},
+  optnote = {DIAG, RADIOLOGY},
+}
+
+@conference{Hadd20,
+  author = {Tariq Haddad and John Melle Bokhorst and Luuk van den Dobbelsteen and Femke Simmer and Jeroen van der Laak and Iris D. Nagtegaal},
+  title = {Characterisation of the tumour-host interface as a prognostic factor through deep learning systems},
+  booktitle = {United European Gastroenterology Journal},
+  year = {2020},
+  abstract = {},
   optnote = {DIAG, RADIOLOGY},
 }
 
@@ -23402,6 +23411,20 @@ Deep learning models that analyze the immune infiltrate density on H&E WSIs can 
   file = {Stoy18.pdf:pdf/Stoy18.pdf:PDF},
   optnote = {DIAG, RADIOLOGY},
 }
+
+@conference{Stud20,
+  author = {L. Studer and J. Bokhorst and I. Zlobec and A. Lugli and A. Fischer and F. Ciompi and J. van der Laak and I. Nagtegaal and H. Dawson},
+  title = {Validation of computer-assisted tumour-bud and T-cell detection in pT1 colorectal cancer},
+  journal = {European Congress of pathology},
+  year = {2020},
+  optnote = {DIAG, RADIOLOGY},
+  abstract = {Background & objectives: Tumour budding, and T-cells are robust prognostic biomarkers in colorectal cancer. A combined analysis is complex and can be greatly expedited and automated using deep learning. The implementation of computer-based analysis in diagnostics is challenging and necessitates extensive validation.
+
+Methods: Randomly selected (n=61) double-stained immunohistochemical slides (AE1-AE3 pancytokeratin for tumour buds and CD8 for cytotoxic T-cells) from our pT1 cohort from 3 different institutions were used to validate the deep learning algorithms for tumour budding and CD8 T-cell detection developed by the International Budding Consortium Computational Pathology Group. Staining and scanning were performed in a single laboratory.
+
+Results: In the visually identified tumour budding hotspot (0.785 mm2), tumour buds were manually annotated, and the output of the T-cell algorithm manually corrected by a single observer. For budding, 645 out of the 1’306 buds were correctly identified by the algorithm. Recall and precision were 49.4% and 61.4%, respectively. For the T-cells, 89.3% were correctly detected (from a total of 16’296). The recall was 90.3% and the precision was 87.3%. Reasons for misclassified T-cells included staining intensity, suboptimal tissue recognition and slide artifacts.
+
+Conclusion: Our preliminary data demonstrates satisfactory results for T-cell detection. Automated budding detection is more difficult, as inter-observer variability of bud calling is high among experts. These issues merit consideration when developing reliable deep learning algorithms examining the tumour/host interface.},}
 
 @inproceedings{Stud22,
   author = {Linda Studer and John-Melle Bokhorst and Francesco Ciompi and Andreas Fischer and Heather Dawson},
