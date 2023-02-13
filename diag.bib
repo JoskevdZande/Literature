@@ -13124,47 +13124,183 @@ Conclusion: Based on our findings, we were capable of training a segmentation mo
   year = {2020},
 }
 
-@article{Leeu21,
-  author = {van Leeuwen, Kicky G. and Schalekamp, Steven and Rutten, Matthieu J.C.M. and van Ginneken, Bram and de Rooij, Maarten},
-  title = {Artificial intelligence in radiology: 100 commercially available products and their scientific evidence},
-  journal = ER,
-  year = {2021},
-  volume = {31},
-  pages = {3797-3804},
-  doi = {10.1007/s00330-021-07892-z},
-  url = {https://doi.org/10.1007/s00330-021-07892-z},
-  abstract = {OBJECTIVES: Map the current landscape of commercially available artificial intelligence (AI) software for radiology and review the availability of their scientific evidence. METHODS: We created an online overview of CE-marked AI software products for clinical radiology based on vendor-supplied product specifications (www.aiforradiology.com ). Characteristics such as modality, subspeciality, main task, regulatory information, deployment, and pricing model were retrieved. We conducted an extensive literature search on the available scientific evidence of these products. Articles were classified according to a hierarchical model of efficacy. RESULTS: The overview included 100 CE-marked AI products from 54 different vendors. For 64/100 products, there was no peer-reviewed evidence of its efficacy. We observed a large heterogeneity in deployment methods, pricing models, and regulatory classes. The evidence of the remaining 36/100 products comprised 237 papers that predominantly (65%) focused on diagnostic accuracy (efficacy level 2). From the 100 products, 18 had evidence that regarded level 3 or higher, validating the (potential) impact on diagnostic thinking, patient outcome, or costs. Half of the available evidence (116/237) were independent and not (co-)funded or (co-)authored by the vendor. CONCLUSIONS: Even though the commercial supply of AI software in radiology already holds 100 CE-marked products, we conclude that the sector is still in its infancy. For 64/100 products, peer-reviewed evidence on its efficacy is lacking. Only 18/100 AI products have demonstrated (potential) clinical impact. KEY POINTS: * Artificial intelligence in radiology is still in its infancy even though already 100 CE-marked AI products are commercially available. * Only 36 out of 100 products have peer-reviewed evidence of which most studies demonstrate lower levels of efficacy. * There is a wide variety in deployment strategies, pricing models, and CE marking class of AI products for radiology.},
-  file = {Leeu21.pdf:pdf\\Leeu21.pdf:PDF},
+@conference{Leeu23,
+  author = {van Leeuwen, Kicky G. and Hedderich, D.M. and Schalekamp, Steven},
+  title = {Potential risk of off-label use of commercially available AI-based software for radiology},
+  abstract = {Purpose or Learning Objective: The aim of this study was to analyse potential discrepancies between the claims and disclaimers of the intended purpose statements of CE-marked AI-based software for radiology.
+Methods or Background: In March 2022, we asked all vendors listed on www.AIforRadiology.com (n=87) to verify or submit the intended purpose according to European clearance for their products (n=191). Any new additions were included until September 26th 2022 (n=12)). Claims and disclaimers were extracted from the statements. Potential conflicts of claims and disclaimers were flagged.
+Results or Findings: We received the intended purpose statements for 157 of the 203 products. Of those, 36 were excluded as they provided too little information to analyse. The included products were certified under the current medical device regulations (class IIa = 24, class IIb = 9) and former Medical Device Directive (class I = 45, class IIa = 39, class IIb = 3). Of the 121 included statements 56 held disclaimers. For 13 of these products the claims and disclaimers were flagged to contradict each other. Potential discrepant disclaimer statements were e.g. 'act per the standard of care' (n=7) and 'not for diagnostic use' (n=6), while claiming to aid in the diagnosis, triaging or risk scoring of clinical conditions.
+Conclusion: Potential discrepancies in claims and disclaimers were found for a substantial number of AI-tools bearing the risk that users of the AI software misunderstand the permitted use-cases which may lead to off-label use.
+Limitations: Not all intended purpose statements received were of sufficient quality to use for analysis. The definition of what information the intended purpose should contain is not clearly specified under the MDR making it hard to objectively assess or compare.},
+  booktitle = ECR,
+  year = {2023},
   optnote = {DIAG, RADIOLOGY},
-  pmid = {33856519},
-  taverne_url = {https://repository.ubn.ru.nl/handle/2066/235585},
+}
+
+@conference{Leeu22,
+  author = {van Leeuwen, Kicky G. and de Rooij, Maarten and Schalekamp, Steven and van Ginneken, Bram and Rutten, Matthieu J.C.M.},
+  title = {The rise of artificial intelligence solutions in radiology departments in the Netherlands},
+  abstract = {Purpose: There are over 180 CE-marked artificial intelligence (AI) products for radiology commercially available in Europe, but little is known about the current clinical use. We investigated the clinical use of commercial AI software in radiology departments in the Netherlands over a two-year period.
+Methods: We consulted the radiology department of all hospital organizations in the Netherlands (n=69) in February-March 2020 (44 respondents) and February-March 2021 (37 respondents). A representative of the department was asked to fill in a questionnaire about the (planned) clinical use of CE marked AI products for radiology, the available funding for AI, and biggest obstacles for implementation.
+Results: From 2020 to 2021 the percentage of respondents that desired the adoption of AI tools in radiology increased from 63% to 86%. In 2020, 14 responding organisations used AI in clinical practice, which increased to 23 (33% of all organizations) in 2021. The total number of AI implementations in clinical practice expanded by 157%, from 19 to 49 implementations. Also, the diversity increased from 8 to 32 unique products. In 2021, 35% of respondents had budgets allocated for AI implementations either on the departmental level or on the institutional level, which was 26% in 2020. The major obstacles for AI adoption shifted from difficulties with the technical integration (2020) to the lack of budgets and an unclear business case (2021). Technical integration remained the second most often listed obstacle.
+Conclusion: AI adoption is gradually increasing in clinical radiology in the Netherlands. The number of radiology departments using AI has increased to at least a third of all organizations. Also, the number and diversity of AI applications per department grew substantially.
+Limitations: Results may be influenced by a nonresponse bias.},
+  booktitle = ECR,
+  year = {2022},
+  optnote = {DIAG, RADIOLOGY},
+}
+
+@conference{Leeu22a,
+  author = {Deden*, Laura N. and van Leeuwen*, Kicky G. and Becks, M.J. and Bernsen, M.L.E. and de Rooij, Maarten and Martens, J.M. and Meijer, F.J.A.},
+  title = {Gluren bij de buren - Evaluating and sharing real-world experience of an AI stroke tool in two centres},
+  abstract = {Background: Currently, many hospitals are implementing AI software. However, clear clinical implementation procedures are not yet available. In order to exchange experiences, two interventional stroke centres (Radboudumc and Rijnstate) collaborated in the prospective evaluation of an AI tool for stroke diagnostics.
+Methodology: Primary aim of StrokeViewer (Nicolab) implementation in both centres was diagnostic support in detecting large vessel occlusions (LVO) in anterior cerebral circulation. Additionally, in Rijnstate analysis of cerebral CT perfusion (CTP) was available. In Radboudumc, LVO results were available after log in to the StrokeViewer server. In Rijnstate, results were pushed to PACS as a pdf-report. Trial period in Radboudumc was 12 months, in Rijnstate 7 months. The performance of proximal LVO detection was compared with radiologists’ assessments. Users filled in a questionnaire on user experience at several time points. In Radboudumc, the use was monitored by individual log-in information.
+Results: Quantitative evaluation of ICA, M1 and proximal M2 occlusion detection (prevalence 18%) resulted in a case base sensitivity and specificity of 74% and 91% in Rijnstate (n=276) and 77% and 91% in Radboudumc (n=516). The use of the tool decreased over time. Radiologists unfamiliar with LVO assessment tended to value the AI report more than experienced radiologists. The net promoter scores were -56% in Radboudumc and -65% in Rijnstate. The tool was considered user friendly (7.2/10). CTP assessment in Rijnstate was used more frequently than LVO detection.
+Conclusion: This evaluation aids to understand some of the challenges involved in clinical implementation and acceptance by users of AI tools. Findings are consistent for both centres. Success is not only dependent on the product and its performance, but also on clinical goal setting, expectations, context and implementation choices. Sharing experience within the NVvR AInetwork can help to gain insights into crucial factors for success (“Gluren-bij-de-buren”).},
+  booktitle = {Radiologendagen},
+  year = {2022},
+  optnote = {DIAG, RADIOLOGY},
+}
+
+@conference{Leeu22b,
+  author = {van Leeuwen, Kicky G. and Becks, M.J. and Schalekamp, Steven and van Ginneken, Bram and Rutten, Matthieu J.C.M. and de Rooij, Maarten and Meijer, F.J.A.},
+  title = {Real-world evaluation of artificial intelligence software for cerebral large vessel occlusion detection in {CT} angiography},
+  abstract = {Purpose: The commercially available AI tool (StrokeViewer v2, Nicolab) supports the diagnostic process of stroke by detecting large vessel occlusions (LVO) on CTA. We prospectively evaluated this tool in our department to monitor safety and impact.
+Methods: We implemented the software with the goal to improve the diagnosis of LVO and elevate the diagnostic confidence of the radiologist (resident). We used quantitative measures (data from clinical systems, vendor log files) and qualitative measures (user survey) to analyse diagnostic performance, number of users, login attempts, radiologists’ diagnostic confidence, and user experience.
+Results: In total, 226 CTAs with a clinical indication of stroke between January-June 2021 were prospectively evaluated. Thirteen cases of posterior circulation and distal vessel occlusions were excluded as they were outside the intended use of the AI tool. The AI tool missed 12 of the 36 occlusions in the middle cerebral or intracranial internal carotid artery (M1=1, M2=10, ICA=1) resulting in an accuracy of 86.4%. Irrespective of location, the sensitivity was 77.8% and specificity 90.4%. The number of monthly unique users varied between 8 and 24 radiologists/residents. Log in attempts dropped after the initial month (which included training) to a monthly average of 44 attempts. The diagnostic confidence did not increase during the use of the tool. The likelihood that users would recommend StrokeViewer to colleagues was rated 4.5/10.
+Conclusion: Over six months, the use of StrokeViewer dropped and users did not sense improvement of diagnostic confidence. Measures have been taken to stimulate adoption for the latter six months of the trial period.
+Limitation: Because of the prospective character, no comparison could be made between radiologists supported by AI vs radiologists without AI.
+},
+  booktitle = ECR,
+  year = {2022},
+  optnote = {DIAG, RADIOLOGY},
+}
+
+@article{Leeu21,
+  author       = {van Leeuwen, Kicky G. and Schalekamp, Steven and Rutten, Matthieu J.C.M. and van Ginneken, Bram and de Rooij, Maarten},
+  title        = {Artificial intelligence in radiology: 100 commercially available products and their scientific evidence},
+  journal      = ER,
+  year         = {2021},
+  volume       = {31},
+  pages        = {3797–3804},
+  issn         = {1432-1084},
+  doi          = {10.1007/s00330-021-07892-z},
+  url	         = {https://doi.org/10.1007/s00330-021-07892-z},
+  abstract     = {OBJECTIVES: Map the current landscape of commercially available artificial intelligence (AI) software for radiology and review the availability of their scientific evidence. METHODS: We created an online overview of CE-marked AI software products for clinical radiology based on vendor-supplied product specifications (www.aiforradiology.com ). Characteristics such as modality, subspeciality, main task, regulatory information, deployment, and pricing model were retrieved. We conducted an extensive literature search on the available scientific evidence of these products. Articles were classified according to a hierarchical model of efficacy. RESULTS: The overview included 100 CE-marked AI products from 54 different vendors. For 64/100 products, there was no peer-reviewed evidence of its efficacy. We observed a large heterogeneity in deployment methods, pricing models, and regulatory classes. The evidence of the remaining 36/100 products comprised 237 papers that predominantly (65%) focused on diagnostic accuracy (efficacy level 2). From the 100 products, 18 had evidence that regarded level 3 or higher, validating the (potential) impact on diagnostic thinking, patient outcome, or costs. Half of the available evidence (116/237) were independent and not (co-)funded or (co-)authored by the vendor. CONCLUSIONS: Even though the commercial supply of AI software in radiology already holds 100 CE-marked products, we conclude that the sector is still in its infancy. For 64/100 products, peer-reviewed evidence on its efficacy is lacking. Only 18/100 AI products have demonstrated (potential) clinical impact. KEY POINTS: • Artificial intelligence in radiology is still in its infancy even though already 100 CE-marked AI products are commercially available. • Only 36 out of 100 products have peer-reviewed evidence of which most studies demonstrate lower levels of efficacy. • There is a wide variety in deployment strategies, pricing models, and CE marking class of AI products for radiology.},
+  file         = {Leeu21.pdf:pdf\\Leeu21.pdf:PDF},
+  issn-linking = {0938-7994},
+  keywords     = {Artificial intelligence; Radiology; Device approval; Evidence-based practice},
+  optnote      = {DIAG, RADIOLOGY},
+  owner        = {NLM},
+  pmid         = {33856519},
 }
 
 @article{Leeu21a,
-  author = {van Leeuwen, Kicky G and de Rooij, Maarten and Schalekamp, Steven and van Ginneken, Bram and Rutten, Matthieu J C M},
-  title = {How does artificial intelligence in radiology improve efficiency and health outcomes?},
-  journal = PEDRAD,
-  year = {2021},
-  doi = {10.1007/s00247-021-05114-8},
-  url = {https://doi.org/10.1007/s00247-021-05114-8},
-  abstract = {Since the introduction of artificial intelligence (AI) in radiology, the promise has been that it will improve health care and reduce costs. Has AI been able to fulfill that promise? We describe six clinical objectives that can be supported by AI: a more efficient workflow, shortened reading time, a reduction of dose and contrast agents, earlier detection of disease, improved diagnostic accuracy and more personalized diagnostics. We provide examples of use cases including the available scientific evidence for its impact based on a hierarchical model of efficacy. We conclude that the market is still maturing and little is known about the contribution of AI to clinical practice. More real-world monitoring of AI in clinical practice is expected to aid in determining the value of AI and making informed decisions on development, procurement and reimbursement.},
-  file = {Leeu21a.pdf:pdf\\Leeu21a.pdf:PDF},
-  optnote = {DIAG, RADIOLOGY},
+  author       = {van Leeuwen, Kicky G and de Rooij, Maarten and Schalekamp, Steven and van Ginneken, Bram and Rutten, Matthieu J C M},
+  title        = {How does artificial intelligence in radiology improve efficiency and health outcomes?},
+  journal      = PEDRAD,
+  year         = {2021},
+  issn         = {1432-1998},
+  doi          = {10.1007/s00247-021-05114-8},
+  url          = {https://doi.org/10.1007/s00247-021-05114-8},
+  abstract     = {Since the introduction of artificial intelligence (AI) in radiology, the promise has been that it will improve health care and reduce costs. Has AI been able to fulfill that promise? We describe six clinical objectives that can be supported by AI: a more efficient workflow, shortened reading time, a reduction of dose and contrast agents, earlier detection of disease, improved diagnostic accuracy and more personalized diagnostics. We provide examples of use cases including the available scientific evidence for its impact based on a hierarchical model of efficacy. We conclude that the market is still maturing and little is known about the contribution of AI to clinical practice. More real-world monitoring of AI in clinical practice is expected to aid in determining the value of AI and making informed decisions on development, procurement and reimbursement.},
+  file         = {Leeu21a.pdf:pdf\\Leeu21a.pdf:PDF},
+  keywords     = {Artificial intelligence; Pediatrics; Evidence-based practice; Impact analysis; Innovation; Radiology; Value-based healthcare},
+  optnote      = {DIAG, RADIOLOGY},
+  number       = {11},
+  pages        = {2087--2093},
+  pmid         = {34117522},
+  volume       = {52},
+  year         = {2022} 
 }
 
 @article{Leeu21b,
-  author = {Leeuwen, Kicky G Van and Meijer, Frederick J A and Schalekamp, Steven and Rutten, Matthieu J C M and Dijk, Ewoud J Van and Ginneken, Bram Van and Govers, Tim M and Rooij, Maarten De},
-  title = {{Cost - effectiveness of artificial intelligence aided vessel occlusion detection in acute stroke : an early health technology assessment}},
-  doi = {10.1186/s13244-021-01077-4},
-  pages = {133},
-  url = {https://doi.org/10.1186/s13244-021-01077-4},
-  volume = {12},
-  file = {Leeu21b.pdf:pdf\\Leeu21b.pdf:PDF},
-  journal = INSI,
-  optnote = {DIAG, RADIOLOGY},
+  author    = {Leeuwen, Kicky G Van and Meijer, Frederick J A and Schalekamp, Steven and Rutten, Matthieu J C M and Dijk, Ewoud J Van and Ginneken, Bram Van and Govers, Tim M and Rooij, Maarten De},
+  title     = {{Cost ‑ effectiveness of artificial intelligence aided vessel occlusion detection in acute stroke : an early health technology assessment}},
+  doi       = {10.1186/s13244-021-01077-4},
+  issn      = {1869-4101},
+  pages     = {133},
+  url       = {https://doi.org/10.1186/s13244-021-01077-4},
+  volume    = {12},
+  file      = {Leeu21b.pdf:pdf\\Leeu21b.pdf:PDF},
+  journal   = INSI,
+  keywords  = {Artificial intelligence, Computed tomography angiography, Cost–benefit analysis, Endovascular procedures, Stroke, artificial intelligence, benefit analysis, computed tomography angiography, cost, endovascular, stroke},
+  optnote   = {DIAG, RADIOLOGY},
   publisher = {Springer International Publishing},
+  year      = {2021},
+}
+
+@conference{Leeu21c,
+  author = {Leeuwen, Kicky G van and Rutten, Matthieu J C M and Schalekamp, Steven and Rooij, Maarten De and Ginneken, Bram Van},
+  title = {Clinical use of artificial intelligence in radiology departments in the Netherlands: a survey},
+  booktitle = ECR,
   year = {2021},
-  taverne_url = {https://repository.ubn.ru.nl/handle/2066/238400},
+  abstract = {Purpose: There are over 150 artificial intelligence (AI) products for radiology offered, but little is known about their current clinical use. We investigated actual clinical use of AI software in radiology departments in the Netherlands.
+Materials and Methods: We consulted the radiology department of each hospital organization in the Netherlands (n=70) about their current AI implementations and plans from February-March 2020. A representative of the department was asked to fill in a questionnaire about their knowledge, experience, research and/or clinical use of commercially available CE-certified AI products for radiology (n=93). Responses for these familiarity-levels were analysed to create an overview with quantitative metrics.
+Results: The response rate of the consulted hospitals was 43/70: 38/62 for general hospitals, 5/7 for academic medical centers, and 0/1 for children’s hospitals. Of the respondents 30 (70%) were radiologists, 5 (12%) application or information managers, and 8 (19%), among others, clinical physicists and managers. A third (14) of the participating organizations had one to three AI applications in clinical use, with a total of 19 implementations. These implementations involved eight different vendors of which four were from the Netherlands. Most commonly used was software for bone age prediction and stroke detection. Respondents were most familiar with products aimed at neurology and cardiology. MR, CT and mammography were the most familiar modalities for AI. Most interest for clinical implementation was shown in software to triage exams. Eleven organizations (26%) had a dedicated budget for AI, either from the hospital or the department.
+Conclusion: Even though the supply of AI software is extensive, clinical use remains limited showing that we are still in the initial stages of integrating AI in clinical practice in the Netherlands.
+Limitations: Results may be influenced by a nonresponse bias.},
+  optnote = {DIAG, RADIOLOGY},
+}
+
+@conference{Leeu21d,
+  author    = {Leeuwen, Kicky G Van and Meijer, Frederick J A and Schalekamp, Steven and Rutten, Matthieu J C M and Dijk, Ewoud J Van and Ginneken, Bram Van and Govers, Tim M and Rooij, Maarten De},
+  title = {Artificial Intelligence in Acute Stroke: an Early Health Technology Assessment of Vessel Occlusion Detection on Computed Tomography},
+  abstract = {Purpose or Learning Objective: To demonstrate the cost-effectiveness of artificial intelligence (AI) software to aid in the detection of intracranial vessel occlusions in stroke compared to standard care by performing early health technology assessment.
+Methods or Background: We used a Markov based model from a societal perspective in a UK setting to demonstrate the potential value of an AI tool reported in expected incremental costs (IC) and effects (IE) in quality adjusted life years (QALYs). Initial population existed of patients suspected of stroke based on symptoms and exclusion of other causes as demonstrated by non-contrast cerebrum CT. Input parameters for the model were predominantly based on stroke registry data from the UK and complemented with pooled outcome data from large randomized trials. Parameters were varied to demonstrate model robustness.
+Results or Findings: The AI strategy with its base-case parameters (6% missed diagnoses of intra-arterial therapy eligible patients by clinicians, $40 per AI analysis, 50% reduction of missed vessel occlusions by AI) resulted in modest cost-savings and incremental QALYs over the projected lifetime (IC: - $156, -0.23%; IE: +0.01 QALYs, +0.07%) per ischaemic stroke patient. Within a ninety-day window after treatment no financial (IC: +$60) and negligible QALY (IE: +0.0001) gain was observed. For each yearly cohort of patients in the UK this translates to a total cost saving of $11 million.
+Conclusion: We showed that computer aided thrombus detection in emergency care has the potential to increase health and save costs. Results may contribute to the debate on the investments, financial accountability and reimbursement for the clinical use of AI technology.
+Limitations: Parameter values of the model were based on results from previous studies.},
+  booktitle = ECR,
+  year = {2021},
+  optnote = {DIAG, RADIOLOGY},
+}
+
+@conference{Leeu21e,
+  author = {van Leeuwen, Kicky G. and de Rooij, Maarten and Rutten, Matthieu J.C.M. and van Ginneken, Bram and Schalekamp, Steven},
+  title = {Performance Of A Commercial Software Package For Lung Nodule Detection On Chest Radiographs Compared With 8 Expert Readers},
+  abstract = {Purpose: Multi-center evaluation of the stand-alone performance of commercially available lung nodule detectionsoftware (Lunit INSIGHT CXR3).
+Methods and Materials: A set of 300 posteroanterior (PA) and lateral chest radiographs from four medical centers in theNetherlands was collected. Solitary lung nodules ranging from 5 to 35 mm in size were present in 111 of the cases. Allnodules were confirmed by CT within three months of the radiograph acquisition. Control radiographs were determinedbased on a negative CT within six months. Five radiologists and three radiology residents scored the set to provide contextto the algorithm performance. All PA radiographs were processed by Lunit INSIGHT CXR3, a commercial software productthat detects ten common abnormalities in chest radiographs. Area under the receiver operating characteristics curve (AUC)and sensitivity at 90% specificity were used to measure performance. Multi-reader multi-case ROC analysis based on U-statistics (iMRMC-v4 software) was applied to compare CXR3 with the readers. Subanalysis was performed regardingnodule size (small<15mm, large>15mm) and conspicuity levels (well visible, moderately visible, subtle, very subtle).
+Results: Out of the 300 radiographs, 7 could not be processed by CXR3, resulting in a set of 104 nodule cases and 189normal cases for evaluation. The CXR3 AUC was 0.93 and significantly higher than the mean reader AUC of 0.82 (p<0.001).CXR3 was also significantly better than the best reader with an AUC of 0.88 (p=0.028). At a specificity level of 90%,sensitivity was 83.2% for CXR3 and 63.3% (std±7.5%) for the reader average. Regarding conspicuity of the nodules, CXR3AUCs were 0.99 for well visible, 0.94 for moderately visible, 0.94 for subtle, and 0.78 for very subtle nodules. No significantdifference in CXR3 performance was observed between the detection of small (AUC 0.91) and large nodules (AUC 0.93).
+Conclusions: Lunit INSIGHT CXR3 significantly outperforms the comparison group of eight readers in nodule detection onchest radiographs.
+Clinical Relevance/Application: Generalizability of artificial intelligence algorithms is not trivial. Performance studiesincrease confidence in algorithms to the users, especially to those with similar patient populations.},
+  booktitle = RSNA,
+  year = {2021},
+  optnote = {DIAG, RADIOLOGY},
+}
+
+@conference{Leeu21f,
+  author = {van Leeuwen, Kicky G. and de Rooij, Maarten and Rutten, Matthieu J.C.M. and Schalekamp, Steven and van Ginneken, Bram},
+  title = {Commercial Artificial Intelligence Solutions For Radiology: A Market Update},
+  abstract = {Purpose: Provide an overview of the current market of regulatory-cleared artificial intelligence (AI) software for radiology.
+Methods and Materials: An overview of CE marked AI products for clinical radiology is maintained online (https://www.AIforRadiology.com). Vendors were asked to verify and complete the product information. This overviewallows for analysis of market trends. Characteristics of the market were based on the state of the database on the 1st ofMay 2021.
+Results: In May 2021 there were 161 CE marked AI products on the market, an increase of 36% compared with one yearprior. The growth from 2019 to 2020 was 69% (from 70 to 118 products). The number of vendors offering AI products onlygrew with 13% from 61 in 2020 to 69 in 2021. The average number of products per company therefore increased from 1.9to 2.3. The time from company founding to the first product on the market is on average 4 years and 1 month. Mostprevalent are tools for neuro and chest imaging. With respect to modality, CT and MR covered 62% of all products. Half ofthe CE marked AI products (51%) have also been cleared by the FDA. To our knowledge, only four products were CEmarked under the new Medical Device Regulations. Subscription or licensing are the most popular pricing models. Themajority of products are offered with both the option of local and cloud-based installation.
+Conclusions: The growth of AI products new to the market is slowing down. This effect is even stronger for vendors.Existing vendors have been expanding their portfolios.
+Clinical Relevance/Application: The market of AI products for radiology is growing. Our research provides a transparentoverview of the available products and their evidence.},
+  booktitle = RSNA,
+  year = {2021},
+  optnote = {DIAG, RADIOLOGY},
+}
+
+@conference{Leeu20,
+  author = {van Leeuwen, Kicky G. and Schalekamp, Steven and Rutten, Matthieu J.C.M. and van Ginneken, Bram and de Rooij, Maarten},
+  title = {Scientific Evidence for 100 Commercially Available Artificial Intelligence Tools for Radiology: A Systematic Review},
+  abstract = {Purpose: To survey scientific evidence for all CE marked artificial intelligence (AI) based software products for radiology available as of April, 2020.
+  Materials and Methods: We created an online overview of CE-certified AI software products for clinical radiology based on vendor-supplied product specifications  (www.aiforradiology.com). For these products, we conducted a systematic literature study on Pubmed for original, peer-reviewed, English articles published between Jan 1, 2015 and April 14, 2020 on the efficacy of the AI software. Papers were included when the product and/or company name were mentioned, when efficacy level 2 to 6 according to Fryback was reported on an independent dataset, and when the tool was applied on in vivo human data.
+  Results: Our product overview consisted of 100 CE-certified software products from 51 different vendors. Among the 839 papers screened, 108 met the inclusion criteria. For 70/100 products we did not find papers that met the inclusion criteria. The evidence of the other 30 products was predominantly (84%) focused on diagnostic accuracy (efficacy level 2). Half of the available evidence (49%) was independent and not (co)-funded or (co)-authored by the vendor. In more than half (55%) of the papers the version number of the product used in the study was not mentioned. From all studies, 20 (18%) used validation data from multiple countries, 42 (39%) were multicenter studies, 25 (23%) were performed with acquisition machines from multiple manufacturers.
+  Conclusion: One hundred CE-certified AI software products for radiology exist today. Yet, for the majority, scientific evidence on the clinical performance and clinical impact is lacking. These insights should raise awareness that certification may not guarantee technical and clinical efficacy of an AI product.
+  Clinical relevance: Our findings identify the available evidence for commercially available AI software, aiming to contribute to a safe and effective implementation of AI software in radiology departments.},
+  booktitle = RSNA,
+  year = {2020},
+  optnote = {DIAG, RADIOLOGY},
+}
+
+@conference{Leeu19,
+  author = {Leeuwen, Kicky G van},
+  title = {Opinion of Dutch healthcare professionals on the development and adoption of artificial intelligence in healthcare},
+  booktitle = {EuSoMII Annual Meeting},
+  year = {2019},
+  optnote = {DIAG, RADIOLOGY},
 }
 
 @article{Leij17,
@@ -21172,6 +21308,22 @@ Conclusion: Based on our findings, we were capable of training a segmentation mo
   abstract = {Abstract Background The Psoriasis Area and Severity Index (PASI) score is commonly used in clinical practice and research to monitor disease severity and determine treatment efficacy. Automating the PASI score with deep learning algorithms, like Convolutional Neural Networks (CNNs), could enable objective and efficient PASI scoring. Objectives To assess the performance of image-based automated PASI scoring in anatomical regions by CNNs and compare the performance of CNNs to image-based scoring by physicians. Methods Imaging series were matched to PASI subscores determined in real life by the treating physician. CNNs were trained using standardized imaging series of 576 trunk, 614 arm and 541 leg regions. CNNs were separately trained for each PASI subscore (erythema, desquamation, induration and area) in each anatomical region (trunk, arms and legs). The head region was excluded for anonymity. Additionally, PASI-trained physicians retrospectively determined image-based subscores on the test set images of the trunk. Agreement with the real-life scores was determined with the intraclass correlation coefficient (ICC) and compared between the CNNs and physicians. Results Intraclass correlation coefficients between the CNN and real-life scores of the trunk region were 0.616, 0.580, 0.580 and 0.793 for erythema, desquamation, induration and area, respectively, with similar results for the arms and legs region. PASI-trained physicians (N = 5) were in moderate-good agreement (ICCs 0.706-0.793) with each other for image-based PASI scoring of the trunk region. ICCs between the CNN and real-life scores were slightly higher for erythema (0.616 vs. 0.558), induration (0.580 vs. 0.573) and area scoring (0.793 vs. 0.694) than image-based scoring by physicians. Physicians slightly outperformed the CNN on desquamation scoring (0.580 vs. 0.589). Conclusions Convolutional Neural Networks have the potential to automatically and objectively perform image-based PASI scoring at an anatomical region level. For erythema, desquamation and induration scoring, CNNs performed similar to physicians, while for area scoring CNNs outperformed physicians on image-based PASI scoring.},
   year = {2022},
   taverne_url = {https://repository.ubn.ru.nl/handle/2066/248278},
+}
+
+@article{Scha22a,
+  abstract = {Artificial intelligence (AI) applications for chest radiography and chest CT are among the most developed applications in radiology. More than 40 certified AI products are available for chest radiography or chest CT. These AI products cover a wide range of abnormalities, including pneumonia, pneumothorax and lung cancer. Most applications are aimed at detecting disease, complemented by products that characterize or quantify tissue. At present, none of the thoracic AI products is specifically designed for the pediatric population. However, some products developed to detect tuberculosis in adults are also applicable to children. Software is under development to detect early changes of cystic fibrosis on chest CT, which could be an interesting application for pediatric radiology. In this review, we give an overview of current AI products in thoracic radiology and cover recent literature about AI in chest radiography, with a focus on pediatric radiology. We also discuss possible pediatric applications.},
+  author = {Schalekamp, Steven and Klein, Willemijn M and van Leeuwen, Kicky G},
+  doi = {10.1007/s00247-021-05146-0},
+  issn = {1432-1998},
+  journal = PEDRAD,
+  number = {11},
+  pages = {2120--2130},
+  title = {{Current and emerging artificial intelligence applications in chest imaging: a pediatric perspective}},
+  url = {https://doi.org/10.1007/s00247-021-05146-0},
+  volume = {52},
+  year = {2022},
+  optnote = {RADIOLOGY, DIAG},
+  file = {Scha22a.pdf:pdf\\Scha22a.pdf:PDF},
 }
 
 @article{Scha90,
