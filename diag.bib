@@ -2006,19 +2006,18 @@
   journal = {PhD thesis},
 }
 
-@conference{Balk20b,
-  author = {M. Balkenhol and P. Bult and D. Tellez and W. Vreuls and P. Clahsen and F. Ciompi and J. Van der Laak},
-  title = {Deep learning enables fully automated mitotic density assessment in breast cancer histopathology},
+@Conference{Balk20b,
+  author    = {M. Balkenhol and P. Bult and D. Tellez and W. Vreuls and P. Clahsen and F. Ciompi and J. Van der Laak},
   booktitle = {European Journal of Cancer},
-  year = {2020},
-  abstract = {Background: Mitosis counting is an important part of breast cancer grading, yet known to suffer from observer variability. Advances in machine learning enable fully automated analysis of digitized glass slides. The present study evaluated automatic mitosis counting and demonstrated applicability on triple negative breast cancers (TNBC).
+  title     = {Deep learning enables fully automated mitotic density assessment in breast cancer histopathology},
+  abstract  = {Background: Mitosis counting is an important part of breast cancer grading, yet known to suffer from observer variability. Advances in machine learning enable fully automated analysis of digitized glass slides. The present study evaluated automatic mitosis counting and demonstrated applicability on triple negative breast cancers (TNBC).
 Material and Methods: In entire scanned H&E slides of 90 invasive breast tumours, a deep learning algorithm (DLA) fully automatically detected all mitoses and determined the hotspot (area with highest mitotic density). Subsequently, two independent observers assessed mitotic counts on glass slides according to routine practice, and in the computer-defined hotspot.
 Next, automated mitotic counting was performed in our TNBC cohort (n = 597). Multivariable Cox regression survival models were expanded with dichotomized mitotic counts. The c-statistic was used to evaluate the additional prognostic value of every possible cut off value.
 Results: Automatic counting showed excellent concordance with visual assessment in computer detected hotspots with intraclass correlation coefficients (ICC) of 0.895 (95% CI 0.845–0.930) and 0.888 (95% CI 0.783–0.936) for two observers, respectively. ICC of fully automated counting versus conventional glass slide assessment were 0.828 (95% CI 0.750–0.883 and 0.757 (95% CI 0.638–0.839), respectively.
 In the TNBC cohort, automatic mitotic counts ranged from 1 to 269 (mean 57.6) in 2 mm2 hotspots. None of the cut off values improved the models’ baseline c-statistic.
-Conclusion: Automatic mitosis counting is a promising complementary aid for mitoses assessment. Our method was capable of fully automatically locating the mitotic hotspot in tumours, and was capable of processing a large series of TNBC, showing that mitotic count was not prognostic for TNBC even when attempting alternative cut off points.
-},
-  optnote = {DIAG, RADIOLOGY},
+Conclusion: Automatic mitosis counting is a promising complementary aid for mitoses assessment. Our method was capable of fully automatically locating the mitotic hotspot in tumours, and was capable of processing a large series of TNBC, showing that mitotic count was not prognostic for TNBC even when attempting alternative cut off points.},
+  optnote   = {DIAG, RADIOLOGY},
+  year      = {2020},
 }
 
 
@@ -8536,6 +8535,21 @@ Conclusion: Based on our findings, we were capable of training a segmentation mo
   optnote = {DIAG, RADIOLOGY},
 }
 
+@article{Hadj22,
+  author = {Lubomir Hadjiiski, Kenny Cha, Heang-Ping Chan, Karen Drukker, Lia Morra, Janne J. Näppi, Berkman Sahiner, Hiroyuki Yoshida, Quan Chen, Thomas M. Deserno, Hayit Greenspan, Henkjan Huisman, Zhimin Huo, Richard Mazurchuk, Nicholas Petrick, Daniele Regge, Ravi Samala, Ronald M. Summers, Kenji Suzuki, Georgia Tourassi, Daniel Vergara, Samuel G. Armato III},
+  title = {AAPM task group report 273: Recommendations on best practices for AI and machine learning for computer-aided diagnosis in medical imaging},
+  journal = {Medical Physics},
+  year = {2022},
+  doi = {https://doi.org/10.1002/mp.16188},
+  abstract = {Rapid advances in artificial intelligence (AI) and machine learning, and specifically in deep learning (DL) techniques, have enabled broad application of these methods in health care. The promise of the DL approach has spurred further interest in computer-aided diagnosis (CAD) development and applications using both “traditional” machine learning methods and newer DL-based methods. We use the term CAD-AI to refer to this expanded clinical decision support environment that uses traditional and DL-based AI methods.
+
+Numerous studies have been published to date on the development of machine learning tools for computer-aided, or AI-assisted, clinical tasks. However, most of these machine learning models are not ready for clinical deployment. It is of paramount importance to ensure that a clinical decision support tool undergoes proper training and rigorous validation of its generalizability and robustness before adoption for patient care in the clinic.
+
+To address these important issues, the American Association of Physicists in Medicine (AAPM) Computer-Aided Image Analysis Subcommittee (CADSC) is charged, in part, to develop recommendations on practices and standards for the development and performance assessment of computer-aided decision support systems. The committee has previously published two opinion papers on the evaluation of CAD systems and issues associated with user training and quality assurance of these systems in the clinic. With machine learning techniques continuing to evolve and CAD applications expanding to new stages of the patient care process, the current task group report considers the broader issues common to the development of most, if not all, CAD-AI applications and their translation from the bench to the clinic. The goal is to bring attention to the proper training and validation of machine learning algorithms that may improve their generalizability and reliability and accelerate the adoption of CAD-AI systems for clinical decision support.},
+  file = {Hadj22.pdf:pdf\\Hadj22.pdf:PDF},
+  optnote = {DIAG, RADIOLOGY},
+}
+
 
 @inproceedings{Hage21,
   title = {Variable Fraunhofer MEVIS RegLib Comprehensively Applied to Learn2Reg Challenge},
@@ -13180,18 +13194,17 @@ Conclusion: This evaluation aids to understand some of the challenges involved i
   optnote = {DIAG, RADIOLOGY},
 }
 
-@conference{Leeu22b,
-  author = {van Leeuwen, Kicky G. and Becks, M.J. and Schalekamp, Steven and van Ginneken, Bram and Rutten, Matthieu J.C.M. and de Rooij, Maarten and Meijer, F.J.A.},
-  title = {Real-world evaluation of artificial intelligence software for cerebral large vessel occlusion detection in {CT} angiography},
-  abstract = {Purpose: The commercially available AI tool (StrokeViewer v2, Nicolab) supports the diagnostic process of stroke by detecting large vessel occlusions (LVO) on CTA. We prospectively evaluated this tool in our department to monitor safety and impact.
+@Conference{Leeu22b,
+  author    = {van Leeuwen, Kicky G. and Becks, M.J. and Schalekamp, Steven and van Ginneken, Bram and Rutten, Matthieu J.C.M. and de Rooij, Maarten and Meijer, F.J.A.},
+  booktitle = ECR,
+  title     = {Real-world evaluation of artificial intelligence software for cerebral large vessel occlusion detection in {CT} angiography},
+  abstract  = {Purpose: The commercially available AI tool (StrokeViewer v2, Nicolab) supports the diagnostic process of stroke by detecting large vessel occlusions (LVO) on CTA. We prospectively evaluated this tool in our department to monitor safety and impact.
 Methods: We implemented the software with the goal to improve the diagnosis of LVO and elevate the diagnostic confidence of the radiologist (resident). We used quantitative measures (data from clinical systems, vendor log files) and qualitative measures (user survey) to analyse diagnostic performance, number of users, login attempts, radiologists’ diagnostic confidence, and user experience.
 Results: In total, 226 CTAs with a clinical indication of stroke between January-June 2021 were prospectively evaluated. Thirteen cases of posterior circulation and distal vessel occlusions were excluded as they were outside the intended use of the AI tool. The AI tool missed 12 of the 36 occlusions in the middle cerebral or intracranial internal carotid artery (M1=1, M2=10, ICA=1) resulting in an accuracy of 86.4%. Irrespective of location, the sensitivity was 77.8% and specificity 90.4%. The number of monthly unique users varied between 8 and 24 radiologists/residents. Log in attempts dropped after the initial month (which included training) to a monthly average of 44 attempts. The diagnostic confidence did not increase during the use of the tool. The likelihood that users would recommend StrokeViewer to colleagues was rated 4.5/10.
 Conclusion: Over six months, the use of StrokeViewer dropped and users did not sense improvement of diagnostic confidence. Measures have been taken to stimulate adoption for the latter six months of the trial period.
-Limitation: Because of the prospective character, no comparison could be made between radiologists supported by AI vs radiologists without AI.
-},
-  booktitle = ECR,
-  year = {2022},
-  optnote = {DIAG, RADIOLOGY},
+Limitation: Because of the prospective character, no comparison could be made between radiologists supported by AI vs radiologists without AI.},
+  optnote   = {DIAG, RADIOLOGY},
+  year      = {2022},
 }
 
 @article{Leeu21,
@@ -27158,7 +27171,7 @@ abstract = {In this work, we report the set-up and results of the Liver Tumor Se
   file            = {Muna21a.pdf:pdf\\Muna21a.pdf:PDF},
   issn-linking    = {1422-0067},
   journal         = {International journal of molecular sciences},
-  keywords        = {B7-H1 Antigen, antagonists & inhibitors, immunology, metabolism; Humans; Immune Checkpoint Inhibitors, therapeutic use; Immunotherapy, methods; Molecular Targeted Therapy; Neoplasms, diagnosis, drug therapy, physiopathology; Programmed Cell Death 1 Receptor, antagonists & inhibitors, immunology, metabolism; Tumor Escape; NK cells; PD-1; PD-L1; cancer; glucocorticoids; immunotherapy},
+  keywords        = {B7-H1 Antigen, antagonists & inhibitors, immunology, metabolism; Humans; Immune Checkpoint Inhibitors, therapeutic use; Immunotherapy, methods; Molecular Targeted Therapy; Neoplasms, diagnosis, drug therapy, physiopathology; Programmed Cell Death 1 Receptor, metabolism; Tumor Escape; NK cells; PD-1; PD-L1; cancer; glucocorticoids; immunotherapy},
   nlm-id          = {101092791},
   optnote         = {DIAG, RADIOLOGY},
   owner           = {NLM},
@@ -27196,15 +27209,12 @@ abstract = {In this work, we report the set-up and results of the Liver Tumor Se
   year         = {2020},
 }
 
-@Comment{jabref-meta: databaseType:biblatex;}
 
-@article{Hend22,
-  author = {Hendrix, Nils and Hendrix, Ward and van Dijke, Kees and Maresch, Bas and Maas, Mario and Bollen, Stijn and Scholtens, Alexander and de Jonge, Milko and Ong, Lee-Ling Sharon and van Ginneken, Bram and Rutten, Matthieu},
-  title = {Musculoskeletal radiologist-level performance by using deep learning for detection of scaphoid fractures on conventional multi-view radiographs of hand and wrist},
-  journal = ER,
-  year = {2022},
-  doi = {10.1007/s00330-022-09205-4},
-  url = {https://link.springer.com/article/10.1007/s00330-022-09205-4},
+@Article{Hend23,
+  author   = {Hendrix, Nils and Hendrix, Ward and van Dijke, Kees and Maresch, Bas and Maas, Mario and Bollen, Stijn and Scholtens, Alexander and de Jonge, Milko and Ong, Lee-Ling Sharon and van Ginneken, Bram and Rutten, Matthieu},
+  title    = {Musculoskeletal radiologist-level performance by using deep learning for detection of scaphoid fractures on conventional multi-view radiographs of hand and wrist},
+  doi      = {https://doi.org/10.1007/s00330-022-09205-4},
+  url      = {https://link.springer.com/article/10.1007/s00330-022-09205-4},
   abstract = {Objectives: To assess how an artificial intelligence (AI) algorithm performs against five experienced musculoskeletal radiologists in diagnosing scaphoid fractures and whether it aids their diagnosis on conventional multi-view radiographs.
 
   Methods: Four datasets of conventional hand, wrist, and scaphoid radiographs were retrospectively acquired at two hospitals (hospitals A and B). Dataset 1 (12,990 radiographs from 3353 patients, hospital A) and dataset 2 (1117 radiographs from 394 patients, hospital B) were used for training and testing a scaphoid localization and laterality classification component. Dataset 3 (4316 radiographs from 840 patients, hospital A) and dataset 4 (688 radiographs from 209 patients, hospital B) were used for training and testing the fracture detector. The algorithm was compared with the radiologists in an observer study. Evaluation metrics included sensitivity, specificity, positive predictive value (PPV), area under the characteristic operating curve (AUC), Cohen's kappa coefficient (κ), fracture localization precision, and reading time.
@@ -27212,5 +27222,10 @@ abstract = {In this work, we report the set-up and results of the Liver Tumor Se
   Results: The algorithm detected scaphoid fractures with a sensitivity of 72%, specificity of 93%, PPV of 81%, and AUC of 0.88. The AUC of the algorithm did not differ from each radiologist (0.87 [radiologists' mean], p ≥.05). AI assistance improved five out of ten pairs of inter-observer Cohen's κ agreements (p <.05) and reduced reading time in four radiologists (p <.001), but did not improve other metrics in the majority of radiologists (p ≥.05).
 
   Conclusions: The AI algorithm detects scaphoid fractures on conventional multi-view radiographs at the level of five experienced musculoskeletal radiologists and could significantly shorten their reading time.},
-  optnote = {DIAG, RADIOLOGY}
+  file     = {Hend23.pdf:pdf\\Hend23.pdf:PDF},
+  journal  = ER,
+  optnote  = {DIAG, RADIOLOGY},
+  year     = {2023},
 }
+
+@Comment{jabref-meta: databaseType:biblatex;}
