@@ -27258,19 +27258,6 @@ abstract = {In this work, we report the set-up and results of the Liver Tumor Se
   year            = {2022},
 }
 
-@Conference{Peet23,
-  author    = {Peeters, Dre and Alves, N. and Venkadesh, K and Dinnessen, R and Saghir, Z and Scholten, E and Huisman, H and Schaefer-Prokop, C and Vliegenthart, R and Prokop, M and Jacobs, C},
-  booktitle = ECR,
-  title     = {The effect of applying an uncertainty estimation method on the performance of a deep learning model for nodule malignancy risk estimation},
-  abstract  = {Purpose: Artificial Intelligence (AI) algorithms often lack uncertainty estimation for classification tasks. Uncertainty estimation may however be an important requirement for clinical adoption of AI algorithms. In this study, we integrate a method for uncertainty estimation into a previously developed AI algorithm and investigate the performance when applying different uncertainty thresholds.
-Methods and materials: We used a retrospective external validation dataset from the Danish Lung Cancer Screening Trial, containing 818 benign and 65 malignant nodules. Our previously developed AI algorithm for nodule malignancy risk estimation was extended with a method for measuring the prediction uncertainty. The uncertainty score (UnS) was calculated by measuring the standard deviation over 20 different predictions of an ensemble of AI models. Two UnS thresholds at the 90th and 95th percentile were applied to retain 90% and 95% of all cases as certain, respectively. For these scenarios, we calculated the area under the ROC curve (AUC) for certain and uncertain cases, and for the full set of nodules.
-Results: On the full set of 883 nodules, the AUC of the AI risk score was 0.932. For the 90th and 95th percentile, the AUC of the AI risk score for certain cases was 0.934 and 0.935, respectively, and for the uncertain cases was 0.710 and 0.688, respectively.
-Conclusion: In this retrospective data set, we demonstrate that integrating an uncertainty estimation method into a deep learning-based nodule malignancy risk estimation algorithm slightly increased the performance on certain cases. The AI performance is substantially worse on uncertain cases and therefore in need of human visual review.
-Limitations: This study is a retrospective analysis on data from one single lung cancer screening trial. More external validation is needed.},
-  optnote   = {DIAG, RADIOLOGY},
-  year      = {2023},
-}
-
 @Article{Bohn22,
   author          = {Bohner, Lauren and Vinayahalingam, Shankeeth and Kleinheinz, Johannes and Hanisch, Marcel},
   title           = {Digital Implant Planning in Patients with Ectodermal Dysplasia: Clinical Report.},
@@ -27323,6 +27310,19 @@ Limitations: This study is a retrospective analysis on data from one single lung
   year         = {2022},
 }
 
+@Conference{Peet23,
+  author    = {Peeters, Dre and Alves, N. and Venkadesh, K and Dinnessen, R and Saghir, Z and Scholten, E and Huisman, H and Schaefer-Prokop, C and Vliegenthart, R and Prokop, M and Jacobs, C},
+  booktitle = ECR,
+  title     = {The effect of applying an uncertainty estimation method on the performance of a deep learning model for nodule malignancy risk estimation},
+  abstract  = {Purpose: Artificial Intelligence (AI) algorithms often lack uncertainty estimation for classification tasks. Uncertainty estimation may however be an important requirement for clinical adoption of AI algorithms. In this study, we integrate a method for uncertainty estimation into a previously developed AI algorithm and investigate the performance when applying different uncertainty thresholds.   
+Methods and materials: We used a retrospective external validation dataset from the Danish Lung Cancer Screening Trial, containing 818 benign and 65 malignant nodules. Our previously developed AI algorithm for nodule malignancy risk estimation was extended with a method for measuring the prediction uncertainty. The uncertainty score (UnS) was calculated by measuring the standard deviation over 20 different predictions of an ensemble of AI models. Two UnS thresholds at the 90th and 95th percentile were applied to retain 90% and 95% of all cases as certain, respectively. For these scenarios, we calculated the area under the ROC curve (AUC) for certain and uncertain cases, and for the full set of nodules.  
+Results: On the full set of 883 nodules, the AUC of the AI risk score was 0.932. For the 90th and 95th percentile, the AUC of the AI risk score for certain cases was 0.934 and 0.935, respectively, and for the uncertain cases was 0.710 and 0.688, respectively.  
+Conclusion: In this retrospective data set, we demonstrate that integrating an uncertainty estimation method into a deep learning-based nodule malignancy risk estimation algorithm slightly increased the performance on certain cases. The AI performance is substantially worse on uncertain cases and therefore in need of human visual review. 
+Limitations: This study is a retrospective analysis on data from one single lung cancer screening trial. More external validation is needed.},
+  optnote   = {DIAG, RADIOLOGY},
+  year      = {2023},
+}
+
 @Article{Adam22,
   author       = {Adams, Lisa C. and Makowski, Marcus R. and Engel, Günther and Rattunde, Maximilian and Busch, Felix and Asbach, Patrick and Niehues, Stefan M. and Vinayahalingam, Shankeeth and van Ginneken, Bram and Litjens, Geert and Bressem, Keno K.},
   title        = {Dataset of prostate MRI annotated for anatomical zones and cancer.},
@@ -27333,6 +27333,7 @@ Limitations: This study is a retrospective analysis on data from one single lung
   volume       = {45},
   abstract     = {In the present work, we present a publicly available, expert-segmented representative dataset of 158 3.0 Tesla biparametric MRIs [1]. There is an increasing number of studies investigating prostate and prostate carcinoma segmentation using deep learning (DL) with 3D architectures [2], [3], [4], [5], [6], [7]. The development of robust and data-driven DL models for prostate segmentation and assessment is currently limited by the availability of openly available expert-annotated datasets [8], [9], [10]. The dataset contains 3.0 Tesla MRI images of the prostate of patients with suspected prostate cancer. Patients over 50 years of age who had a 3.0 Tesla MRI scan of the prostate that met PI-RADS version 2.1 technical standards were included. All patients received a subsequent biopsy or surgery so that the MRI diagnosis could be verified/matched with the histopathologic diagnosis. For patients who had undergone multiple MRIs, the last MRI, which was less than six months before biopsy/surgery, was included. All patients were examined at a German university hospital (Charité Universitätsmedizin Berlin) between 02/2016 and 01/2020. All MRI were acquired with two 3.0 Tesla MRI scanners (Siemens VIDA and Skyra, Siemens Healthineers, Erlangen, Germany). Axial T2W sequences and axial diffusion-weighted sequences (DWI) with apparent diffusion coefficient maps (ADC) were included in the data set. T2W sequences and ADC maps were annotated by two board-certified radiologists with 6 and 8 years of experience, respectively. For T2W sequences, the central gland (central zone and transitional zone) and peripheral zone were segmented. If areas of suspected prostate cancer (PIRADS score of ≥ 4) were identified on examination, they were segmented in both the T2W sequences and ADC maps. Because restricted diffusion is best seen in DWI images with high b-values, only these images were selected and all images with low b-values were discarded. Data were then anonymized and converted to NIfTI (Neuroimaging Informatics Technology Initiative) format.},
   country      = {Netherlands},
+  file         = {Adam22.pdf:pdf\\Adam22.pdf:PDF},
   issn-linking = {2352-3409},
   journal      = {Data in brief},
   keywords     = {3.0 Tesla MRI; Apparent diffusion coefficient (ADC); Diffusion-weighted imaging; Pixel-wise segmentation; Prostate cancer; T2-weighted imaging},
