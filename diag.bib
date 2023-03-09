@@ -1318,14 +1318,14 @@
   month = {3},
 }
 
-@conference{Alves21a,
-  author = {Alves, Natalia and Hermans, John and Huisman, Henkjan},
+@Conference{Alves21a,
+  author    = {Alves, Natalia and Hermans, John and Huisman, Henkjan},
   booktitle = RSNA,
-  title = {CT-based Deep Learning Towards Early Detection Of Pancreatic Ductal Adenocarcinoma},
-  abstract = {Purpose: To investigate the performance of a 3D nnUnet based algorithm for pancreatic ductal adenocarcinoma (PDAC)detection and assess the potential of the model for early diagnosis by conducting a subgroup analysis on small (size <2cm) tumors. Methods and Materials: Portal-venous phase contrast-enhanced computed tomography (CE-CT) scans from a cohort of119 patients with pathology-proven PDAC and 122 consecutive patients with normal pancreas were included in thisretrospective study. For the PDAC cohort, expert segmentations of the pancreas and tumor volumes were available, alongwith the tumor sizes measured on the CT scan. For the non-PDAC cohort, the pancreas segmentations were obtained usinga pre-trained deep learning segmentation model. The pancreas segmentation determined a region of interest from the fullCE-CT as input to the 3D nnUnet.
+  title     = {CT-based Deep Learning Towards Early Detection Of Pancreatic Ductal Adenocarcinoma},
+  abstract  = {Purpose: To investigate the performance of a 3D nnUnet based algorithm for pancreatic ductal adenocarcinoma (PDAC)detection and assess the potential of the model for early diagnosis by conducting a subgroup analysis on small (size <2cm) tumors. Methods and Materials: Portal-venous phase contrast-enhanced computed tomography (CE-CT) scans from a cohort of119 patients with pathology-proven PDAC and 122 consecutive patients with normal pancreas were included in thisretrospective study. For the PDAC cohort, expert segmentations of the pancreas and tumor volumes were available, alongwith the tumor sizes measured on the CT scan. For the non-PDAC cohort, the pancreas segmentations were obtained usinga pre-trained deep learning segmentation model. The pancreas segmentation determined a region of interest from the fullCE-CT as input to the 3D nnUnet.
    The network was trained for 1000 epochs with 5-fold cross-validation to differentiatebetween tumor and normal voxels. The predicted heatmaps were thresholded at 0.1. An image was considered a positivecase of PDAC if the predicted tumor volume was greater than 100 mm3. Results: The median tumor size on the PDAC cohort was 2.8 cm (range 1.2 cm - 9.3 cm). The detection task achieved anaverage sensitivity of 0.93 +- 0.04 (111/119), specificity of 0.98 +- 0.02 (119/122) and area under the receiver operatingcharacteristic curve of 0.96 +- 0.04. The median DICE score between the expert and the network tumor segmentations was0.68 +- 0.18. In 2 of the 3 false positive cases the network wrongly detected a hypodense region of the normal pancreas,which could be originated by fat accumulation or natural perfusion differences. The mean sensitivity in the sub-group oftumors with size smaller than 2 cm was 0.92 +- 0.1 (21/23), and the median DICE score in this sub-group was 0.56 +- 0.20. Conclusions: These preliminary results indicate that a 3D nnUnet based algorithm can accurately detect small tumors,suggesting that it could be useful at assisting in early PDAC diagnosis. Clinical Relevance/Application: Early diagnosis improves pancreatic cancer prognosis but requires significant expertise.An automatic tool for the detection of early-stage tumors would reduce expertise requirements.},
-  optnote = {DIAG, RADIOLOGY},
-  year = {2021},
+  optnote   = {DIAG, RADIOLOGY},
+  year      = {2021},
 }
 
 @article{Alves22a,
@@ -27295,7 +27295,7 @@ abstract = {In this work, we report the set-up and results of the Liver Tumor Se
 }
 
 @Conference{Peet23,
-  author    = {Peeters, Dre and Alves, N. and Venkadesh, K and Dinnessen, R and Saghir, Z and Scholten, E and Huisman, H and Schaefer-Prokop, C and Vliegenthart, R and Prokop, M and Jacobs, C},
+  author    = {Peeters, Dr\'{e} and Alves, Natalia. and Venkadesh, K and Dinnessen, R and Saghir, Z and Scholten, E and Huisman, H and Schaefer-Prokop, C and Vliegenthart, R and Prokop, M and Jacobs, C},
   booktitle = ECR,
   title     = {The effect of applying an uncertainty estimation method on the performance of a deep learning model for nodule malignancy risk estimation},
   abstract  = {Purpose: Artificial Intelligence (AI) algorithms often lack uncertainty estimation for classification tasks. Uncertainty estimation may however be an important requirement for clinical adoption of AI algorithms. In this study, we integrate a method for uncertainty estimation into a previously developed AI algorithm and investigate the performance when applying different uncertainty thresholds.
