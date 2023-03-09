@@ -1328,26 +1328,26 @@
   year      = {2021},
 }
 
-@article{Alves22a,
-  author = {Alves, Natalia and Schuurmans, Megan and Litjens, Geke  and Bosma, Joeran and Hermans, John and Huisman, Henkjan},
-  title = {Fully Automatic Deep Learning Framework for Pancreatic Ductal Adenocarcinoma Detection on Computed Tomography},
-  journal = {Cancers},
-  pages = {376},
-  year = {2022},
-  doi = {https://doi.org/10.3390/cancers14020376},
-  url = {https://www.mdpi.com/2072-6694/14/2/376/htm},
-  abstract = {Early detection improves prognosis in pancreatic ductal adenocarcinoma (PDAC) but is challenging as lesions are often small and poorly defined on contrast-enhanced computed tomography scans (CE-CT). Deep learning can facilitate PDAC diagnosis, however current models still fail to identify small (<2cm) lesions. In this study, state-of-the-art deep learning models were used to develop an automatic framework for PDAC detection, focusing on small lesions. Additionally, the impact of integrating surrounding anatomy was investigated. CE-CT scans from a cohort of 119 pathology-proven PDAC patients and a cohort of 123 patients without PDAC were used to train a nnUnet for automatic lesion detection and segmentation (nnUnet_T). Two additional nnUnets were trained to investigate the impact of anatomy integration: (1) segmenting the pancreas and tumor (nnUnet_TP), (2) segmenting the pancreas, tumor, and multiple surrounding anatomical structures (nnUnet_MS). An external, publicly available test set was used to compare the performance of the three networks. The nnUnet_MS achieved the best performance, with an area under the receiver operating characteristic curve of 0.91 for the whole test set and 0.88 for tumors <2cm, showing that state-of-the-art deep learning can detect small PDAC and benefits from anatomy information.},
-  optnote = {DIAG, RADIOLOGY},
+@Article{Alves22a,
+  author      = {Alves, Nat\'{a}lia and Schuurmans, Megan and Litjens, Geke and Bosma, Joeran and Hermans, John and Huisman, Henkjan},
+  title       = {Fully Automatic Deep Learning Framework for Pancreatic Ductal Adenocarcinoma Detection on Computed Tomography},
+  doi         = {https://doi.org/10.3390/cancers14020376},
+  pages       = {376},
+  url         = {https://www.mdpi.com/2072-6694/14/2/376/htm},
+  abstract    = {Early detection improves prognosis in pancreatic ductal adenocarcinoma (PDAC) but is challenging as lesions are often small and poorly defined on contrast-enhanced computed tomography scans (CE-CT). Deep learning can facilitate PDAC diagnosis, however current models still fail to identify small (<2cm) lesions. In this study, state-of-the-art deep learning models were used to develop an automatic framework for PDAC detection, focusing on small lesions. Additionally, the impact of integrating surrounding anatomy was investigated. CE-CT scans from a cohort of 119 pathology-proven PDAC patients and a cohort of 123 patients without PDAC were used to train a nnUnet for automatic lesion detection and segmentation (nnUnet_T). Two additional nnUnets were trained to investigate the impact of anatomy integration: (1) segmenting the pancreas and tumor (nnUnet_TP), (2) segmenting the pancreas, tumor, and multiple surrounding anatomical structures (nnUnet_MS). An external, publicly available test set was used to compare the performance of the three networks. The nnUnet_MS achieved the best performance, with an area under the receiver operating characteristic curve of 0.91 for the whole test set and 0.88 for tumors <2cm, showing that state-of-the-art deep learning can detect small PDAC and benefits from anatomy information.},
+  journal     = {Cancers},
+  optnote     = {DIAG, RADIOLOGY},
   taverne_url = {https://repository.ubn.ru.nl/handle/2066/247178},
+  year        = {2022},
 }
 
-@conference{Alves22b,
-  author = {Alves, Natalia and Bosma, Joeran and Huisman, Henkjan},
+@Conference{Alves22b,
+  author    = {Alves, Nat\'{a}lia and Bosma, Joeran and Huisman, Henkjan},
   booktitle = RSNA,
-  title = {Towards Safe Clinical Use of Artificial Intelligence for Cancer Detection Through Uncertainty Quantification},
-  abstract = {Purpose: Investigate whether quantifying deep learning (DL) models' uncertainty can help identify low performance cases that require expert attention. Materials and Methods: This retrospective study included two use cases: pancreatic cancer detection on contrast-enhanced computed tomography and clinically significant prostate cancer (csPCa) detection on biparametric magnetic resonance imaging. The pancreatic cohort consisted of 242 (119 cancer) in-house cases for training and 361 cases (80 healthy, 281 cancer) from two external, public datasets for testing. The csPCa cohort consisted of 7756 (3022 csPCa) in-house examinations for training and 300 cases (88 csPCa) from an external center for testing. All tumor cases in the independent test sets were histopathology confirmed. The uncertainty of the proposed automatic cancer detection algorithms was computed using model ensembling. Fifteen DL models were trained with the nnUNet framework and integrated into previously established pipelines for each use case. The models were applied independently to the test sets and uncertainty was quantified in a case level as the standard deviation (sd) of the ensemble. Cases with sd lower than 10% were classified as having low prediction uncertainty, while the remaining were classified as having high prediction uncertainty. The mean and 95% confidence intervals (CI) of the area under the receiver operating characteristic curves (AUC) for the high and low uncertainty groups were calculated. The permutation test was used to assess statistical significance. Results: The DL frameworks' performances for the uncertain groups were significantly lower than for the certain groups for both use cases. For pancreatic cancer detection, the mean AUC dropped from 98.0% (95%CI: 96.2%-99.8%) for the low uncertainty group to 78.0% (95%CI: 68.2%-87.8%) for the high uncertainty group (p<10-4). For csPCa, the mean AUC dropped from 92.4% (95%CI: 90.4%-94.4%) for the low uncertainty group to 65.7% (95%CI: 54.7%-76.7%) for the high uncertainty group (p<10-4). The low uncertainty groups included 41% of the pancreatic and 78% of the csPCa test sets. Conclusions: The proposed ensembling method can be used to identify cases where AI models' predictions are uncertain and show low performance. Clinical Relevance Statement: To be safely integrated in the clinic, AI can predict uncertainty and identify uncertain cases with lower performance that should be handled with extra care},
-  optnote = {DIAG, RADIOLOGY},
-  year = {2022},
+  title     = {Towards Safe Clinical Use of Artificial Intelligence for Cancer Detection Through Uncertainty Quantification},
+  abstract  = {Purpose: Investigate whether quantifying deep learning (DL) models' uncertainty can help identify low performance cases that require expert attention. Materials and Methods: This retrospective study included two use cases: pancreatic cancer detection on contrast-enhanced computed tomography and clinically significant prostate cancer (csPCa) detection on biparametric magnetic resonance imaging. The pancreatic cohort consisted of 242 (119 cancer) in-house cases for training and 361 cases (80 healthy, 281 cancer) from two external, public datasets for testing. The csPCa cohort consisted of 7756 (3022 csPCa) in-house examinations for training and 300 cases (88 csPCa) from an external center for testing. All tumor cases in the independent test sets were histopathology confirmed. The uncertainty of the proposed automatic cancer detection algorithms was computed using model ensembling. Fifteen DL models were trained with the nnUNet framework and integrated into previously established pipelines for each use case. The models were applied independently to the test sets and uncertainty was quantified in a case level as the standard deviation (sd) of the ensemble. Cases with sd lower than 10% were classified as having low prediction uncertainty, while the remaining were classified as having high prediction uncertainty. The mean and 95% confidence intervals (CI) of the area under the receiver operating characteristic curves (AUC) for the high and low uncertainty groups were calculated. The permutation test was used to assess statistical significance. Results: The DL frameworks' performances for the uncertain groups were significantly lower than for the certain groups for both use cases. For pancreatic cancer detection, the mean AUC dropped from 98.0% (95%CI: 96.2%-99.8%) for the low uncertainty group to 78.0% (95%CI: 68.2%-87.8%) for the high uncertainty group (p<10-4). For csPCa, the mean AUC dropped from 92.4% (95%CI: 90.4%-94.4%) for the low uncertainty group to 65.7% (95%CI: 54.7%-76.7%) for the high uncertainty group (p<10-4). The low uncertainty groups included 41% of the pancreatic and 78% of the csPCa test sets. Conclusions: The proposed ensembling method can be used to identify cases where AI models' predictions are uncertain and show low performance. Clinical Relevance Statement: To be safely integrated in the clinic, AI can predict uncertainty and identify uncertain cases with lower performance that should be handled with extra care},
+  optnote   = {DIAG, RADIOLOGY},
+  year      = {2022},
 }
 
 @article{Amga20,
@@ -11192,13 +11192,13 @@ To address these important issues, the American Association of Physicists in Med
   optnote = {DIAG},
 }
 
-@conference{Jong22,
-  author = {de Jong, Steffen and Alves, Natalia and Schuurmans, Megan and Hermans, John and Huisman, Henkjan},
+@Conference{Jong22,
+  author    = {de Jong, Steffen and Alves, Nat\'{a}lia and Schuurmans, Megan and Hermans, John and Huisman, Henkjan},
   booktitle = RSNA,
-  title = {Deep Learning for Automatic Contrast Enhancement Phase Detection on Abdominal Computed Tomography},
-  abstract = {Purpose: Develop and validate a convolutional neural network (CNN) for automatic classification of intravenous contrast enhancement (CE) phase on abdominal computed tomography (CT) scans. Materials and Methods: This retrospective study included 2000 abdominal CE-CT scans from our centre, which had information about the CE phase on the DICOM header. In addition to the baseline non-contrast scan (non-CE), three contrast phases were considered at different time intervals after contrast agent administration: the arterial phase (AP) at 40-50 seconds, the portal-venous phase (PVP) at 60-70 seconds and the delayed phase (DP) at 150-240 seconds. The distribution of CE phases on the training/validation dataset was 25.3% non-CE, 25.3% AP, 27.7% PVP and 21.7% DP. Half of the scans were used for model training/validation and a half for independent model testing. A 3-dimensional Inception CNN was trained to perform this multiclass classification task using stratified 4-fold cross-validation for 100 epochs. The model predictions from the 4 folds were ensembled to generate a final likelihood score for each contrast phase in the independent test set. The phase with the highest score was then chosen as the final model output. Results: The overall accuracy for the multiclass CNN was 92.4%, with only 76 out of the 1000 scans in the independent test set being incorrectly classified. The individual accuracies for each phase were 97.6% (244-250) for non-CE, 95.6% (239-50) for AP, 85.6% (214-250) for PVP and 90.8% (227-250) for DP. The most frequent mistake was in differentiating between the portal venous and delayed phases. This can be explained by the reduced amount of contrast agent in the abdomen and the high patient-specific and varied appearance of these two phases within the same protocol. Increasing the size and variety of the training data may improve performance for these two phases. Conclusion: Deep learning can accurately determine intravenous CE phase on multi-phase CE abdominal CT scans. Clinical Relevance Statement: CE information is critical to diagnosis but often lacks from the image metadata. DL can accurately classify CE phases, important for AI automation and the curation of high-quality training datasets.},
-  optnote = {DIAG, RADIOLOGY},
-  year = {2022},
+  title     = {Deep Learning for Automatic Contrast Enhancement Phase Detection on Abdominal Computed Tomography},
+  abstract  = {Purpose: Develop and validate a convolutional neural network (CNN) for automatic classification of intravenous contrast enhancement (CE) phase on abdominal computed tomography (CT) scans. Materials and Methods: This retrospective study included 2000 abdominal CE-CT scans from our centre, which had information about the CE phase on the DICOM header. In addition to the baseline non-contrast scan (non-CE), three contrast phases were considered at different time intervals after contrast agent administration: the arterial phase (AP) at 40-50 seconds, the portal-venous phase (PVP) at 60-70 seconds and the delayed phase (DP) at 150-240 seconds. The distribution of CE phases on the training/validation dataset was 25.3% non-CE, 25.3% AP, 27.7% PVP and 21.7% DP. Half of the scans were used for model training/validation and a half for independent model testing. A 3-dimensional Inception CNN was trained to perform this multiclass classification task using stratified 4-fold cross-validation for 100 epochs. The model predictions from the 4 folds were ensembled to generate a final likelihood score for each contrast phase in the independent test set. The phase with the highest score was then chosen as the final model output. Results: The overall accuracy for the multiclass CNN was 92.4%, with only 76 out of the 1000 scans in the independent test set being incorrectly classified. The individual accuracies for each phase were 97.6% (244-250) for non-CE, 95.6% (239-50) for AP, 85.6% (214-250) for PVP and 90.8% (227-250) for DP. The most frequent mistake was in differentiating between the portal venous and delayed phases. This can be explained by the reduced amount of contrast agent in the abdomen and the high patient-specific and varied appearance of these two phases within the same protocol. Increasing the size and variety of the training data may improve performance for these two phases. Conclusion: Deep learning can accurately determine intravenous CE phase on multi-phase CE abdominal CT scans. Clinical Relevance Statement: CE information is critical to diagnosis but often lacks from the image metadata. DL can accurately classify CE phases, important for AI automation and the curation of high-quality training datasets.},
+  optnote   = {DIAG, RADIOLOGY},
+  year      = {2022},
 }
 
 @inproceedings{Kabu09,
@@ -22228,16 +22228,16 @@ Clinical Relevance/Application: The market of AI products for radiology is growi
   taverne_url = {https://repository.ubn.ru.nl/handle/2066/252027},
 }
 
-@article{Schuurmans22a,
-  author = {Schuurmans, Megan and Alves, Natalia and Vendittelli, Pierpaolo and Huisman, Henkjan and Hermans, John},
-  title = {Setting the Research Agenda for Clinical Artificial Intelligence in Pancreatic Adenocarcinoma Imaging},
-  journal = {Cancers},
-  pages = {3498},
-  year = {2022},
-  doi = {https://doi.org/10.3390/cancers14143498},
-  url = {https://www.mdpi.com/2072-6694/14/14/3498},
+@Article{Schuurmans22a,
+  author   = {Schuurmans, Megan and Alv\'{a}s, Natalia and Vendittelli, Pierpaolo and Huisman, Henkjan and Hermans, John},
+  title    = {Setting the Research Agenda for Clinical Artificial Intelligence in Pancreatic Adenocarcinoma Imaging},
+  doi      = {https://doi.org/10.3390/cancers14143498},
+  pages    = {3498},
+  url      = {https://www.mdpi.com/2072-6694/14/14/3498},
   abstract = {Pancreatic ductal adenocarcinoma (PDAC), estimated to become the second leading cause of cancer deaths in western societies by 2030, was flagged as a neglected cancer by the European Commission and the United States Congress. Due to lack of investment in research and development, combined with a complex and aggressive tumour biology, PDAC overall survival has not significantly improved the past decades. Cross-sectional imaging and histopathology play a crucial role throughout the patient pathway. However, current clinical guidelines for diagnostic workup, patient stratification, treatment response assessment, and follow-up are non-uniform and lack evidence-based consensus. Artificial Intelligence (AI) can leverage multimodal data to improve patient outcomes, but PDAC AI research is too scattered and lacking in quality to be incorporated into clinical workflows. This review describes the patient pathway and derives touchpoints for image-based AI research in collaboration with a multi-disciplinary, multi-institutional expert panel. The literature exploring AI to address these touchpoints is thoroughly retrieved and analysed to identify the existing trends and knowledge gaps. The results show absence of multi-institutional, well-curated datasets, an essential building block for robust AI applications. Furthermore, most research is unimodal, does not use state-of-the-art AI techniques, and lacks reliable ground truth. Based on this, the future research agenda for clinically relevant, image-driven AI in PDAC is proposed.},
-  optnote = {DIAG, RADIOLOGY},
+  journal  = {Cancers},
+  optnote  = {DIAG, RADIOLOGY},
+  year     = {2022},
 }
 
 @conference{Schuurmans22b,
@@ -27295,7 +27295,7 @@ abstract = {In this work, we report the set-up and results of the Liver Tumor Se
 }
 
 @Conference{Peet23,
-  author    = {Peeters, Dr\'{e} and Alves, Natalia and Venkadesh, K and Dinnessen, R and Saghir, Z and Scholten, E and Huisman, H and Schaefer-Prokop, C and Vliegenthart, R and Prokop, M and Jacobs, C},
+  author    = {Peeters, Dr\'{e} and Alves, Nat\'{a}lia and Venkadesh, K and Dinnessen, R and Saghir, Z and Scholten, E and Huisman, H and Schaefer-Prokop, C and Vliegenthart, R and Prokop, M and Jacobs, C},
   booktitle = ECR,
   title     = {The effect of applying an uncertainty estimation method on the performance of a deep learning model for nodule malignancy risk estimation},
   abstract  = {Purpose: Artificial Intelligence (AI) algorithms often lack uncertainty estimation for classification tasks. Uncertainty estimation may however be an important requirement for clinical adoption of AI algorithms. In this study, we integrate a method for uncertainty estimation into a previously developed AI algorithm and investigate the performance when applying different uncertainty thresholds.
