@@ -6,3 +6,4 @@ diag-tmp.bib
 JabRef*
 __pycache__
 .DS_Store
+.ipynb_checkpoints

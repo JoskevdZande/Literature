@@ -13,9 +13,9 @@ jobs:
         with:
           python-version: 3.8
       - name: Run clean up bib files
-        run: python scripts/cleanup.py
+        run: python scripts/actions/cleanup.py
       - name: Commit changes
-        run: sudo bash scripts/commit_action.sh
+        run: sudo bash scripts/actions/commit_action.sh
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
@@ -45,6 +45,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Trigger rebuild of the websites
-        run: bash scripts/build_websites.sh
+        run: bash scripts/actions/build_websites.sh
         env:
           WEB_TEAM_TOKEN: ${{ secrets.WEB_TEAM_TOKEN }}

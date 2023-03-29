@@ -1,6 +1,6 @@
 import os
 
-from authors import (
+from bib_handling_code.authors import (
     parse_name,
     split_authors,
     authors_to_string,
