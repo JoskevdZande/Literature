@@ -1,0 +1,1109 @@
+staff_id,ss_id,title,doi,ss_citations
+8038506,1898998f27ce0750a42f8f3ca2ed7e292f05aee2,Understanding metric-related pitfalls in image analysis validation,10.48550/arXiv.2302.01790,3
+8038506,362c510dec0d566d22d5be3af0519fc7eec8bb86,Uncertainty-Aware Multiple-Instance Learning for Reliable Classification: Application to Optical Coherence Tomography,,0
+8038506,7981606bf8110ec6cc64baa22d694096f7862939,AIROGS: Artificial Intelligence for RObust Glaucoma Screening Challenge,10.48550/arXiv.2302.01738,2
+8038506,e738d94746b0f33b1c48737022ab186618d4d4cd,SimpleRad: Patient-Friendly Dutch Radiology Reports,10.1007/978-3-031-28241-6_18,0
+8038506,2d49fb82fd715a213e2149f9f08dd2fb4749b235,Challenges in digital medicine applications in under-resourced settings,10.1038/s41467-022-30728-3,3
+8038506,2f2182f8e55be5a85c1316cd1b181cd5c85c106c,Metrics reloaded: Pitfalls and recommendations for image analysis validation,10.48550/arXiv.2206.01653,34
+8038506,41f386d38567e38132525cad9bdc7da1ad6e8f1c,Automated COVID-19 Grading With Convolutional Neural Networks in Computed Tomography Scans: A Systematic Comparison,10.1109/tai.2021.3115093,4
+8038506,5a09637587e694a03f68a4ee1046d31aa97fd0c0,Structure and position-aware graph neural network for airway labeling,,1
+8038506,bc6b483f9b1fa630fa4b43158b13716f1ca7497b,Domain adaptation strategies for cancer-independent detection of lymph node metastases,10.48550/arXiv.2207.06193,1
+8038506,c661857719657aac571718e3d48cb66b8fc1e941,Prostate158 - An expert-annotated 3T MRI dataset and algorithm for prostate cancer detection,10.1016/j.compbiomed.2022.105817,4
+8038506,1d5f65d8f721089fca1e7fac8d1ef214f12e2c23,Automated estimation of total lung volume using chest radiographs and deep learning,10.1002/mp.15655,2
+8038506,29595323a6789fec907a39c4de1ad56b75c74630,Deep Clustering Activation Maps for Emphysema Subtyping,,0
+8038506,2e09fa7387659a79f41d809ce40d32cc8c847bb7,"Learn2Reg: Comprehensive Multi-Task Medical Image Registration Challenge, Dataset and Evaluation in the Era of Deep Learning",10.1109/TMI.2022.3213983,41
+8038506,4c4f04d1af903f4eabe7767b47439a79e0f6a711,Adversarial cycle-consistent synthesis of cerebral microbleeds for data augmentation,,2
+8038506,58f03af16be931f9a56c8499ed30efbb9b9c3592,Deep learning with robustness to missing data: A novel approach to the detection of COVID-19,10.1371/journal.pone.0255301,2
+8038506,6257ee97417d8bead217991caf7c3cd5b439e040,Common Limitations of Image Processing Metrics,,0
+8038506,6cc01a49101001e1a490645e941b3d2311dd4265,Deep Learning for Chest X-ray Analysis: A Survey,10.1016/j.media.2021.102125,105
+8038506,787ef2981e94e481432cb2a1296903676ec80fa9,Common Limitations of Image Processing Metrics: A Picture Story,,69
+8038506,8c4fab5306f4c4e179cfae2acd3427fb5d661627,The Potential of Artificial Intelligence to Analyze Chest Radiographs for Signs of COVID-19 Pneumonia.,10.1148/RADIOL.2020204238,1
+8038506,979a9f247700d00ff2c3f0612d5eb001379f93c8,The Medical Segmentation Decathlon,10.1038/s41467-022-30695-9,189
+8038506,b0255ad2c81689cfd14ec8573780400a5fbf7b99,Dense regression activation maps for lesion segmentation in CT scans of COVID-19 patients,10.1016/j.media.2023.102771,1
+8038506,f574d9f2b018d707ff0c2dbcd250fcd4ee2856ae,Learn2Reg - The Challenge (2021),10.5281/ZENODO.4573968,1
+8038506,0f779d6ca748e8a73a78f2e1dadaba3161e80950,Adversarial Attack Vulnerability of Medical Image Analysis Systems: Unexplored Factors,10.1016/j.media.2021.102141,23
+8038506,2a32913ae752a56f9997a3869069a768f09a52e7,Artificial intelligence for detection and characterization of pulmonary nodules in lung cancer CT screening: ready for practice?,10.21037/TLCR-2020-LCS-06,18
+8038506,2cbfeefc3025a11beced3681bd0b358d44d4c0a8,ESR/ERS statement paper on lung cancer screening,10.1007/s00330-020-06727-7,80
+8038506,2e571724830cb8ca6e8dbe9cc1f92fdcfc517ec4,Contextual Two-Stage U-Nets for Robust Pulmonary Lobe Segmentation in CT Scans of COVID-19 and COPD Patients,,3
+8038506,302fbaac065fe76b0f8d6e2bccc8c715d1ab230a,Typical CT Features of Intrapulmonary Lymph Nodes: A Review.,10.1148/ryct.2020190159,7
+8038506,3c649c514443775e25e096cff35d58e393659ac4,CNN-based lung CT registration with multiple anatomical constraints,10.1016/j.media.2021.102139,26
+8038506,3db60e34dad56e3949508d8dc1324d5331f9a2c6,Image-level detection of arterial occlusions in 4D-CTA of acute stroke patients using deep learning,10.1016/j.media.2020.101810,11
+8038506,4043785dacd1c04ed93ec1c08ecf779f4e1717fc,"A Review of Deep Learning in Medical Imaging: Imaging Traits, Technology Trends, Case Studies With Progress Highlights, and Future Promises",10.1109/JPROC.2021.3054390,214
+8038506,441d6e8ba2cc2314d7d44425a158c25e27f9cb96,Improving Automated COVID-19 Grading with Convolutional Neural Networks in Computed Tomography Scans: An Ablation Study,,8
+8038506,4607ec477007deebd18b51e8ba787beae8647303,Anisotropic 3D Multi-Stream CNN for Accurate Prostate Segmentation from Multi-Planar MRI,10.1016/J.CMPB.2020.105821,14
+8038506,591821f281a2906c8916b23bf6fcd991bda8e368,Biomedical Image Analysis Challenges (BIAS) Reporting Guideline,10.5281/ZENODO.4008954,1
+8038506,888c62de7448e14302c3c2ed7dc062829ea279d7,Learn2Reg Challenge: CT Lung Registration - Training Data,10.5281/ZENODO.3835682,16
+8038506,99cf88b6359e0a5354c809fdb992bf82fdffc929,Learn2Reg - The Challenge,10.5281/ZENODO.3715652,7
+8038506,ce9e45bff8b3470ffab081bbbf4d3e0573eceea9,Performance Evaluation of Distortion Measures for Retinal Images,,0
+8038506,d9eec89c003fb7af39968663ba21db04098d6019,Random smooth gray value transformations for cross modality learning with gray value invariant networks,,0
+8038506,ee17bc918583166ad08ff307be5f77cb130486ea,Constraining Volume Change in Learned Image Registration for Lung CTs,,1
+8038506,efec0825343cfb78df86f34488019a51aaa4949a,Learn2Reg Challenge: CT Lung Registration - Test Data,10.5281/ZENODO.4048761,3
+8038506,f933db5c2cdf8eefdc4d6cf060f83666998ac010,Segmentation in non-contrast ct,,0
+8038506,03254edc77c0459ad9fd9ea458c3ae171c0a4247,Intracerebral Haemorrhage Segmentation in Non-Contrast CT,10.1038/s41598-019-54491-6,33
+8038506,03ef312b3d3e616fd7f0a2f2260c82ad62ed7ef1,Reversible Networks for Memory-efficient Image-to-Image Translation in 3 D Medical Imaging,,0
+8038506,0655dcaa39cf41a3609974840f91300d73b4aed1,The Liver Tumor Segmentation Benchmark (LiTS),10.1016/j.media.2022.102680,424
+8038506,0ad54bc84119cf0a8ff04d939cc0b4575d7e9b5a,Chest CT Super-resolution and Domain-adaptation using Memory-efficient 3D Reversible GANs,,5
+8038506,2968b96fae50ce329147b26f9c29d49439b74985,BIAS: Transparent reporting of biomedical image analysis challenges,10.1016/j.media.2020.101796,61
+8038506,45c2090f06bae6402a0b0d4c77c5f5ee3fd7a513,FRODO: Free rejection of out-of-distribution samples: application to chest x-ray analysis,,13
+8038506,4654aa505e5bcdb089d0df202cd7ceabc9d2d41f,A large annotated medical image dataset for the development and evaluation of segmentation algorithms,,500
+8038506,47d4ee03c5b2596dbfcfb4373de7e05e1cd831dc,Vertebra partitioning with thin-plate spline surfaces steered by a convolutional neural network,,1
+8038506,4d54536ebf1b355d02cdfe742553032666101dbd,A deep learning model for segmentation of geographic atrophy to study its long-term natural history,10.1016/j.ophtha.2020.02.009,30
+8038506,58662a2da377ad2a9b250b514128988009a2a0b3,Handling label noise through model confidence and uncertainty: application to chest radiograph classification,10.1117/12.2514290,13
+8038506,631e2d528d8ae1e1817f73503eadfec39b35a428,Automated interpretation of prenatal ultrasound using a predefined acquisition protocol in resource-limited countries,,5
+8038506,6425e3f4c37f8deb9e8dc933e34d49aa843635b9,Follows Form: Regression from Complete Thoracic Computed Tomography Scans,,0
+8038506,aefbf6afa8d75939106323e38e06c7b8b85ce954,mlVIRNET: Multilevel Variational Image Registration Network,10.1007/978-3-030-32226-7_29,39
+8038506,b0cc9473a96dcd45dd1c7de2d7d217c2a453a850,Epithelium segmentation using deep learning in H&E-stained prostate specimens with immunohistochemistry as reference standard,10.1038/s41598-018-37257-4,0
+8038506,c310babca20446de2ee7d8857abe239e0fe261a0,Automated Gleason Grading of Prostate Biopsies using Deep Learning,10.1016/S1470-2045(19)30739-9,106
+8038506,cc7605f2b7e61723f12839fabc1066da0cc8744b,Function Follows Form: Regression from Complete Thoracic Computed Tomography Scans,,0
+8038506,cf25e0baaa1cfa818a61c460416bd0caa68bba07,Computer-aided Detection of Lung Cancer on Chest Radiographs : Effect on Observer Performance 1,,0
+8038506,d0760faf253e27b6c105d76d06acc4c6ab3674c7,Evaluation of a deep learning system for the joint automated detection of diabetic retinopathy and age‐related macular degeneration,10.1111/aos.14306,53
+8038506,dce049bbedc5134dc6eb61fc7e5ce1d1c414bdd1,MemCNN: A Python/PyTorch package for creating memory-efficient invertible neural networks,10.21105/JOSS.01576,12
+8038506,de09e056b22d7e29e93f5656154d10c88181f7a5,Deep Learning in Image Diagnostics: Recent Results and Outlook,,0
+8038506,04507020e4e003042150dcc8602505d1bec71c49,GANs for Medical Image Analysis,10.1016/j.artmed.2020.101938,216
+8038506,05078a4b34fbf98a940b3ca7f97773632c787397,Improving weakly-supervised lesion localization with iterative saliency map refinement,,4
+8038506,1427f469d6fb172d200d6f25837cbeaddad425e5,Automated measurement of fetal head circumference using 2D ultrasound images,10.1371/journal.pone.0200412,113
+8038506,2e11acb5e60b59af637cc7faea6e390ed6a9429b,Student beats the teacher: deep neural networks for lateral ventricles segmentation in brain MR,10.1117/12.2293569,16
+8038506,40bf7af2b9d79960dc127d03c2a83ce480d4d3ad,Dense Segmentation in Selected Dimensions: Application to Retinal Optical Coherence Tomography,,9
+8038506,63c432e76128b36d5943eb116a38f98a9bb9ae27,Stacked Bidirectional Convolutional LSTMs for 3D Non-contrast CT Reconstruction from Spatiotemporal 4D CT,,2
+8038506,6b604b6896cfd670bd9afe4172a2e5bf591b0cc2,MA20.09 Improved Lung Cancer and Mortality Prediction Accuracy Using Survival Models Based on Semi-Automatic CT Image Measurements,10.1016/J.JTHO.2018.08.488,0
+8038506,7202e88d58ce87817ae6876b8b847ad92929b502,Automatic Detection of Microaneurysms and Classification of Diabetic Retinopathy Images using SVM Technique,,8
+8038506,76e5406b159352dc13b051f3e1b7259abb499317,Real-Life Artificial Intelligence Applications,10.5334/JBSR.1656,1
+8038506,77ca4f86eaef55fb7c853dad2fd3600a3eb5b169,Iterative fully convolutional neural networks for automatic vertebra segmentation and identification,10.1016/j.media.2019.02.005,148
+8038506,ab99f176fa295a776d6a1fa98d5a5c0156fd4302,Towards an Automatic Lung Cancer Screening System in Low Dose Computed Tomography,10.1007/978-3-030-00946-5_31,13
+8038506,b41e47d9978abb56a5b0fa6697f5454e31579722,Iterative convolutional neural networks for automatic vertebra identification and segmentation in CT images,10.1117/12.2292731,30
+8038506,c21f83954bab86611134478ab918399813c10313,Part II : clinical implementation and image quality,,0
+8038506,cb8d5a5a21c99bdf5ad5734742c04229c978401d,Chest X-Rays Image Inpainting with Context Encoders,,0
+8038506,cf46e880665be3dd1b2a81cc1be53f1ea9d64de1,Context Encoding Chest X-rays,,2
+8038506,d1e0a041fc417d82c584191ecf5b3b536127d9e0,"Erratum: “Computed tomography quantification of tracheal abnormalities in COPD and their influence on airflow limitation.” [Med. Phys., 44: 3594-3603 (2017)]",10.1002/MP.13065,0
+8038506,d5b8fba71671814445de80d36a2d563f43eb9d07,Epithelium segmentation using deep learning in H&E-stained prostate specimens with immunohistochemistry as reference standard,10.1038/s41598-018-37257-4,100
+8038506,e2e2e9f858ffc3bde5ee7a6929c9b0e7d52c1a43,Deep learning based automatic liver tumor segmentation in CT with shape-based post-processing,,15
+8038506,eb6f5da9826e08c4d940267c5c90bcbbce268f46,Chest X-ray Inpainting with Deep Generative Models,,14
+8038506,f16773597d32d0c6d2ab1b66465e26dde06eadac,Is the winner really the best? A critical analysis of common research practice in biomedical image analysis competitions,10.1038/s41467-018-07619-7,66
+8038506,f886ee663da1c3987b5828d62bd8176f6f3dc79e,ES01.03 Deep Machine Learning for Screening LDCT,10.1016/j.jtho.2018.08.020,0
+8038506,01df4624e9578fd597b0f0ee6d81ac508363e1eb,Fully automated detection of hyperreflective foci in optical coherence tomography,,0
+8038506,102a580a89b7e9d5a6d8e79864db183d6b5fb6ad,Transfer Learning for Domain Adaptation in MRI: Application in Brain Lesion Segmentation,10.1007/978-3-319-66179-7_59,257
+8038506,2a863a1ab6df3ca9a55573befcb89e1ed7b7df74,Large scale deep learning for computer aided detection of mammographic lesions,10.1016/j.media.2016.07.007,708
+8038506,2abde28f75a9135c8ed7c50ea16b7b9e49da0c09,A survey on deep learning in medical image analysis,10.1016/j.media.2017.07.005,7557
+8038506,3f054da4c1d6606941c18c65ae6e435a49758b7b,Robust cranial cavity segmentation in CT and CT perfusion images of trauma and suspected stroke patients,10.1016/j.media.2016.12.002,26
+8038506,418354adcafbc948c266c55564feb5b12cc3dc21,Comparison of different methods for tissue segmentation in histopathological whole-slide images,10.1109/ISBI.2017.7950590,32
+8038506,46479bbea7749cb2db35b139206039531327053c,"Fifty years of computer analysis in chest imaging: rule-based, machine learning, deep learning",10.1007/S12194-017-0394-5,68
+8038506,5f74400c97e716a85f20871b4b477dbca9680664,Comparison of the effects of model-based iterative reconstruction and filtered back projection algorithms on software measurements in pulmonary subsolid nodules,10.1007/s00330-016-4716-5,14
+8038506,63c9344c2046a0403941eb8a91d307b9e1190928,MA 14.11 Malignancy Risk Prediction of Pulmonary Nodule in Lung Cancer Screening – Diameter Or Volumetric Measurement,10.1016/J.JTHO.2017.09.580,0
+8038506,784906ab63c3743a5d26dca846a49c2edbf4dc6a,Context-aware stacked convolutional neural networks for classification of breast carcinomas in whole-slide histopathology images,10.1117/1.JMI.4.4.044504,135
+8038506,87b612323f759cea5cb224331bfacf59a0f335b6,The importance of stain normalization in colorectal tissue classification with convolutional networks,10.1109/ISBI.2017.7950492,161
+8038506,8ea2deb23587178612dce8733d2cc90817c7ddd9,Automatic Lymph Node Cluster Segmentation Using Holistically-Nested Deep Convolutional Neural Networks and Structured Optimization in CT Images,,0
+8038506,aa1ddbeb489b3e103f3dd681ae20ac0014af2209,Combining Automated Image Analysis with Obstetric Sweeps for Prenatal Ultrasound Imaging in Developing Countries,10.1007/978-3-319-67552-7_13,3
+8038506,b704867c644d95b8ddc980b19b3805181b7a28ab,Organ detection in thorax abdomen CT using multi-label convolutional neural networks,10.1117/12.2254349,16
+8038506,be15a442d2cf19f1bbbd779273055a2de727380c,Automatic cerebrospinal fluid segmentation in non-contrast CT images using a 3D convolutional network,10.1117/12.2254022,8
+8038506,ccd03e70611898c67f5fcbadf0f4a3be4abefdef,An Approach for the Detection of Proliferative Diabetic Retinopathy,,1
+8038506,d884880febbc8e6c5f86c1040c009174632569c4,Improving airway segmentation in computed tomography using leak detection with convolutional networks,10.1016/j.media.2016.11.001,82
+8038506,e4010e494f6a7f0ea93b4cdb257aa1e51611609a,Fovea detection in optical coherence tomography using convolutional neural networks,10.1117/12.2254301,5
+8038506,06c8b4c1dd0c045bc6a08d0062c5042b5588d55b,Pulmonary Nodule Detection in CT Images: False Positive Reduction Using Multi-View Convolutional Networks,10.1109/TMI.2016.2536809,923
+123637526,4bcd672218ecec70473c84f6f1cc52c64031f3e5,Continual learning strategies for cancer-independent detection of lymph node metastases.,10.1016/j.media.2023.102755,0
+123637526,d4fcad866167d5eeb2e0b1f18027c65055b97ad2,Prevalence of abnormal spirometry in individuals with a smoking history and no known obstructive lung disease,10.1016/j.rmed.2023.107126,0
+123637526,0aabb1a4831d724bf28ef9a9a0d7bde6a1bb2ea7,Knowledge distillation with ensembles of convolutional neural networks for medical image segmentation,10.1117/1.JMI.9.5.052407,2
+123637526,13d81eb12871aa6a4f15fc5c9b127bc320f55179,Tuberculosis Detection from Chest Radiographs: Stop Training Radiologists Now.,10.1148/radiol.221769,0
+123637526,516b2dc6c3761458c8fa6f5759295673e86a42db,Dataset of prostate MRI annotated for anatomical zones and cancer,10.1016/j.dib.2022.108739,0
+123637526,5cf064abf52e73426c32a6c4725f0de26e0c1c5a,FRODO: An in-depth analysis of a system to reject outlier samples from a trained neural network.,10.1109/TMI.2022.3221898,0
+123637526,6df1dd59f69d05d00e0b41b3220781b614584362,Detection of mandibular fractures on panoramic radiographs using deep learning,10.1038/s41598-022-23445-w,0
+123637526,70686c2db88212d610871b007083bcc58876b49d,Musculoskeletal radiologist-level performance by using deep learning for detection of scaphoid fractures on conventional multi-view radiographs of hand and wrist,10.1007/s00330-022-09205-4,1
+123637526,7201377df1b1bcfa9f4f57d797f561842e848c9f,Predicting biochemical recurrence of prostate cancer with artificial intelligence,10.1038/s43856-022-00126-3,2
+123637526,7383ab9582f0e50753a0571f6e4d759f99f49d27,Automatic Placenta Localization From Ultrasound Imaging in a Resource-Limited Setting Using a Predefined Ultrasound Acquisition Protocol and Deep Learning.,10.1016/j.ultrasmedbio.2021.12.006,3
+123637526,8886b367e66dbb154444b2d28b65718e3835fa02,Lung tissue shows divergent gene expression between chronic obstructive pulmonary disease and idiopathic pulmonary fibrosis,10.1186/s12931-022-02013-w,1
+123637526,c397c6f1480ac8e3ed875adad96e9b3e00c37f26,The Medical Segmentation Decathlon,10.1038/s41467-022-30695-9,0
+123637526,cefe4c90cb1db768ad407f8ffeb0c51cbc0de0b2,Automated detection of cerebral microbleeds via segmentation in susceptibility-weighted images of patients with traumatic brain injury,10.1016/j.nicl.2022.103027,2
+123637526,e6376c22784f8360aa3d054fbfecb113265c032a,Explainable emphysema detection on chest radiographs with deep learning,10.1371/journal.pone.0267539,0
+123637526,f8fb57d8601ac0189ea80c6412232ac6771e51f5,Patients with diffuse idiopathic skeletal hyperostosis have an increased burden of thoracic aortic calcifications,10.1093/rap/rkac060,1
+123637526,0ebe8ab65571514718283cd2d8ac7277db3513c5,Diffuse idiopathic skeletal hyperostosis is associated with incident stroke in patients with increased cardiovascular risk,10.1093/rheumatology/keab835,2
+123637526,2ec542363d2a49670ed24d035a1caa4472fac474,Computer-aided diagnosis of masses in breast computed tomography imaging: deep learning model with combined handcrafted and convolutional radiomic features,10.1117/1.JMI.8.2.024501,3
+123637526,35af94bb3f5654ef60446d79e88621043fb7b543,Assisted versus Manual Interpretation of Low-Dose CT Scans for Lung Cancer Screening: Impact on Lung-RADS Agreement.,10.1148/rycan.2021200160,3
+123637526,45e4783358f99dc26ef9796a75aa9f22f8e003e5,Computer-aided diagnosis of masses in breast CT imaging: combined power of handcrafted and deep learning radiomics,10.1016/s1120-1797(22)00024-2,0
+123637526,5f6c21ae64b9db06da177f44b2d59a0dd6f9c583,How does artificial intelligence in radiology improve efficiency and health outcomes?,10.1007/s00247-021-05114-8,25
+123637526,6769e24a1e5a4b5841fd8bcb0b8daa3051b52214,Visceral Adipose Tissue and Different Measures of Adiposity in Different Severities of Diffuse Idiopathic Skeletal Hyperostosis,10.3390/jpm11070663,7
+123637526,80ec09e2cb8244cab245f1108496af731d160ebf,Deep Learning for Malignancy Risk Estimation of Pulmonary Nodules Detected at Low-Dose Screening CT.,10.1148/radiol.2021204433,27
+123637526,93e353567bbc7525306a14b6219973d34b084c4e,Artificial intelligence in radiology: 100 commercially available products and their scientific evidence,10.1007/s00330-021-07892-z,97
+123637526,956fe0cd25879aa006d9885eba32da7100b6d338,Scan-based competing death risk model for re-evaluating lung cancer computed tomography screening eligibility,10.1183/13993003.01613-2021,2
+123637526,afbdf450023be86a89bbec9dea91f031e2b76cb2,Development and Validation of a Convolutional Neural Network for Automated Detection of Scaphoid Fractures on Conventional Radiographs.,10.1148/RYAI.2021200260,12
+123637526,b6ff60f4f876abae771bcf213f486d8d16871d75,Robust Segmentation Models Using an Uncertainty Slice Sampling-Based Annotation Workflow,10.1109/ACCESS.2022.3141021,2
+123637526,c4422edc3d7460dc858db3e23cef64136a49628e,Combining pulmonary and cardiac computed tomography biomarkers for disease-specific risk modelling in lung cancer screening,10.1183/13993003.03386-2020,4
+123637526,cd44e3862af36a57aa951db042cacd7d06c43509,Mucus plugging on computed tomography and chronic bronchitis in chronic obstructive pulmonary disease,10.1186/s12931-021-01712-0,6
+123637526,dc68e0f61994ca0e768584d39c108305287f338a,Cost-effectiveness of artificial intelligence aided vessel occlusion detection in acute stroke: an early health technology assessment,10.1186/s13244-021-01077-4,8
+123637526,e91661654480905a880033a9f2266343736ea7bd,Deep Learning for Lung Cancer Detection in Screening CT Scans: Results of a Large-Scale Public Competition and an Observer Study with 11 Radiologists,10.1148/ryai.2021210027,10
+123637526,fe0311bb9d578c2811912c020045f1c3b7345543,Image‐based automated Psoriasis Area Severity Index scoring by Convolutional Neural Networks,10.1111/jdv.17711,9
+123637526,0060644239845c59813a5a9122d34e1f75d18e4c,Association between the number and size of intrapulmonary lymph nodes and chronic obstructive pulmonary disease severity,10.7717/peerj.9166,0
+123637526,11cfab281e93fa7803931be8b589aa1f09d7af02,The Potential of Artificial Intelligence to Analyze Chest Radiographs for Signs of COVID-19 Pneumonia,10.1148/radiol.2020204238,10
+123637526,12e5057823a452673ae0aa4f8a64d4a88fdeaf27,CO-RADS – A categorical CT assessment scheme for patients with suspected COVID-19: definition and evaluation,10.1148/radiol.2020201473,517
+123637526,13122b7c0ef4a596875eff981651d60140e67417,Evaluation of computer aided detection of tuberculosis on chest radiography among people with diabetes in Karachi Pakistan,10.1038/s41598-020-63084-7,11
+123637526,142f9f46a9ca5a99de4c7b819d801d245a9334ba,Evaluation of computer aided detection of tuberculosis on chest radiography among people with diabetes in Karachi Pakistan,10.1038/s41598-020-63084-7,0
+123637526,1f77425465d8a5dd20e949f9e80aa4da590efbb5,COVID-19 on Chest Radiographs: A Multireader Evaluation of an Artificial Intelligence System,10.1148/radiol.2020201874,133
+123637526,32a8259a781ea7255621b0cbdeecfa8d03d7e0bd,Relational Modeling for Robust and Efficient Pulmonary Lobe Segmentation in CT Scans,10.1109/tmi.2020.2995108,62
+123637526,367878e980e109d80ad80066cec1961a940614ec,Lung cancer screening by nodule volume in Lung-RADS v1.1: negative baseline CT yields potential for increased screening interval,10.1007/s00330-020-07275-w,21
+123637526,39a52867ea3d60ec4f28182e0e618b762d3d7909,Automated deep-learning system for Gleason grading of prostate cancer using biopsies: a diagnostic study.,10.1016/S1470-2045(19)30739-9,276
+123637526,4330ce9c73af04a35d1a7dd366df8434c98e30ed,Automated Assessment of CO-RADS and Chest CT Severity Scores in Patients with Suspected COVID-19 Using Artificial Intelligence,10.1148/radiol.2020202439,94
+123637526,4ad04c0dce1e8a12c49bae26252f476383ec3273,Fully Automatic Volume Measurement of the Spleen at CT Using Deep Learning.,10.1148/ryai.2020190102,13
+123637526,4e152f76ccc69de9323ff63ca8fc5bbb61fa1712,Cardiomegaly Detection on Chest Radiographs: Segmentation Versus Classification,10.1109/ACCESS.2020.2995567,20
+123637526,5fe95d30f91811c50743420bd6623bde09b99e1a,Vitamin D deficiency is associated with respiratory symptoms and airway wall thickening in smokers with and without COPD: a prospective cohort study,10.1186/s12890-020-1148-4,9
+123637526,64a8a40675ff707a6a3de3af238dc03e30c7186e,Computer-aided diagnosis for World Health Organization-defined chest radiograph primary-endpoint pneumonia in children,10.1007/s00247-019-04593-0,35
+123637526,90a870cbb9897124193ba18c5358fe45b6260621,Feasibility of end-to-end trainable two-stage U-Net for detection of axillary lymph nodes in contrast-enhanced CT based on sparse annotations,10.1117/12.2551331,2
+123637526,93d384fea8e9acd340445c227ed226e1642bed49,ESR/ERS statement paper on lung cancer screening,10.1183/13993003.00506-2019,30
+123637526,9f7129d07d92e91ecf42dd33ef05d83514303003,Stacked Bidirectional Convolutional LSTMs for Deriving 3D Non-Contrast CT From Spatiotemporal 4D CT,10.1109/TMI.2019.2939044,13
+123637526,a7e94f52d1dfb0c5c823032a0b9a70dd0acbb625,Relational Modeling for Robust and Efficient Pulmonary Lobe Segmentation in CT Scans.,10.1109/TMI.2020.2995108,7
+123637526,a883405868815a36ab2f32d7c678f5447d6c1e01,Disease Progression Modelling in Chronic Obstructive Pulmonary Disease (COPD).,10.1164/rccm.201908-1600OC,18
+123637526,c70d5169b5c69171cc2ed3ec40eebda0630988d9,Computer aided detection of tuberculosis on chest radiographs: An evaluation of the CAD4TB v6 system,10.1038/s41598-020-62148-y,0
+123637526,010f33ceac3fb9aae25cb7ef51ba0f0dda95bb24,Predicting all-cause and lung cancer mortality using emphysema score progression rate between baseline and follow-up chest CT images: A comparison of risk model performances,10.1371/journal.pone.0212756,2
+123637526,0807697ee497d294c1ec272631c5f84aeeb2571e,Computer aided detection of tuberculosis on chest radiographs: An evaluation of the CAD4TB v6 system,10.1038/s41598-020-62148-y,88
+123637526,0b7485b0593a744432ddc552c24bc74cbbba4c3c,"Combined Forced Expiratory Volume in 1 Second and Forced Vital Capacity Bronchodilator Response, Exacerbations, and Mortality in Chronic Obstructive Pulmonary Disease",10.1513/ANNALSATS.201809-601OC,23
+123637526,14701232a78e72a3a780d01e59c943037e21902f,Genetic landscape of chronic obstructive pulmonary disease identifies heterogeneous cell-type and phenotype associations,10.1038/s41588-018-0342-2,0
+123637526,1b27b9cfe0ce17950b6ea72f9ef8cf5a7459bccd,From Detection of Individual Metastases to Classification of Lymph Node Status at the Patient Level: The CAMELYON17 Challenge,10.1109/TMI.2018.2867350,290
+123637526,31d77e71f4151452d18b69a5649a64df561f6af7,Sex Differences in Coronary Artery and Thoracic Aorta Calcification and Their Association With Cardiovascular Mortality in Heavy Smokers.,10.1016/j.jcmg.2018.10.026,15
+123637526,44cb242be984781ad380e9f785157c13384d0026,Iterative Augmentation of Visual Evidence for Weakly-Supervised Lesion Localization in Deep Interpretability Frameworks: Application to Color Fundus Images,10.1109/TMI.2020.2994463,17
+123637526,499846b295c4a0926f18bcc484c0db00bfbf1300,Streaming Convolutional Neural Networks for End-to-End Learning With Multi-Megapixel Images,10.1109/TPAMI.2020.3019563,43
+123637526,4c1db92618a758e92b0964e7ed65ea7ec48af0f0,Airway wall thickening on CT: Relation to smoking status and severity of COPD.,10.1016/j.rmed.2018.11.014,43
+123637526,59399693fa81c3142552dac2e4456eb066e62c60,Image Level Training and Prediction: Intracranial Hemorrhage Identification in 3D Non-Contrast CT,10.1109/ACCESS.2019.2927792,29
+123637526,5bdb1a2667cbf2ce2f6142f14218df298a9eb090,Reducing inter-observer variability and interaction time of MR liver volumetry by combining automatic CNN-based liver segmentation and manual corrections,10.1371/journal.pone.0217228,34
+123637526,8678f63d7a648eb4d0f64e50c8ff5a1c53ac128b,Author Correction: Why rankings of biomedical image analysis competitions should be interpreted with care,10.1038/s41467-019-08563-w,0
+123637526,b5a66ad408861f79a1e6606da4ed23f772a7eb02,Automated chest X-ray reading for tuberculosis in the Philippines to improve case detection: a cohort study.,10.5588/ijtld.18.0004,7
+123637526,bed661aebb0ede3c407e044637ce60a6d7ccfe5f,Author Correction: Why rankings of biomedical image analysis competitions should be interpreted with care,10.1038/s41467-019-08563-w,9
+123637526,e03d4a9c11a70f4ec009ea81d141742b40b20789,Multiclass Brain Tissue Segmentation in 4D CT Using Convolutional Neural Networks,10.1109/ACCESS.2019.2910348,9
+123637526,e1170679c6b5fe0addb40cfb62076979a3b3ebec,Resolution-agnostic tissue segmentation in whole-slide histopathology images with convolutional neural networks,10.7717/peerj.8242,29
+123637526,e6a0940e90b9a661ff2accfa5e8eefe56fd35263,Predicting Malignancy Risk of Screen‐Detected Lung Nodules–Mean Diameter or Volume,10.1016/j.jtho.2018.10.006,32
+123637526,ec14da74fcbd65e013855cea561c2142c68f72fb,Google’s lung cancer AI: a promising tool that needs further validation,10.1038/s41571-019-0248-7,21
+123637526,f05cc42c38bae2cfbd8a283fc97a8bdede43dabe,Automated Fetal Head Detection and Circumference Estimation from Free-Hand Ultrasound Sweeps Using Deep Learning in Resource-Limited Countries.,10.1016/J.ULTRASMEDBIO.2018.09.015,59
+123637526,f46d34f0234422fb7db3837dd2b32efe03fc6e9a,Deep Learning for Triage of Chest Radiographs: Should Every Institution Train Its Own System?,10.1148/radiol.2018182318,10
+123637526,032a0374513489195712dabb380d0feb3bb85d46,Lung cancer risk to personalise annual and biennial follow-up computed tomography screening,10.1136/thoraxjnl-2017-211107,28
+123637526,0831d694fa14d96916f62226c6c74d862f90772c,Accuracy of an automated system for tuberculosis detection on chest radiographs in high-risk screening,10.5588/ijtld.17.0492,20
+123637526,0c7b80f04984d9cea99337c21cee93a69dae27dd,Efficient organ localization using multi-label convolutional neural networks in thorax-abdomen CT scans,10.1088/1361-6560/aab4b3,26
+123637526,19495049936b938f43434c03cb18ea0702d6f09d,Observer variability for Lung-RADS categorisation of lung cancer screening CTs: impact on patient management,10.1007/s00330-018-5599-4,38
+123637526,1cc0b06d80d21082d2610f11daa488cc6817b207,Brock malignancy risk calculator for pulmonary nodules: validation outside a lung cancer screening population,10.1136/thoraxjnl-2017-211372,28
+123637526,27cebb08aca785444166209593fc0ec740469b1b,Automatic liver tumor segmentation in CT with fully convolutional neural networks and object-based postprocessing,10.1038/s41598-018-33860-7,149
+123637526,31fcc17602042b10feb635eac64cc829e88fa8d2,ES01.03 Deep Machine Learning for Screening LDCT,10.1016/j.jtho.2018.08.020,0
+123637526,3ed451d2830a2afcbbd254f0015eeafa796ba1b7,Automatic segmentation of the solid core and enclosed vessels in subsolid pulmonary nodules,10.1038/s41598-017-19101-3,16
+123637526,494b9b7c529517bb40c67653556cf17164948942,Blood eosinophil count thresholds and exacerbations in patients with chronic obstructive pulmonary disease,10.1016/j.jaci.2018.04.010,79
+123637526,4e67443737640a6d88642034266c0ce2d76d9ae7,Long‐Term Active Surveillance of Screening Detected Subsolid Nodules is a Safe Strategy to Reduce Overtreatment,10.1016/j.jtho.2018.06.013,45
+123637526,4fd1ad386d794e9baff286b212013b3b44bb7bd3,Automatic segmentation of the solid core and enclosed vessels in subsolid pulmonary nodules,10.1038/s41598-017-19101-3,0
+123637526,51081160a16f05064f518aa0a5af1a5b075f43e3,Lobar Emphysema Distribution Is Associated With 5‐Year Radiological Disease Progression,10.1016/j.chest.2017.09.022,40
+123637526,682e8febc5d053766fefe1ee2de5ca2ff39762f2,Author Correction: White Matter and Gray Matter Segmentation in 4D Computed Tomography,10.1038/s41598-018-25729-6,0
+123637526,6a340e97fd3c7c5f9f2f5401d1a2fb07c39fb8ed,In vivo growth of 60 non-screening detected lung cancers: a computed tomography study,10.1183/13993003.02183-2017,10
+123637526,6d4507a54e77f55af2bfa786ca804a13018ff273,Detection of Subsolid Nodules in Lung Cancer Screening: Complementary Sensitivity of Visual Reading and Computer-Aided Diagnosis,10.1097/RLI.0000000000000464,26
+123637526,6e733d61fef6612626c4c5350f143fc61db9a0da,Small airway segmentation in thoracic computed tomography scans: a machine learning approach,10.1088/1361-6560/aad2a1,14
+123637526,6f0c30323e83f89d95b797f49a6c4464e0576e00,Computer-assisted chest radiography reading for tuberculosis screening in people living with diabetes mellitus.,10.5588/ijtld.17.0827,17
+123637526,7f1eabb6591699816ccd89e7765a66dc54a7175c,Author Correction: White Matter and Gray Matter Segmentation in 4D Computed Tomography,10.1038/s41598-018-25729-6,0
+123637526,80d1a72e3c8bf0e3457492b1f27a05ad6f5dd9a8,Comparison Study of Low-Cost Ultrasound Devices for Estimation of Gestational Age in Resource-Limited Countries.,10.1016/j.ultrasmedbio.2018.05.023,12
+123637526,91d23b702b9a59bf75c5162c3250017b526c0e69,Why rankings of biomedical image analysis competitions should be interpreted with care,10.1038/s41467-018-07619-7,163
+123637526,96438076b4dfa87956f55c0d8cef9c198de2beb7,Automatic liver tumor segmentation in CT with fully convolutional neural networks and object-based postprocessing,10.1038/s41598-018-33860-7,0
+123637526,a2f7d760233f22f037d17c8196ea1463597e66e8,Classification of CT Pulmonary Opacities as Perifissural Nodules: Reader Variability.,10.1148/radiol.2018172771,31
+123637526,a58015a59562caf325a3f05288147704c055ce8d,Using deep convolutional neural networks to identify and classify tumor-associated stroma in diagnostic breast biopsies,10.1038/s41379-018-0073-z,129
+123637526,b3dc561dd990cebc626e10318b8582a198aa3571,iW-Net: an automatic and minimalistic interactive lung nodule segmentation deep network,10.1038/s41598-019-48004-8,50
+123637526,c4c99492376b43d7120067f806aa2d000fbc0b2f,Deep learning approach for the detection and quantification of intraretinal cystoid fluid in multivendor optical coherence tomography.,10.1364/BOE.9.001545,107
+123637526,ebb0d21c567909e31be5d43d72c8b3020f2708c9,Evaluation of the diagnostic accuracy of Computer-Aided Detection of tuberculosis on Chest radiography among private sector patients in Pakistan,10.1038/s41598-018-30810-1,41
+123637526,ef537c1ce62c69018575d2c90b70024a32256ef5,Visual discrimination of screen-detected persistent from transient subsolid nodules: An observer study,10.1371/journal.pone.0191874,6
+123637526,fa96430855d805c045335e70c0b60d3acb8c9a79,Why rankings of biomedical image analysis competitions should be interpreted with care,10.1038/s41467-018-07619-7,0
+123637526,fd2239f855b044b6ebe9fac5e0e01951bc9eddb4,Evaluation of the diagnostic accuracy of Computer-Aided Detection of tuberculosis on Chest radiography among private sector patients in Pakistan,10.1038/s41598-018-30810-1,0
+143613202,23978022a5e05b2bd7b2b9d6418dee00972b3044,LYSTO: The Lymphocyte Assessment Hackathon and Benchmark Dataset,10.48550/arXiv.2301.06304,0
+143613202,6ab3424f10b236c992d823568dfca2075e2ad46e,Abstract P2-11-34: Mitotic spindle hotspot counting using deep learning networks is highly associated with clinical outcomes in patients with early-stage triple-negative breast cancer who did not receive systemic therapy,10.1158/1538-7445.sabcs22-p2-11-34,0
+143613202,935f46ae7c1a5be1ed7a5e176db38fb919bf30df,Deep learning based tumor–stroma ratio scoring in colon cancer correlates with microscopic assessment,10.1016/j.jpi.2023.100191,0
+143613202,18e784586cb41d5dfc28e84f4f1c390086c6516d,Mitosis domain generalization in histopathology images - The MIDOG challenge,10.1016/j.media.2022.102699,14
+143613202,1d7cb6f85cf6478da6fef4d5630f02aa3a053f8c,CONVOLUTIONAL NEURAL NETWORKS FOR THE EVALUATION OF CHRONIC AND INFLAMMATORY LESIONS IN KIDNEY TRANSPLANT BIOPSIES.,10.1016/j.ajpath.2022.06.009,4
+143613202,2d9d26e7402817aed359cb3fb029d9082183f007,14P Deep learning-based quantification of immune infiltrate for predicting response to pembrolizumab from pre-treatment biopsies of metastatic non-small cell lung cancer: A study on the PEMBRO-RT phase II trial,10.1016/j.iotech.2022.100119,0
+143613202,42c19709354c631efc35d2bda8f0d33cf1d79831,A Decade of GigaScience: The Challenges of Gigapixel Pathology Images,10.1093/gigascience/giac056,2
+143613202,57c9e588f21034990f834f5f0610959332d3ed70,Empowering digital pathology applications through explainable knowledge extraction tools,10.1016/j.jpi.2022.100139,2
+143613202,631c4938fa46537e91e1420fb9fb1a5428114c61,Predicting pathological complete response to neoadjuvant chemotherapy in breast cancer from routine diagnostic histopathology biopsies,10.1101/2022.11.11.22282205,0
+143613202,76f8e809b6ffac6eac0806d590c0c2519d75dac2,Deep learning for fully-automated nuclear pleomorphism scoring in breast cancer,10.1038/s41523-022-00488-w,0
+143613202,79c9209f3892a5a704abb6be161ca7b41d02775d,Unleashing the potential of digital pathology data by training computer-aided diagnosis models without human annotations,10.1038/s41746-022-00635-4,11
+143613202,892d4f3ee2cc9ff2dcf1c308fae68473dcf787d2,Seeded iterative clustering for histology region identification,10.48550/arXiv.2211.07425,0
+143613202,a9b2faab3a7195ee1deacda52004b4cd396f427a,Program death ligand‐1 immunocytochemistry in lung cancer cytological samples: A systematic review,10.1002/dc.24955,5
+143613202,e7158d01e00c44011785e31e48d9082c3b3e08ce,Comparison of three validated PD-L1 immunohistochemical assays in urothelial carcinoma of the bladder: interchangeability and issues related to patient selection,10.3389/fimmu.2022.954910,1
+143613202,0759829c3d1484b5ba08e60ffb8282207ab68a8b,Impact of PD-L1 and PD-1 Expression on the Prognostic Significance of CD8+ Tumor-Infiltrating Lymphocytes in Non-Small Cell Lung Cancer,10.3389/fimmu.2021.680973,14
+143613202,19afccfe66de8733d799d45d816ed0ad8a8665f9,Few-shot weakly supervised detection and retrieval in histopathology whole-slide images,10.1117/12.2582132,0
+143613202,25890a20503e79f773f427c999fcb41387f0aab1,Optimized tumour infiltrating lymphocyte assessment for triple negative breast cancer prognostics,10.1016/j.breast.2021.02.007,10
+143613202,269e8609dff88d78e8e3c41f81a97199c9add3dd,Automated risk classification of colon biopsies based on semantic segmentation of histopathology images,,0
+143613202,51c291c635a61682b1abcfc99c6e21079ba39b67,Multi_Scale_Tools: A Python Library to Exploit Multi-Scale Whole Slide Images,10.3389/fcomp.2021.684521,9
+143613202,695568836a9c87507435fa5cbae0f014666043b8,Multi-Scale Task Multiple Instance Learning for the Classification of Digital Pathology Images with Global Annotations,,9
+143613202,6b71ee48bb52c6aab084e7325669e0116dda292b,Neural image compression for non-small cell lung cancer subtype classification in H&E stained whole-slide images,10.1117/12.2581943,5
+143613202,7d873a9c49d3864709aa762f8740edcdbd7369c5,Deep learning in histopathology: the path to the clinic,10.1038/s41591-021-01343-4,197
+143613202,7e43e8a75e61c350cc95862bddae395e662a76cd,"PD-1/PD-L1 in Cancer: Pathophysiological, Diagnostic and Therapeutic Aspects",10.3390/ijms22105123,43
+143613202,8706660fbf3110338bc794e354bc3d1c0075d230,Quantifying the Scanner-Induced Domain Gap in Mitosis Detection,,13
+143613202,aecc480d2861d1e848ccdc4c5383be9367525f39,MItosis DOmain Generalization Challenge (MICCAI-MIDOG 2021) Training Data,10.5281/ZENODO.4643381,1
+143613202,af0490f8f0cf935673991b05c1ab1d80f5e2b92d,The tale of TILs in breast cancer: A report from The International Immuno-Oncology Biomarker Working Group,10.1038/s41523-021-00346-1,1
+143613202,bb3eedbda08fa1290810666ec202624593e6e2bc,A Partial Label-Based Machine Learning Approach For Cervical Whole-Slide Image Classification: The Winning TissueNet Solution*,10.1109/EMBC46164.2021.9631009,2
+143613202,dda2624afa1a1e32c91322c192e397913fe2fc7d,Ultra‐high‐frequency ultrasound and machine learning approaches for the differential diagnosis of melanocytic lesions,10.1111/exd.14330,7
+143613202,f8208405f959304ba68f3d11d7f880c305ac7b39,Editorial Computational Pathology,10.1109/JBHI.2021.3052029,0
+143613202,424bfbd0fcda2f8e5985acf173a5111af22f553d,A deep learning approach to assess the predominant tumor growth pattern in whole-slide images of lung adenocarcinoma,10.1117/12.2549742,3
+143613202,455e92c1f629cd8065bc0c8287d3da52b451b98c,HookNet: multi-resolution convolutional neural networks for semantic segmentation in histopathology whole-slide images,10.1016/j.media.2020.101890,63
+143613202,496a9e301e2a989e24aacb9dda154fcf86a5cf41,Algorithms for semantic segmentation and detection in histopathology images,,0
+143613202,6441d36a0af25f29abc3a21a012daf1ea9d28594,Extending Unsupervised Neural Image Compression With Supervised Multitask Learning,,15
+143613202,69999230b02054b82254684a73bb8a4c83878d28,Report on computational assessment of Tumor Infiltrating Lymphocytes from the International Immuno-Oncology Biomarker Working Group,10.1038/s41523-020-0154-2,27
+143613202,71cda147901a9122f82bb855f7e91c74e44eabbf,Multi-Patch Blending improves lung cancer growth pattern segmentation in whole-slide images,10.1109/CPEE50798.2020.9238710,0
+143613202,889cc0565d6e2e844f4db0132c71a612672d2497,Pitfalls in assessing stromal tumor infiltrating lymphocytes (sTILs) in breast cancer,10.1038/s41523-020-0156-0,29
+143613202,8baa4e68c61566c99ee2dfaea278a63ee48b6c77,Automatic Lung Cancer Detection and Classification in Whole-slide Histopathology,10.5281/ZENODO.3715001,0
+143613202,a7f96553bc690f6f66697895a98e9377cc0f7562,Pitfalls in assessing stromal tumor infiltrating lymphocytes (sTILs) in breast cancer,10.1038/s41523-020-0156-0,58
+143613202,aff9f3cd8024fb64c7ea36d396a36ebf33d01f5b,Correction to: Assessment of individual tumor buds using keratin immunohistochemistry: moderate interobserver agreement suggests a role for machine learning,10.1038/s41379-019-0450-2,2
+143613202,b4c4c3dc91d42114023b0575c3e2273b87446ff7,Report on computational assessment of Tumor Infiltrating Lymphocytes from the International Immuno-Oncology Biomarker Working Group,10.1038/s41523-020-0154-2,53
+143613202,bd6954422d3582093d26b76ac743991219c91351,Deep learning enables fully automated mitotic density assessment in breast cancer histopathology,10.1016/s0959-8049(20)30764-4,0
+143613202,c52daf1cb971120c4083116cfc213acbaac6faaf,Application of a risk-management framework for integration of stromal tumor-infiltrating lymphocytes in clinical trials,10.1038/s41523-020-0155-1,9
+143613202,cde27a74addf80ca2b3385a32966d51d35e0b2ff,Application of a risk-management framework for integration of stromal tumor-infiltrating lymphocytes in clinical trials,10.1038/s41523-020-0155-1,6
+143613202,de1fc90d61276094416b430605d47ee5f8cc7b4d,Computer-Aided Detection of Intracoronary Stent Location and Extension in Intravascular Ultrasound Sequences,10.1016/b978-0-12-818833-0.00010-2,1
+143613202,e8abcf480f30bf5c079023c0a5bf80308dcd78ab,Virtual Staining for Mitosis Detection in Breast Histopathology,10.1109/ISBI45749.2020.9098409,18
+143613202,ed8cbf0b3373cf1dcadd2718dfd3daf6fbe068f3,AI-assisted PD-L1 Scoring in Non-Small-Cell Lung Cancer Author:,,0
+143613202,efaa4e593dbf76786a33dfd2dff79b77396397cc,Automated Scoring of Nuclear Pleomorphism Spectrum with Pathologist-level Performance in Breast Cancer,,1
+143613202,1e70a09aedc8d91538e269f568b212ca839012b1,State-of-the-Art Deep Learning in Cardiovascular Image Analysis.,10.1016/j.jcmg.2019.06.009,189
+143613202,2d7797e69a35b5ffe021a2762ef251764562dca4,Computer aided quantification of intratumoral stroma yields an independent prognosticator in rectal cancer,10.1007/s13402-019-00429-z,0
+143613202,35e93be1c4ea5d3740680d4397c050116c117667,Needles in Haystacks: On Classifying Tiny Objects in Large Images,,16
+143613202,35ee6606ec99b5bf282a0c5f400edbd16a6e22d9,Quantifying the effects of data augmentation and stain color normalization in convolutional neural networks for computational pathology,10.1016/j.media.2019.101544,270
+143613202,48547eb6d7527cf31f47cd77cfec4af159a23a51,No pixel-level annotations needed,10.1038/s41551-019-0472-6,11
+143613202,66f70286594b27928fb0eea3b4a0f292261c292f,Deep learning assisted mitotic counting for breast cancer,10.1038/s41374-019-0275-0,51
+143613202,7f98999a9e47db537fe37454bd7b8fd9059052e7,14th European Congress on Digital Pathology,10.4103/2153-3539.270744,3
+143613202,91bcebba717670d740ef76097a0885a0bd3c9dde,Deep learning and manual assessment show that the absolute mitotic count does not contain prognostic information in triple negative breast cancer,10.1007/s13402-019-00445-z,0
+143613202,94962ef85aca6df5c8289874b56bcaa8722dc596,Deep learning and manual assessment show that the absolute mitotic count does not contain prognostic information in triple negative breast cancer,10.1007/s13402-019-00445-z,16
+143613202,afbaebf021cd8680a0342d22052644bf11e206bf,HookNet: A Multi Resolution Approach for Breast Tissue Segmentation in Histopathology Images,,0
+143613202,c3533243da19c79f7cf819315b7b9ed2e603a6c2,From Point Annotations to Epithelial Cell Detection in Breast Cancer Histopathology using RetinaNet,,5
+143613202,c3e98e4b01c27affe1b6c161172c5e27e8141618,Assessment of individual tumor buds using keratin immunohistochemistry: moderate interobserver agreement suggests a role for machine learning,10.1038/s41379-019-0434-2,20
+143613202,c7ce6b90707871b922aca4cb6a8b16625980788b,Computer aided quantification of intratumoral stroma yields an independent prognosticator in rectal cancer,10.1007/s13402-019-00429-z,62
+143613202,ddf3d225ccaeb05a912051c554b38f722f365a1b,Learning to detect lymphocytes in immunohistochemistry with deep learning,10.1016/j.media.2019.101547,81
+143613202,1bbafc8586925a89fb6ebe0941a9cb7e95de452b,Convolutional Neural Networks for Lymphocyte detection in Immunohistochemically Stained Whole-Slide Images,,12
+143613202,2c468dfe5f797f5928800e02f20ceddb55bf37f1,"University of Dundee Towards Standardization of Retinal Vascular Measurements Mookiah,",,0
+143613202,3a3664f9b7e6c4258d9dc282c9c43a95054c648e,Assessment of intracoronary stent location and extension in intravascular ultrasound sequences,10.1002/mp.13273,4
+143613202,3ed451d2830a2afcbbd254f0015eeafa796ba1b7,Automatic segmentation of the solid core and enclosed vessels in subsolid pulmonary nodules,10.1038/s41598-017-19101-3,16
+143613202,4e67443737640a6d88642034266c0ce2d76d9ae7,Long‐Term Active Surveillance of Screening Detected Subsolid Nodules is a Safe Strategy to Reduce Overtreatment,10.1016/j.jtho.2018.06.013,45
+143613202,4fd1ad386d794e9baff286b212013b3b44bb7bd3,Automatic segmentation of the solid core and enclosed vessels in subsolid pulmonary nodules,10.1038/s41598-017-19101-3,0
+143613202,6d4507a54e77f55af2bfa786ca804a13018ff273,Detection of Subsolid Nodules in Lung Cancer Screening: Complementary Sensitivity of Visual Reading and Computer-Aided Diagnosis,10.1097/RLI.0000000000000464,26
+143613202,6f55cc94e6a7b1e7f54b77aecf6b57773378fc21,H and E stain augmentation improves generalization of convolutional networks for histopathological mitosis detection,10.1117/12.2293048,33
+143613202,bdadaa3b69040f97adc83ad138e8db27c7f650cb,Computational Pathology and Ophthalmic Medical Image Analysis,10.1007/978-3-030-00949-6,9
+143613202,bf16e7e46d23a0e83bd2efe2d13e7ba7b0c47b51,Automatic Detection of Tumor Budding in Colorectal Carcinoma with Deep Learning,10.1007/978-3-030-00949-6_16,8
+143613202,c377304af802f1ea67c6d696806a69f516a4472f,Predicting breast tumor proliferation from whole‐slide images: The TUPAC16 challenge,10.1016/j.media.2019.02.012,175
+143613202,c406706c31d311ba4a32cd29d58b2cc12a432ad3,You Only Look on Lymphocytes Once,,15
+143613202,d188bdc40ffea984ce94b88b21fd5d3d3d9972d3,Whole-Slide Mitosis Detection in H&E Breast Histology Using PHH3 as a Reference to Train Distilled Stain-Invariant Convolutional Networks,10.1109/TMI.2018.2820199,165
+143613202,e58b84e96868eb5f165ab710ef43668c4d8bbf74,Learning from sparsely annotated data for semantic segmentation in histopathology images,,29
+143613202,e717ffb38990d5da64a82f8b8715bfb56daf9762,COMPAY 2018 preface,10.1007/978-3-030-00949-6,4
+143613202,eebf6be2e906c922ee045c946b230b99dd9c86e0,Gigapixel Whole-Slide Image Classification Using Unsupervised Image Compression And Contrastive Training,,9
+143613202,ef537c1ce62c69018575d2c90b70024a32256ef5,Visual discrimination of screen-detected persistent from transient subsolid nodules: An observer study,10.1371/journal.pone.0191874,6
+143613202,fed7c0d369d8991f6b76a661dedd0d1768a402d2,Neural Image Compression for Gigapixel Histopathology Image Analysis,10.1109/TPAMI.2019.2936841,113
+143613202,2abde28f75a9135c8ed7c50ea16b7b9e49da0c09,A survey on deep learning in medical image analysis,10.1016/j.media.2017.07.005,7557
+143613202,418354adcafbc948c266c55564feb5b12cc3dc21,Comparison of different methods for tissue segmentation in histopathological whole-slide images,10.1109/ISBI.2017.7950590,32
+143613202,4b3764f5565c782a260a4327cc4ecd76d73142f5,"Intra-coronary Stent Localization in Intravascular Ultrasound Sequences, A Preliminary Study",10.1007/978-3-319-67534-3_2,3
+143613202,86b9d39fb026746752f95f87f87fd26b8512c913,Corrigendum: Towards automatic pulmonary nodule management in lung cancer screening with deep learning,10.1038/srep46878,14
+143613202,87b612323f759cea5cb224331bfacf59a0f335b6,The importance of stain normalization in colorectal tissue classification with convolutional networks,10.1109/ISBI.2017.7950492,161
+143613202,ab781b4dc45e73ddfe6383a108a813a6739f1753,"The Digital Pathology Association's Annual Conference October 1-3 | Manchester Grand Hyatt | San Diego, CA",10.1016/s2153-3539(22)00450-3,0
+143613202,af7a0c17980d8692f50adb16c63d02deed0d54ad,Malignancy risk estimation of pulmonary nodules in screening CTs: Comparison between a computer model and human observers,10.1371/journal.pone.0185032,29
+143613202,bc86e211f26bd5c68e9548c1c215fa9605c6daa2,Lung-RADS Category 4X: Does It Improve Prediction of Malignancy in Subsolid Nodules?,10.1148/radiol.2017161624,44
+143613202,d884880febbc8e6c5f86c1040c009174632569c4,Improving airway segmentation in computed tomography using leak detection with convolutional networks,10.1016/j.media.2016.11.001,82
+143613202,e80b85ea45f4af6ed7278be42553ead2ee5b991d,"Malignancy risk estimation of screen-detected nodules at baseline CT: comparison of the PanCan model, Lung-RADS and NCCN guidelines",10.1007/s00330-017-4767-2,44
+143613202,06c8b4c1dd0c045bc6a08d0062c5042b5588d55b,Pulmonary Nodule Detection in CT Images: False Positive Reduction Using Multi-View Convolutional Networks,10.1109/TMI.2016.2536809,923
+143613202,271e85d19b4cd1997a110525ffb66df7a8fa7fe6,Computer-aided detection of intracoronary stent in intravascular ultrasound sequences.,10.1118/1.4962927,14
+143613202,4db42d98f611269628eb8ddc4171c4a5f412506a,Automatic Pulmonary Artery-Vein Separation and Classification in Computed Tomography Using Tree Partitioning and Peripheral Vessel Matching,10.1109/TMI.2015.2500279,39
+143613202,b542b6df300ef39144d6172e8fe41a0b93fd5f8b,Deep convolutional neural networks for automatic coronary calcium scoring in a screening study with low-dose chest CT,10.1117/12.2216978,40
+143613202,fd0901b1f2121506391a7859de8fb695d159a393,Towards automatic pulmonary nodule management in lung cancer screening with deep learning,10.1038/srep46479,275
+143613202,622791cfb4e509158fbc858e9a970283de0f8045,Automatic classification of pulmonary peri-fissural nodules in computed tomography using an ensemble of 2D views and a convolutional neural network out-of-the-box,10.1016/j.media.2015.08.001,251
+143613202,671d9c99335001133ebf2125167aa2f2bcee6efa,Automatic detection of spiculation of pulmonary nodules in computed tomography images,10.1117/12.2081426,7
+143613202,81570ccbf4a1edb8898e8969f9befa3561e46318,Off-the-shelf convolutional neural network features for pulmonary nodule detection in computed tomography scans,10.1109/ISBI.2015.7163869,257
+143613202,c46078f5f85c01090f2ee949a0d332de7d6e4463,Bag-of-Frequencies: A Descriptor of Pulmonary Nodules in Computed Tomography Images,10.1109/TMI.2014.2371821,53
+143613202,f59a55d1e7cb49f8b2062df48ecd267b24191aa8,Computer-aided detection of lung cancer: combining pulmonary nodule detection systems with a tumor risk prediction model,10.1117/12.2080955,5
+143613202,25c32af274aa8bed2e01063cc8d71c4d1ff238f7,Stacked Sequential Scale-SpaceTaylor Context,10.1109/TPAMI.2013.2297706,10
+153744566,44dff5062f3d016f86087cd139be8b9275627b7f,Evaluating the Effects of a Priori Deep Learning Image Synthesis on Multi-Modal MR-to-CT Image Registration Performance,10.5220/0011669000003414,0
+153744566,00744ccc38761d1fec5542d0bc9bdf929fd855ca,Rapid artificial intelligence solutions in a pandemic—The COVID-19-20 Lung CT Lesion Segmentation Challenge,10.1016/j.media.2022.102605,0
+153744566,1b71aa795f1d28725eedc9be4abdadcb94b045dc,Combination of Whole-Body Baseline CT Radiomics and Clinical Parameters to Predict Response and Survival in a Stage-IV Melanoma Cohort Undergoing Immunotherapy,10.3390/cancers14122992,3
+153744566,80eb4685bc17fe1a6a7ce7e67356ba0720002c21,Biomedical image analysis competitions: The state of current participation practice,10.48550/arXiv.2212.08568,1
+153744566,8b1d1960bb137aa6a7161d7f60d31527621665e8,Quantitative evaluation of the influence of multiple MRI sequences and of pathological tissues on the registration of longitudinal data acquired during brain tumor treatment,10.3389/fnimg.2022.977491,0
+153744566,2e09fa7387659a79f41d809ce40d32cc8c847bb7,"Learn2Reg: Comprehensive Multi-Task Medical Image Registration Challenge, Dataset and Evaluation in the Era of Deep Learning",10.1109/TMI.2022.3213983,41
+153744566,3a0446285a7db63672c263d701e7a5c16b5db113,Whole-Body Soft-Tissue Lesion Tracking and Segmentation in Longitudinal CT Imaging Studies,,1
+153744566,7240a9f9220d5dfb5d3a07081aa8ee6c3e0befff,Rapid Artificial Intelligence Solutions in a Pandemic - The COVID-19-20 Lung CT Lesion Segmentation Challenge,10.1016/j.media.2022.102605,38
+153744566,90831795b7e194977c84eac5bee782b88ec0f9df,Fraunhofer MEVIS Image Registration Solutions for the Learn2Reg 2021 Challenge,10.1007/978-3-030-97281-3_21,1
+153744566,ac718bfeb8188b8540e72b81b81ff22c9f5f7b44,Variable Fraunhofer MEVIS RegLib Comprehensively Applied to Learn2Reg Challenge,10.1007/978-3-030-71827-5_9,2
+153744566,f574d9f2b018d707ff0c2dbcd250fcd4ee2856ae,Learn2Reg - The Challenge (2021),10.5281/ZENODO.4573968,1
+153744566,1138a76e62c45bfa0a1daddf7ac45f826c2d5222,Abstract: mlVIRNET,10.1007/978-3-658-29267-6_35,0
+153744566,3c649c514443775e25e096cff35d58e393659ac4,CNN-based lung CT registration with multiple anatomical constraints,10.1016/j.media.2021.102139,26
+153744566,888c62de7448e14302c3c2ed7dc062829ea279d7,Learn2Reg Challenge: CT Lung Registration - Training Data,10.5281/ZENODO.3835682,16
+153744566,971a413a2cb3163d7c912ed8a1fd53ba64bda007,Automatic segmentation of the pulmonary lobes with a 3D u-net and optimized loss function,,4
+153744566,99cf88b6359e0a5354c809fdb992bf82fdffc929,Learn2Reg - The Challenge,10.5281/ZENODO.3715652,7
+153744566,ee17bc918583166ad08ff307be5f77cb130486ea,Constraining Volume Change in Learned Image Registration for Lung CTs,,1
+153744566,efec0825343cfb78df86f34488019a51aaa4949a,Learn2Reg Challenge: CT Lung Registration - Test Data,10.5281/ZENODO.4048761,3
+153744566,8dff3f1ad2cb2f512ea8c8ac7523699b4f9e82c5,Unsupervised learning for large motion thoracic CT follow-up registration,10.1117/12.2506962,18
+153744566,aefbf6afa8d75939106323e38e06c7b8b85ce954,mlVIRNET: Multilevel Variational Image Registration Network,10.1007/978-3-030-32226-7_29,39
+153744566,e50f0d6b5c1b710f13e9ebe2b3e2448518c8e26d,Memory-efficient 2.5D convolutional transformer networks for multi-modal deformable registration with weak label supervision applied to whole-heart CT and MRI scans,10.1007/s11548-019-02068-z,13
+153744566,f5d48773035e68452f06310f5db78cb11299dc0a,Efficient Prealignment of CT Scans for Registration through a Bodypart Regressor,,2
+153744566,1216c70fa9e3eaa3ff5f7755e1d04147caed4818,Enhancing Label-Driven Deep Deformable Image Registration with Local Distance Metrics for State-of-the-Art Cardiac Motion Tracking,10.1007/978-3-658-25326-4_69,39
+34754023,74612633c1b07655ed9a081d1540deb22a257430,Inter- and Intra-Observer Variability and the Effect of Experience in Cine-MRI for Adhesion Detection.,10.3390/jimaging9030055,0
+34754023,b5c3309a499f0e8a3207f6b25b34ead5b0cbae9e,Automated deep-learning system in the assessment of MRI-visible prostate cancer: comparison of advanced zoomed diffusion-weighted imaging and conventional technique,10.1186/s40644-023-00527-0,0
+34754023,0b10a3e57da548c641e38f7ad02937e6bd50203d,AI-assisted biparametric MRI surveillance of prostate cancer: feasibility study,10.1007/s00330-022-09032-7,1
+34754023,0de05b444cb65b031f018dc44309dca7f7618a7f,Setting the Research Agenda for Clinical Artificial Intelligence in Pancreatic Adenocarcinoma Imaging,10.3390/cancers14143498,0
+34754023,5f7134900435671d8292b0a65fe9983fc1bbd12a,Detecting Out-of-Distribution via an Unsupervised Uncertainty Estimation for Prostate Cancer Diagnosis ProstateAI Clinical Collaborators,,0
+34754023,5fe5f62f467981f0b84c5df0570ef3f38a716ba2,Magnetic Resonance Imaging Guided Prostate Biopsy in Men With Repeat Negative Biopsies and Increased Prostate Speciﬁc Antigen,,0
+34754023,8c739636acd9cc63a1290e73bb34cf49b605d60d,"Artificial intelligence for prostate MRI: open datasets, available applications, and grand challenges",10.1186/s41747-022-00288-8,7
+34754023,9d6b9f6c203c73af662853a1320659a62eb9be4b,A deep learning masked segmentation alternative to manual segmentation in biparametric MRI prostate cancer radiomics,10.1007/s00330-022-08712-8,2
+34754023,b6c5f654a90a1acb4f33beaa80e6bf242cb8a96e,Prototypical few-shot segmentation for cross-institution male pelvic structures with spatial registration,10.48550/arXiv.2209.05160,1
+34754023,c397c6f1480ac8e3ed875adad96e9b3e00c37f26,The Medical Segmentation Decathlon,10.1038/s41467-022-30695-9,0
+34754023,c4406a679ad6a88fcbf6291889110951931025ff,FEW-SHOT Image Segmentation for Cross-Institution Male Pelvic Organs Using Registration-Assisted Prototypical Learning,10.1109/ISBI52829.2022.9761453,5
+34754023,ce59572dd6919387c5260721bb7b070ca7ebf444,"A concurrent, deep learning–based computer-aided detection system for prostate multiparametric MRI: a performance study involving experienced and less-experienced radiologists",10.1007/s00330-022-08978-y,4
+34754023,df2cedb6640c9c7e0627fb03cf26b49e82a154b0,AAPM task group report 273: Recommendations on best practices for AI and machine learning for computer-aided diagnosis in medical imaging.,10.1002/mp.16188,1
+34754023,0df7a4f26d57eb58fe628316aa5e84e5ca474ee8,Annotation-efficient cancer detection with report-guided lesion annotation for deep learning-based prostate cancer detection in bpMRI,,1
+34754023,11f95c1789456688652addee7cb003069c05dced,Detection and PI-RADS classification of focal lesions in prostate MRI: Performance comparison between a deep learning-based algorithm (DLA) and radiologists with various levels of experience.,10.1016/j.ejrad.2021.109894,8
+34754023,16bd5fd779ba5acfd59403d3e91d6cf6ecd28f93,"End-to-end Prostate Cancer Detection in bpMRI via 3D CNNs: Effect of Attention Mechanisms, Clinical Priori and Decoupled False Positive Reduction",10.1016/j.media.2021.102155,46
+34754023,21face92913ea6919840f59cd3cd5e84e70ebc7d,Deep learning–assisted prostate cancer detection on bi-parametric MRI: minimum training data size requirements and effect of prior knowledge,10.1007/s00330-021-08320-y,23
+34754023,24ecb4a2f6f46d782edc6a04517480b78d896ac1,A Novel Deep Learning Based Computer-Aided Diagnosis System Improves the Accuracy and Efficiency of Radiologists in Reading Biparametric Magnetic Resonance Images of the Prostate,10.1097/RLI.0000000000000780,9
+34754023,32fb40cb7d2abc53a1f56c94fe592b0c39870901,Prediction of prostate cancer grade using fractal analysis of perfusion MRI: retrospective proof-of-principle study,10.1007/s00330-021-08394-8,4
+34754023,3a84e2a533df9a1351f7442735c961bc80b5892e,Fully Automatic Deep Learning Framework for Pancreatic Ductal Adenocarcinoma Detection on Computed Tomography,10.3390/cancers14020376,11
+34754023,3d130766be579a65496f87ec07f51123206fe131,Single-center versus multi-center biparametric MRI radiomics approach for clinically significant peripheral zone prostate cancer,10.1186/s13244-021-01099-y,7
+34754023,5b84c0f6d94934c501de0301707c50be97897122,Cine-MRI detection of abdominal adhesions with spatio-temporal deep learning,,0
+34754023,5d3bdca10a185663c5d73532e3134836f5021e97,Artificial Intelligence Based Algorithms for Prostate Cancer Classification and Detection on Magnetic Resonance Imaging: A Narrative Review,10.3390/diagnostics11060959,21
+34754023,738920f0f2b6a500a4b403c7160e0a333371f0b0,Report-Guided Automatic Lesion Annotation for Deep Learning-Based Prostate Cancer Detection in bpMRI,,1
+34754023,90b8115c01d3e9da20b6a5ac11139dc9d9946127,Quantitative CT perfusion imaging in patients with pancreatic cancer: a systematic review,10.1007/s00261-021-03190-w,4
+34754023,926e78dce5e42624d849dde4be1e8cdab215c42a,Accuracy of fractal analysis and PI-RADS assessment of prostate magnetic resonance imaging for prediction of cancer grade groups: a clinical validation study,10.1007/s00330-021-08358-y,1
+34754023,979a9f247700d00ff2c3f0612d5eb001379f93c8,The Medical Segmentation Decathlon,10.1038/s41467-022-30695-9,189
+34754023,b7839ad75c2d6ee26bd37e47accf1cc4389e297f,ESUR/ESUI position paper: developing artificial intelligence for precision diagnosis of prostate cancer using magnetic resonance imaging,10.1007/s00330-021-08021-6,19
+34754023,cad5d5cc2c32623da074133016d1db3da410fc7b,Anatomical and Diagnostic Bayesian Segmentation in Prostate MRI - Should Different Clinical Objectives Mandate Different Loss Functions?,,3
+34754023,03ad8d7078805db6fbd4993b881045b462b4e028,Introducing PIONEER: a project to harness big data in prostate cancer research,10.1038/s41585-020-0324-x,14
+34754023,0932c8d086f3646cd8a42f9ee5353fe092d73cd4,Encoding Clinical Priori in 3D Convolutional Neural Networks for Prostate Cancer Detection in bpMRI,,5
+34754023,4330ce9c73af04a35d1a7dd366df8434c98e30ed,Automated Assessment of CO-RADS and Chest CT Severity Scores in Patients with Suspected COVID-19 Using Artificial Intelligence,10.1148/radiol.2020202439,94
+34754023,4992f23e29e711eec8b92e17ce35610da3758ecd,Interactive 3D U-net for the segmentation of the pancreas in computed tomography scans,10.1088/1361-6560/ab6f99,22
+34754023,50c847f76d620edd5202c5a6a102198f991a3044,2019 List of Reviewers,10.1117/1.JMI.7.1.010102,0
+34754023,af4eb854f4bb71a4007bdea42ccd6c79b2c70984,False Positive Reduction Using Multiscale Contextual Features for Prostate Cancer Detection in Multi-Parametric MRI Scans,10.1109/ISBI45749.2020.9098338,16
+34754023,d10ef40b8b13d9c07d0fc86a534609fbbb2e0423,Author Correction: Introducing PIONEER: a project to harness big data in prostate cancer research,10.1038/s41585-020-0355-3,4
+34754023,d89bbd9b8c45e37b4e874fd1fb0690b1af338c29,Multi-Modal Siamese Network for Diagnostically Similar Lesion Retrieval in Prostate MRI,10.1109/TMI.2020.3043641,7
+34754023,f08e36943c749664187e39f1b1ba2acde05cd1b1,Prostate cancer,10.1201/9780203732656-17,0
+34754023,06d09d8c1c217b9bfa0f89736258b8f3b4edc555,Multiparametric MRI and auto-fixed volume of interest-based radiomics signature for clinically significant peripheral zone prostate cancer,10.1007/s00330-019-06488-y,34
+34754023,37e39166873ad1f981a845eda627f3d161f105e1,Solid Science of AI Supporting Bladder Cancer CT Reading.,10.1016/j.acra.2019.06.014,0
+34754023,4d7f0ccc132e6d29c8227bffa572495a9e4646bd,JMI 2018 List of Reviewers.,10.1117/1.JMI.6.1.010101,0
+34754023,663b19914b7fe99a2c3cc1641ba8d47109d63db2,Lymph node detection in MR Lymphography: false positive reduction using multi-view convolutional neural networks,10.7717/peerj.8052,9
+34754023,8745d403022290a88a5ef47c47057e2c4e3a22e8,Supervised Uncertainty Quantification for Segmentation with Multiple Annotations,10.1007/978-3-030-32245-8_16,73
+34754023,d298ada2cac3052301a355fb39cf5fe6ae0fe41f,Effect of Adding Probabilistic Zonal Prior in Deep Learning-based Prostate Cancer Detection.,,12
+34754023,08509a76ccc2ef61e33ca17c13733ad2397780bb,Autoencoders for Multi-Label Prostate MR Segmentation,,5
+34754023,484e166d13638c7a458fc95ce81026d30bedec10,Automatic segmentation of prostate zones,,14
+34754023,7920c85aa097d57a787de42802120aaaf3f94ae9,Inter-site Variability in Prostate Segmentation Accuracy Using Deep Learning,10.1007/978-3-030-00937-3_58,42
+34754023,86cfa3c1324e704263cd7e39d9bed566c47f556e,PROSTATEx Challenges for computerized classification of prostate lesions from multiparametric magnetic resonance images,10.1117/1.JMI.5.4.044501,84
+34754023,91628553dee20285dd23c7a77bcc1b9510abe0c8,"Designing image segmentation studies: Statistical power, sample size and reference standard quality",10.1016/j.media.2017.07.004,14
+34754023,b51d0edf0370b89b246e7e67f58640ffebd2e224,Retrospective comparison of direct in-bore magnetic resonance imaging (MRI)-guided biopsy and fusion-guided biopsy in patients with MRI lesions which are likely or highly likely to be clinically significant prostate cancer,10.1007/s00345-017-2085-6,34
+34754023,2a846d2cba5a8f0db089e7f2af275a535b15d82f,Elastic versus rigid image registration in MRI-TRUS fusion prostate biopsy: a systematic review and meta-analysis,,0
+34754023,70079b1af89534ad1caa342fdac269789d31459c,Automated multistructure atlas-assisted detection of lymph nodes using pelvic MR lymphography in prostate cancer patients.,10.1118/1.4951726,2
+34754023,7b919a690fea032f8b55339c2a0f4abc56add55b,Intranodal signal suppression in pelvic MR lymphography of prostate cancer patients: a quantitative comparison of ferumoxtran-10 and ferumoxytol,10.7717/peerj.2471,7
+34754023,7bfa78ee6a6d93bac31a1e29bc0552ca8e5a215c,Computer-extracted Features Can Distinguish Noncancerous Confounding Disease from Prostatic Adenocarcinoma at Multiparametric MR Imaging.,10.1148/radiol.2015142856,49
+34754023,acaba0aa6a8a55104ae2cb09f093aa30621ffb47,Elastic Versus Rigid Image Registration in Magnetic Resonance Imaging-transrectal Ultrasound Fusion Prostate Biopsy: A Systematic Review and Meta-analysis.,10.1016/j.euf.2016.07.003,48
+34754023,bceba1685bbddd5368222e849db3237cb7c25745,MR-targeted TRUS prostate biopsy using local reference augmentation: initial experience,10.1007/s11255-016-1283-2,7
+34754023,d267d21a0b48d6019c2fda657e64b4134b64a956,Visibility of prostate cancer on transrectal ultrasound during fusion with multiparametric magnetic resonance imaging for biopsy.,10.1016/j.clinimag.2016.02.005,20
+34754023,125714fa4d9a5db4e1d5104d4999fe6997abb935,Statistical Power in Image Segmentation: Relating Sample Size to Reference Standard Quality,10.1007/978-3-319-24574-4_13,1
+34754023,28f0dc1a844e83c61719e7c99eb3708428b42ca4,Biomechanical modeling constrained surface-based image registration for prostate MR guided TRUS biopsy.,10.1118/1.4917481,16
+34754023,33efdb691cbcc9a4650f3f2a2fbf6c4121d2e132,Detection and Diagnosis of Prostate Cancer in MR,10.1201/B18191-23,0
+34754023,a44520f7cfcb2d3867ccb40b54b699b8f23f2acb,Clinical evaluation of a computer-aided diagnosis system for determining cancer aggressiveness in prostate MRI,10.1007/s00330-015-3743-y,55
+34754023,b7911fd32d678c756874904e35b13dd3fa225a56,"The evaluation of multi-structure, multi-atlas pelvic anatomy features in a prostate MR lymphography CAD system",10.1117/12.2082708,2
+34754023,d27d981de434c7b90d4230b271f8408e1ab73e87,1.5-T multiparametric MRI using PI-RADS: a region by region analysis to localize the index-tumor of prostate cancer in patients undergoing prostatectomy,10.1177/0284185114531754,43
+34754023,18679dcf154556c9788bb7726f2dfc0330f9311f,MRI to X-ray mammography intensity-based registration with simultaneous optimisation of pose and biomechanical transformation parameters,10.1016/j.media.2014.03.003,40
+34754023,1b02bd4ef5cbf6d6fe99c1e52814ae27c17cf96b,Computer-Aided Detection of Prostate Cancer in MRI,10.1109/TMI.2014.2303821,340
+34754023,1b62c9397a2b1e488ae68530275cd815204022e1,Quantitative identification of magnetic resonance imaging features of prostate cancer response following laser ablation and radical prostatectomy,10.1117/1.JMI.1.3.035001,11
+34754023,2f39694d368806dbf90c898dcadb23fa4d2a0ba2,Distinguishing prostate cancer from benign confounders via a cascaded classifier on multi-parametric MRI,10.1117/12.2043751,18
+34754023,639ee4bb8d748364fa12c44a29cb38e925488ada,Distinguishing benign confounding treatment changes from residual prostate cancer on MRI following laser ablation,10.1117/12.2043819,4
+34754023,acfb30d3ea6bee31f49c7ea5c2f25e8aab01dbc6,Correlation between dynamic contrast-enhanced MRI and quantitative histopathologic microvascular parameters in organ-confined prostate cancer,10.1007/s00330-014-3301-z,40
+34754023,cc83eabf4f833b8c92dcf6012dcce348591d060f,Evaluation of prostate segmentation algorithms for MRI: The PROMISE12 challenge,10.1016/j.media.2013.12.002,475
+34754023,534510f570af42f0affc5967dbcaefeb25948aa8,Chest wall segmentation in automated 3D breast ultrasound scans,10.1016/j.media.2012.11.005,17
+34754023,5fb55e198a1b739670331de21434b7453db42bea,Evaluation of tissue echo pattern analysis with acoustic structure quantification (ASQ) in ultrasonic assessment of fatty liver disease,,0
+34754023,7c673c88257a140be530d9f6503e4737c06d8a7a,Assessment of prostate cancer aggressiveness using dynamic contrast-enhanced magnetic resonance imaging at 3 T.,10.1016/j.eururo.2013.05.045,161
+34754023,9662f207e1ded0224a86f85f40dbaf2fd28dadd2,Simulated required accuracy of image registration tools for targeting high-grade cancer components with prostate biopsies,10.1007/s00330-012-2701-1,46
+34754023,be606a6037f048bd51e9dea69e7f324900f3e0f0,Prostate cancer: computer-aided diagnosis with multiparametric 3-T MR imaging--effect on observer performance.,10.1148/radiol.12111634,104
+34754023,ef79b35cc95dd6c64d928f5043bc219be89d349f,Surface-based prostate registration with biomechanical regularization,10.1117/12.2007580,2
+34754023,14db29c5408cb2e1d9e66cf4b09034699a024ca6,Automated computer-aided detection of prostate cancer in MR images: from a whole-organ to a zone-based approach,10.1117/12.911061,23
+34754023,17a88c8b4c36924e5d0b7d9f1a6e6b99a327c535,Prospective assessment of prostate cancer aggressiveness using 3-T diffusion-weighted magnetic resonance imaging-guided biopsies versus a systematic 10-core transrectal ultrasound prostate biopsy cohort.,10.1016/j.eururo.2011.08.042,322
+34754023,3445afb3f23bd3b01196a322e648767a12bbdc67,Intensity-Based MRI to X-ray Mammography Registration with an Integrated Fast Biomechanical Transformation,10.1007/978-3-642-31271-7_7,10
+34754023,4b1ea57b0cba04b02a26099da48d3e25addc3a7d,Peripheral Zone apparent Diffusion coefficient: Effect on the Prediction of Prostate Cancer Aggressiveness 1,,0
+34754023,72368b70dd95e303cc4cc1bdaa8f5047225aa773,A multi-atlas approach for prostate segmentation in MR images,,19
+34754023,9b7cbf3e93c3b346e824f26d1faf4194ec10cb9f,Imaging vascular function for early stage clinical trials using dynamic contrast-enhanced magnetic resonance imaging,10.1007/s00330-012-2446-x,153
+34754023,9cdcc099b060e6802fbc80251c1ef65b1ac070d4,Interpatient variation in normal peripheral zone apparent diffusion coefficient: effect on the prediction of prostate cancer aggressiveness.,10.1148/RADIOL.12112374,65
+34754023,a04e943e648173c7944c554bc587960765feb114,MRI to X-ray mammography registration using a volume-preserving affine transformation,10.1016/j.media.2012.03.001,28
+34754023,a37cda5126f5024777d9440c5f567c9e5baae4ce,Multimodal Classification of Breast Masses in Mammography and MRI Using Unimodal Feature Selection and Decision Fusion,10.1007/978-3-642-31271-7_12,5
+34754023,aa4b53329efa2fa1bc2aae5ab34baa945945125b,Automatic computer-aided detection of prostate cancer based on multiparametric magnetic resonance image analysis,10.1088/0031-9155/57/6/1527,123
+34754023,bcff51ffb3e864ae4f8a4b6de12c2bf019999c7b,A Pattern Recognition Approach to Zonal Segmentation of the Prostate on MRI,10.1007/978-3-642-33418-4_51,70
+34754023,d5690c1b87b3349a316b4376eb14ec74fb418aeb,128 The Impact of Chemotherapy Extravasation on Nurses,10.1016/S1462-3889(12)70140-0,0
+34754023,e556afa60fd6588be8120f74d3a270930cb9869f,Computer aided analysis of breast MRI enhancement kinetics using mean shift c lustering and multifeature iterative region of interest selection,10.1002/jmri.23746,8
+34754023,f3b57b52566e70cc625e741ef1b2a388175f989d,Computer-Aided Lesion Diagnosis in Automated 3-D Breast Ultrasound Using Coronal Spiculation,10.1109/TMI.2012.2184549,73
+34754023,057100455efca559a6d38d31ed35cf56bdefc958,Relationship between apparent diffusion coefficients at 3.0-T MR imaging and Gleason grade in peripheral zone prostate cancer.,10.1148/radiol.11091409,438
+34754023,180a16751fee3bcac65b886681fb87a1d6d08605,Proceedings of the 2011 international conference on Prostate cancer imaging: image analysis and image-guided interventions,,0
+34754023,1ac1810f6db89758612fd372617c71f07a7b018a,Evaluation of a robotic technique for transrectal MRI-guided prostate biopsies,10.1007/s00330-011-2259-3,70
+34754023,1b2583976cd39108af8f0b7d9f1900b4e61e4c95,Correlation based 3-D segmentation of the left ventricle in pediatric echocardiographic images using radio-frequency data.,10.1016/j.ultrasmedbio.2011.05.005,17
+34754023,1c7343feedb49fdcc05b7b748dc9089fc3354ce8,Dynamic analysis of breast lesions : Can we use the wash-in phase instead of the washout phase ?,,2
+34754023,2704781e2ff16f7f31bd97e4d393e685b9ab0875,Classification of breast lesions in automated 3D breast ultrasound,10.1117/12.877924,7
+34754023,32140172193a5850bd55f81b626262b845661d4f,"Prostate Cancer Imaging. Image Analysis and Image-Guided Interventions - International Workshop, Held in Conjunction with MICCAI 2011, Toronto, Canada, September 22, 2011. Proceedings",10.1007/978-3-642-23944-1,13
+34754023,448cddc81736e13b617d55f2550ae3665dfb447e,Required Accuracy of MR-US Registration for Prostate Biopsies,10.1007/978-3-642-23944-1_10,12
+34754023,50d7d177be4b1e7fa5f9c7371604718f128d6528,Comparison of enhancement characteristics between invasive lobular carcinoma and invasive ductal carcinoma,10.1002/jmri.22632,22
+34754023,51c17b6d2b1fcd46fef6ceaa5569e39a951cb8a6,Initial Results of 3-Dimensional 1H-Magnetic Resonance Spectroscopic Imaging in the Localization of Prostate Cancer at 3 Tesla: Should We Use an Endorectal Coil?,10.1097/RLI.0b013e3182007503,32
+2895994,08c1b02b22c53480dcf792b8346a5ae416a7bc00,"Innovations in thoracic imaging: CT, radiomics, AI and x‐ray velocimetry",10.1111/resp.14344,3
+2895994,41f386d38567e38132525cad9bdc7da1ad6e8f1c,Automated COVID-19 Grading With Convolutional Neural Networks in Computed Tomography Scans: A Systematic Comparison,10.1109/tai.2021.3115093,4
+2895994,5a09637587e694a03f68a4ee1046d31aa97fd0c0,Structure and position-aware graph neural network for airway labeling,,1
+2895994,29595323a6789fec907a39c4de1ad56b75c74630,Deep Clustering Activation Maps for Emphysema Subtyping,,0
+2895994,35af94bb3f5654ef60446d79e88621043fb7b543,Assisted versus Manual Interpretation of Low-Dose CT Scans for Lung Cancer Screening: Impact on Lung-RADS Agreement.,10.1148/rycan.2021200160,3
+2895994,53e10b43522e45781bfd4763b49aebba6602c0ac,CT-Detected Subsolid Nodules: A Predictor of Lung Cancer Development at Another Location?,10.3390/cancers13112812,1
+2895994,80ec09e2cb8244cab245f1108496af731d160ebf,Deep Learning for Malignancy Risk Estimation of Pulmonary Nodules Detected at Low-Dose Screening CT.,10.1148/radiol.2021204433,27
+2895994,956fe0cd25879aa006d9885eba32da7100b6d338,Scan-based competing death risk model for re-evaluating lung cancer computed tomography screening eligibility,10.1183/13993003.01613-2021,2
+2895994,b0255ad2c81689cfd14ec8573780400a5fbf7b99,Dense regression activation maps for lesion segmentation in CT scans of COVID-19 patients,10.1016/j.media.2023.102771,1
+2895994,c4422edc3d7460dc858db3e23cef64136a49628e,Combining pulmonary and cardiac computed tomography biomarkers for disease-specific risk modelling in lung cancer screening,10.1183/13993003.03386-2020,4
+2895994,e6826552a5bff552a12087552097519a614ce0c3,Microsimulation modeling of extended annual CT screening among lung cancer cases in the National Lung Screening Trial.,10.1016/j.lungcan.2021.04.004,1
+2895994,e91661654480905a880033a9f2266343736ea7bd,Deep Learning for Lung Cancer Detection in Screening CT Scans: Results of a Large-Scale Public Competition and an Observer Study with 11 Radiologists,10.1148/ryai.2021210027,10
+2895994,0060644239845c59813a5a9122d34e1f75d18e4c,Association between the number and size of intrapulmonary lymph nodes and chronic obstructive pulmonary disease severity,10.7717/peerj.9166,0
+2895994,1479138d85b4af9d10bd3c2301ea68d2406e8d85,Pulmonary nodule enhancement in subtraction CT and dual-energy CT: A comparison study.,10.1016/j.ejrad.2020.109443,0
+2895994,2a32913ae752a56f9997a3869069a768f09a52e7,Artificial intelligence for detection and characterization of pulmonary nodules in lung cancer CT screening: ready for practice?,10.21037/TLCR-2020-LCS-06,18
+2895994,2a7dafe1287670068300ff77401923f7e151b9f4,"Thoracic Image Analysis: Second International Workshop, TIA 2020, Held in Conjunction with MICCAI 2020, Lima, Peru, October 8, 2020, Proceedings",10.1007/978-3-030-62469-9,0
+2895994,2e571724830cb8ca6e8dbe9cc1f92fdcfc517ec4,Contextual Two-Stage U-Nets for Robust Pulmonary Lobe Segmentation in CT Scans of COVID-19 and COPD Patients,,3
+2895994,302fbaac065fe76b0f8d6e2bccc8c715d1ab230a,Typical CT Features of Intrapulmonary Lymph Nodes: A Review.,10.1148/ryct.2020190159,7
+2895994,32a8259a781ea7255621b0cbdeecfa8d03d7e0bd,Relational Modeling for Robust and Efficient Pulmonary Lobe Segmentation in CT Scans,10.1109/tmi.2020.2995108,62
+2895994,367878e980e109d80ad80066cec1961a940614ec,Lung cancer screening by nodule volume in Lung-RADS v1.1: negative baseline CT yields potential for increased screening interval,10.1007/s00330-020-07275-w,21
+2895994,4330ce9c73af04a35d1a7dd366df8434c98e30ed,Automated Assessment of CO-RADS and Chest CT Severity Scores in Patients with Suspected COVID-19 Using Artificial Intelligence,10.1148/radiol.2020202439,94
+2895994,441d6e8ba2cc2314d7d44425a158c25e27f9cb96,Improving Automated COVID-19 Grading with Convolutional Neural Networks in Computed Tomography Scans: An Ablation Study,,8
+2895994,4ad04c0dce1e8a12c49bae26252f476383ec3273,Fully Automatic Volume Measurement of the Spleen at CT Using Deep Learning.,10.1148/ryai.2020190102,13
+2895994,90a870cbb9897124193ba18c5358fe45b6260621,Feasibility of end-to-end trainable two-stage U-Net for detection of axillary lymph nodes in contrast-enhanced CT based on sparse annotations,10.1117/12.2551331,2
+2895994,a7e94f52d1dfb0c5c823032a0b9a70dd0acbb625,Relational Modeling for Robust and Efficient Pulmonary Lobe Segmentation in CT Scans.,10.1109/TMI.2020.2995108,7
+2895994,010f33ceac3fb9aae25cb7ef51ba0f0dda95bb24,Predicting all-cause and lung cancer mortality using emphysema score progression rate between baseline and follow-up chest CT images: A comparison of risk model performances,10.1371/journal.pone.0212756,2
+2895994,0655dcaa39cf41a3609974840f91300d73b4aed1,The Liver Tumor Segmentation Benchmark (LiTS),10.1016/j.media.2022.102680,424
+2895994,e6a0940e90b9a661ff2accfa5e8eefe56fd35263,Predicting Malignancy Risk of Screen‐Detected Lung Nodules–Mean Diameter or Volume,10.1016/j.jtho.2018.10.006,32
+2895994,ec14da74fcbd65e013855cea561c2142c68f72fb,Google’s lung cancer AI: a promising tool that needs further validation,10.1038/s41571-019-0248-7,21
+2895994,032a0374513489195712dabb380d0feb3bb85d46,Lung cancer risk to personalise annual and biennial follow-up computed tomography screening,10.1136/thoraxjnl-2017-211107,28
+2895994,0c7b80f04984d9cea99337c21cee93a69dae27dd,Efficient organ localization using multi-label convolutional neural networks in thorax-abdomen CT scans,10.1088/1361-6560/aab4b3,26
+2895994,19495049936b938f43434c03cb18ea0702d6f09d,Observer variability for Lung-RADS categorisation of lung cancer screening CTs: impact on patient management,10.1007/s00330-018-5599-4,38
+2895994,1cc0b06d80d21082d2610f11daa488cc6817b207,Brock malignancy risk calculator for pulmonary nodules: validation outside a lung cancer screening population,10.1136/thoraxjnl-2017-211372,28
+2895994,3ed451d2830a2afcbbd254f0015eeafa796ba1b7,Automatic segmentation of the solid core and enclosed vessels in subsolid pulmonary nodules,10.1038/s41598-017-19101-3,16
+2895994,4e67443737640a6d88642034266c0ce2d76d9ae7,Long‐Term Active Surveillance of Screening Detected Subsolid Nodules is a Safe Strategy to Reduce Overtreatment,10.1016/j.jtho.2018.06.013,45
+2895994,4fd1ad386d794e9baff286b212013b3b44bb7bd3,Automatic segmentation of the solid core and enclosed vessels in subsolid pulmonary nodules,10.1038/s41598-017-19101-3,0
+2895994,6b604b6896cfd670bd9afe4172a2e5bf591b0cc2,MA20.09 Improved Lung Cancer and Mortality Prediction Accuracy Using Survival Models Based on Semi-Automatic CT Image Measurements,10.1016/J.JTHO.2018.08.488,0
+2895994,6d4507a54e77f55af2bfa786ca804a13018ff273,Detection of Subsolid Nodules in Lung Cancer Screening: Complementary Sensitivity of Visual Reading and Computer-Aided Diagnosis,10.1097/RLI.0000000000000464,26
+2895994,a2f7d760233f22f037d17c8196ea1463597e66e8,Classification of CT Pulmonary Opacities as Perifissural Nodules: Reader Variability.,10.1148/radiol.2018172771,31
+2895994,ab99f176fa295a776d6a1fa98d5a5c0156fd4302,Towards an Automatic Lung Cancer Screening System in Low Dose Computed Tomography,10.1007/978-3-030-00946-5_31,13
+2895994,b3dc561dd990cebc626e10318b8582a198aa3571,iW-Net: an automatic and minimalistic interactive lung nodule segmentation deep network,10.1038/s41598-019-48004-8,50
+2895994,ef537c1ce62c69018575d2c90b70024a32256ef5,Visual discrimination of screen-detected persistent from transient subsolid nodules: An observer study,10.1371/journal.pone.0191874,6
+2895994,02a6b1ae18332136192bc7977c366e6340e5c62c,Normalized emphysema scores on low dose CT: Validation as an imaging biomarker for mortality,10.1371/journal.pone.0188902,9
+2895994,63c9344c2046a0403941eb8a91d307b9e1190928,MA 14.11 Malignancy Risk Prediction of Pulmonary Nodule in Lung Cancer Screening – Diameter Or Volumetric Measurement,10.1016/J.JTHO.2017.09.580,0
+2895994,abdee0f36ad16d6c3064aee8e98c4b2bd6c691a0,Malignancy estimation of Lung-RADS criteria for subsolid nodules on CT: accuracy of low and high risk spectrum when using NLST nodules,10.1007/s00330-017-4842-8,13
+2895994,b704867c644d95b8ddc980b19b3805181b7a28ab,Organ detection in thorax abdomen CT using multi-label convolutional neural networks,10.1117/12.2254349,16
+2895994,bc86e211f26bd5c68e9548c1c215fa9605c6daa2,Lung-RADS Category 4X: Does It Improve Prediction of Malignancy in Subsolid Nodules?,10.1148/radiol.2017161624,44
+2895994,e80b85ea45f4af6ed7278be42553ead2ee5b991d,"Malignancy risk estimation of screen-detected nodules at baseline CT: comparison of the PanCan model, Lung-RADS and NCCN guidelines",10.1007/s00330-017-4767-2,44
+2895994,06c8b4c1dd0c045bc6a08d0062c5042b5588d55b,Pulmonary Nodule Detection in CT Images: False Positive Reduction Using Multi-View Convolutional Networks,10.1109/TMI.2016.2536809,923
+2895994,4e6b705773934f42387213d2aeeac950a636119f,JMI 2015 List of Reviewers.,10.1117/1.JMI.3.1.010101,0
+2895994,7975bfe13445f81edddd6e101d7d469cd20cbd89,"Validation, comparison, and combination of algorithms for automatic detection of pulmonary nodules in computed tomography images: The LUNA16 challenge",10.1016/j.media.2017.06.015,673
+2895994,cb695909a72f6a2b288bded8058ce8ab6398424c,Computer Vision Tool and Technician as First Reader of Lung Cancer Screening CT Scans,10.1016/j.jtho.2016.01.021,24
+2895994,fd0901b1f2121506391a7859de8fb695d159a393,Towards automatic pulmonary nodule management in lung cancer screening with deep learning,10.1038/srep46479,275
+2895994,1727e0a37cb9a85f73d0ca4f64616e9ab5044c99,"Solid, Part-Solid, or Non-Solid?: Classification of Pulmonary Nodules in Low-Dose Chest Computed Tomography by a Computer-Aided Diagnosis System",10.1097/RLI.0000000000000121,46
+2895994,1dddfd64c4a40269d63014b21ed3ed436f38b98b,Automatic detection and characterization of pulmonary nodules in thoracic CT scans,,1
+2895994,2fa5f435f41242e8ef053e94ae7af400014ca7d3,"Erratum: Towards a close computed tomography monitoring approach for screen detected subsolid pulmonary nodules? (vol 45, pg 765, 2015)",10.1183/09031936.50005914,0
+2895994,671d9c99335001133ebf2125167aa2f2bcee6efa,Automatic detection of spiculation of pulmonary nodules in computed tomography images,10.1117/12.2081426,7
+2895994,67ae0419e41a69c4796b9e18bf6f59814784a933,Computer-aided detection of pulmonary nodules: a comparative study using the public LIDC/IDRI database,10.1007/s00330-015-4030-7,91
+2895994,81570ccbf4a1edb8898e8969f9befa3561e46318,Off-the-shelf convolutional neural network features for pulmonary nodule detection in computed tomography scans,10.1109/ISBI.2015.7163869,257
+2895994,8b3995db48fa7ab9539e3aaa72eb71cba8e68802,Predictive Accuracy of the PanCan Lung Cancer Risk Prediction Model -External Validation based on CT from the Danish Lung Cancer Screening Trial,10.1007/s00330-015-3689-0,64
+2895994,95c6d05f35d82b06b155d05f1a8954e940991ab9,Robust semi-automatic segmentation of pulmonary subsolid nodules in chest computed tomography scans,10.1088/0031-9155/60/3/1307,70
+2895994,a920a54da22d5e6114588d1ad78fadba534c1ad4,Observer Variability for Classification of Pulmonary Nodules on Low-Dose CT Images and Its Effect on Nodule Management.,10.1148/radiol.2015142700,147
+2895994,c00533c3203b54405ba3192167c83a080a536ff1,Detection and quantification of the solid component in pulmonary subsolid nodules by semiautomatic segmentation,10.1007/s00330-014-3427-z,55
+2895994,c46078f5f85c01090f2ee949a0d332de7d6e4463,Bag-of-Frequencies: A Descriptor of Pulmonary Nodules in Computed Tomography Images,10.1109/TMI.2014.2371821,53
+2895994,c973f1bff6304e0e6d4656d1379d1414929b782f,Automatic detection of large pulmonary solid nodules in thoracic CT images.,10.1118/1.4929562,133
+2895994,f59a55d1e7cb49f8b2062df48ecd267b24191aa8,Computer-aided detection of lung cancer: combining pulmonary nodule detection systems with a tumor risk prediction model,10.1117/12.2080955,5
+2895994,45a0d554907e10b52846ac7757e24f9ddc9a9d4e,Interscan variation of semi-automated volumetry of subsolid pulmonary nodules,10.1007/s00330-014-3478-1,27
+2895994,6ca452a24dbe147205850148d98163481aa22dc6,Towards a close computed tomography monitoring approach for screen detected subsolid pulmonary nodules?,10.1183/09031936.00005914,83
+2895994,704081db7542b73bbdcefe9ae7e7dc19fe4316c0,Automatic detection of subsolid pulmonary nodules in thoracic computed tomography images,10.1016/j.media.2013.12.001,228
+2895994,93b9abde7345b389113dd9656f6d7b9a43f261bb,Automated detection and quantification of micronodules in thoracic CT scans to identify subjects at risk for silicosis,10.1117/12.2043536,2
+2895994,bec0446b87854ea9f5b0210565e3c49ace87f24e,Computer-aided segmentation and volumetry of artificial ground-glass nodules at chest CT.,10.2214/AJR.12.9640,31
+2895994,f6f881961e305ee13ba292d599969a2ad8d1edcf,Semi-Automatic Quantification of Subsolid Pulmonary Nodules: Comparison with Manual Measurements,10.1371/journal.pone.0080249,29
+2895994,177331ab3937bb17a77cf453ba6684d3ac028b22,Normal range of emphysema and air trapping on CT in young men.,10.2214/AJR.11.7808,50
+2895994,8424ba5430293f681632f9a0c73547db7cefafe8,"SUNDAY, SEPTEMBER 2ND 2012 57. Functional imaging in pulmonary oncology and COPD. Radiation dose in chest CT: survey and real life",,0
+2895994,dd66e6a21a2ab94943afb307a724adab10fd78ad,Performance of segmentation software on large longitudinal database of pulmonary nodules in the Danish Lung Cancer Screening Trial (DLCST),,2
+2895994,f00c307ba22db9d474e1eb0339ac200bb837b973,Probability of malignancy based on automatic segmentation and software measurements of nodules in the Danish lung cancer screening trial (DLCST),,1
+2895994,2b13cb88382d521bab7fe58fc4220ecec7648815,"Computer-Aided Detection of Ground Glass Nodules in Thoracic CT Images Using Shape, Intensity and Context Features",10.1007/978-3-642-23626-6_26,37
+2895994,66625349b11735b78c23c1253d6e4b21add938ac,Computer-Aided Detection of Solid and Ground Glass Nodules in Thoracic CT images using two independent CAD systems,,1
+2895994,28200b417aacd207af7ff52bb7ede1fa7ee8b73a,Performance evaluation for volumetric segmentation of multiple sclerosis lesions using MATLAB and computing engine in the graphical processing unit (GPU),10.1117/12.844811,2
+2895994,3b553792b01dc3235d0d5d19de5441c2a0570ec5,An automatic quantification system for MS lesions with integrated DICOM structured reporting (DICOM-SR) for implementation within a clinical environment,10.1117/12.844072,1
+2895994,b7652a6a140d0de2324064d21ce7165f8ce44271,The development of a disease oriented eFolder for multiple sclerosis decision support,10.1117/12.844690,1
+34726383,28b9fab4a30e8c144b62b838cf4402f89ccfb3b5,Magnetization transfer weighted laminar fMRI with multi-echo FLASH,10.1016/j.neuroimage.2022.119725,1
+34726383,e22dc206d4794b7c25a4a7bdcc1fed4b7565bdf5,Relating neural oscillations to laminar fMRI connectivity in visual cortex,10.1093/cercor/bhac154,2
+34726383,368c6503fa686a09ad0f13c6370db7e7250c8173,Investigation of layer specific BOLD in the human visual cortex during visual attention,10.1101/2021.02.07.430129,2
+34726383,9dd2db3c2574370abfbc32a18e920eca203886be,Pushing the needle forward on the relationship between autoimmunity and autonomic dysfunction,10.1113/JP281197,1
+34726383,d1e60fb7c2823956d28adb78355f6229ac01b961,Laminar fMRI using T2-prepared multi-echo FLASH,10.1016/j.neuroimage.2021.118163,3
+34726383,09b4960e2d1a140c69d4d00b767ac9a75bf294bd,Relating neural oscillations to laminar fMRI connectivity,10.1101/2020.09.18.303263,0
+34726383,479c2a611ce0b7e53478136e4a986c00ae6c8440,Enhanced POCS reconstruction for partial Fourier imaging in multi‐echo and time‐series acquisitions,10.1002/mrm.28417,4
+34726383,02555e251d34ed9f6feee3af2ac4e1f9fe37603f,Strategies and prospects for cortical depth dependent T2 and T2* weighted BOLD fMRI studies,10.1016/j.neuroimage.2019.03.024,26
+34726383,18611bcebdbf48037d1356a84d56efd9e3721314,An 8/15‐channel Tx/Rx head neck RF coil combination with region‐specific B1+ shimming for whole‐brain MRI focused on the cerebellum at 7T,10.1002/mrm.27125,17
+34726383,1ee57085324b011b3f722968d1a66dc358194f17,Recursive Boundary Registration for laminar fMRI,,0
+34726383,2c1723b0228e78737b360fdd5e0b8a946ab71c34,Current Biology Report Laminar Organization of Working Memory Signals in Human Visual Cortex,,0
+34726383,507623738c8722e9acee5ae955256c9cf8ed617e,Laminar Organization of Working Memory Signals in Human Visual Cortex,10.1016/j.cub.2018.08.043,52
+34726383,8b83c619532f6a149d39f179ed8d28adb3b0b440,Improved cortical boundary registration for locally distorted fMRI scans,10.1101/248120,11
+34726383,fcd85625aecedae5265ff9f8aa0eb0c0b0ef1281,Diffusion Acceleration with Gaussian process Estimated Reconstruction (DAGER),10.1002/mrm.27699,16
+34726383,1e6ccfb88c3e820d7862be2e87c4dce039e628a6,The relationship between oscillatory EEG activity and the laminar-specific BOLD signal,10.1073/pnas.1522577113,125
+34726383,32ad1d849b08150b163dbac1799cf742bbc58c32,"Two‐dimensional‐NGC‐SENSE‐GRAPPA for fast, ghosting‐robust reconstruction of in‐plane and slice‐accelerated blipped‐CAIPI echo planar imaging",10.1002/mrm.26179,16
+34726383,bb7615e18f8fdd5a158c57010ab7c29050f21e3f,High-resolution diffusion MRI at 7T using a three-dimensional multi-slab acquisition,10.1016/j.neuroimage.2016.08.054,51
+34726383,fb498136ca27bef79a1747afe9c8bcb9b4d9929a,A hemodynamic model for layered BOLD signals,10.1016/j.neuroimage.2015.10.025,111
+34726383,2c24c5ede73378764b3eaa0eca15b11e079b223a,Improved sensitivity and specificity for resting state and task fMRI with multiband multi-echo EPI compared to multi-echo EPI at 7T,10.1016/j.neuroimage.2015.06.089,56
+34726383,2e0d002b7eb5469995e26c3582eee756014bf7a0,Large dynamic range relative B1+ mapping,10.1002/mrm.25884,11
+34726383,60a5d2766eb9591bb6bfa584c6764611acc5abf3,Reducing slab boundary artifacts in three‐dimensional multislab diffusion MRI using nonlinear inversion for slab profile encoding (NPEN),10.1002/mrm.26027,29
+34726383,79f16eda4b54d366c99904dc1b4068ce158d4a1a,Simultaneous multislice (SMS) imaging techniques,10.1002/mrm.25897,375
+34726383,939f5342e798570716ba205eff5590d06f0afea0,Pulse Sequence Dependence of the fMRI Signal,10.1016/B978-0-12-397025-1.00014-2,0
+34726383,95f9b6a2d100182018bb4542f1f7ad57843a7619,Accelerated human cardiac diffusion tensor imaging using simultaneous multislice imaging,10.1002/mrm.25200,72
+34726383,9efe32230b35fa5bd251a60162c3970c188f8de7,High-Resolution Diffusion-Weighted Neuroimaging at 3T and 7T with Simultaneous Multi-Slice RESOLVE,,0
+34726383,00d91bb49c4e1c0b88033080515ff33847061d89,Object: To compare the BOLD fMRI signal characteristics at in the cortex and on the pial surface for a non-balanced steady-state free precession sequence (nb-SSFP) at 7T.,,0
+34726383,3c35eb907c7b5b47e66a8b576d831cef91ab078a,Slice accelerated diffusion‐weighted imaging at ultra‐high field strength,10.1002/mrm.24809,45
+34726383,5b48313583e44ae3d4202b17a6a936896f4ad0a8,"Whole brain, high resolution multiband spin-echo EPI fMRI at 7T: A comparison with gradient-echo EPI using a color-word Stroop task",10.1016/j.neuroimage.2014.04.011,50
+34726383,c250a7c62b78cdcea1344e93c0f0fad9101ef5d3,BOLD fMRI signal characteristics of S1- and S2-SSFP at 7 Tesla,10.3389/fnins.2014.00049,23
+34726383,d9bb03cfec7909396978e7564bf0fe86012bf085,Application of PINS radiofrequency pulses to reduce power deposition in RARE/turbo spin echo imaging of the human head,10.1002/mrm.24991,43
+34726383,de7c9c89b4cef28730e002182fe243ac55f180d7,k-t FASTER: Acceleration of functional MRI data acquisition using low rank constraints,10.1002/mrm.25395,60
+34726383,27ee1ddc317201394cd6d40891aa129b29de3aca,Combining ZOOPPA and blipped CAIPIRINHA for highly accelerated diffusion weighted imaging at 7T and 3T,,2
+34726383,69230ff2a6f5a7687b8dd03aae0c352e3ba7818d,k-t FASTER: a new method for the acceleration of resting state FMRI data acquisition,,5
+34726383,69ed219f9fbc118072903cdba95abdfd70674d51,Simultaneous multislice inversion contrast imaging using power independent of the number of slices (PINS) and delays alternating with nutation for tailored excitation (DANTE) radio frequency pulses,10.1002/mrm.24402,14
+34726383,7da8bb9fc1f79805198fc79c6ca7a260ac3ba083,Iterative hard thresholding and matrix shrinkage (IHT+MS) for low-rank recovery of k-t undersampled MRI data,,1
+34726383,9a098dd10287bd45dd27131dc748bc9b86cec4c9,Acceleration of resting state FMRI data acquisition using matrix completion,,0
+34726383,dc3c81f774aea3622c1e37beb63e94633e718fa6,Acquisition Methods for fMRI at 7 Tesla,,0
+34726383,e36e09352edbf6bb9ccbe160e499c63354c65870,6085 Improved cortical boundary registration for locally distorted fMRI,,4
+34726383,f57ede4ca02dfe71d391df4e5f35a42251c199ba,6810 IMPROVING SENSITIVITY AND SPECIFICITY FOR RS FMRI USING MULTIBAND MULTI-ECHO EPI AT 7 T,,0
+34726383,04b4a81028ba3ab9e6a860938080ae6cd86316e6,Frequency characteristics of large scale resting state networks using 7 T Spin Echo EPI,,0
+34726383,75776e1a7e5dabe6e1c07607ea530c0ed52c977a,"Whole brain, high resolution spin-echo resting state fMRI using PINS multiplexing at 7T",10.1016/j.neuroimage.2012.05.080,69
+34726383,929602339b3298cc9fc566e2e27d761be2473f64,A WHOLE BRAIN HIGH TEMPORAL AND SPATIAL RESOLUTION SE SIMULTANEOUS MULTISLICE SEQUENCE FOR TASK FMRI AT 7 T,,0
+34726383,98486227c2151c1aa8444f93418212c023487659,"Compensating for Deviant Middle Ear Pressure in Otoacoustic Emission Measurements, Data, and Comparison to a Middle Ear Model",10.1097/MAO.0b013e3182536d9f,3
+34726383,9e53edce039d8fa4e009d532d9188eea177e9893,"TR RESTING STATE DATA ACQUIRED WITH A SIMULTANEOUS MULTISLICE MULTI-ECHO SEQUENCE AT 7 T , A COMPARISON WITH MULTI-ECHO",,1
+34726383,f25d6eca480d4e8a1361b1ab761c1fcb616e650f,SAR Efficient Simultaneous Multislice Diffusion Weighted Imaging at 7T using PINS RF pulses,,0
+34726383,58cc05088c3fd074cb1198adca11bb69caacf6dc,fMRI of cortical layers,,47
+34726383,baaa4ba46d1003f4ef26e73a7f2eb07d6b4a808f,Automatic Vein Segmentation and Lesion Detection: From SWI‐MIPs to MR Venograms,10.1002/9780470905203.CH32,2
+34726383,d9f855ccee45f500aa2bd398253fa4f9e406edb9,Power independent of number of slices (PINS) radiofrequency pulses for low‐power simultaneous multislice excitation,10.1002/mrm.23152,135
+34726383,fdb68ec26beda60e83a5dbb10344bd86e4e3a181,Multi-echo fMRI of the cortical laminae in humans at 7T,10.1016/j.neuroimage.2011.02.042,142
+34726383,a7ba8ec8614c09c144c54b691808a0a3bc4da622,Layer‐specific BOLD activation in human V1,10.1002/hbm.20936,187
+34726383,e17590ea2896a2621f9b4216a209c92d9e1130fa,T 2-AND T 2 *-WEIGHTED HIGH-RESOLUTION FMRI AT 7 T USING NON-BALANCED SSFP,,0
+34726383,ea1d1374ea52d974fd7f756d56955b8fcde3a6fa,Three dimensional echo-planar imaging at 7 Tesla,10.1016/j.neuroimage.2010.01.108,258
+34726383,27b095a4dc6c0c0e463e47744502c8b869bcf8cf,Echo time dependence of laminar BOLD activation at 7 Tesla,,0
+34726383,49e9e9a8849207d1b98d9e98a69dd99a45673d1e,Layer-specific differential activation in human V 1 at 3 T using 3 D-EPI,,1
+34726383,291eb14527bb781e117dc3a9f6a9c5ec6a315ea2,MR venography of the human brain using susceptibility weighted imaging at very high field strength,10.1007/s10334-007-0101-3,117
+34726383,6ebbb51518ce7f3086e58ad7a4c18736ce844847,Layer specific BOLD activation in human V 1 at 3 Tesla,,8
+34726383,f267b21a8d652332245958dfe28c2e36d594ea53,Distinguishing pial and laminar gradient-echo BOLD signals at 7 Tesla,,4
+34726383,eb3656afe6257d09604a921541cf1b2fe3748dd1,Development of a reference phantom for fMRI studies,,3
+145441238,117be2ba030be5d3f6c622102eb93ecdde5b36f8,Computational pathology in 2030: a Delphi study forecasting the role of AI in pathology within the next decade,10.1016/j.ebiom.2022.104427,0
+145441238,4bcd672218ecec70473c84f6f1cc52c64031f3e5,Continual learning strategies for cancer-independent detection of lymph node metastases.,10.1016/j.media.2023.102755,0
+145441238,6ab3424f10b236c992d823568dfca2075e2ad46e,Abstract P2-11-34: Mitotic spindle hotspot counting using deep learning networks is highly associated with clinical outcomes in patients with early-stage triple-negative breast cancer who did not receive systemic therapy,10.1158/1538-7445.sabcs22-p2-11-34,0
+145441238,935f46ae7c1a5be1ed7a5e176db38fb919bf30df,Deep learning based tumor–stroma ratio scoring in colon cancer correlates with microscopic assessment,10.1016/j.jpi.2023.100191,0
+145441238,1d7cb6f85cf6478da6fef4d5630f02aa3a053f8c,CONVOLUTIONAL NEURAL NETWORKS FOR THE EVALUATION OF CHRONIC AND INFLAMMATORY LESIONS IN KIDNEY TRANSPLANT BIOPSIES.,10.1016/j.ajpath.2022.06.009,4
+145441238,2b783d8702965b0402b427ac6f46e87ee58e30ee,BUILDING AN E.U.-SCALE DIGITAL PATHOLOGY REPOSITORY: THE BIGPICTURE INITIATIVE,10.1016/j.jpi.2022.100026,0
+145441238,3c1d061588688fdb25047bd4698955742ae1fb7b,Automated quantification of levels of breast terminal duct lobular (TDLU) involution using deep learning,10.1038/s41523-021-00378-7,0
+145441238,412914183f338e792c5009c201b20b3e65612cc2,"2022-RA-646-ESGO Consensus based recommendations for the diagnosis of serous tubal intraepithelial carcinoma, an international delphi study",10.1136/ijgc-2022-esgo.790,0
+145441238,42c19709354c631efc35d2bda8f0d33cf1d79831,A Decade of GigaScience: The Challenges of Gigapixel Pathology Images,10.1093/gigascience/giac056,2
+145441238,465de4f01c9dfee48ec4d566c56cd31c686d1e82,Evaluation Criteria for Chromosome Instability Detection by FISH to Predict Malignant Progression in Premalignant Glottic Laryngeal Lesions,10.3390/cancers14133260,0
+145441238,4bb4ba538f0213a42618cff8fa9a8633eeb2fc77,Artificial Intelligence in Pediatric Pathology: The Extinction of a Medical Profession or the Key to a Bright Future?,10.1177/10935266211059809,0
+145441238,528940219dee5b1a747b4e000645033977bf8eb2,Serum hormone levels and normal breast histology among premenopausal women,10.1007/s10549-022-06600-9,0
+145441238,551a32d6bb196127b75d256e8547b81ef67a7ad3,Artificial intelligence for diagnosis and Gleason grading of prostate cancer: the PANDA challenge,10.1038/s41591-021-01620-2,75
+145441238,631c4938fa46537e91e1420fb9fb1a5428114c61,Predicting pathological complete response to neoadjuvant chemotherapy in breast cancer from routine diagnostic histopathology biopsies,10.1101/2022.11.11.22282205,0
+145441238,7201377df1b1bcfa9f4f57d797f561842e848c9f,Predicting biochemical recurrence of prostate cancer with artificial intelligence,10.1038/s43856-022-00126-3,2
+145441238,746f0e75871df9e6df74b6b4f1d1a5618e37b73c,Automated quantification of levels of breast terminal duct lobular (TDLU) involution using deep learning,10.1038/s41523-021-00378-7,3
+145441238,76f8e809b6ffac6eac0806d590c0c2519d75dac2,Deep learning for fully-automated nuclear pleomorphism scoring in breast cancer,10.1038/s41523-022-00488-w,0
+145441238,79c9209f3892a5a704abb6be161ca7b41d02775d,Unleashing the potential of digital pathology data by training computer-aided diagnosis models without human annotations,10.1038/s41746-022-00635-4,11
+145441238,8c882c8737d351dfe19e663228e4c3bd2cafa992,Artificial intelligence applications for pre-implantation kidney biopsy pathology practice: a systematic review,10.1007/s40620-022-01327-8,9
+145441238,c0f6940d1af8063139d99b12f7e451169278ec33,stainlib: a python library for augmentation and normalization of histopathology H&E images,10.1101/2022.05.17.492245,3
+145441238,c90825e6da28cd71598d38dacf09cd1023ad1a74,Generalization of Deep Learning in Digital Pathology: Experience in Breast Cancer Metastasis Detection,10.3390/cancers14215424,0
+145441238,d4e53749f995a9f0c581c44710d5a9d1d065e538,Computer-Aided Assessment of Melanocytic Lesions by Means of a Mitosis Algorithm,10.3390/diagnostics12020436,2
+145441238,ea9cff43d07c6e1e63dc9d88ff13c8ab7e5380af,The future of computational pathology: expectations regarding the anticipated role of artificial intelligence in pathology by 2030,10.1101/2022.09.02.22279476,0
+145441238,f04e398b4bd2b5f639033960d9f0f4c1e36de8aa,Uniform Noting for International application of the Tumor-stroma ratio as Easy Diagnostic tool: The UNITED study - An update,10.1016/j.ejso.2021.12.179,0
+145441238,fc34292163822dca66f4f284ceb0e5cb689727f5,Towards defining morphologic parameters of normal parous and nulliparous breast tissues by artificial intelligence,10.1186/s13058-022-01541-z,0
+145441238,19afccfe66de8733d799d45d816ed0ad8a8665f9,Few-shot weakly supervised detection and retrieval in histopathology whole-slide images,10.1117/12.2582132,0
+145441238,25890a20503e79f773f427c999fcb41387f0aab1,Optimized tumour infiltrating lymphocyte assessment for triple negative breast cancer prognostics,10.1016/j.breast.2021.02.007,10
+145441238,2dc667c51f9d881cdb16ddb590c86b35a910506c,Interobserver variability between experienced and inexperienced observers in the histopathological analysis of Wilms tumors: a pilot study for future algorithmic approach,10.1186/s13000-021-01136-w,1
+145441238,3152b6a040739addfff22ef8bf7e6d65775ab0d0,Parietal epithelial cells maintain the epithelial cell continuum forming Bowman's space in focal segmental glomerulosclerosis,10.1242/dmm.046342,1
+145441238,3881ae992914cd50a14782104170cc5dd5d9ae7e,Quantitative assessment of inflammatory infiltrates in kidney transplant biopsies using multiplex tyramide signal amplification and deep learning,10.1038/s41374-021-00601-w,20
+145441238,3d2d270b830b05909f220ffef95ccaf7c61b273f,Metabolic Screening of Cytotoxic T-cell Effector Function Reveals the Role of CRAC Channels in Regulating Lethal Hit Delivery,10.1158/2326-6066.CIR-20-0741,3
+145441238,6b71ee48bb52c6aab084e7325669e0116dda292b,Neural image compression for non-small cell lung cancer subtype classification in H&E stained whole-slide images,10.1117/12.2581943,5
+145441238,7d873a9c49d3864709aa762f8740edcdbd7369c5,Deep learning in histopathology: the path to the clinic,10.1038/s41591-021-01343-4,197
+145441238,877f00466bcfc8627a4a7af3d71cb40acbeb73eb,A whole‐slide imaging based workflow reduces the reading time of pathologists,10.1111/pin.13309,1
+145441238,a4d4e42f1accfd77f378549c776b7c850afbcda5,Quantitative assessment of inflammatory infiltrates in kidney transplant biopsies using multiplex tyramide signal amplification and deep learning.,10.1038/s41374-021-00601-w,0
+145441238,a5c0ae9b50b0058f6e16bdc59a95e489b897e430,Recommendations for diagnosing STIC: a systematic review and meta-analysis,10.1007/s00428-021-03244-w,9
+145441238,af0490f8f0cf935673991b05c1ab1d80f5e2b92d,The tale of TILs in breast cancer: A report from The International Immuno-Oncology Biomarker Working Group,10.1038/s41523-021-00346-1,1
+145441238,bdda7587a109daa00948967e028dfe138f815f83,"1009 Deep learning for improved detection of premalignant lesions in the fallopian tube, a proof of concept",10.1136/ijgc-2021-esgo.533,0
+145441238,d1cfcef173466fe4b617426b1767e0d939ccb7a0,Improving tumor budding reporting in colorectal cancer: a Delphi consensus study,10.1007/s00428-021-03059-9,15
+145441238,fb875d185773ca45cf176659f44e2643b75f7618,Artificial intelligence applied to breast pathology,10.1007/s00428-021-03213-3,10
+145441238,05fc7e2ebc4b7b0efc9bc79d4c5119c1a4d8ae38,Detection of Prostate Cancer in Whole-Slide Images Through End-to-End Training With Image-Level Labels,10.1109/TMI.2021.3066295,30
+145441238,06bcda243a29be0892422c60b663f80cff21978a,Artificial intelligence assistance significantly improves Gleason grading of prostate biopsies by pathologists,10.1038/s41379-020-0640-y,72
+145441238,2c00230262e1e99862ab27743b725e222a74dcca,Histological subtypes in triple negative breast cancer are associated with specific information on survival.,10.1016/j.anndiagpath.2020.151490,15
+145441238,39a52867ea3d60ec4f28182e0e618b762d3d7909,Automated deep-learning system for Gleason grading of prostate cancer using biopsies: a diagnostic study.,10.1016/S1470-2045(19)30739-9,276
+145441238,3f9c978ea44205703f337574f5e07eb9d7ecb523,Artificial intelligence: is there a potential role in nephropathology?,10.1093/ndt/gfaa181,5
+145441238,69999230b02054b82254684a73bb8a4c83878d28,Report on computational assessment of Tumor Infiltrating Lymphocytes from the International Immuno-Oncology Biomarker Working Group,10.1038/s41523-020-0154-2,27
+145441238,889cc0565d6e2e844f4db0132c71a612672d2497,Pitfalls in assessing stromal tumor infiltrating lymphocytes (sTILs) in breast cancer,10.1038/s41523-020-0156-0,29
+145441238,a7f96553bc690f6f66697895a98e9377cc0f7562,Pitfalls in assessing stromal tumor infiltrating lymphocytes (sTILs) in breast cancer,10.1038/s41523-020-0156-0,58
+145441238,aff9f3cd8024fb64c7ea36d396a36ebf33d01f5b,Correction to: Assessment of individual tumor buds using keratin immunohistochemistry: moderate interobserver agreement suggests a role for machine learning,10.1038/s41379-019-0450-2,2
+145441238,b4c4c3dc91d42114023b0575c3e2273b87446ff7,Report on computational assessment of Tumor Infiltrating Lymphocytes from the International Immuno-Oncology Biomarker Working Group,10.1038/s41523-020-0154-2,53
+145441238,c52daf1cb971120c4083116cfc213acbaac6faaf,Application of a risk-management framework for integration of stromal tumor-infiltrating lymphocytes in clinical trials,10.1038/s41523-020-0155-1,9
+145441238,cdbebba0eb12a73be035bac85ec75e20d83a9339,Value of Public Challenges for the Development of Pathology Deep Learning Algorithms,10.4103/jpi.jpi_64_19,21
+145441238,cde27a74addf80ca2b3385a32966d51d35e0b2ff,Application of a risk-management framework for integration of stromal tumor-infiltrating lymphocytes in clinical trials,10.1038/s41523-020-0155-1,6
+145441238,ec43e78642d133ac0b19192ca26d0fcb0ba14a99,"Impact of rescanning and normalization on convolutional neural network performance in multi-center, whole-slide classification of prostate cancer",10.1038/s41598-020-71420-0,29
+145441238,06578dbe1d4b788eb0b6b0c84e3d4fae0ddf3a37,"HER2, chromosome 17 polysomy and DNA ploidy status in breast cancer; a translational study",10.1038/s41598-019-48212-2,12
+145441238,0c44949334771d4e331d792bc0db77c7fe708ca2,Robust and accurate quantification of biomarkers of immune cells in lung cancer micro-environment using deep convolutional neural networks,10.7717/peerj.6335,17
+145441238,18d0a58647fbdaaf7cd278cb66ae548a1e5289e5,Application of convolutional neural networks to breast biopsies to delineate tissue correlates of mammographic breast density,10.1038/s41523-019-0134-6,11
+145441238,1b27b9cfe0ce17950b6ea72f9ef8cf5a7459bccd,From Detection of Individual Metastases to Classification of Lymph Node Status at the Patient Level: The CAMELYON17 Challenge,10.1109/TMI.2018.2867350,290
+145441238,2d7797e69a35b5ffe021a2762ef251764562dca4,Computer aided quantification of intratumoral stroma yields an independent prognosticator in rectal cancer,10.1007/s13402-019-00429-z,0
+145441238,48547eb6d7527cf31f47cd77cfec4af159a23a51,No pixel-level annotations needed,10.1038/s41551-019-0472-6,11
+145441238,66f70286594b27928fb0eea3b4a0f292261c292f,Deep learning assisted mitotic counting for breast cancer,10.1038/s41374-019-0275-0,51
+145441238,91bcebba717670d740ef76097a0885a0bd3c9dde,Deep learning and manual assessment show that the absolute mitotic count does not contain prognostic information in triple negative breast cancer,10.1007/s13402-019-00445-z,0
+145441238,94962ef85aca6df5c8289874b56bcaa8722dc596,Deep learning and manual assessment show that the absolute mitotic count does not contain prognostic information in triple negative breast cancer,10.1007/s13402-019-00445-z,16
+145441238,981fb8239e2e32cd742059aa270015871aa64b61,Application of convolutional neural networks to breast biopsies to delineate tissue correlates of mammographic breast density,10.1038/s41523-019-0134-6,0
+145441238,9ff29e9553f0d93ef599c5afa90f311cc907d507,Validation of Whole-slide Digitally Imaged Melanocytic Lesions: Does Z-Stack Scanning Improve Diagnostic Accuracy?,10.4103/jpi.jpi_46_18,4
+145441238,aa4959c07dab73932a118ba1d75fdde23e55ffc6,A Novel Automatic Digital Algorithm that Accurately Quantifies Steatosis in NAFLD on Histopathological Whole‐Slide Images,10.1002/cyto.b.21790,22
+145441238,b94247577fd67ad218495f173203dc033683b7be,Digital and Computational Pathology: Bring the Future into Focus,10.4103/2153-3539.255259,12
+145441238,c3e98e4b01c27affe1b6c161172c5e27e8141618,Assessment of individual tumor buds using keratin immunohistochemistry: moderate interobserver agreement suggests a role for machine learning,10.1038/s41379-019-0434-2,20
+145441238,d646accbc0394ecfa0da14066a825ca1695c8dac,Quantification of Leydig cells and stromal hyperplasia in the postmenopausal ovary of women with endometrial carcinoma.,10.1016/j.humpath.2018.10.022,3
+145441238,e1170679c6b5fe0addb40cfb62076979a3b3ebec,Resolution-agnostic tissue segmentation in whole-slide histopathology images with convolutional neural networks,10.7717/peerj.8242,29
+145441238,fa59a6c087ec8b88c3828a95de5e0662cd2eee7e,Deep Learning-Based Histopathologic Assessment of Kidney Tissue.,10.1681/ASN.2019020144,162
+145441238,4c56dbeda2cb93aadcc8e5c697ccb6f44283799b,Validation of a whole‐slide image‐based teleconsultation network,10.1111/his.13673,15
+145441238,a58015a59562caf325a3f05288147704c055ce8d,Using deep convolutional neural networks to identify and classify tumor-associated stroma in diagnostic breast biopsies,10.1038/s41379-018-0073-z,129
+145441238,afe7e342756fb74d5cf7e4ad171415470a5baa3b,Machine Learning Compared With Pathologist Assessment-Reply.,10.1001/jama.2018.1478,5
+145441238,c549a002b6c2d5849674288cdf82bc2b2c0629d7,Evaluating the benefits of digital pathology implementation: time savings in laboratory logistics,10.1111/his.13691,56
+145441238,d188bdc40ffea984ce94b88b21fd5d3d3d9972d3,Whole-Slide Mitosis Detection in H&E Breast Histology Using PHH3 as a Reference to Train Distilled Stain-Invariant Convolutional Networks,10.1109/TMI.2018.2820199,165
+145441238,fed7c0d369d8991f6b76a661dedd0d1768a402d2,Neural Image Compression for Gigapixel Histopathology Image Analysis,10.1109/TPAMI.2019.2936841,113
+145441238,5eaff5ff94bfb7d25ef87679e9fcf243346b30e5,3D volume reconstruction from serial breast specimen radiographs for mapping between histology and 3D whole specimen imaging,10.1002/mp.12077,15
+145441238,ba913e2c03ece1c75f0af4d16dd11c7ffbc6e3ba,Diagnostic Assessment of Deep Learning Algorithms for Detection of Lymph Node Metastases in Women With Breast Cancer,10.1001/jama.2017.14585,1836
+145441238,d20888ebb2f710492747031f387c4efce4f2c2dd,Two Algorithms for High-throughput and Multi-parametric Quantification of Drosophila Neuromuscular Junction Morphology,10.3791/55395,7
+145441238,47262a72c9c7bf5070b97e70b55c6190d1079260,Deep learning as a tool for increased accuracy and efficiency of histopathological diagnosis,10.1038/srep26286,760
+145441238,4c9abadd8af32f1db60112025a18f8ba33d47269,Contribution of Histopathologic Tissue Composition to Quantitative MR Spectroscopy and Diffusion-weighted Imaging of the Prostate.,10.1148/radiol.2015142889,29
+145441238,c4b7f1b2a407ed1d2a79a8893dd3a02607e3de3b,Successful Combination of Sunitinib and Girentuximab in Two Renal Cell Carcinoma Animal Models: A Rationale for Combination Treatment of Patients with Advanced RCC,10.1016/j.neo.2014.12.011,15
+145441238,344af32e6757f88f16ad8703b4f634a8dedcc545,Correlation Between In Vivo 18F-FDG PET and Immunohistochemical Markers of Glucose Uptake and Metabolism in Pheochromocytoma and Paraganglioma,10.2967/jnumed.114.137034,63
+145441238,81460e5c3d1d916f328caad6b1775bd8ce7fa418,Abundance of IgG4+ plasma cells in isolated reactive lymphadenopathy is no indication of IgG4-related disease.,10.1309/AJCPX6VF6BGZVJGE,28
+145441238,d7697e102d2048ce2124cebd571227c639cbc77e,High prevalence of atypical hyperplasia in the endometrium of patients with epithelial ovarian cancer.,10.1309/AJCPTGJOPXUW6RVO,10
+145441238,0a650d21b9b30a7967b59b48630ee2c00fb9ccf6,Chromosome instability predicts the progression of premalignant oral lesions.,10.1016/j.oraloncology.2013.09.006,49
+145441238,186f4f58b8f4a0d1a029be876b7e702ba0ff08b3,Simultaneous targeting of insulin-like growth factor-1 receptor and anaplastic lymphoma kinase in embryonal and alveolar rhabdomyosarcoma: a rational choice.,10.1016/j.ejca.2013.06.022,35
+145441238,295269641ad07557c83be948f95a75fd9b4d4146,IL-1β processing in mechanical ventilation-induced inflammation is dependent on neutrophil factors rather than caspase-1,10.1186/2197-425X-1-8,5
+145441238,332d264601e6b6f6b6dbfadb58d73b7dd248276d,Effects of Dual Targeting of Tumor Cells and Stroma in Human Glioblastoma Xenografts with a Tyrosine Kinase Inhibitor against c-MET and VEGFR2,10.1371/journal.pone.0058262,72
+145441238,817ccaff1ad3513ed8bd7875666408bc93b339c5,Accurate assessment of cell density in low cellular liquid‐based cervical cytology,10.1111/j.1365-2303.2012.00990.x,8
+145441238,9f0e0ed9a7b9e897dcbc17ed27c9a28c7edc7c95,Microvascularity in transition zone prostate tumors resembles normal prostatic tissue,10.1002/pros.22588,25
+145441238,469b4b561906474a384b721475c176f8a75d5f7f,Intramuscular fibrous tissue determines muscle echo intensity in amyotrophic lateral sclerosis,10.1002/mus.22254,45
+145441238,6beb86f0b9019f6de377b970b6e22feba507c190,Concurrent Endometrial Intraepithelial Carcinoma (EIC) and Serous Ovarian Cancer: Can EIC Be Seen as the Precursor Lesion?,10.1097/IGC.0b013e3182434a81,33
+145441238,af78c737062eec73adb696afdfdeb28d98e8581b,Automated measurement of MIB‐1 positive area as an alternative to counting in follicular lymphoma,10.1002/cyto.a.22053,4
+145441238,c41acfc9cf88196522a0c4d61520c51883a25496,Tubal epithelial lesions in salpingo-oophorectomy specimens of BRCA-mutation carriers and controls.,10.1016/j.ygyno.2012.06.015,68
+145441238,132e10c017d47aff328bc6396c792cffbd2e1f44,Parametric mapping of immunohistochemically stained tissue sections; a method to quantify the colocalization of tumor markers,10.1007/s13402-010-0008-2,25
+145441238,b0030f6042c9db5a5f366df01be86a64b1205c96,Quantitative analysis of lymph vessel characteristics in organ confined prostate cancer,10.1002/pros.21225,3
+145441238,b1869e9734fe062622e9daece3eb4bfb5e9bd22e,"Mild Muscular Features in Tenascin-X Knockout Mice, A Model of Ehlers–Danlos Syndrome",10.3109/03008207.2010.551616,27
+145441238,1feb85f9654be7ed02da556da617a875b0614b60,Simultaneous assessment of DNA ploidy and biomarker expression in paraffin‐embedded tissue sections,10.1111/j.1365-2559.2010.03599.x,23
+145388932,23978022a5e05b2bd7b2b9d6418dee00972b3044,LYSTO: The Lymphocyte Assessment Hackathon and Benchmark Dataset,10.48550/arXiv.2301.06304,0
+145388932,697be6a6398755ff665b968936fef868ec8974bf,Predictive uncertainty estimation for out-of-distribution detection in digital pathology,10.1016/j.media.2022.102655,4
+145388932,bc6b483f9b1fa630fa4b43158b13716f1ca7497b,Domain adaptation strategies for cancer-independent detection of lymph node metastases,10.48550/arXiv.2207.06193,1
+145388932,269e8609dff88d78e8e3c41f81a97199c9add3dd,Automated risk classification of colon biopsies based on semantic segmentation of histopathology images,,0
+145388932,455c14205e23d9cb709371ceb605f92e4fbbda2f,Residual cyclegan for robust domain transformation of histopathological tissue slides,10.1016/j.media.2021.102004,31
+145388932,51c291c635a61682b1abcfc99c6e21079ba39b67,Multi_Scale_Tools: A Python Library to Exploit Multi-Scale Whole Slide Images,10.3389/fcomp.2021.684521,9
+145388932,5cf666b6326b85a31b4e2759031392f0a49351b2,Comparison of Consecutive and Re-stained Sections for Image Registration in Histopathology,,1
+145388932,79224099fea90dd0316719579f0c635540a3af7e,Tailoring automated data augmentation to H&E-stained histopathology,,18
+145388932,952bdfe8a2732d537363028114718edad19bc451,High-resolution Image Registration of Consecutive and Re-stained Sections in Histopathology,,4
+145388932,dc17a2f2fef8904b38921150dce466ac8f27b7b2,Computational Pathology: What is the way forward?,10.1117/12.2586357,0
+145388932,f8208405f959304ba68f3d11d7f880c305ac7b39,Editorial Computational Pathology,10.1109/JBHI.2021.3052029,0
+145388932,455e92c1f629cd8065bc0c8287d3da52b451b98c,HookNet: multi-resolution convolutional neural networks for semantic segmentation in histopathology whole-slide images,10.1016/j.media.2020.101890,63
+145388932,6441d36a0af25f29abc3a21a012daf1ea9d28594,Extending Unsupervised Neural Image Compression With Supervised Multitask Learning,,15
+145388932,65013e6ab482551a6671ff916eff71a02586f451,Abstract 2113: Discrimination of benign breast disease from normal lobules using an automated computational pathology algorithm,10.1158/1538-7445.am2020-2113,0
+145388932,89997fe09abc2c7d8bd73ef0f902e38fc2ae8baa,Efficient Out-of-Distribution Detection in Digital Pathology Using Multi-Head Convolutional Neural Networks,,23
+145388932,bd6954422d3582093d26b76ac743991219c91351,Deep learning enables fully automated mitotic density assessment in breast cancer histopathology,10.1016/s0959-8049(20)30764-4,0
+145388932,efaa4e593dbf76786a33dfd2dff79b77396397cc,Automated Scoring of Nuclear Pleomorphism Spectrum with Pathologist-level Performance in Breast Cancer,,1
+145388932,06ee6ed85131848ef70da625806ba480915aa2e0,Axillary lymph nodes in breast cancer cases,10.23698/AIDA/BRLN,3
+145388932,35ee6606ec99b5bf282a0c5f400edbd16a6e22d9,Quantifying the effects of data augmentation and stain color normalization in convolutional neural networks for computational pathology,10.1016/j.media.2019.101544,270
+145388932,5e60744b9ba4f9f9380962b81eb236662dcfba3c,METHODS 2 . 1 Analysis of color variation in hematoxylin and eosin stained histology slides,,0
+145388932,720dcc4174c00f80e18070b98ced8ec380bc3097,Abstract 651: Analysis of the immune microenvironment to advance breast cancer risk prediction and prevention,10.1158/1538-7445.SABCS18-651,0
+145388932,afbaebf021cd8680a0342d22052644bf11e206bf,HookNet: A Multi Resolution Approach for Breast Tissue Segmentation in Histopathology Images,,0
+145388932,b0cc9473a96dcd45dd1c7de2d7d217c2a453a850,Epithelium segmentation using deep learning in H&E-stained prostate specimens with immunohistochemistry as reference standard,10.1038/s41598-018-37257-4,0
+145388932,b94247577fd67ad218495f173203dc033683b7be,Digital and Computational Pathology: Bring the Future into Focus,10.4103/2153-3539.255259,12
+145388932,c310babca20446de2ee7d8857abe239e0fe261a0,Automated Gleason Grading of Prostate Biopsies using Deep Learning,10.1016/S1470-2045(19)30739-9,106
+145388932,c3533243da19c79f7cf819315b7b9ed2e603a6c2,From Point Annotations to Epithelial Cell Detection in Breast Cancer Histopathology using RetinaNet,,5
+145388932,ddf3d225ccaeb05a912051c554b38f722f365a1b,Learning to detect lymphocytes in immunohistochemistry with deep learning,10.1016/j.media.2019.101547,81
+145388932,1bbafc8586925a89fb6ebe0941a9cb7e95de452b,Convolutional Neural Networks for Lymphocyte detection in Immunohistochemically Stained Whole-Slide Images,,12
+145388932,2c468dfe5f797f5928800e02f20ceddb55bf37f1,"University of Dundee Towards Standardization of Retinal Vascular Measurements Mookiah,",,0
+145388932,30027db82f4eb242a2ee05973cabb06c8f02bd73,Automatic segmentation of histopathological slides of renal tissue using deep learning,10.1117/12.2293717,40
+145388932,3a40073f704057920b4306d18d7326a568d6b578,Stain normalization of histopathology images using generative adversarial networks,10.1109/ISBI.2018.8363641,82
+145388932,526246bb2684635e3ea9c5e01612084e33cf0ed5,Structure Instance Segmentation in Renal Tissue: A Case Study on Tubular Immune Cell Detection,10.1007/978-3-030-00949-6_14,6
+145388932,6f55cc94e6a7b1e7f54b77aecf6b57773378fc21,H and E stain augmentation improves generalization of convolutional networks for histopathological mitosis detection,10.1117/12.2293048,33
+145388932,8e8b923c809ab504558fd4822a7696c6e2492cfe,Automatic color unmixing of IHC stained whole slide images,10.1117/12.2293734,9
+145388932,add18010e1af63998bae7573f4cd5d2843eeb5bb,Automated segmentation of epithelial tissue in prostatectomy slides using deep learning,10.1117/12.2292872,14
+145388932,bf16e7e46d23a0e83bd2efe2d13e7ba7b0c47b51,Automatic Detection of Tumor Budding in Colorectal Carcinoma with Deep Learning,10.1007/978-3-030-00949-6_16,8
+145388932,c406706c31d311ba4a32cd29d58b2cc12a432ad3,You Only Look on Lymphocytes Once,,15
+145388932,d5b8fba71671814445de80d36a2d563f43eb9d07,Epithelium segmentation using deep learning in H&E-stained prostate specimens with immunohistochemistry as reference standard,10.1038/s41598-018-37257-4,100
+145388932,e4729ac7bfdb707e3207b0a91b57a2f907f5351b,Histopathology stain-color normalization using deep generative models,,30
+145388932,e58b84e96868eb5f165ab710ef43668c4d8bbf74,Learning from sparsely annotated data for semantic segmentation in histopathology images,,29
+145388932,eebf6be2e906c922ee045c946b230b99dd9c86e0,Gigapixel Whole-Slide Image Classification Using Unsupervised Image Compression And Contrastive Training,,9
+145388932,ffab09ba8100420dbd066f31c830f7d3e984696b,Stain-Transforming Cycle-Consistent Generative Adversarial Networks for Improved Segmentation of Renal Histopathology,,62
+145388932,17e7607acf9b2aeda7b32e369df4a5ea2f903194,Evaluation of tongue squamous cell carcinoma resection margins using ex-vivo MR,10.1007/s11548-017-1524-6,19
+145388932,2abde28f75a9135c8ed7c50ea16b7b9e49da0c09,A survey on deep learning in medical image analysis,10.1016/j.media.2017.07.005,7557
+145388932,3096798a92ab0829ceb1d601d002dd47dc49e156,Deep learning-based assessment of tumor-associated stroma for diagnosing breast cancer in histopathology images,10.1109/ISBI.2017.7950668,60
+145388932,418354adcafbc948c266c55564feb5b12cc3dc21,Comparison of different methods for tissue segmentation in histopathological whole-slide images,10.1109/ISBI.2017.7950590,32
+145388932,5d19f8712f8460ddd5f5129b3805f875d4b6992c,Drosophila NMJ Morphometrics,10.6084/M9.FIGSHARE.2077399.V1,2
+145388932,7845654def02cc6819f25ebfd78510a4b299f069,561PImproving treatment decisions in colon cancer: The tumor-stroma ratio (TSR) additional to the TNM classification,10.1093/annonc/mdx393.087,0
+145388932,784906ab63c3743a5d26dca846a49c2edbf4dc6a,Context-aware stacked convolutional neural networks for classification of breast carcinomas in whole-slide histopathology images,10.1117/1.JMI.4.4.044504,135
+145388932,87b612323f759cea5cb224331bfacf59a0f335b6,The importance of stain normalization in colorectal tissue classification with convolutional networks,10.1109/ISBI.2017.7950492,161
+145388932,ab781b4dc45e73ddfe6383a108a813a6739f1753,"The Digital Pathology Association's Annual Conference October 1-3 | Manchester Grand Hyatt | San Diego, CA",10.1016/s2153-3539(22)00450-3,0
+145388932,d4ecdfcb43e4400e15c5cf18ae706ead08a929d6,Validation of diagnosing melanocytic lesions on whole slide images : does z-stack scanning improve diagnostic accuracy?,,2
+145388932,2729d2918978d5ed602aa843fbdd027d83e0036f,Stain Specific Standardization of Whole-Slide Histopathological Images,10.1109/TMI.2015.2476509,217
+145388932,29c294dc1e44ac8eea3254bf797caba8966c3f89,Variational Weakly Supervised Gaussian Processes,10.5244/C.30.71,10
+145388932,3487257137f253ce44733bc433e14249a87c07ad,Whole Mastectomy Volume Reconstruction from 2D Radiographs and Its Mapping to Histology,10.1007/978-3-319-41546-8_46,4
+145388932,4f0caf679ef74220fed96a8fdce14dd5da70a3df,A generic nuclei detection method for histopathological breast images,10.1117/12.2209613,3
+145388932,7e39820fb261f367ce8bf362de991ebff4400083,Automated Detection of DCIS in Whole-Slide H&E Stained Breast Histopathology Images,10.1109/TMI.2016.2550620,77
+145388932,ae1de37edf1f15979db3029e6ec9478b0e42e6a6,A New Fiji-Based Algorithm That Systematically Quantifies Nine Synaptic Parameters Provides Insights into Drosophila NMJ Morphometry,10.1371/journal.pcbi.1004823,60
+145388932,287f59271c36a4ce4484b31f9ef3dc78f70aa853,Minimum slice spacing required to reconstruct 3D shape for serial sections of breast tissue for comparison with medical imaging,10.1117/12.2081909,3
+145388932,49d5e6ed83859117cfd781612878ea93fa75c348,A multi-scale superpixel classification approach to the detection of regions of interest in whole slide histopathology images,10.1117/12.2081768,42
+145388932,e14a159a1d16c2acfe48b60c81807300c67ee228,Automated detection of prostate cancer in digitized whole-slide images of H and E-stained biopsy specimens,10.1117/12.2081366,16
+145388932,36bf988923abcd7b6c814ec4306da014a5a6eaa4,Towards Spatial Correspondence between Specimen and In-vivo Breast Imaging,10.1007/978-3-319-07887-8_93,5
+145388932,e39a5aa36977c617a9caecb6da5c87e27886ad6f,Quantitative analysis of stain variability in histology slides and an algorithm for standardization,10.1117/12.2043683,37
+145388932,b41a040a290998ee0e799f40caa886e6e896786a,placenta retained cells in the basal decidua is decreased in The number of multinucleated trophoblastic giant,,1
+145388932,6153a8428be55ca157186f10f49164429dc9e33d,A study into methodology and application of quantification of tumour vasculature in rectal cancer,10.1007/s00428-004-1033-1,8
+145388932,13c6fae538794cf037367bcb6590f51f00ecf37d,Automated identification of cell and tissue components in pathology,,1
+145388932,49882d8253057463db285230f6b6182a99cae211,"International Symposium on Metastases in Head and Neck Cancer. Kiel, Germany, 15-18 January 1998. Abstracts.",,0
+145959882,1898998f27ce0750a42f8f3ca2ed7e292f05aee2,Understanding metric-related pitfalls in image analysis validation,10.48550/arXiv.2302.01790,3
+145959882,4bcd672218ecec70473c84f6f1cc52c64031f3e5,Continual learning strategies for cancer-independent detection of lymph node metastases.,10.1016/j.media.2023.102755,0
+145959882,fc5eb96c03e65d357cb8425a5938f4a6b62be9bd,Artificial intelligence in bone marrow histological diagnostics: potential applications and challenges.,10.1159/000529701,0
+145959882,2f2182f8e55be5a85c1316cd1b181cd5c85c106c,Metrics reloaded: Pitfalls and recommendations for image analysis validation,10.48550/arXiv.2206.01653,34
+145959882,3c1d061588688fdb25047bd4698955742ae1fb7b,Automated quantification of levels of breast terminal duct lobular (TDLU) involution using deep learning,10.1038/s41523-021-00378-7,0
+145959882,42c19709354c631efc35d2bda8f0d33cf1d79831,A Decade of GigaScience: The Challenges of Gigapixel Pathology Images,10.1093/gigascience/giac056,2
+145959882,516b2dc6c3761458c8fa6f5759295673e86a42db,Dataset of prostate MRI annotated for anatomical zones and cancer,10.1016/j.dib.2022.108739,0
+145959882,551a32d6bb196127b75d256e8547b81ef67a7ad3,Artificial intelligence for diagnosis and Gleason grading of prostate cancer: the PANDA challenge,10.1038/s41591-021-01620-2,75
+145959882,697be6a6398755ff665b968936fef868ec8974bf,Predictive uncertainty estimation for out-of-distribution detection in digital pathology,10.1016/j.media.2022.102655,4
+145959882,7201377df1b1bcfa9f4f57d797f561842e848c9f,Predicting biochemical recurrence of prostate cancer with artificial intelligence,10.1038/s43856-022-00126-3,2
+145959882,746f0e75871df9e6df74b6b4f1d1a5618e37b73c,Automated quantification of levels of breast terminal duct lobular (TDLU) involution using deep learning,10.1038/s41523-021-00378-7,3
+145959882,b5b05d05d826fcfdcc92a6a5710c84f346610f1f,Crowdsourcing of artificial intelligence algorithms for diagnosis and Gleason grading of prostate cancer in biopsies,10.1016/s0302-2838(22)00693-5,0
+145959882,bc6b483f9b1fa630fa4b43158b13716f1ca7497b,Domain adaptation strategies for cancer-independent detection of lymph node metastases,10.48550/arXiv.2207.06193,1
+145959882,c397c6f1480ac8e3ed875adad96e9b3e00c37f26,The Medical Segmentation Decathlon,10.1038/s41467-022-30695-9,0
+145959882,c661857719657aac571718e3d48cb66b8fc1e941,Prostate158 - An expert-annotated 3T MRI dataset and algorithm for prostate cancer detection,10.1016/j.compbiomed.2022.105817,4
+145959882,c90825e6da28cd71598d38dacf09cd1023ad1a74,Generalization of Deep Learning in Digital Pathology: Experience in Breast Cancer Metastasis Detection,10.3390/cancers14215424,0
+145959882,014718afc12c16c0a80091c389bc661933484793,Artificial Intelligence for Diagnosis and Gleason Grading of Prostate Cancer in Biopsies-Current Status and Next Steps.,10.1016/j.euf.2021.07.002,10
+145959882,191e15acc68311c29c38a4bbfa0769608fa48fbc,Using deep learning for quantification of cellularity and cell lineages in bone marrow biopsies and comparison to normal age-related variation.,10.1016/j.pathol.2021.07.011,3
+145959882,25890a20503e79f773f427c999fcb41387f0aab1,Optimized tumour infiltrating lymphocyte assessment for triple negative breast cancer prognostics,10.1016/j.breast.2021.02.007,10
+145959882,455c14205e23d9cb709371ceb605f92e4fbbda2f,Residual cyclegan for robust domain transformation of histopathological tissue slides,10.1016/j.media.2021.102004,31
+145959882,4ea1f801a7d14b2bf284fef25d83bcc222c01629,End-to-end classification on basal-cell carcinoma histopathology whole-slides images,10.1117/12.2581042,2
+145959882,787ef2981e94e481432cb2a1296903676ec80fa9,Common Limitations of Image Processing Metrics: A Picture Story,,69
+145959882,79224099fea90dd0316719579f0c635540a3af7e,Tailoring automated data augmentation to H&E-stained histopathology,,18
+145959882,7d873a9c49d3864709aa762f8740edcdbd7369c5,Deep learning in histopathology: the path to the clinic,10.1038/s41591-021-01343-4,197
+145959882,96c231147b444cb802c4ebb4f1be11309040d1f9,Deep learning in digital pathology and microscopy for research and clinical practice,10.22443/RMS.EMC2020.286,0
+145959882,979a9f247700d00ff2c3f0612d5eb001379f93c8,The Medical Segmentation Decathlon,10.1038/s41467-022-30695-9,189
+145959882,9a366d2c99f3c6f21989690e9cc84581e598624c,Automatic tumour segmentation in H&E-stained whole-slide images of the pancreas.,10.1117/12.2611542,0
+145959882,ffa308f1ec81d2c2e1e75103af34ba450c33ee25,Mini Review: The Last Mile—Opportunities and Challenges for Machine Learning in Digital Toxicologic Pathology,10.1177/0192623321990375,4
+145959882,05fc7e2ebc4b7b0efc9bc79d4c5119c1a4d8ae38,Detection of Prostate Cancer in Whole-Slide Images Through End-to-End Training With Image-Level Labels,10.1109/TMI.2021.3066295,30
+145959882,06bcda243a29be0892422c60b663f80cff21978a,Artificial intelligence assistance significantly improves Gleason grading of prostate biopsies by pathologists,10.1038/s41379-020-0640-y,72
+145959882,0a79db68b14b74dfd7637ed5b8a0a7aa2956e3ea,Artificial intelligence to detect MYC translocation in slides of diffuse large B-cell lymphoma,10.1007/s00428-020-02931-4,8
+145959882,39a52867ea3d60ec4f28182e0e618b762d3d7909,Automated deep-learning system for Gleason grading of prostate cancer using biopsies: a diagnostic study.,10.1016/S1470-2045(19)30739-9,276
+145959882,5a1c2ad4627095f867a2fe62d61177c4631096d9,The 2019 International Society of Urological Pathology (ISUP) Consensus Conference on Grading of Prostatic Carcinoma,10.1097/PAS.0000000000001497,165
+145959882,6da9a553f8fa6eeceaa25aa53b748be6c70f6e03,The PANDA challenge: Prostate cANcer graDe Assessment using the Gleason grading system,10.5281/ZENODO.3715938,13
+145959882,89997fe09abc2c7d8bd73ef0f902e38fc2ae8baa,Efficient Out-of-Distribution Detection in Digital Pathology Using Multi-Head Convolutional Neural Networks,,23
+145959882,8bc7e464965aabd635e4bc2e76d186d6d2c04e01,Multi-class semantic cell segmentation and classification of aplasia in bone marrow histology images,10.1117/12.2549654,1
+145959882,a4e7f8dd9e72529ea6f900a3ed4987606a0fb97e,Deep Learning Methods for Lung Cancer Segmentation in Whole-Slide Histopathology Images—The ACDC@LungHP Challenge 2019,10.1109/JBHI.2020.3039741,30
+145959882,a9dc7e9f174dbd624d5a8294ca6dc9b671e1ae97,Predicting MYC translocation in HE specimens of diffuse large B-cell lymphoma through deep learning,10.1117/12.2549650,1
+145959882,ec43e78642d133ac0b19192ca26d0fcb0ba14a99,"Impact of rescanning and normalization on convolutional neural network performance in multi-center, whole-slide classification of prostate cancer",10.1038/s41598-020-71420-0,29
+145959882,0c44949334771d4e331d792bc0db77c7fe708ca2,Robust and accurate quantification of biomarkers of immune cells in lung cancer micro-environment using deep convolutional neural networks,10.7717/peerj.6335,17
+145959882,1b27b9cfe0ce17950b6ea72f9ef8cf5a7459bccd,From Detection of Individual Metastases to Classification of Lymph Node Status at the Patient Level: The CAMELYON17 Challenge,10.1109/TMI.2018.2867350,290
+145959882,1e70a09aedc8d91538e269f568b212ca839012b1,State-of-the-Art Deep Learning in Cardiovascular Image Analysis.,10.1016/j.jcmg.2019.06.009,189
+145959882,2d7797e69a35b5ffe021a2762ef251764562dca4,Computer aided quantification of intratumoral stroma yields an independent prognosticator in rectal cancer,10.1007/s13402-019-00429-z,0
+145959882,35ee6606ec99b5bf282a0c5f400edbd16a6e22d9,Quantifying the effects of data augmentation and stain color normalization in convolutional neural networks for computational pathology,10.1016/j.media.2019.101544,270
+145959882,4654aa505e5bcdb089d0df202cd7ceabc9d2d41f,A large annotated medical image dataset for the development and evaluation of segmentation algorithms,,500
+145959882,48547eb6d7527cf31f47cd77cfec4af159a23a51,No pixel-level annotations needed,10.1038/s41551-019-0472-6,11
+145959882,499846b295c4a0926f18bcc484c0db00bfbf1300,Streaming Convolutional Neural Networks for End-to-End Learning With Multi-Megapixel Images,10.1109/TPAMI.2020.3019563,43
+145959882,663b19914b7fe99a2c3cc1641ba8d47109d63db2,Lymph node detection in MR Lymphography: false positive reduction using multi-view convolutional neural networks,10.7717/peerj.8052,9
+145959882,7593ee0a8242026714b37ba2c2805d1249c82e13,Neural Ordinary Differential Equations for Semantic Segmentation of Individual Colon Glands,,20
+145959882,8da1812001d6d2753f2ef55fa5e50e39a648030a,Dealing with Label Scarcity in Computational Pathology: A Use Case in Prostate Cancer Classification,,4
+145959882,b0cc9473a96dcd45dd1c7de2d7d217c2a453a850,Epithelium segmentation using deep learning in H&E-stained prostate specimens with immunohistochemistry as reference standard,10.1038/s41598-018-37257-4,0
+145959882,c14d3cf3f27b22bb8e6a3be573095173e7a917f1,High resolution whole prostate biopsy classification using streaming stochastic gradient descent,10.1117/12.2512817,3
+145959882,c310babca20446de2ee7d8857abe239e0fe261a0,Automated Gleason Grading of Prostate Biopsies using Deep Learning,10.1016/S1470-2045(19)30739-9,106
+145959882,c7ce6b90707871b922aca4cb6a8b16625980788b,Computer aided quantification of intratumoral stroma yields an independent prognosticator in rectal cancer,10.1007/s13402-019-00429-z,62
+145959882,ddf3d225ccaeb05a912051c554b38f722f365a1b,Learning to detect lymphocytes in immunohistochemistry with deep learning,10.1016/j.media.2019.101547,81
+145959882,e1170679c6b5fe0addb40cfb62076979a3b3ebec,Resolution-agnostic tissue segmentation in whole-slide histopathology images with convolutional neural networks,10.7717/peerj.8242,29
+145959882,e8b28dbb1bbb2944e3ec69a7cb9a9c33deeead88,"A Single-Arm, Multicenter Validation Study of Prostate Cancer Localization and Aggressiveness With a Quantitative Multiparametric Magnetic Resonance Imaging Approach",10.1097/RLI.0000000000000558,22
+145959882,188f8f6f70947215a9dfeebb0b577155e0d3d339,1399 H&E-stained sentinel lymph node sections of breast cancer patients: the CAMELYON dataset,10.1093/gigascience/giy065,215
+145959882,1bbafc8586925a89fb6ebe0941a9cb7e95de452b,Convolutional Neural Networks for Lymphocyte detection in Immunohistochemically Stained Whole-Slide Images,,12
+145959882,202f393ad41b85acbc59a28e5080d19c9de56988,Computer-aided diagnosis of lung carcinoma using deep learning - a pilot study,,24
+145959882,30027db82f4eb242a2ee05973cabb06c8f02bd73,Automatic segmentation of histopathological slides of renal tissue using deep learning,10.1117/12.2293717,40
+145959882,526246bb2684635e3ea9c5e01612084e33cf0ed5,Structure Instance Segmentation in Renal Tissue: A Case Study on Tubular Immune Cell Detection,10.1007/978-3-030-00949-6_14,6
+145959882,6f55cc94e6a7b1e7f54b77aecf6b57773378fc21,H and E stain augmentation improves generalization of convolutional networks for histopathological mitosis detection,10.1117/12.2293048,33
+145959882,8e8b923c809ab504558fd4822a7696c6e2492cfe,Automatic color unmixing of IHC stained whole slide images,10.1117/12.2293734,9
+145959882,ab07173f4e352d07f48eddd67136e8e33573aecf,Training convolutional neural networks with megapixel images,,12
+145959882,add18010e1af63998bae7573f4cd5d2843eeb5bb,Automated segmentation of epithelial tissue in prostatectomy slides using deep learning,10.1117/12.2292872,14
+145959882,afe7e342756fb74d5cf7e4ad171415470a5baa3b,Machine Learning Compared With Pathologist Assessment-Reply.,10.1001/jama.2018.1478,5
+145959882,d188bdc40ffea984ce94b88b21fd5d3d3d9972d3,Whole-Slide Mitosis Detection in H&E Breast Histology Using PHH3 as a Reference to Train Distilled Stain-Invariant Convolutional Networks,10.1109/TMI.2018.2820199,165
+145959882,d5b8fba71671814445de80d36a2d563f43eb9d07,Epithelium segmentation using deep learning in H&E-stained prostate specimens with immunohistochemistry as reference standard,10.1038/s41598-018-37257-4,100
+145959882,eed96a595b9c988affacac34c57128bd115020f0,Unsupervised Prostate Cancer Detection on H&E using Convolutional Adversarial Autoencoders,,24
+145959882,fed7c0d369d8991f6b76a661dedd0d1768a402d2,Neural Image Compression for Gigapixel Histopathology Image Analysis,10.1109/TPAMI.2019.2936841,113
+145959882,ffab09ba8100420dbd066f31c830f7d3e984696b,Stain-Transforming Cycle-Consistent Generative Adversarial Networks for Improved Segmentation of Renal Histopathology,,62
+145959882,11f7a41abab06b8792057fa46cd3de08b22ac7d0,Using deep learning to segment breast and fibroglandular tissue in MRI volumes,10.1002/mp.12079,162
+145959882,17e7607acf9b2aeda7b32e369df4a5ea2f903194,Evaluation of tongue squamous cell carcinoma resection margins using ex-vivo MR,10.1007/s11548-017-1524-6,19
+145959882,2a863a1ab6df3ca9a55573befcb89e1ed7b7df74,Large scale deep learning for computer aided detection of mammographic lesions,10.1016/j.media.2016.07.007,708
+145959882,2abde28f75a9135c8ed7c50ea16b7b9e49da0c09,A survey on deep learning in medical image analysis,10.1016/j.media.2017.07.005,7557
+145959882,418354adcafbc948c266c55564feb5b12cc3dc21,Comparison of different methods for tissue segmentation in histopathological whole-slide images,10.1109/ISBI.2017.7950590,32
+145959882,510bebf1faa812da5e70ce18eedfa768f0077a38,"MAGE expression in head and neck squamous cell carcinoma primary tumors, lymph node metastases and respective recurrences-implications for immunotherapy",10.18632/oncotarget.14830,20
+145959882,784906ab63c3743a5d26dca846a49c2edbf4dc6a,Context-aware stacked convolutional neural networks for classification of breast carcinomas in whole-slide histopathology images,10.1117/1.JMI.4.4.044504,135
+145959882,87b612323f759cea5cb224331bfacf59a0f335b6,The importance of stain normalization in colorectal tissue classification with convolutional networks,10.1109/ISBI.2017.7950492,161
+145959882,925024223075dcc5b4db81f4b07eddf2cbdf4519,Location Sensitive Deep Convolutional Neural Networks for Segmentation of White Matter Hyperintensities,10.1038/s41598-017-05300-5,0
+145959882,ab781b4dc45e73ddfe6383a108a813a6739f1753,"The Digital Pathology Association's Annual Conference October 1-3 | Manchester Grand Hyatt | San Diego, CA",10.1016/s2153-3539(22)00450-3,0
+145959882,ba913e2c03ece1c75f0af4d16dd11c7ffbc6e3ba,Diagnostic Assessment of Deep Learning Algorithms for Detection of Lymph Node Metastases in Women With Breast Cancer,10.1001/jama.2017.14585,1836
+145959882,f09488ac1b4b5e046aebaf87f59cee1e3312e9e9,JMI 2016 List of Reviewers.,10.1117/1.JMI.4.1.010101,0
+145959882,06c8b4c1dd0c045bc6a08d0062c5042b5588d55b,Pulmonary Nodule Detection in CT Images: False Positive Reduction Using Multi-View Convolutional Networks,10.1109/TMI.2016.2536809,923
+145959882,2729d2918978d5ed602aa843fbdd027d83e0036f,Stain Specific Standardization of Whole-Slide Histopathological Images,10.1109/TMI.2015.2476509,217
+145959882,47262a72c9c7bf5070b97e70b55c6190d1079260,Deep learning as a tool for increased accuracy and efficiency of histopathological diagnosis,10.1038/srep26286,760
+145959882,4e6b705773934f42387213d2aeeac950a636119f,JMI 2015 List of Reviewers.,10.1117/1.JMI.3.1.010101,0
+145959882,69cc46b96b0e8b0926de51d7a5bf83e3c29897f9,In-depth tissue profiling using multiplexed immunohistochemical consecutive staining on single slide,10.1126/sciimmunol.aaf6925,123
+145959882,70079b1af89534ad1caa342fdac269789d31459c,Automated multistructure atlas-assisted detection of lymph nodes using pelvic MR lymphography in prostate cancer patients.,10.1118/1.4951726,2
+145959882,7b919a690fea032f8b55339c2a0f4abc56add55b,Intranodal signal suppression in pelvic MR lymphography of prostate cancer patients: a quantitative comparison of ferumoxtran-10 and ferumoxytol,10.7717/peerj.2471,7
+145959882,7bfa78ee6a6d93bac31a1e29bc0552ca8e5a215c,Computer-extracted Features Can Distinguish Noncancerous Confounding Disease from Prostatic Adenocarcinoma at Multiparametric MR Imaging.,10.1148/radiol.2015142856,49
+145959882,7e39820fb261f367ce8bf362de991ebff4400083,Automated Detection of DCIS in Whole-Slide H&E Stained Breast Histopathology Images,10.1109/TMI.2016.2550620,77
+145959882,91feb0cb04d67a5c38d0a4e7c67fc7874491abc6,Location Sensitive Deep Convolutional Neural Networks for Segmentation of White Matter Hyperintensities,10.1038/s41598-017-05300-5,197
+145959882,9afbb8e061beb2a23a29150d6f5be1d8507db996,Automated robust registration of grossly misregistered whole-slide images with varying stains,10.1117/12.2216672,0
+145959882,3196ac4ab6d696d96cd55656093b853a393cbba7,Computerized detection of cancer in multi-parametric prostate MRI,,2
+145959882,33efdb691cbcc9a4650f3f2a2fbf6c4121d2e132,Detection and Diagnosis of Prostate Cancer in MR,10.1201/B18191-23,0
+145959882,43a16541f951ab37ad96cb4f799647b4b3d77153,Multiparametric Magnetic Resonance Imaging for Discriminating Low-Grade From High-Grade Prostate Cancer,10.1097/RLI.0000000000000157,54
+145959882,49d5e6ed83859117cfd781612878ea93fa75c348,A multi-scale superpixel classification approach to the detection of regions of interest in whole slide histopathology images,10.1117/12.2081768,42
+145959882,a26abb9686961711cf9cd7629aeceb3d6599315a,Prostate Cancer: The European Society of Urogenital Radiology Prostate Imaging Reporting and Data System Criteria for Predicting Extraprostatic Extension by Using 3-T Multiparametric MR Imaging.,10.1148/radiol.15141412,59
+4960344,663336d2c2efa0a4bfe8a4988eb8d1b87e9a7403,Velocity‐selective arterial spin labeling perfusion MRI: A review of the state of the art and recommendations for clinical implementation,10.1002/mrm.29371,6
+4960344,8526bb601d889c7c3924b2a290656a37785d184b,Erratum to: Velocity‐selective arterial spin labeling perfusion MRI: A review of the state of the art and recommendations for clinical implementation (Magn Reson Med. 2022; 88:1528–1547),10.1002/mrm.29504,0
+4960344,c397c6f1480ac8e3ed875adad96e9b3e00c37f26,The Medical Segmentation Decathlon,10.1038/s41467-022-30695-9,0
+4960344,979a9f247700d00ff2c3f0612d5eb001379f93c8,The Medical Segmentation Decathlon,10.1038/s41467-022-30695-9,189
+4960344,4330ce9c73af04a35d1a7dd366df8434c98e30ed,Automated Assessment of CO-RADS and Chest CT Severity Scores in Patients with Suspected COVID-19 Using Artificial Intelligence,10.1148/radiol.2020202439,94
+4960344,c70d29315538d660696c55932c31c763123d2868,Envision a safer and smarter world with Dell EMC PowerScale,,0
+4960344,0075a6b4a31f64f027ee1d300803d00317547557,Quantitative blood flow measurement in rat brain with multiphase arterial spin labelling magnetic resonance imaging,10.1177/0271678X18756218,24
+4960344,086a39a4b16055705aa074381c0dc9a0c685fc1a,OP05. ARTERIAL SPIN LABELLING MRI OF CEREBRAL TUMOURS IN RATS,10.1093/neuonc/now292.004,0
+4960344,2938c89fb09c56d9bb5b1e01e8aab10ec7305afe,Acceleration of ASL‐based time‐resolved MR angiography by acquisition of control and labeled images in the same shot (ACTRESS),10.1002/mrm.26667,10
+4960344,40793c67a65ea507a10996edd506b95f53564647,ARTERIAL SPIN LABELLING MRI OF CEREBRAL TUMOURS IN,10.1093/NEUONC/NOX036.484,0
+4960344,f9166fa0c5c102618d890bdeab63aca74b017c45,On the Origins of the Cerebral IVIM Signal,10.1101/158014,6
+4960344,7907f968a357d352d51f2326edf5f1e9fe1798ba,Velocity selective preparations in Magnetic Resonance Imaging,,0
+4960344,cac04096dfa0b8af6073d7632eb81820440e8b2f,The Influence of Noise on Bold-Mediated Vessel Size Imaging Analysis Methods,10.1038/jcbfm.2013.141,6
+4960344,56b926244378912a6d76cbf523429ebdc0d4f1cb,Construction of a 4-Channel Transmit Neck Array for pCASL Tagging at 7 Tesla and Comparison with a Head Coil,,0
+4960344,b07b7a2219d9c30cb98de9e3d74af89ab1651c67,672 Suppression of Free Fluid Perfusion Artefacts in Velocity Selective ASL using a BIR-4 T 2-FLAIR Preparation,,0
+4960344,34ad9edbecd2d379737678e42adb88b39ec9ed30,Quantification of skeletal muscle perfusion using Velocity Selective Arterial Spin Labeling at 3 T,,0
+4960344,471c30f92a551359fa3c73c36373f0b8b1c3cea6,IMPACT OF EDDY CURRENTS ON QUANTIFICATION OF PERFUSION USING VELOCITY SELECTIVE ARTERIAL SPIN LABELING,,0
+35730362,5cf064abf52e73426c32a6c4725f0de26e0c1c5a,FRODO: An in-depth analysis of a system to reject outlier samples from a trained neural network.,10.1109/TMI.2022.3221898,0
+35730362,e6376c22784f8360aa3d054fbfecb113265c032a,Explainable emphysema detection on chest radiographs with deep learning,10.1371/journal.pone.0267539,0
+35730362,1d5f65d8f721089fca1e7fac8d1ef214f12e2c23,Automated estimation of total lung volume using chest radiographs and deep learning,10.1002/mp.15655,2
+35730362,2e09fa7387659a79f41d809ce40d32cc8c847bb7,"Learn2Reg: Comprehensive Multi-Task Medical Image Registration Challenge, Dataset and Evaluation in the Era of Deep Learning",10.1109/TMI.2022.3213983,41
+35730362,58f03af16be931f9a56c8499ed30efbb9b9c3592,Deep learning with robustness to missing data: A novel approach to the detection of COVID-19,10.1371/journal.pone.0255301,2
+35730362,6cc01a49101001e1a490645e941b3d2311dd4265,Deep Learning for Chest X-ray Analysis: A Survey,10.1016/j.media.2021.102125,105
+35730362,f574d9f2b018d707ff0c2dbcd250fcd4ee2856ae,Learn2Reg - The Challenge (2021),10.5281/ZENODO.4573968,1
+35730362,1f77425465d8a5dd20e949f9e80aa4da590efbb5,COVID-19 on Chest Radiographs: A Multireader Evaluation of an Artificial Intelligence System,10.1148/radiol.2020201874,133
+35730362,4e152f76ccc69de9323ff63ca8fc5bbb61fa1712,Cardiomegaly Detection on Chest Radiographs: Segmentation Versus Classification,10.1109/ACCESS.2020.2995567,20
+35730362,888c62de7448e14302c3c2ed7dc062829ea279d7,Learn2Reg Challenge: CT Lung Registration - Training Data,10.5281/ZENODO.3835682,16
+35730362,99cf88b6359e0a5354c809fdb992bf82fdffc929,Learn2Reg - The Challenge,10.5281/ZENODO.3715652,7
+35730362,c70d5169b5c69171cc2ed3ec40eebda0630988d9,Computer aided detection of tuberculosis on chest radiographs: An evaluation of the CAD4TB v6 system,10.1038/s41598-020-62148-y,0
+35730362,efec0825343cfb78df86f34488019a51aaa4949a,Learn2Reg Challenge: CT Lung Registration - Test Data,10.5281/ZENODO.4048761,3
+35730362,0807697ee497d294c1ec272631c5f84aeeb2571e,Computer aided detection of tuberculosis on chest radiographs: An evaluation of the CAD4TB v6 system,10.1038/s41598-020-62148-y,88
+35730362,45c2090f06bae6402a0b0d4c77c5f5ee3fd7a513,FRODO: Free rejection of out-of-distribution samples: application to chest x-ray analysis,,13
+35730362,58662a2da377ad2a9b250b514128988009a2a0b3,Handling label noise through model confidence and uncertainty: application to chest radiograph classification,10.1117/12.2514290,13
+35730362,61d1507dec6ef557cba474c4f67b1d0ad3631fb0,Computer aided detection of tuberculosis on chest radiographs : An evaluation of the CAD 4 TB v 6 system,,9
+35730362,5d4b7172da06a10219e52420528d53403c4694ca,Automatic quantification of ischemic injury on diffusion-weighted MRI of neonatal hypoxic ischemic encephalopathy,10.1016/j.nicl.2017.01.005,16
+35730362,820a38bd2088ae883007aed36417ccfa3093b26b,A deep convolutional neural network for brain tissue segmentation in Neonatal MRI,,0
+35730362,375ec08c5a5b180cfeb698543dc517edea4c4496,A survey of medical image registration - under review,10.1016/j.media.2016.06.030,219
+35730362,8aa4a405acba94bf0eecaee447d19825be6cbf4a,The truth is hard to make: Validation of medical image registration,10.1109/ICPR.2016.7899978,27
+35730362,67ae0419e41a69c4796b9e18bf6f59814784a933,Computer-aided detection of pulmonary nodules: a comparative study using the public LIDC/IDRI database,10.1007/s00330-015-4030-7,91
+35730362,eba2f4cbb10fd762a1695dfda29a2f3908e5823b,Automated analysis of multi-channel EEG in preterm infants,10.1016/j.clinph.2014.11.024,29
+35730362,46638bf274258a4091f2cec4f13b80a2d90655ff,Validation and Comparison of Approaches to Respiratory Motion Estimation,10.1007/978-3-642-36441-9_8,2
+35730362,93f83b026d86c5c2217e36b6b91383d1b8afe3c4,Supervised quality assessment of medical image registration: Application to intra-patient CT lung registration,10.1016/j.media.2012.06.010,50
+35730362,9ca3badc4daf9fd3da93b868e84d06476393fc78,Toward automatic regional analysis of pulmonary function using inspiration and expiration thoracic CT.,10.1118/1.3687891,43
+35730362,11270fdc633003eec7df21d1d9a8d807d8cf1d0c,Semi-automatic construction of reference standards for evaluation of image registration,10.1016/j.media.2010.07.005,124
+35730362,18f86a60cfed4705dae6cbc2caf1ad2c6d7e7250,The relationship between airflow limitation and quantitative computed tomographic assessment of air trapping and emphysema,,0
+35730362,31f676889affcf561b077e661380e5fd945aabba,Evaluation of Registration Methods on Thoracic CT: The EMPIRE10 Challenge,10.1109/TMI.2011.2158349,440
+35730362,66625349b11735b78c23c1253d6e4b21add938ac,Computer-Aided Detection of Solid and Ground Glass Nodules in Thoracic CT images using two independent CAD systems,,1
+35730362,700836814610d45b5699bbf9bec7e53fe26f7e4d,Development and evaluation of automated image analysis techniques in thoracic CT,,4
+35730362,edc0d900d33d2ee0013dbb130d4f7956d77ebba9,The relationship between lung function impairment and quantitative computed tomography in chronic obstructive pulmonary disease,10.1007/s00330-011-2237-9,64
+35730362,0ea75eb453a508ba47bbf2b70528a22102f519b0,Pulmonary ground-glass nodules: increase in mass as an early indicator of growth.,10.1148/radiol.09090571,200
+35730362,39ae90f765547171cc6163ba3ab2e977c86c03d3,Comparing and combining algorithms for computer-aided detection of pulmonary nodules in computed tomography scans: The ANODE09 study,10.1016/j.media.2010.05.005,273
+35730362,ce5780f841ac6b5576199b0c22d2e0ba374c30b4,Evaluation of Methods for Pulmonary Image Registration : The EMPIRE 10 Study,,31
+35730362,f900f21f960b334907d1d54783927922fc949c98,elastix: A Toolbox for Intensity-Based Medical Image Registration,10.1109/TMI.2009.2035616,3144
+35730362,1b28c67c8c23bb85dd86a56e661ece107dd4c98f,A large-scale evaluation of automatic pulmonary nodule detection in chest CT using local image features and k-nearest-neighbour classification,10.1016/j.media.2009.07.001,320
+35730362,5710ee8046be85e4702f546f7e18f4c90ac48d87,Automatic detection of registration errors for quality assessment in medical image registration,10.1117/12.812659,8
+35730362,b983e210a447f017fdadba635941b440f504d460,Obstructive pulmonary function: Patient classification using 3D registration of inspiration and expiration CT images,,9
+35730362,e9a1022bef95937ea3a55df1ea1d5fd3aec2ebf5,Automated estimation of progression of interstitial lung disease in CT images.,10.1118/1.3264662,20
+35730362,fb4ba9e98bc756d05ae3d26c035386efea55abe6,Evaluation of 4D-CT Lung Registration,10.1007/978-3-642-04268-3_92,77
+35730362,1a0ce62f3c2a0c435c4493e3b287d9c481aef1c7,Automated detection of nodules attached to the pleural and mediastinal surface in low-dose CT scans,10.1117/12.772298,2
+35730362,42051c5c9cfd535a32221211dd2fec5ab3d2a12f,Semi-automatic Reference Standard Construction for Quantitative Evaluation of Lung CT Registration,10.1007/978-3-540-85990-1_121,73
+35730362,46ad5997668ef588b9eae850299e642b90262060,Automated detection of pulmonary nodules from low-dose computed tomography scans using a two-stage classification system based on local image features,10.1117/12.713370,19
+2109170880,9b24ef9a54a77629fcd8ad2dab9b668917cd96e4,Performance of machine learning algorithms for glioma segmentation of brain MRI: a systematic literature review and meta-analysis,10.1007/s00330-021-08035-0,20
+2109170880,fe0311bb9d578c2811912c020045f1c3b7345543,Image‐based automated Psoriasis Area Severity Index scoring by Convolutional Neural Networks,10.1111/jdv.17711,9
+2109170880,f933db5c2cdf8eefdc4d6cf060f83666998ac010,Segmentation in non-contrast ct,,0
+2109170880,ffa6b97fd94b3641ddf22af707719a42ee4db9ac,Cerebral Artery and Vein Segmentation in Four-dimensional CT Angiography Using Convolutional Neural Networks.,10.1148/ryai.2020190178,7
+2109170880,03254edc77c0459ad9fd9ea458c3ae171c0a4247,Intracerebral Haemorrhage Segmentation in Non-Contrast CT,10.1038/s41598-019-54491-6,33
+2109170880,59399693fa81c3142552dac2e4456eb066e62c60,Image Level Training and Prediction: Intracranial Hemorrhage Identification in 3D Non-Contrast CT,10.1109/ACCESS.2019.2927792,29
+2109170880,e03d4a9c11a70f4ec009ea81d141742b40b20789,Multiclass Brain Tissue Segmentation in 4D CT Using Convolutional Neural Networks,10.1109/ACCESS.2019.2910348,9
+2109170880,3a0848c228f2bb19ce1afd4871105eb6a317a3dd,A convolutional neural network for intracranial hemorrhage detection in non-contrast CT,10.1117/12.2292975,4
+2109170880,3f054da4c1d6606941c18c65ae6e435a49758b7b,Robust cranial cavity segmentation in CT and CT perfusion images of trauma and suspected stroke patients,10.1016/j.media.2016.12.002,26
+2109170880,6119971f513cfa3a9dce2cff139f041f11bcb404,Robust Segmentation of the Full Cerebral Vasculature in 4D CT of Suspected Stroke Patients,10.1038/s41598-017-15617-w,0
+2109170880,be15a442d2cf19f1bbbd779273055a2de727380c,Automatic cerebrospinal fluid segmentation in non-contrast CT images using a 3D convolutional network,10.1117/12.2254022,8
+2109170880,fb5c4bf41fd879c9c64028a817db7f7ab6aba429,Robust Segmentation of the Full Cerebral Vasculature in 4D CT of Suspected Stroke Patients,10.1038/s41598-017-15617-w,36
+2109170880,e7abcec2ecff1af9b9fe8c480b18b17f0ca5d977,Automatic interpretation of 4D computed tomography images in acute stroke,10.1117/2.1201609.006617,0
+2116215861,2d3e4695c85c92419e3b715fa385b33568c06cd8,Probabilistic treatment planning for pancreatic cancer treatment: prospective incorporation of respiratory motion shows only limited dosimetric benefit,10.1080/0284186X.2016.1257863,7
+2116215861,bd9e7ce901d9c8f745a67bad65308c06434be4ca,"Implementing Pneumococcal Vaccination in Hospitalized Adults with COPD, Asthma, Current Smokers, and/or Over Age 65 Years. A Performance Improvement Project",10.1093/OFID/OFX163.1199,0
+1419819133,0b78520bea8310ff375cf953bbde10082db0eede,Empiric vs Preemptive Antifungal Strategy in High-Risk Neutropenic Patients on Fluconazole Prophylaxis: A Randomized Trial of the European Organization for Research and Treatment of Cancer,10.1093/cid/ciac623,3
+1419819133,89af59fe91bde6b84ea2c7ff7a901108300a55dc,Increased regional ventilation as early imaging marker for future disease progression of interstitial lung disease: a feasibility study,10.1007/s00330-022-08702-w,3
+1419819133,a1d3a3d169d562fa54335a33b624efbebf8a4646,Invasive Fungal Disease in Patients with Myeloid Malignancies: A Retrospective Cohort Study of a Diagnostic-Driven Care Pathway Withholding Mould-Active Prophylaxis,10.3390/jof8090925,1
+1419819133,d66e688583b419e67afef2b14b82553c6d62174a,Pulmonary functional imaging (PFI): A historical review and perspective,10.1177/02841851221076324,0
+1419819133,3010f9979ea45dd6a6ff9076bfb155fb2a215e4d,Chest CT Diagnosis and Clinical Management of Drug-related Pneumonitis in Patients Receiving Molecular Targeting Agents and Immune Checkpoint Inhibitors: A Position Paper from the Fleischner Society.,10.1016/j.chest.2020.11.027,24
+1419819133,35af94bb3f5654ef60446d79e88621043fb7b543,Assisted versus Manual Interpretation of Low-Dose CT Scans for Lung Cancer Screening: Impact on Lung-RADS Agreement.,10.1148/rycan.2021200160,3
+1419819133,53e10b43522e45781bfd4763b49aebba6602c0ac,CT-Detected Subsolid Nodules: A Predictor of Lung Cancer Development at Another Location?,10.3390/cancers13112812,1
+1419819133,81e0cd2d7df521651ce7a093409b02375ef05787,"Beyond the AJR: ""Association of the Intensity of Diagnostic Evaluation With Outcomes in Incidentally Detected Lung Nodules"".",10.2214/AJR.21.25903,0
+1419819133,83a8284194d62305f0dae376417dcaa540f4fd53,A comprehensive review of imaging findings in COVID-19 - status in early 2021,10.1007/s00259-021-05375-3,27
+1419819133,8975dec089b34a60e261de28bddb9ed70857a3ef,Chest CT Diagnosis and Clinical Management of Drug-related Pneumonitis in Patients Receiving Molecular Targeting Agents and Immune Checkpoint Inhibitors: A Position Paper from the Fleischner Society.,10.1148/radiol.2021203427,44
+1419819133,956fe0cd25879aa006d9885eba32da7100b6d338,Scan-based competing death risk model for re-evaluating lung cancer computed tomography screening eligibility,10.1183/13993003.01613-2021,2
+1419819133,c4422edc3d7460dc858db3e23cef64136a49628e,Combining pulmonary and cardiac computed tomography biomarkers for disease-specific risk modelling in lung cancer screening,10.1183/13993003.03386-2020,4
+1419819133,e3b4c600258e54618755f356e50e9627cca183dc,Quantification of dual-energy CT-derived functional parameters as potential imaging markers for progression of idiopathic pulmonary fibrosis,10.1007/s00330-021-07798-w,5
+1419819133,e6826552a5bff552a12087552097519a614ce0c3,Microsimulation modeling of extended annual CT screening among lung cancer cases in the National Lung Screening Trial.,10.1016/j.lungcan.2021.04.004,1
+1419819133,eb6e86cf9697391771d1e2fbad3f49c1448e3411,Radiology Structured Reporting Handbook,10.1055/B000000232,1
+1419819133,0060644239845c59813a5a9122d34e1f75d18e4c,Association between the number and size of intrapulmonary lymph nodes and chronic obstructive pulmonary disease severity,10.7717/peerj.9166,0
+1419819133,04eda893d160910706751960e4ca9dd730f42674,Perifissural nodules: ready for application into lung cancer CT screening?,10.21037/ATM-20-3384,0
+1419819133,12e5057823a452673ae0aa4f8a64d4a88fdeaf27,CO-RADS – A categorical CT assessment scheme for patients with suspected COVID-19: definition and evaluation,10.1148/radiol.2020201473,517
+1419819133,1479138d85b4af9d10bd3c2301ea68d2406e8d85,Pulmonary nodule enhancement in subtraction CT and dual-energy CT: A comparison study.,10.1016/j.ejrad.2020.109443,0
+1419819133,1f77425465d8a5dd20e949f9e80aa4da590efbb5,COVID-19 on Chest Radiographs: A Multireader Evaluation of an Artificial Intelligence System,10.1148/radiol.2020201874,133
+1419819133,302fbaac065fe76b0f8d6e2bccc8c715d1ab230a,Typical CT Features of Intrapulmonary Lymph Nodes: A Review.,10.1148/ryct.2020190159,7
+1419819133,3485a5391ad97f3e10b2effde94a6d3d720a4b6c,Establishing diagnostic criteria and treatment of subsegmental pulmonary embolism: A Delphi analysis of experts,10.1002/rth2.12422,12
+1419819133,367878e980e109d80ad80066cec1961a940614ec,Lung cancer screening by nodule volume in Lung-RADS v1.1: negative baseline CT yields potential for increased screening interval,10.1007/s00330-020-07275-w,21
+1419819133,4330ce9c73af04a35d1a7dd366df8434c98e30ed,Automated Assessment of CO-RADS and Chest CT Severity Scores in Patients with Suspected COVID-19 Using Artificial Intelligence,10.1148/radiol.2020202439,94
+1419819133,52e9e55e16a1176172b34eed3289cfe2fb401733,[Idiopathic pulmonary fibrosis : Radiological diagnosis in light of the current guidelines].,10.1007/s00117-020-00675-5,1
+1419819133,547a9910d9928306416c35d00292329167e37b82,Chest Radiography in COVID-19: No Role in Asymptomatic and Oligosymptomatic Disease,10.1148/radiol.2020204038,3
+1419819133,894b4809a91fcfff44d82949d3f08971d342ac02,The Role of Chest Imaging in Patient Management during the COVID-19 Pandemic: A Multinational Consensus Statement from the Fleischner Society,10.1148/radiol.2020201365,1225
+1419819133,a0db2db383fe9a59378790bc7ecb6890604860ef,The Role of Chest Imaging in Patient Management During the COVID-19 Pandemic,10.1016/j.chest.2020.04.003,343
+1419819133,fdac595273fd6b71aa7ee5a231b26df69b41eac5,The radiologist’s role in lung cancer screening,10.21037/TLCR-20-924,3
+1419819133,010f33ceac3fb9aae25cb7ef51ba0f0dda95bb24,Predicting all-cause and lung cancer mortality using emphysema score progression rate between baseline and follow-up chest CT images: A comparison of risk model performances,10.1371/journal.pone.0212756,2
+1419819133,0552dbeb5da3e5aa36dc876152c5634e0de64661,Iodine Maps from Subtraction CT or Dual-Energy CT to Detect Pulmonary Emboli with CT Angiography: A Multiple-Observer Study.,10.1148/radiol.2019182666,28
+1419819133,6425e3f4c37f8deb9e8dc933e34d49aa843635b9,Follows Form: Regression from Complete Thoracic Computed Tomography Scans,,0
+1419819133,7f5b2c13d0f1b3f04b4331d7a8e73426ed06516b,[Cysts in the lung : A practical guide to differential diagnosis].,10.1007/s00117-019-0525-6,0
+1419819133,95e51d4b82c28a93129c41f42a3922d6728f9443,[Mimics of lung cancer].,10.1007/s00117-018-0476-3,1
+1419819133,9ae18cd831281e60df040f0e0c0cca1dcfd3270c,Image Quality of Iodine Maps for Pulmonary Embolism: A Comparison of Subtraction CT and Dual-Energy CT.,10.2214/AJR.18.20786,7
+1419819133,b9c6173c57aa5ee76631feab341e5b3111a2f816,Pulmonary Manifestations of Systemic Diseases,10.1007/978-3-030-11149-6_11,0
+1419819133,cc7605f2b7e61723f12839fabc1066da0cc8744b,Function Follows Form: Regression from Complete Thoracic Computed Tomography Scans,,0
+1419819133,cf25e0baaa1cfa818a61c460416bd0caa68bba07,Computer-aided Detection of Lung Cancer on Chest Radiographs : Effect on Observer Performance 1,,0
+1419819133,e5ee780f7926cd2403349bf40725814e4eb7e889,Aquilion ONE Clinical Evidence: Subtraction Contrast Enhancement Boost Technique at Aortic Computed Tomography Angiography: Added Value for the Evaluation of Type II Endoleaks After Endovascular Aortic Aneurysm Repair,,0
+1419819133,032a0374513489195712dabb380d0feb3bb85d46,Lung cancer risk to personalise annual and biennial follow-up computed tomography screening,10.1136/thoraxjnl-2017-211107,28
+1419819133,19495049936b938f43434c03cb18ea0702d6f09d,Observer variability for Lung-RADS categorisation of lung cancer screening CTs: impact on patient management,10.1007/s00330-018-5599-4,38
+1419819133,1cc0b06d80d21082d2610f11daa488cc6817b207,Brock malignancy risk calculator for pulmonary nodules: validation outside a lung cancer screening population,10.1136/thoraxjnl-2017-211372,28
+1419819133,4e67443737640a6d88642034266c0ce2d76d9ae7,Long‐Term Active Surveillance of Screening Detected Subsolid Nodules is a Safe Strategy to Reduce Overtreatment,10.1016/j.jtho.2018.06.013,45
+1419819133,53eecaec02dd1212dcf4e4cfed681d8918ae4aa9,UvA-DARE ( Digital Academic Repository ) FDG PET and PET / CT : EANM procedure guidelines for tumour PET imaging : version 1 . 0,,0
+1419819133,6a340e97fd3c7c5f9f2f5401d1a2fb07c39fb8ed,In vivo growth of 60 non-screening detected lung cancers: a computed tomography study,10.1183/13993003.02183-2017,10
+1419819133,6b604b6896cfd670bd9afe4172a2e5bf591b0cc2,MA20.09 Improved Lung Cancer and Mortality Prediction Accuracy Using Survival Models Based on Semi-Automatic CT Image Measurements,10.1016/J.JTHO.2018.08.488,0
+1419819133,6d4507a54e77f55af2bfa786ca804a13018ff273,Detection of Subsolid Nodules in Lung Cancer Screening: Complementary Sensitivity of Visual Reading and Computer-Aided Diagnosis,10.1097/RLI.0000000000000464,26
+1419819133,a149f74c6466b2d632a6088bcc5d399e58799241,Imaging of pulmonary perfusion using subtraction CT angiography is feasible in clinical practice,10.1007/s00330-018-5740-4,14
+1419819133,a2f7d760233f22f037d17c8196ea1463597e66e8,Classification of CT Pulmonary Opacities as Perifissural Nodules: Reader Variability.,10.1148/radiol.2018172771,31
+1419819133,b1fcc2df6c64c1e693cdfb8545a8377a2ad40e81,The impact of reconstruction techniques on observer performance for the detection and characterization of small pulmonary nodules in chest CT of children under 13 years.,10.1016/j.ejrad.2018.01.015,7
+1419819133,db0c5082ec2b61fdd538b57c9396bfe634397a87,Variable radiological lung nodule evaluation leads to divergent management recommendations,10.1183/13993003.01359-2018,28
+1419819133,ece66d2117004d175b3b6b0e41903a5e0670ff17,Cyst-related primary lung malignancies: an important and relatively unknown imaging appearance of (early) lung cancer,10.1183/16000617.0079-2018,12
+1419819133,ef537c1ce62c69018575d2c90b70024a32256ef5,Visual discrimination of screen-detected persistent from transient subsolid nodules: An observer study,10.1371/journal.pone.0191874,6
+1419819133,f76e89bcaa5be2f79686cf5606d09ba8bb916142,Primary lung cancer in patients with previous malignancies: a nationwide study,10.1136/thoraxjnl-2018-211891,1
+1419819133,41b5f47c340cddd5cc0ca43bba43ceea0cc441a6,Recommendations for Measuring Pulmonary Nodules at CT: A Statement from the Fleischner Society.,10.1148/radiol.2017162894,223
+1419819133,5b9e4bf58d0091f82346ce17b0a0eeb2d404a499,Imaging of the Lungs in Organ Donors and its Clinical Relevance: A Retrospective Analysis,10.1097/RTI.0000000000000255,5
+1419819133,7b442acc3a6bedd75701c15484e7e0c817111122,Digital Image Processing,10.1007/978-3-319-17885-1_100292,0
+1419819133,86b9d39fb026746752f95f87f87fd26b8512c913,Corrigendum: Towards automatic pulmonary nodule management in lung cancer screening with deep learning,10.1038/srep46878,14
+1419819133,abdee0f36ad16d6c3064aee8e98c4b2bd6c691a0,Malignancy estimation of Lung-RADS criteria for subsolid nodules on CT: accuracy of low and high risk spectrum when using NLST nodules,10.1007/s00330-017-4842-8,13
+1419819133,af7a0c17980d8692f50adb16c63d02deed0d54ad,Malignancy risk estimation of pulmonary nodules in screening CTs: Comparison between a computer model and human observers,10.1371/journal.pone.0185032,29
+1419819133,bc86e211f26bd5c68e9548c1c215fa9605c6daa2,Lung-RADS Category 4X: Does It Improve Prediction of Malignancy in Subsolid Nodules?,10.1148/radiol.2017161624,44
+1419819133,d884880febbc8e6c5f86c1040c009174632569c4,Improving airway segmentation in computed tomography using leak detection with convolutional networks,10.1016/j.media.2016.11.001,82
+1419819133,e80b85ea45f4af6ed7278be42553ead2ee5b991d,"Malignancy risk estimation of screen-detected nodules at baseline CT: comparison of the PanCan model, Lung-RADS and NCCN guidelines",10.1007/s00330-017-4767-2,44
+1419819133,eb383f9d03fc189c9b3c7bb2e7132d5fdb07f067,Incidental perifissural nodules on routine chest computed tomography: lung cancer or not?,10.1007/s00330-017-5055-x,25
+1419819133,f2fa81209070b47b60a9be8571a60e5a4a5209dd,Guidelines for Management of Incidental Pulmonary Nodules Detected on CT Images: From the Fleischner Society 2017.,10.1148/radiol.2017161659,1322
+1419819133,15c5713c4b4c87c587b2df572c32fd121cf0d081,Circulation stabilizing therapy and pulmonary high‐resolution computed tomography in a porcine brain‐dead model,10.1111/aas.12595,7
+1419819133,2ddfaab84005d27eab0c117ea0c8ff8b100d27b8,Imaging of nontraumatic thoracic emergencies,10.1097/MCP.0000000000000355,0
+1419819133,36f4a3250668a84acc6e3eff9f9b4f496dab24df,The Effect of Supplementary Bone-Suppressed Chest Radiographs on the Assessment of a Variety of Common Pulmonary Abnormalities: Results of an Observer Study,10.1097/RTI.0000000000000195,6
+1419819133,4db42d98f611269628eb8ddc4171c4a5f412506a,Automatic Pulmonary Artery-Vein Separation and Classification in Computed Tomography Using Tree Partitioning and Peripheral Vessel Matching,10.1109/TMI.2015.2500279,39
+1419819133,75bc9847c96d8f319f82d1b9ba01b5a396247152,Differentiating between s ubsolid and s olid Pulmonary n odules at cT: Inter- and Intraobserver Agreement between Experienced,,0
+1419819133,7975bfe13445f81edddd6e101d7d469cd20cbd89,"Validation, comparison, and combination of algorithms for automatic detection of pulmonary nodules in computed tomography images: The LUNA16 challenge",10.1016/j.media.2017.06.015,673
+1419819133,8df136d867add2ba102e03add4db6a4df89e3127,CT Imaging of Interstitial Lung Diseases,10.1007/978-3-319-30355-0_7,3
+1419819133,943bdf087596bb850f860c4074bfff718ffc7ce8,Subsolid pulmonary nodule morphology and associated patient characteristics in a routine clinical population,10.1007/s00330-016-4429-9,11
+1419819133,c28aa351b0f9a74539a6d5c92fe4a7325dcbf4f8,Semi-automatic classification of textures in thoracic CT scans,10.1088/0031-9155/61/16/5906,5
+1419819133,e571e6bec0974bb3d8b508183075258b783c9ec7,Fleischner recommendations for the management of subsolid pulmonary nodules: high awareness but limited conformance – a survey study,10.1007/s00330-016-4249-y,25
+1419819133,f70ae8307930e0af1370e329b133fc75d72352fd,Optimization Strategies for Interactive Classification of Interstitial Lung Disease Textures,10.3389/fict.2016.00033,0
+1419819133,fd0901b1f2121506391a7859de8fb695d159a393,Towards automatic pulmonary nodule management in lung cancer screening with deep learning,10.1038/srep46479,275
+1419819133,fdf663cc9dda29d55f2e2f44f9876f3b08f854f8,Differentiating between Subsolid and Solid Pulmonary Nodules at CT: Inter- and Intraobserver Agreement between Experienced Thoracic Radiologists.,10.1148/radiol.2015150714,66
+1419819133,1727e0a37cb9a85f73d0ca4f64616e9ab5044c99,"Solid, Part-Solid, or Non-Solid?: Classification of Pulmonary Nodules in Low-Dose Chest Computed Tomography by a Computer-Aided Diagnosis System",10.1097/RLI.0000000000000121,46
+1419819133,21a62e34c2b257a66a7f2f539364594b7756a681,Quantification of Pathologic Air Trapping in Lung Transplant Patients Using CT Density Mapping: Comparison with Other CT Air Trapping Measures,10.1371/journal.pone.0139102,18
+1419819133,67ae0419e41a69c4796b9e18bf6f59814784a933,Computer-aided detection of pulmonary nodules: a comparative study using the public LIDC/IDRI database,10.1007/s00330-015-4030-7,91
+1419819133,a920a54da22d5e6114588d1ad78fadba534c1ad4,Observer Variability for Classification of Pulmonary Nodules on Low-Dose CT Images and Its Effect on Nodule Management.,10.1148/radiol.2015142700,147
+1419819133,a9d7609639015a49b03167508b66d055e30c51c9,Drug-Induced Interstitial Lung Disease in Oncology Patients,10.1007/174_2015_1080,1
+1419819133,d355a91c5a7dc4d7712fa41b7ca9a94844d4f633,30-on-30: thirty perspectives on thirty years of publishing the Journal of Thoracic Imaging.,10.1097/RTI.0000000000000121,1
+1419819133,d588761b329691698ed3db92d79c9b2bb1092b13,Interstitial lung diseases,10.1183/2312508X.10003015,0
+1419819133,13cf5625a93c9e82c4b348bcb5fd8a6d1412c6c3,[Management of subsolid pulmonary nodules].,10.1007/s00117-013-2602-6,2
+1419819133,39c9921c8d74dab298b86dba055cd6d65e1c6716,[Pulmonary nodules].,10.1007/s00117-013-2598-y,0
+1419819133,51d271d58ca1492055fa83f97019c34672c77dd0,Influence of study design in receiver operating characteristics studies: sequential versus independent reading,10.1117/1.JMI.1.1.015501,6
+1419819133,58437b251f2c2b7c04ed18f98000280ad0095ab6,Screening for lung cancer,10.1097/CCO.0000000000000055,5
+1419819133,6b18013b756f365ee486e752272327a554ea841a,Computer-aided detection improves detection of pulmonary nodules in chest radiographs beyond the support by bone-suppressed images.,10.1148/radiol.14131315,63
+1419819133,704081db7542b73bbdcefe9ae7e7dc19fe4316c0,Automatic detection of subsolid pulmonary nodules in thoracic computed tomography images,10.1016/j.media.2013.12.001,228
+1419819133,711091a5f3498c65061d5cff533169a7b7cedf8a,[HRCT patterns of the most important interstitial lung diseases].,10.1007/s00117-014-2734-3,2
+1419819133,76651ee9770b111f53dbcb92b3cb1174d3760073,Bone Suppression Increases the Visibility of Invasive Pulmonary Aspergillosis in Chest Radiographs,10.1371/journal.pone.0108551,15
+1419819133,82910761442571e4b6140f18eeffd4efd1fbe597,"1 State-ofthe-Art Multi-Detector CT Angiography in Acute Pulmonary Embolism : Technique , Interpretation and Future Perspectives",,1
+1419819133,8b8211800c55a1cf2cb5b9809294d09bc21b8168,Bronchial Wall Measurements in Patients after Lung Transplantation: Evaluation of the Diagnostic Value for the Diagnosis of Bronchiolitis Obliterans Syndrome,10.1371/journal.pone.0093783,10
+1419819133,c1f2f36dc770001c2b6cbd287b7984e225eac117,Interactive lung segmentation in abnormal human and animal chest CT scans.,10.1118/1.4890597,8
+1419819133,c20ebcc69b4c426fa0231ce719576ed7ba7b0629,[Lung cancer screening. What have we learnt for the practice so far?].,10.1007/s00117-013-2605-3,2
+1419819133,2256b78b8e3a04030c4422db73cbf8d1df417182,Computed Tomography Pulmonary Angiography in Acute Pulmonary Embolism: The Effect of a Computer-assisted Detection Prototype Used as a Concurrent Reader,10.1097/RTI.0b013e3182870b97,14
+1419819133,2cfd7ee4cb7564bc3dbfa59480c81841b58d9b35,r ecommendations for the Management of s ubsolid Pulmonary n odules Detected at cT: A Statement from the,,1
+1419819133,629276b035ec77dbc9af62d747d2a923079ec12f,CT protocols in interstitial lung diseases—A survey among members of the European Society of Thoracic Imaging and a review of the literature,10.1007/s00330-012-2733-6,28
+1445069528,fbdd91432a4cd3077d88a4ce20a1e7c1bdcbab05,Guidance on Imaging for Invasive Pulmonary Aspergillosis and Mucormycosis: From the Imaging Working Group for the Revision and Update of the Consensus Definitions of Fungal Disease from the EORTC/MSGERC.,10.1093/cid/ciaa1855,16
+1445069528,7284993f1815bf7cc15af7dbc735594d33cbabb6,Revision and Update of the Consensus Definitions of Invasive Fungal Disease From the European Organization for Research and Treatment of Cancer and the Mycoses Study Group Education and Research Consortium,10.1093/cid/ciz1008,1019
+1445069528,aba3852c4be7f4a4f546db5ad0af8b6a53112ac4,Pleural and peritoneal mesothelioma: Imaging findings on CT and FDG PET/CT,10.1016/J.EJREX.2008.08.004,4
+2074975080,1ceeb7043992bab5822a4c537c37646a7b8baed7,Potential of Lesion-to-Fat Elasticity Ratio Measured by Shear Wave Elastography to Reduce Benign Biopsies in BI-RADS 4 Breast Lesions.,10.1002/jum.16192,0
+2074975080,1a69398886fc36dfd3d46819aa5000cbbb549cf2,"Abstract PD11-05: Intelligent shear-wave elastography to reduce unnecessary biopsies in breast cancer diagnosis (INSPiRED 002): An international, multicenter analysis",10.1158/1538-7445.sabcs21-pd11-05,0
+2074975080,37a282e170103af22fc2ff850385a340c4394760,"The importance of multi-modal imaging and clinical information for humans and AI-based algorithms to classify breast masses (INSPiRED 003): an international, multicenter analysis",10.1007/s00330-021-08519-z,5
+2074975080,706796a172d20c4c1696e06c891bcc1a6f4de5e8,"Intelligent multi-modal shear wave elastography to reduce unnecessary biopsies in breast cancer diagnosis (INSPiRED 002): a retrospective, international, multicentre analysis.",10.1016/j.ejca.2022.09.018,0
+2074975080,70686c2db88212d610871b007083bcc58876b49d,Musculoskeletal radiologist-level performance by using deep learning for detection of scaphoid fractures on conventional multi-view radiographs of hand and wrist,10.1007/s00330-022-09205-4,1
+2074975080,9383b6c11d01db32d3cd3e53f04721d5c10a34f8,"The potential of combined shear wave and strain elastography to reduce unnecessary biopsies in breast cancer diagnostics – An international, multicentre trial",10.1016/j.ejca.2021.11.005,12
+2074975080,58f03af16be931f9a56c8499ed30efbb9b9c3592,Deep learning with robustness to missing data: A novel approach to the detection of COVID-19,10.1371/journal.pone.0255301,2
+2074975080,5f6c21ae64b9db06da177f44b2d59a0dd6f9c583,How does artificial intelligence in radiology improve efficiency and health outcomes?,10.1007/s00247-021-05114-8,25
+2074975080,93e353567bbc7525306a14b6219973d34b084c4e,Artificial intelligence in radiology: 100 commercially available products and their scientific evidence,10.1007/s00330-021-07892-z,97
+2074975080,afbdf450023be86a89bbec9dea91f031e2b76cb2,Development and Validation of a Convolutional Neural Network for Automated Detection of Scaphoid Fractures on Conventional Radiographs.,10.1148/RYAI.2021200260,12
+2074975080,dc68e0f61994ca0e768584d39c108305287f338a,Cost-effectiveness of artificial intelligence aided vessel occlusion detection in acute stroke: an early health technology assessment,10.1186/s13244-021-01077-4,8
+2074975080,1f77425465d8a5dd20e949f9e80aa4da590efbb5,COVID-19 on Chest Radiographs: A Multireader Evaluation of an Artificial Intelligence System,10.1148/radiol.2020201874,133
+2074975080,31f7b71202b51458d19599160be61c9052476c29,Erratum: Present Status of Musculoskeletal Radiology in Europe: International Survey by the European Society of Musculoskeletal Radiology (ESSR),10.1055/s-0040-1722564,2
+2074975080,3f323518a65798690c99227bd7984cd50a8cdbc1,Present Status of Musculoskeletal Radiology in Europe: International Survey by the European Society of Musculoskeletal Radiology,10.1055/s-0040-1713119,8
+2156546,7a4282bc46da2171e4bd282fda4f37caac50f3ba,Tourniquet Does Not Affect Long-term Outcomes in Minor Hand Surgery: A Randomized Controlled Trial,10.1097/GOX.0000000000004495,0
+2156546,1dbf7c238e569a878500ed1defc5214f6c011366,"The Potential of Shear Wave Elastography to Reduce Unnecessary Biopsies in Breast Cancer Diagnosis: An International, Diagnostic, Multicenter Trial",10.1055/a-1543-6156,5
+2156546,b03e1e450d04641eb219abf19f7a33f99834ce95,"Complications of percutaneous transhepatic cholangiography and biliary drainage, a multicenter observational study",10.1007/s00261-021-03207-4,6
+2156546,7ee335b7920353c9f9da9dc33084208618cff943,"Trends in frequency and outcome of high‐risk breast lesions at core needle biopsy in women recalled at biennial screening mammography, a multiinstitutional study",10.1002/ijc.32353,7
+2156546,3353dcb5d4a8f300e16092c0e2b24c3a1141adc3,"ANTIBIOTIC PROPHYLAXIS IN PERCUTANEOUS TRANSHEPATIC CHOLANGIOGRAPHY AND BILIARY DRAINAGE (PTCD), A RETROSPECTIVE MULTICENTER STUDY",10.1055/S-0038-1637664,0
+2156546,c6b1c8590269a5789095eca5f28d49413045fd82,Dedicated computer-aided detection software for automated 3D breast ultrasound; an efficient tool for the radiologist in supplemental screening of women with dense breasts,10.1007/s00330-017-5280-3,43
+2156546,db7c0e95188f028e4899642d1510c600e7fb44f2,Reasons for (non)participation in supplemental population-based MRI breast screening for women with extremely dense breasts.,10.1016/j.crad.2018.04.002,19
+2156546,0d8aac79ae8449a78abe3b2e71a562c273303d02,Long‐term survival and secondary procedures after open or endovascular repair of abdominal aortic aneurysms,10.1016/j.jvs.2017.05.122,114
+2156546,34b34230b811a86be4785d634a57b060b3bd0356,[Characterisation of breast lesions with VTIQ elastography: a new elastography method to evaluate the stiffness of tissues].,,0
+2156546,5c5e3b39535acd4fbc913d8b30af5765bc60387f,"Interval breast cancer characteristics before, during and after the transition from screen-film to full-field digital screening mammography",10.1186/s12885-017-3294-5,11
+2156546,638deeee1cdbe438345073e4713651cb9de3a596,"Meta‐analysis of individual‐patient data from EVAR‐1, DREAM, OVER and ACE trials comparing outcomes of endovascular or open repair for abdominal aortic aneurysm over 5 years",10.1002/bjs.10430,134
+2156546,a6f8ec0f41da46c2f98e0c553574ed26872d8daf,Segmentation and three‐dimensional reconstruction of lesions using the automated breast volume scanner (ABVS),10.1002/rcs.1767,8
+2156546,c2da52941ea09be5f3a56087d52454da941e4fb5,"Surveillance of Women with the BRCA1 or BRCA2 Mutation by Using Biannual Automated Breast US, MR Imaging, and Mammography.",10.1148/radiol.2017161218,52
+2156546,deda0fc0508e72e9cece3d27b74b0776e593d055,Sonographic Phenotypes of Molecular Subtypes of Invasive Ductal Cancer in Automated 3-D Breast Ultrasound.,10.1016/j.ultrasmedbio.2017.03.019,8
+2156546,043559f6128053b64ade395b39e258617b3686a3,Reducing contrast medium volume and tube voltage in CT angiography of the pulmonary artery.,10.1016/j.crad.2016.03.005,24
+2156546,4f9f866006b7f80dd5f69c2158b0066a25387906,Feasibility of a low concentration test bolus in CT angiography.,10.1016/j.crad.2016.08.008,1
+2156546,9fd84d03531d5914be893cb93c91bc383d584856,Trends and patterns of computed tomography scan use among children in The Netherlands: 1990–2012,10.1007/s00330-016-4566-1,13
+2156546,ccbc113d26f04ef39986e7b065542a8e5a2e120f,Complaints against radiologist submitted to disciplinary tribunals (DT) in the Netherlands (2007-2014),,0
+2156546,dd8d4f59ec8ea187af6e4e96dba7d33041fdd4c1,A non-invasive cardiac output measurement as an alternative to the test bolus technique during CT angiography.,10.1016/j.crad.2016.03.007,3
+2156546,e886fcf760bec1911e40060f0d9dfdfe0ad36fb9,Low-dose CT angiography of the abdominal aorta and reduced contrast medium volume: Assessment of image quality and radiation dose.,10.1016/j.crad.2015.10.007,30
+2156546,8954e0969c56ab88fc0a149be8540ce019b3800d,[Abdominal splenosis].,,36
+2156546,0e24a5584f31daec016155ac333a9bfc3358e988,Impact of the transition from screen-film to digital screening mammography on interval cancer characteristics and treatment - a population based study from the Netherlands.,10.1016/j.ejca.2013.09.018,42
+2156546,f096389909d60aa90b9627afffd67227a5692b4d,Cognitive Errors in Radiology:“Thinking fast and slow”,,4
+2156546,2367bd69c5422ad7a141b3a7f10f605cd90cba1a,Re-attendance after false-positive screening mammography: a population-based study in the Netherlands,10.1038/bjc.2013.573,13
+2156546,3902d16fc137b6fb78da383e5d52fee691de1a24,Reduction of contrast medium volume in abdominal aorta CTA: multiphasic injection technique versus a test bolus volume.,10.1016/j.ejrad.2013.03.027,16
+2156546,ade73d6c28f51c8869789e6a9696c94cf1fbb1d5,“Benign” superior vena cava syndrome,10.1007/s00134-013-2855-6,8
+2156546,bcef2e29545ac976ab1b30bfcf151a2d4e05f9a0,Ultrasound-guided radiofrequency ablation of early breast cancer in a resection specimen: lessons for further research.,10.1016/j.breast.2012.11.004,7
+2156546,f08bc87215e7156184477c4c7691ee18c18e4844,Reduced contrast medium in abdominal aorta CTA using a multiphasic injection technique.,10.1016/j.ejrad.2012.09.022,11
+2156546,7ff7768a8b269b07cb8f44afa2150e0ed3098e24,US-guided injection of the upper and lower extremity joints.,10.1016/j.ejrad.2011.10.025,24
+2156546,3c74b9c6543f47301f6f8ce427be2d0f0933768a,"Automated breast volume scanning: advantages, drawbacks and preliminary results",,0
+2156546,a892465b4c37f047e7547850df85cdd244af8639,[3-D ultrasound of the breast: less dependent on the investigator].,,1
+2156546,0312844e34422a3c2575d18a75df463c052d91f7,Ultrasound detection of rotator cuff tears: observer agreement related to increasing experience.,10.2214/AJR.10.4526,48
+2156546,64ab84841a98ff0ba222041e120de4695fb54300,Intratendinous ganglion of the long head of the biceps tendon: US and MRI features (2010: 9b),10.1007/s00330-010-1818-3,10
+2156546,1295eeefcaa497f89973be567650de104a6553e6,Stent placement in patients with atherosclerotic renal artery stenosis and impaired renal function: a randomized trial.,10.7326/0003-4819-150-12-200906160-00119,432
+2156546,4c0949035f6716b8f740d864565f927a6d081f0c,5116 Treatment of small invasive breast cancer with ultrasound-guided radiofrequency ablation followed by immediate resection,10.1016/s1359-6349(09)71008-0,0
+2156546,50cac28f1ee24d65fe945373de315d03a937bea6,5181 Ultrasound-guided radiofrequency ablation of early breast cancer in a resection specimen,10.1016/S1359-6349(09)71073-0,0
+2156546,63ef89eebde076d1595c8b44552e31b600355d84,Fatal Pericardial Tamponade After Superior Vena Cava Stenting,10.1007/s00270-008-9443-0,25
+2156546,9b31ddd50da2794407b09df9c4cd3b4a4a4f3786,Detection of rotator cuff tears: the value of MRI following ultrasound,10.1007/s00330-009-1561-9,91
+2156546,cb0280dbd502d120fbb2bd87015a2ff32de1d76a,EDS Travel Grant,10.1159/000215578,0
+2156546,f27aeb6a147d83a877d92362f80b91ba6aff78ee,Embolization as Treatment of Choice for Bleeding Peptic Ulcers in High-Risk Patients,10.1159/000193476,29
+2156546,3ebf5c72085cdf6bf8ae6bec1008342c93577d5c,The value of sentinel lymph node biopsy in ductal carcinoma in situ (DCIS) and DCIS with microinvasion of the breast.,10.1016/J.EJSO.2007.08.003,46
+2156546,4b066cf7d59fc0dd1903c5bdc75577f2dbfe6d18,[Radio frequency ablation therapy in the elderly breast cancer patient].,,0
+2156546,963e07b7ee2dcbb390dbe67f7528e9453f3c29a7,Radiofrequency ablation offers new treatment options in the elderly breast cancer patient,10.1080/02841860802060851,0
+2156546,b171ccbcbb50401fcdd745f3f413a5ea18c60322,Glenohumeral joint injection: a comparative study of ultrasound and fluoroscopically guided techniques before MR arthrography,10.1007/s00330-008-1200-x,126
+2156546,def062392da6909dcaf3d36d151710c93afbadcc,A previously healthy 15-year-old girl with high fever and progressive dyspnoea,10.1007/s00431-007-0628-3,0
+2156546,59893b8f2dc71069f8d850b1b54a1f91c53db376,Double line sign: a helpful sonographic sign to detect occult fractures of the proximal humerus,10.1007/s00330-006-0331-1,20
+2156546,5a14dda76696045ce73bc1d653366a4d59bdf9aa,2055 POSTER MR Imaging in the preoperative assessment of patients with lobular carcinoma of the breast,10.1016/S1359-6349(07)70817-0,0
+2156546,7f248e07292298fc41eeeea09f96a4df8464ef43,2066 POSTER Ultrasound-guided radiofrequency ablation of early breast cancer in a resection specimen: first results of a feasibility study,10.1016/S1359-6349(07)70828-5,0
+2156546,aec2ba6696a2764ec6df566dd91c1dc3389f6e15,2074 POSTER The value of sentinel lymph node biopsy in DCIS(M) of the breast,10.1016/S1359-6349(07)70836-4,1
+2156546,f6636364647849b82f32c47711ed5730b7577737,Ultrasound of the rotator cuff with MRI and anatomic correlation.,10.1016/J.EJRAD.2006.12.003,56
+2156546,f7ac1e1173a6b952197643e2d45bd2e935ee0482,Injection of the subacromial-subdeltoid bursa: blind or ultrasound-guided?,10.1080/17453670710013762,105
+2156546,038fc20451da7362b0c8e8ce97309fc1997c109f,"Chest radiography in general practice: indications, diagnostic yield and consequences for patient management.",,76
+2156546,3f6a2fcc10ead29271a11eeaa849b43a7097b8fe,"From the RSNA refresher courses: US of the rotator cuff: pitfalls, limitations, and artifacts.",10.1148/RG.262045719,110
+2156546,5b1c96bc994c78f759d661f2e44d99c72c027563,284 POSTER Ultrasound-guided radiofrequency ablation of early breast cancer in a resection specimen: first results of a feasibility study,10.1016/S0748-7983(06)70719-3,0
+2156546,b31ef2f455c7914b0fc1ee52f1ba4c49811794ec,2 ORAL Magnetic Resonance Imaging (MRI) in the preoperative assessment of patients with lobular carcinoma of the breast,10.1016/S0748-7983(06)70437-1,0
+2156546,e1a00198ac83aca3f4a60c0be9b24d68e1ac46d2,"Upper abdominal ultrasound in general practice: indications, diagnostic yield and consequences for patient management.",10.1093/FAMPRA/CML027,46
+2156546,5e062bb4fd97051c9fcca5435566aa21ee971b6d,The benefit of STent placement and blood pressure and lipid-lowering for the prevention of progression of renal dysfunction caused by Atherosclerotic ostial stenosis of the Renal artery. The STAR-study: rationale and study design.,,89
+2156546,2580495ccd65b5b84dd2c34bd76e13bd438d1e8a,Meniscal cysts: detection with high-resolution sonography.,10.2214/AJR.171.2.9694482,60
+2156546,00f2657274a421841d389f5e95f69f45e1b01d9a,Spigelian hernia.,,0
+2156546,a2e01474aaf6c1a3b62746052c7f040602bd23fa,Epiploic appendicitis: ultrasound and CT characteristics.,10.1055/S-2007-1015652,2
+5752941,107ffde93adf6416a57e2ea52f62b7cea8d1c159,Pilot study on VF-waveform based algorithms for early detection of acute myocardial infarction during out-of-hospital cardiac arrest.,10.1016/j.resuscitation.2022.03.025,1
+5752941,2d53ce6ba6174032561758d37169755a1115d6d1,The impact of alcohol use on the quality of cardiopulmonary resuscitation among festival attendees: A prespecified analysis of a randomised trial.,10.1016/j.resuscitation.2022.10.002,1
+5752941,658ab486a8ccb11eca35c50cf6df3d9b22609f7e,"Long-term Effect of Face-to-Face vs Virtual Reality Cardiopulmonary Resuscitation (CPR) Training on Willingness to Perform CPR, Retention of Knowledge, and Dissemination of CPR Awareness",10.1001/jamanetworkopen.2022.12964,3
+5752941,0250b613dfe09adfe4442cc9098c006f5f7956f2,Towards individualised treatment of out-of-hospital cardiac arrest patients: an update on technical innovations in the prehospital chain of survival,10.1007/s12471-021-01602-6,3
+5752941,2caecfd64c2d7dbe893ea511325825da6fe37aca,The effect of the localisation of an underlying ST-elevation myocardial infarction on the VF-waveform: A multi-centre cardiac arrest study.,10.1016/j.resuscitation.2021.08.049,1
+5752941,52ae8860725176d4548ad4b26d32f78a82c28a02,Optimal Combination of Chest Compression Depth and Rate in Virtual Reality Resuscitation Training: A Post Hoc Analysis of the Randomized Lowlands Saves Lives Trial,10.1161/JAHA.120.017367,7
+5752941,62ad4459e35f19273fcc411b4844b0dfc2af9135,Electrocardiographic recording direction impacts ventricular fibrillation waveform measurements: A potential pitfall for VF-waveform guided defibrillation protocols,10.1016/j.resplu.2021.100114,0
+5752941,6edf65081b47627a4df0fa11f721117b2739b281,A novel intra-ventricular assist device enhances cardiac performance in normal and acutely failing isolated porcine hearts,10.1177/03913988211003912,0
+5752941,c2d68c8199b82426a55e6bf9bf25ddefad29b2d4,Coronary angiography findings in patients with shock-resistant ventricular fibrillation cardiac arrest.,10.1016/j.resuscitation.2021.05.006,5
+5752941,2d45bb16ea2a860674276bbe8c86e88df0ee8667,Proof of principle of a novel co-pulsating intra-ventricular membrane pump.,10.1111/aor.13757,1
+5752941,6418deee543c1417c6b227ed649ce4231c2d4424,"Rationale and design of the PRAETORIAN-COVID trial: A double-blind, placebo-controlled randomized clinical trial with valsartan for PRevention of Acute rEspiraTORy dIstress syndrome in hospitAlized patieNts with SARS-COV-2 Infection Disease",10.1016/j.ahj.2020.05.010,10
+5752941,d479f7568054a293fde7aec430d99b89043b2b31,Computerized Analysis of the Ventricular Fibrillation Waveform Allows Identification of Myocardial Infarction: A Proof‐of‐Concept Study for Smart Defibrillator Applications in Cardiac Arrest,10.1161/JAHA.120.016727,6
+5752941,23aed2a9caa24d9fc98ffce88f7f384900aadff3,The ventricular fibrillation waveform in relation to shock success in early vs. late phases of out-of-hospital resuscitation.,10.1016/j.resuscitation.2019.04.010,8
+5752941,277a04568356bc657cf365d0b1468a40eb20075a,Rationale and design of the Lowlands Saves Lives trial: a randomised trial to compare CPR quality and long-term attitude towards CPR performance between face-to-face and virtual reality training with the Lifesaver VR app,10.1136/bmjopen-2019-033648,16
+5752941,357a7cc8114f677675456db674f50f018400f44a,Reply to the letter by Calle and Mpotos: Why not try harder to prove that automated external defibrillators save lives?,10.1007/s12471-019-1249-y,0
+5752941,7e78f7ea42649759f451fe780e8522ddc88ae286,Effect of Face-to-Face vs Virtual Reality Training on Cardiopulmonary Resuscitation Quality: A Randomized Clinical Trial.,10.1001/jamacardio.2019.4992,50
+5752941,a86c41177fa035980771e3e305a1c8e10cb7b08f,Importance of the distinction between recurrent and shock-resistant ventricular fibrillation: Call for a uniform definition of refractory VF.,10.1016/j.resuscitation.2019.01.042,5
+5752941,192aea55df2d07cc7d95d64d18a401617b86e3bc,Abstract 147: Impact of Recording Direction on the Amplitude Spectrum Area of the Ventricular Fibrillation Waveform: A Study on Limb and Precordial ECG-Leads,10.1161/circ.138.suppl_2.147,0
+5752941,38f93c5809abf4afce02306299122d5bd13f1e17,Shock success and its determinants in refractory ventricular fibrillation during out-of-hospital cardiac arrest,10.1016/j.resuscitation.2018.07.056,0
+5752941,429d8b28da01f40b0a49e47575833fb4c1e29f52,Abstract 306: Combining Clinical Utstein-Variables With Ventricular Fibrillation (VF) Waveform Characteristics to Discriminate Between Survivors and Non-Survivors of VF Cardiac Arrest,10.1161/circ.138.suppl_2.306,0
+5752941,577c7896aff8ac32448ece29534f19f171e6f954,Changes in automated external defibrillator use and survival after out-of-hospital cardiac arrest in the Nijmegen area,10.1007/s12471-018-1162-9,24
+5752941,7971250a0b35dd47790d09e0c1d1fdcd16c5e802,Future directions in resuscitation care: Towards early detection of myocardial infarction through a novel approach of VF-waveform analysis,10.1016/J.RESUSCITATION.2018.07.350,0
+5752941,3cfe71ef252b69aeaa7d5e70b84afb518e253e82,Ventricular fibrillation waveform characteristics of the surface ECG: Impact of the left ventricular diameter and mass.,10.1016/j.resuscitation.2017.03.029,8
+5752941,183eca01f54b6aca310e7d68a48a1bd6724745dd,Abstract 19221: Inter Shock Changes of the Ventricular Fibrillation Waveform in Relation to Return of Spontaneous Circulation: Amplitude or Frequency Driven?,,0
+5752941,1b1b6d1c122164f90cecfa7150becf536a99b92d,Abstract 19090: Ventricular Fibrillation Waveform Analysis to Predict Defibrillation Success in Out-of-Hospital Cardiac Arrest: Can the Amplitude Spectrum Area Be Used Throughout the Entire Resuscitation?,,0
+5752941,4cc849616719e9989d22a8fb586231762579f08c,Ventricular fibrillation waveform characteristics differ according to the presence of a previous myocardial infarction: A surface ECG study in ICD-patients.,10.1016/j.resuscitation.2015.08.014,15
