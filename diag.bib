@@ -27928,16 +27928,16 @@ Future work will implement an iterative approach to filter out recurring false p
   author    = {Robin Lomans and Jeroen van der Laak and Iris Nagtegaal and Francesco Ciompi and Rachel van der Post},
   booktitle = {European Congress of Pathology},
   title     = {Deep learning for multi-class cell detection in H&E-stained slides of diffuse gastric cancer},
-  abstract  = {Background & objective 
-Diffuse gastric cancer (DGC) is characterized by poorly cohesive cells which are difficult to detect. We propose the first deep learning model to detect classical signet ring cells (SRCs), atypical SRCs, and poorly differentiated cells in H&E-stained slides of DGC. 
+  abstract  = {Background & objective
+Diffuse gastric cancer (DGC) is characterized by poorly cohesive cells which are difficult to detect. We propose the first deep learning model to detect classical signet ring cells (SRCs), atypical SRCs, and poorly differentiated cells in H&E-stained slides of DGC.
 
-Methods 
-We collected slides from 9 patients with hereditary DGC, resulting in 105 and 3 whole-slide images (WSIs) of gastric resections and biopsies, respectively. The three target cell types were annotated, resulting in 24,695 cell-level annotations. We trained a deep learning model with the Faster-RCNN architecture using 99 WSIs in the development set. 
+Methods
+We collected slides from 9 patients with hereditary DGC, resulting in 105 and 3 whole-slide images (WSIs) of gastric resections and biopsies, respectively. The three target cell types were annotated, resulting in 24,695 cell-level annotations. We trained a deep learning model with the Faster-RCNN architecture using 99 WSIs in the development set.
 
-Results 
-The algorithm was tested on 9 WSIs in the independent validation set. Model predictions were counted as correct if they were within a 15-micron radius from the expert reference annotations. For evaluation, we split the detection task into two components: class-independent cell localization (recognition of any tumor cell type) and cell-type classification (categorizing localized cells as the correct types). We found (average) F1 scores of 0.69 and 0.93 for the localization and classification tasks, respectively. Thus, we observe that the algorithm does not generally misclassify cells, but rather, the errors mainly arise from missing cells or false positive predictions of cells that do not belong to the three target classes. 
+Results
+The algorithm was tested on 9 WSIs in the independent validation set. Model predictions were counted as correct if they were within a 15-micron radius from the expert reference annotations. For evaluation, we split the detection task into two components: class-independent cell localization (recognition of any tumor cell type) and cell-type classification (categorizing localized cells as the correct types). We found (average) F1 scores of 0.69 and 0.93 for the localization and classification tasks, respectively. Thus, we observe that the algorithm does not generally misclassify cells, but rather, the errors mainly arise from missing cells or false positive predictions of cells that do not belong to the three target classes.
 
-Conclusion 
+Conclusion
 Future work will focus on improving the cell localization performance of the algorithm. Cell localization of the three target classes will be an important task in a clinical application of our model, in which it could be used to improve the detection of DGC lesions among large sets of slides. Moreover, the algorithm will allow for quantitative assessment of DGC patterns, potentially giving new insights in specific morphological features of DGC such as patterns of spatial cell distributions.},
   optnote   = {DIAG, PATHOLOGY},
   year      = {2023},
