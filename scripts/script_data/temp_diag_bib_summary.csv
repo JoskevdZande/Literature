@@ -205,6 +205,7 @@ CANARJ,string,,,,,
 CANB,string,,,,,
 CANBR,string,,,,,
 Cancer,string,,,,,
+CANCERS,string,,,,,
 CANE,string,,,,,
 CANEBP,string,,,,,
 CANI,string,,,,,
@@ -230,6 +231,7 @@ CELMLS,string,,,,,
 CERVD,string,,,,,
 CG,string,,,,,
 CGA,string,,,,,
+CGC,string,,,,,
 CGIP,string,,,,,
 Chemphyschem,string,,,,,
 Chest,string,,,,,
@@ -327,6 +329,7 @@ DMKD,string,,,,,
 DPR,string,,,,,
 DRCP,string,,,,,
 DTT,string,,,,,
+EAU,string,,,,,
 EBCC,string,,,,,
 EBJ,string,,,,,
 ECCV,string,,,,,
@@ -827,6 +830,7 @@ OTON,string,,,,,
 OVS,string,,,,,
 PAA,string,,,,,
 PARC,string,,,,,
+PATHOB,string,,,,,
 PATS,string,,,,,
 PBMB,string,,,,,
 PCPD,string,,,,,
@@ -1652,8 +1656,7 @@ Hoss19,inproceedings,Effect of Adding Probabilistic Zonal Prior in Deep Learning
 Hoss21,article,Deep learning-assisted prostate cancer detection on bi-parametric MRI: minimum training data size requirements and effect of prior knowledge,"Hosseinzadeh, Matin and Saha, Anindo and Brand, Patrick and Slootweg, Ilse and de Rooij, Maarten and Huisman, Henkjan",10.1007/s00330-021-08320-y,,ER
 Hout20,mastersthesis,Automatic muscle and fat segmentation in 3D abdominal CT images for body composition assessment,Thijs van den Hout,,,Master thesis
 Hu10,article,A comparison of the accuracy of statistical models of prostate motion trained using data from biomechanical simulations,Y. Hu and R. van den Boom and T. Carter and Z. Taylor and D. Hawkes and H. U. Ahmed and M. Emberton and C. Allen and D. Barratt,10.1016/j.pbiomolbio.2010.09.009,,PBMB
-Hu19,article,Supervised uncertainty quantification for segmentation with multiple annotations,"Hu, Shi and Worrall, Daniel and Knegt, Stefan and Veeling, Bas and Huisman, Henkjan and Welling, Max",,12,arXiv:1907.01949
-Hu23,article,Automated deep-learning system in the assessment of MRI-visible prostate cancer: comparison of advanced zoomed diffusion-weighted imaging and conventional technique.,"Hu, Lei and Fu, Caixia and Song, Xinyang and Grimm, Robert and von Busch, Heinrich and Benkert, Thomas and Kamen, Ali and Lou, Bin and Huisman, Henkjan and Tong, Angela and Penzkofer, Tobias and Choi, Moon Hyung and Shabunin, Ivan and Winkel, David and Xing, Pengyi and Szolar, Dieter and Coakley, Fergus and Shea, Steven and Szurowska, Edyta and Guo, Jing-Yi and Li, Liang and Li, Yue-Hua and Zhao, Jun-Gong",10.1186/s40644-023-00527-0,,Cancer imaging : the official publication of the International Cancer Imaging Society
+Hu19,article,Automated deep-learning system in the assessment of MRI-visible prostate cancer: comparison of advanced zoomed diffusion-weighted imaging and conventional technique.,"Hu, Shi and Worrall, Daniel and Knegt, Stefan and Veeling, Bas and Huisman, Henkjan and Welling, Max",10.1186/s40644-023-00527-0,12,Cancer imaging : the official publication of the International Cancer Imaging Society
 Huis01,article,Accurate estimation of pharmacokinetic contrast-enhanced dynamic {MRI} parameters of the prostate,H. J. Huisman and M. R. Engelbrecht and J. O. Barentsz,,131,JMRI
 Huis05,article,Prostate cancer: precision of integrating functional {MR} imaging with radiation therapy treatment by using fiducial gold markers,"H. J. Huisman and J. J. F\""utterer and E. N. J. T. van Lin and A. Welmers and T. W. J. Scheenen and J. A. van Dalen and A. G. Visser and J. A. Witjes and J. O. Barentsz",10.1148/radiol.2361040560,69,Radiology
 Huis07,inproceedings,Chestwall segmentation in 3{D} breast ultrasound using a deformable volume model,H. Huisman and N. Karssemeijer,10.1007/978-3-540-73273-0_21,6,
@@ -2323,6 +2326,8 @@ Saha21a,article,"End-to-end Prostate Cancer Detection in bpMRI via 3D CNNs: Effe
 Saha21b,inproceedings,Anatomical and Diagnostic Bayesian Segmentation in Prostate {MRI} -- Should Different Clinical Objectives Mandate Different Loss Functions?,Anindo Saha and Joeran Bosma and Jasper Linmans and Matin Hosseinzadeh and Henkjan Huisman,,,
 Saha21c,conference,Deep Learning with Bayesian Inference for Prostate Cancer Diagnosis across Longitudinal Biparametric MRI,Anindo Saha and Joeran Bosma and Christian Roest and Matin Hosseinzadeh and Jurgen Futterer and Henkjan Huisman,,,
 Saha22a,conference,Artificial Intelligence and Radiologists at Prostate Cancer Detection in MRI: The PI-CAI Challenge,Anindo Saha and Joeran Bosma and Jasper Twilt and Bram van Ginneken and Derya Yakar and Mattijs Elschot and Jeroen Veltman and Jurgen Futterer and Maarten de Rooij and Henkjan Huisman,,,
+Saha23a,conference,Artificial Intelligence and Radiologists at Prostate Cancer Detection in MRI: The PI-CAI Challenge,Anindo Saha and Joeran Bosma and Jasper Twilt and Bram van Ginneken and Derya Yakar and Mattijs Elschot and Jeroen Veltman and Jurgen Fütterer and Maarten de Rooij and Henkjan Huisman,,,
+Saha23b,inproceedings,Artificial Intelligence and Radiologists at Prostate Cancer Detection in MRI: The PI-CAI Challenge,Anindo Saha and Joeran Bosma and Jasper Twilt and Bram van Ginneken and Derya Yakar and Mattijs Elschot and Jeroen Veltman and Jurgen Fütterer and Maarten de Rooij and Henkjan Huisman,,,
 Sail04,article,Comparison of an automatic versus a semiautomatic mode for gray-scale adaptation for digital chest radiography,Johannes Sailer and Mathias Prokop and Ulrich Neitzel and Michael Weber and Philipp Peloschek and Cornelia {Schaefer-Prokop,,3,IR
 Saks14,article,Clinical characteristics of familial and sporadic age-related macular degeneration: differences and similarities,"Saksens, Nicole and Kersten, Eveline and Groenewoud, Joannes M M. and van Grinsven, Mark J J P. and van de Ven, Johannes P H. and S\'{a}nchez, Clara I. and Schick, Tina and Fauser, Sascha and den Hollander, Anneke and Hoyng, Carel and Boon, Camiel J F.",10.1167/iovs.14-14659,9,IOVS
 Samu06,mastersthesis,Classification of {B}reast {L}esions in {D}igital {M}ammograms,"Samulski, Maurice",,,Master thesis
@@ -2596,6 +2601,8 @@ Tom22a,conference,AI-assisted analysis of CT perfusion to predict response in pa
 Trom12,inproceedings,A Hypothesis-Test Framework for Quantitative Lesion Detection and Diagnosis,Christopher Tromans and Guido van Schie and Nico Karssemeijer and Michael Brady,10.1007/978-3-642-31271-7_59,3,
 Turn21,article,Mini Review: The Last Mile-Opportunities and Challenges for Machine Learning in Digital Toxicologic Pathology.,"Turner, Oliver C and Knight, Brian and Zuraw, Aleksandra and Litjens, Geert and Rudmann, Daniel G",10.1177/0192623321990375,,TP
 Twil21,article,,,,,
+Twil23a,conference,Diagnostic Value of Dynamic Contrast-Enhanced MRI for the Detection of Clinically Significant Prostate Cancer in a Multi-Reader Study: Preliminary Results from the PI-CAI Consortium,Jasper Twilt and Anindo Saha and Joeran Bosma and Bram van Ginneken and Derya Yakar and Mattijs Elschot and Jeroen Veltman and Jurgen Fütterer and Henkjan Huisman and Maarten de Rooij,,,
+Twil23b,conference,EAU Plenary Gamechanging Session - Artificial Intelligence and Radiologists at Prostate Cancer Detection in MRI: Preliminary Results from the PI-CAI Challenge,Jasper Twilt and Anindo Saha and Joeran Bosma and Bram van Ginneken and Derya Yakar and Mattijs Elschot and Jeroen Veltman and Jurgen Fütterer and Henkjan Huisman and Maarten de Rooij,,,
 Uden15,conference,Both {WMH} increase and decline increase the risk of incident dementia; a prospective cohort study: the RUN DMC study,I. van Uden and H.M. van der Holst and A.M. Tuladhar and A.G.W. van Norden and K. de Laat and R. Arntz and M. Ghafoorian and B. Platel and J.A.H.R. Claassen and R.P.C. Kessels and E.J. van Dijk and F.E. de Leeuw,,,
 Uffm04,article,Skeletal applications for flat-panel versus storage-phosphor radiography: effect of exposure on detection of low-contrast details,"Uffmann, Martin and Schaefer-Prokop, Cornelia and Neitzel, Ulrich and Weber, Michael and Herold, Christian J. and Prokop, Mathias",10.1148/radiol.2312021662,33,Radiology
 Uffm04a,article,[Radiological diagnostics of Hodgkin- and non-Hodgkin lymphomas of the thorax],"Uffmann, M. and Schaefer-Prokop, C.",10.1007/s00117-004-1059-z,,Radiologe
@@ -2786,3 +2793,19 @@ Graa22,conference,Segmentation of vertebrae and intervertebral discs in lumbar s
 Alves22c,inproceedings,Uncertainty-Guided Self-learning Framework for Semi-supervised Multi-organ Segmentation,"Alves, Nat{\'a}lia and de Wilde, Bram",https://doi.org/10.1007/978-3-031-23911-3_11,,
 Wild23a,article,Inter-and Intra-Observer Variability and the Effect of Experience in Cine-MRI for Adhesion Detection,"de Wilde, Bram and Joosten, Frank and Venderink, Wulphert and Davidse, Mirjam E. J. and Geurts, Juliëtte and Kruijt, Hanneke and Vermeulen, Afke and Martens, Bibi and Schyns, Maxime V. P. and Huige, Josephine C. B. M. and de Boer, Myrte C. and Tonino, Bart A. R. and Zandvoort, Herman J. A. and Lammert, Kirsti and Parviainen, Helka and Vuorinen, Aino-Maija and Syväranta, Suvi and Vogels, Ruben R. M. and Prins, Wiesje and Coppola, Andrea and Bossa, Nancy and ten Broek, Richard P. G. and Huisman, Henkjan",https://doi.org/10.3390/jimaging9030055,,Journal of Imaging
 Wild23b,article,Medical diffusion on a budget: textual inversion for medical image generation,"de Wilde, Bram and Saha, Anindo and ten Broek, Richard PG and Huisman, Henkjan",,,arXiv:2303.13430
+Bosma23a,inproceedings,Reproducibility of Training Deep Learning Models for Medical Image Analysis,Joeran Bosma and Dr{\'e} Peeters and Nat{\'a}lia Alves and Anindo Saha and Zaigham Saghir and Colin Jacobs and Henkjan Huisman,,,
+Schu23,article,Artificial Intelligence in Pancreatic Ductal Adenocarcinoma Imaging: A Commentary on Potential Future Applications.,M. Schuurmans and N. Alves and Pierpaolo Vendittelli and H. Huisman and J. Hermans,10.1053/j.gastro.2023.04.003,,Gastroenterology
+Wild23c,article,Quantifiable Measures of Abdominal Wall Motion for Quality Assessment of Cine-MRI Slices in Detection of Abdominal Adhesions,"van den Beukel, Bastiaan A. W. and de Wilde, Bram and Joosten, Frank and van Goor, Harry and Venderink, Wulphert and Huisman, Henkjan J. and ten Broek, Richard P. G.",10.3390/jimaging9050092,,Journal of Imaging
+Bokh23,article,Deep learning for multi-class semantic segmentation enables colorectal cancer detection and classification in digital pathology images,J. Bokhorst and I. Nagtegaal and F. Fraggetta and S. Vatrano and W. Mesker and Michael Vieth and J. A. van der Laak and F. Ciompi,10.1038/s41598-023-35491-z,,
+Dama23,conference,On the robustness of regressing tumor percentage as an explainable detector in histopathology whole-slide images,Marina D'Amato and Maschenka Balkenhol and Mart van Rijthoven and Jeroen van der Laak and Francesco Ciompi,,,
+Loma23,conference,Interactive Cell Detection in H&E-stained slides of Diffuse Gastric Cancer,Robin Lomans and Rachel van der Post and Francesco Ciompi,,,
+Guev23,conference,Caption generation from histopathology whole-slide images using pre-trained transformers,Bryan Cardenas Guevara and Niccolò Marini and Stefano Marchesin and Witali Aswolinskiy and Robert-Jan Schlimbach and Damian Podareanu and Francesco Ciompi,,,
+Spro23,inproceedings,nnUNet meets pathology: bridging the gap for application to whole-slide images and computational biomarkers,Joey Spronck and Thijs Gelton and Leander van Eekelen and Joep Bogaerts and Leslie Tessier and Mart van Rijthoven and Lieke van der Woude and Michel van den Heuvel and Willemijn Theelen and Jeroen van der Laak and Francesco Ciompi,,,
+Bokh23a,article,Semi-Supervised Learning to Automate Tumor Bud Detection in Cytokeratin-Stained Whole-Slide Images of Colorectal Cancer,J. Bokhorst and I. Nagtegaal and I. Zlobec and H. Dawson and K. Sheahan and F. Simmer and R. Kirsch and Michael Vieth and A. Lugli and J. A. van der Laak and F. Ciompi,10.3390/cancers15072079,,
+Laar23,article,Tumoral Ki67 and PSMA Expression in Fresh Pre-PSMA-RLT Biopsies and Its Relation With PSMA-PET Imaging and Outcomes of PSMA-RLT in Patients With mCRPC.,"Laarhuis, Babette I. and Janssen, Marcel J. R. and Simons, Michiel and van Kalmthout, Ludwike W. M. and van der Doelen, Maarten J. and Peters, Steffie M. B. and Westdorp, Harm and van Oort, Inge M. and Litjens, Geert and Gotthardt, Martin and Nagarajah, James and Mehra, Niven and Privé, Bastiaan M.",10.1016/j.clgc.2023.04.003,,CGC
+Scho23,inproceedings,PythoStitcher: an iterative approach for stitching digitized tissue fragments into full resolution whole-mount reconstructions,"Schouten, Daan and Litjens, Geert",10.1117/12.2652512,,
+Eeke23,article,Artificial intelligence in bone marrow histological diagnostics: potential applications and challenges.,"van Eekelen, Leander and Litjens, Geert and Hebeda, Konnie",10.1159/000529701,,PATHOB
+Linm23,article,Predictive uncertainty estimation for out-of-distribution detection in digital pathology.,"Linmans, Jasper and Elfwing, Stefan and van der Laak, Jeroen and Litjens, Geert",10.1016/j.media.2022.102655,,MIA
+Rein23,article,Understanding metric-related pitfalls in image analysis validation,"Reinke, Annika and Tizabi, Minu D. and Baumgartner, Michael and Eisenmann, Matthias and Heckmann-Nötzel, Doreen and Kavur, A. Emre and Rädsch, Tim and Sudre, Carole H. and Acion, Laura and Antonelli, Michela and Arbel, Tal and Bakas, Spyridon and Benis, Arriel and Blaschko, Matthew and Büttner, Florian and Cardoso, M. Jorge and Cheplygina, Veronika and Chen, Jianxu and Christodoulou, Evangelia and Cimini, Beth A. and Collins, Gary S. and Farahani, Keyvan and Ferrer, Luciana and Galdran, Adrian and van Ginneken, Bram and Glocker, Ben and Godau, Patrick and Haase, Robert and Hashimoto, Daniel A. and Hoffman, Michael M. and Huisman, Merel and Isensee, Fabian and Jannin, Pierre and Kahn, Charles E. and Kainmueller, Dagmar and Kainz, Bernhard and Karargyris, Alexandros and Karthikesalingam, Alan and Kenngott, Hannes and Kleesiek, Jens and Kofler, Florian and Kooi, Thijs and Kopp-Schneider, Annette and Kozubek, Michal and Kreshuk, Anna and Kurc, Tahsin and Landman, Bennett A. and Litjens, Geert and Madani, Amin and Maier-Hein, Klaus and Martel, Anne L. and Mattson, Peter and Meijering, Erik and Menze, Bjoern and Moons, Karel G. M. and Müller, Henning and Nichyporuk, Brennan and Nickel, Felix and Petersen, Jens and Rafelski, Susanne M. and Rajpoot, Nasir and Reyes, Mauricio and Riegler, Michael A. and Rieke, Nicola and Saez-Rodriguez, Julio and Sánchez, Clara I. and Shetty, Shravya and van Smeden, Maarten and Summers, Ronald M. and Taha, Abdel A. and Tiulpin, Aleksei and Tsaftaris, Sotirios A. and Van Calster, Ben and Varoquaux, Gaël and Wiesenfarth, Manuel and Yaniv, Ziv R. and Jäger, Paul F. and Maier-Hein, Lena",,,arXiv:2302.01790
+Jark22,article,Generalization of Deep Learning in Digital Pathology: Experience in Breast Cancer Metastasis Detection.,"Jarkman, Sofia and Karlberg, Micael and Pocevičiūtė, Milda and Bodén, Anna and Bándi, Péter and Litjens, Geert and Lundström, Claes and Treanor, Darren and van der Laak, Jeroen",10.3390/cancers14215424,,CANCERS
+Vend23,inproceedings,Automatic quantification of {TSR} as a prognostic marker for pancreatic cancer.,"Vendittelli, Pierpaolo and Bokhorst, John-Melle and Smeets, Esther Markus and Kryklyva, Valentyna and Brosens, Lodewijk and Verbeke, Caroline and Litjens, Geert",,,
