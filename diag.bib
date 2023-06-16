@@ -1425,17 +1425,17 @@
   taverne_url = {https://repository.ubn.ru.nl/handle/2066/202849},
 }
 
-@mastersthesis{Arch22,
-  author = {Anwai Archit and Bram van Ginneken},
-  title = {Automated Abdominal Aortic Aneurysm Detection on CT Scans},
+@MastersThesis{Arch22,
+  author   = {Anwai Archit and Bram van Ginneken},
+  title    = {Automated Abdominal Aortic Aneurysm Detection on CT Scans},
   abstract = {Computed tomography (CT) scans enable the detection of local enlargements in the abdominal aorta (AA), resulting to straight-forward quantitative and qualitative understandings, typically instated as abdominal aortic aneurysm (AAA). Although, the segmentation of aorta is disposed to stall in presence of expanded lumen or intraluminal thrombus as a result of insufficient spiteful examples, raising the susceptibility for uneventful outcomes of an aortic rupture.
     The motion of this research proposes to develop and validate a fully automated deep learning algorithm to segment and measure AAAs on abdominal CT scans. The computer-aided detection (CAD) model is steered by a self-configuring convolutional neural network (CNN), which plumps for essential decisions in a standardised environment to design the 3D segmentation pipeline, regardless of the dataset diversity in the domain. It uses an additional 3D instance-based vertebral segmentation software bundle for independent vertebrae labelling. It coheres with a post-processing routine to perceive the growth patterns by investigation across the aortic centerline around strong anatomical landmarks. It benefits from supplementary measurement techniques of the maximal diameter and cross-section area for gaining extensive insights of the main characteristics of AAA. The system evaluates the relationship between the AA and vertebra level surface features. Conclusively, it generates a portable document, devised to group the anticipated aneurysmal information.
   The 3D CAD system agrees with expert's suggestions about the existence of the aneurysm in 398 institutional images, exhibiting a high capacity to generalize across genders and portions of a full body CT scan using solely radiologist-supported quantitative speculations from the radiology reports. The end-to-end routine achieves an 95.7% dice score coefficient (DSC) on the validation subset for patient-specific cases, indicating a modest agreement with radiologists within an average difference of 0.3 cm in the relative measurement of maximal AAA diameter, thus justifying the possibility of generalizing to the detection of aneurysms using report-based textual information only.},
-  file = {Arch22.pdf:pdf\\Arch22.pdf:PDF},
-  optnote = {DIAG},
-  school = {Radboud University Medical Center},
-  year = {2022},
-  journal = {Master thesis},
+  file     = {Arch22.pdf:pdf\\Arch22.pdf:PDF},
+  journal  = {Master thesis},
+  optnote  = {DIAG},
+  school   = {Radboud University Medical Center},
+  year     = {2022},
 }
 
 @conference{Ardu20,
@@ -4265,11 +4265,11 @@ Our results show state-of-the-art performance on colon and head-and-neck cancer 
   optnote = {DIAG, RADIOLOGY},
 }
 
-@phdthesis{Chle22,
-  author = {Grzegorz Chlebus},
-  title = {Deep Learning-Based Segmentation in Multimodal Abdominal Imaging},
-  url = {https://repository.ubn.ru.nl/handle/2066/251471},
-  abstract = {This thesis is devoted to the applications of deep learning segmentation algorithms to multimodal abdominal imaging. It focuses on the segmentation of liver, prostate, and liver tumors in CT and MRI images.
+@PhdThesis{Chle22,
+  author     = {Grzegorz Chlebus},
+  title      = {Deep Learning-Based Segmentation in Multimodal Abdominal Imaging},
+  url        = {https://repository.ubn.ru.nl/handle/2066/251471},
+  abstract   = {This thesis is devoted to the applications of deep learning segmentation algorithms to multimodal abdominal imaging. It focuses on the segmentation of liver, prostate, and liver tumors in CT and MRI images.
    It aims not only to propose and evaluate new segmentation architectures, but also to investigate aspects such as the required time for the correction of automatic segmentation results, the impact on the inter-observer variability, and the optimization of annotation effort.
    The following objectives were undertaken as part of this thesis:
 
@@ -4278,12 +4278,12 @@ Our results show state-of-the-art performance on colon and head-and-neck cancer 
    3. The investigation of various active learning strategies to optimally select a set of CT slices to obtain the best possible liver segmentation method in CT without the need to manually annotate a large amount of training data (Chapter 4);
    4. The development of a novel multi-planar 3D anisotropic CNN architecture for prostate segmentation in multi-planar T2W MRI images (Chapter 5).},
   copromotor = {H. Meine and A. Schenk},
-  file = {Chle22.pdf:pdf/Chle22.pdf:PDF},
-  optnote = {DIAG, RADIOLOGY},
-  promotor = {B. van Ginneken and H. K. Hahn},
-  school = {Radboud University, Nijmegen},
-  year = {2022},
-  journal = {PhD thesis},
+  file       = {Chle22.pdf:pdf/Chle22.pdf:PDF},
+  journal    = {PhD thesis},
+  optnote    = {DIAG, RADIOLOGY},
+  promotor   = {B. van Ginneken and H. K. Hahn},
+  school     = {Radboud University, Nijmegen},
+  year       = {2022},
 }
 
 @inproceedings{Chon11,
@@ -27941,6 +27941,17 @@ Conclusion
 Future work will focus on improving the cell localization performance of the algorithm. Cell localization of the three target classes will be an important task in a clinical application of our model, in which it could be used to improve the detection of DGC lesions among large sets of slides. Moreover, the algorithm will allow for quantitative assessment of DGC patterns, potentially giving new insights in specific morphological features of DGC such as patterns of spatial cell distributions.},
   optnote   = {DIAG, PATHOLOGY},
   year      = {2023},
+}
+
+@MastersThesis{Geur23,
+  author   = {Geurtjens, Ruben and Peeters, Dr\'{e} and Jacobs, Colin},
+  title    = {Self-supervised Out-of-Distribution detection for medicalimaging},
+  abstract = {Out-of-distribution (OOD) detection is an important aspect of deep learning-based medicalimaging approaches for ensuring the safety and accuracy of diagnostic tools.  In this paper,we investigate the effectiveness of three self-supervised learning techniques for OOD detec-tion in both a labeled RadboudXR dataset and a clinical dataset with OOD data but nolabels. Specifically, we explore two predictive self-supervised techniques and one contrastiveself-supervised technique and evaluate their ability to detect OOD samples.  Furthermore,we evaluate the performance of the state-of-the-art vision transformer model on medicaldata both as a standalone method and as the backbone of a self-supervised task. Our resultsindicate that the contrastive self-supervised method Bootstrap-Your-Own-latent (BYOL)and vision transformer model were not effective in detecting OOD samples.  However, thepredictive methods performed well on both 2D and 3D data, and demonstrated scalabilityin difficulty.  These findings suggest the potential utility of self-supervised learning tech-niques for OOD detection in medical imaging.  When determining an OOD cut-off valuefor clinical usage there are,  however,  problems with separation between datasets.  Thesechallenges suggest that further research is needed before these techniques can be adoptedfor clinical usage.},
+  file     = {Geur23.pdf:pdf\\Geur23.pdf:PDF},
+  journal  = {Master thesis},
+  optnote  = {DIAG},
+  school   = {Radboud University Medical Center},
+  year     = {2023},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}
