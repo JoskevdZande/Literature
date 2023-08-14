@@ -27975,7 +27975,7 @@ Future work will focus on improving the cell localization performance of the alg
 
 @MastersThesis{Geur23,
   author   = {Geurtjens, Ruben and Peeters, Dr\'{e} and Jacobs, Colin},
-  title    = {Self-supervised Out-of-Distribution detection for medicalimaging},
+  title    = {Self-supervised Out-of-Distribution detection for medical imaging},
   abstract = {Out-of-distribution (OOD) detection is an important aspect of deep learning-based medicalimaging approaches for ensuring the safety and accuracy of diagnostic tools.  In this paper,we investigate the effectiveness of three self-supervised learning techniques for OOD detec-tion in both a labeled RadboudXR dataset and a clinical dataset with OOD data but nolabels. Specifically, we explore two predictive self-supervised techniques and one contrastiveself-supervised technique and evaluate their ability to detect OOD samples.  Furthermore,we evaluate the performance of the state-of-the-art vision transformer model on medicaldata both as a standalone method and as the backbone of a self-supervised task. Our resultsindicate that the contrastive self-supervised method Bootstrap-Your-Own-latent (BYOL)and vision transformer model were not effective in detecting OOD samples.  However, thepredictive methods performed well on both 2D and 3D data, and demonstrated scalabilityin difficulty.  These findings suggest the potential utility of self-supervised learning tech-niques for OOD detection in medical imaging.  When determining an OOD cut-off valuefor clinical usage there are,  however,  problems with separation between datasets.  Thesechallenges suggest that further research is needed before these techniques can be adoptedfor clinical usage.},
   file     = {Geur23.pdf:pdf\\Geur23.pdf:PDF},
   journal  = {Master thesis},
@@ -28127,6 +28127,31 @@ good benchmark in the segmentation of subsolid pulmonary nodules.},
   year     = {2023},
 }
 
+@MastersThesis{Phil23,
+  author   = {Philipp Lena},
+  title    = {Body Composition Assessment in 3D CT Images},
+  abstract = {Body composition as a diagnostic and prognostic biomarker is gaining importance in
+various medical fields such as oncology. Therefore, accurate quantification methods are
+necessary, such as analyzing CT images. While several studies introduced deep learning
+approaches to automatically segment a single slice, quantifying body composition in 3D
+remains understudied due to the high required annotation effort. This thesis explores
+the use of annotation-efficient strategies in developing a body composition segmentation
+model for the abdomen and pelvis. To address this, a fine-tuning strategy was proposed
+to optimize the annotation process and extend the model’s generalization performance
+trained with L3 slices to the entire abdomen and pelvis. Moreover, a self-supervised
+pre-training using a contrastive loss was employed to leverage unlabeled data. The goal
+was to efficiently use the annotated data in developing the segmentation model. The results
+showed a significant acceleration of the annotation process. However, the pre-training
+added only limited benefits. The final model achieved excellent results with dice scores of
+SM: 0.96, VAT: 0.93, and SAT: 0.97. The insights gained from this
+study are useful to improve annotation procedures, and the developed body composition
+segmentation model can be used for further evaluation.},
+  file     = {Phil23.pdf:pdf\\Phil23.pdf:PDF},
+  journal  = {Master thesis},
+  optnote  = {DIAG},
+  school   = {Radboud University Medical Center},
+  year     = {2023},
+}
 @Comment{jabref-meta: databaseType:biblatex;}
 
 @Comment{jabref-meta: saveActions:disabled;
