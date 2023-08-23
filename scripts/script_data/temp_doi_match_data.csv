@@ -29,7 +29,6 @@ Balk19,94962ef85aca6df5c8289874b56bcaa8722dc596,"['91bcebba717670d740ef76097a088
 Balk19b,66f70286594b27928fb0eea3b4a0f292261c292f,,single doi match
 Balk20,2c00230262e1e99862ab27743b725e222a74dcca,,single doi match
 Balk21,25890a20503e79f773f427c999fcb41387f0aab1,,single doi match
-Balo13,df978fe2a5083f91d02e1206b1acab108977b3b3,,single doi match
 Balo18,3a3664f9b7e6c4258d9dc282c9c43a95054c648e,,single doi match
 Balt18,393450e398ef7775bd9a0300974d1e31636b5a26,,single doi match
 Balt19b,20fe29e553477d9bd330f052e4d01c0c1c616b22,,single doi match
@@ -87,7 +86,7 @@ Brui04,c6736d66d1088989faf12ba082dae19132baed4d,,single doi match
 Brun11,4304be3b3a04f1effbd488d408c812fcb8c44358,,single doi match
 Brun12,3d346a616566ceafe3a09acdd4831df76c408b33,,single doi match
 Bult18,add18010e1af63998bae7573f4cd5d2843eeb5bb,,single doi match
-Bult19,d5b8fba71671814445de80d36a2d563f43eb9d07,"['b0cc9473a96dcd45dd1c7de2d7d217c2a453a850', 'd5b8fba71671814445de80d36a2d563f43eb9d07']","multiple doi matches ['b0cc9473a96dcd45dd1c7de2d7d217c2a453a850', 'd5b8fba71671814445de80d36a2d563f43eb9d07'], took the first one with most citations"
+Bult19,d5b8fba71671814445de80d36a2d563f43eb9d07,,single doi match
 Bult20,39a52867ea3d60ec4f28182e0e618b762d3d7909,"['39a52867ea3d60ec4f28182e0e618b762d3d7909', 'c310babca20446de2ee7d8857abe239e0fe261a0']","multiple doi matches ['39a52867ea3d60ec4f28182e0e618b762d3d7909', 'c310babca20446de2ee7d8857abe239e0fe261a0'], took the first one with most citations"
 Bult20a,06bcda243a29be0892422c60b663f80cff21978a,,single doi match
 Bult22,551a32d6bb196127b75d256e8547b81ef67a7ad3,,single doi match
@@ -124,6 +123,7 @@ Dalm17,11f7a41abab06b8792057fa46cd3de08b22ac7d0,,single doi match
 Dalm18,c752bf23b7c12e6f81b6d2b014e29597095a8f94,,single doi match
 Dalm19,78a25fcd0825f006d8326a932d681e9420a9b77f,,single doi match
 Dana97,8a07de049e417cc61442d8c1ecc576155f6777a8,,single doi match
+Dana99,1e0bf0fbefbb0404c3c18740123a969091c67ef4,,single doi match
 DeSo19,4d1a108034c95b70c51ffcc73cec398e312b3446,,single doi match
 Deba10,6d0c6c2a9a8c9d13e071fe9b6d76e57f3c301a33,,single doi match
 Deba11,5fd64cf068745acfc9df060a4aecb7ff6e68ead4,,single doi match
@@ -135,18 +135,16 @@ Dekk21,f8fd6c688a6da313e69e95559c1db7cfa1fb04d0,,single doi match
 Dett14,8b8211800c55a1cf2cb5b9809294d09bc21b8168,,single doi match
 Deva17,f2ea47c7c53d8728b0ba4f4f0edb945edf877d4c,,single doi match
 Diez14,cbf00889d89fe8c70d66ad190cc94c3ed25f7f42,,single doi match
-Dijc11,de4199466e65c57d27343bcc67a9261037d304cc,,single doi match
 Dijk13,529b7ddc8fb2f886b919b66ff8704b96fe16c0af,,single doi match
 Dijk15,32cfbed76bd55d2aa3c2fa54652941d01994dc35,,single doi match
 Dong10,644ca5e97840d8532c7bdcf142cb49e398ae4ea0,,single doi match
-Durm14,c20d695eb6eabe26c449e5e4a75d214c92b636dd,,single doi match
 Durm14a,dc399a6d32501c1b878002ed27dfd7c54ab82965,,single doi match
 Eeke20a,8bc7e464965aabd635e4bc2e76d186d6d2c04e01,,single doi match
 Eeke21,191e15acc68311c29c38a4bbfa0769608fa48fbc,,single doi match
 Ehte16,2729d2918978d5ed602aa843fbdd027d83e0036f,,single doi match
 Ehte16a,7e39820fb261f367ce8bf362de991ebff4400083,,single doi match
 Ehte17,ba913e2c03ece1c75f0af4d16dd11c7ffbc6e3ba,,single doi match
-Ehte18,a58015a59562caf325a3f05288147704c055ce8d,,single doi match
+Ehte18,1a3c9f430cf163a3c2decdc9f04dae285739ace6,,single doi match
 Eile08,01e9a45f2aa66160883ff062da13e14f4ea96199,,single doi match
 Eise12,bb07c9b92d8d59595eb0a5e135c3f54ebae9e43b,,single doi match
 Emau15,fb1084b454e9b6f203c860e6f89ca4389cd1a8e9,,single doi match
@@ -193,7 +191,6 @@ Giet10,2262ebcd92f9597d37813d0d3d27d397260cf674,,single doi match
 Gige13,7b178f081b9c64dae9141dc9d197f49934b00c58,,single doi match
 Ginn00,68c218a07341bf3a5fd2a587ef4cfb1845046798,,single doi match
 Ginn00a,54b1c3215b4de092378641f88dcd39a773671cd1,,single doi match
-Ginn00b,b6c2b03aef8689cbd5bbe2cae322eaaea832b7f6,,single doi match
 Ginn01b,793cc33a9f29953685ca942d513e82870e9ccd13,,single doi match
 Ginn01c,ceddfad717e3e521d337f35904a1c78c1d75c490,,single doi match
 Ginn02,99840ed7cc49c379273099b57bf58f55f5274e64,,single doi match
@@ -214,6 +211,7 @@ Ginn17,b69fe5a837277ddbea5215d6bacd3a902e9d11ce,,single doi match
 Ginn18,f46d34f0234422fb7db3837dd2b32efe03fc6e9a,,single doi match
 Ginn20,11cfab281e93fa7803931be8b589aa1f09d7af02,,single doi match
 Ginn22,13d81eb12871aa6a4f15fc5c9b127bc320f55179,,single doi match
+Ginn99,b6c2b03aef8689cbd5bbe2cae322eaaea832b7f6,,single doi match
 Ginn99a,99042acbce8ec757d91749259821dce751a9a809,,single doi match
 Ginn99b,8ae7d6146b6d9ed23f6b35f8fa23d3b467bdecef,,single doi match
 Giro22,8c882c8737d351dfe19e663228e4c3bd2cafa992,,single doi match
@@ -261,12 +259,11 @@ Herm20,3f9c978ea44205703f337574f5e07eb9d7ecb523,,single doi match
 Herm21,3881ae992914cd50a14782104170cc5dd5d9ae7e,"['3881ae992914cd50a14782104170cc5dd5d9ae7e', 'a4d4e42f1accfd77f378549c776b7c850afbcda5']","multiple doi matches ['3881ae992914cd50a14782104170cc5dd5d9ae7e', 'a4d4e42f1accfd77f378549c776b7c850afbcda5'], took the first one with most citations"
 Herm22,1d7cb6f85cf6478da6fef4d5630f02aa3a053f8c,,single doi match
 Heuv15,1fd0e5d0355bb0798803da2ff5e743d1039819bb,,single doi match
-Heuv16,2e5d61cc075f2a07f75282ae00b2da4a727f5795,,single doi match
+Heuv16,2e5d61cc075f2a07f75282ae00b2da4a727f5795,"['2e5d61cc075f2a07f75282ae00b2da4a727f5795', '490b2120bffd758919d924ee1b062789aed16ef3']","multiple doi matches ['2e5d61cc075f2a07f75282ae00b2da4a727f5795', '490b2120bffd758919d924ee1b062789aed16ef3'], took the first one with most citations"
 Heuv17,f8d5915101494c63b044909b93b821caa688f220,,single doi match
 Heuv17b,aa1ddbeb489b3e103f3dd681ae20ac0014af2209,,single doi match
 Heuv18,80d1a72e3c8bf0e3457492b1f27a05ad6f5dd9a8,,single doi match
 Heuv18a,1427f469d6fb172d200d6f25837cbeaddad425e5,,single doi match
-Hoek11a,7c7195b2121495ba8290bd5522c630ddea105ed4,,single doi match
 Hoes11,8cce5c02b19e5f77784efa75cc6aac29c507a602,,single doi match
 Hoes12,f2b3202d9635c6ec6114a21814eb02638ac82a05,,single doi match
 Hoes12a,9b54fea05c39e8c1db7bcf55a970a1cc598a3398,,single doi match
@@ -331,6 +328,7 @@ Jaco15a,67ae0419e41a69c4796b9e18bf6f59814784a933,,single doi match
 Jaco19,ec14da74fcbd65e013855cea561c2142c68f72fb,,single doi match
 Jaco21,35af94bb3f5654ef60446d79e88621043fb7b543,,single doi match
 Jaco21a,e91661654480905a880033a9f2266343736ea7bd,,single doi match
+Jaco23,574577389a89314f2159ca9580264d0c7544257c,,single doi match
 Jong10,0ee868fc1c16664777ec71bbe38c9ad026e2525a,,single doi match
 Kabu09,fb4ba9e98bc756d05ae3d26c035386efea55abe6,,single doi match
 Kall08,88ba982955fdc0ae3283fe0b6bebf48dcc828a74,,single doi match
@@ -381,8 +379,6 @@ Kooi17a,03c07dd19884c370e3a49106a27578ffc3697475,,single doi match
 Kooi17b,5b0eabbe26da0e57856f08cddc34e8c7a62c5cdb,,single doi match
 Kooi17c,dcce31a81f66ba0502265cca7dbd9f8477eebf1f,,single doi match
 Kooi17d,a908e3775fd064b0d249728a7261cfb1efa13b87,,single doi match
-Koot20,3d01a44659fce1fb0134b6d8baabbee72583d3fe,,single doi match
-Kort15,88b86ad75e10c7dac7b70edbd05ed494d699ffb0,,single doi match
 Kort16,2fbd158c39a795d294b80591f85305b95b2cff58,,single doi match
 Kos20,a7f96553bc690f6f66697895a98e9377cc0f7562,"['889cc0565d6e2e844f4db0132c71a612672d2497', 'a7f96553bc690f6f66697895a98e9377cc0f7562']","multiple doi matches ['889cc0565d6e2e844f4db0132c71a612672d2497', 'a7f96553bc690f6f66697895a98e9377cc0f7562'], took the first one with most citations"
 Kosc22,cefe4c90cb1db768ad407f8ffeb0c51cbc0de0b2,,single doi match
@@ -521,7 +517,6 @@ Mord15,8c1ea2ea519e1512cb46b28cd7814c8af900dc06,,single doi match
 Mord16,f96c79f90cb53fb753033a0602753c114ba0e9fb,,single doi match
 Mord16b,2c922a216c9684d539ffaf858cace091b2a2f7c7,,single doi match
 Mord17,c8a213ffbfae47c7471de82e7a6c03b5e48006f6,,single doi match
-Mord18a,54a8ecacfe92d59d541fd3f7788673a83e62c78a,,single doi match
 Muen09,5710ee8046be85e4702f546f7e18f4c90ac48d87,,single doi match
 Muen12,2afc979ce2117c36a6bc93edc575b3dbd60c7170,,single doi match
 Muen12a,93f83b026d86c5c2217e36b6b91383d1b8afe3c4,,single doi match
@@ -574,7 +569,6 @@ Peri21,90b8115c01d3e9da20b6a5ac11139dc9d9946127,,single doi match
 Pete20,2a7dafe1287670068300ff77401923f7e151b9f4,,single doi match
 Phil13,7841c4cf59be69cbba55ff31f302d0e1d6323bff,,single doi match
 Phil15,31be3cce5c1e9ae715c5fa2d97d1c0ea5b23223a,,single doi match
-Phil15b,1e265722259ad5880226c71ac082a6c8d6f11d84,,single doi match
 Phil19a,b5a66ad408861f79a1e6606da4ed23f772a7eb02,,single doi match
 Pinc19,c14d3cf3f27b22bb8e6a3be573095173e7a917f1,,single doi match
 Pinc20,499846b295c4a0926f18bcc484c0db00bfbf1300,,single doi match
@@ -657,7 +651,6 @@ Scha16,36f4a3250668a84acc6e3eff9f9b4f496dab24df,,single doi match
 Scha22,fe0311bb9d578c2811912c020045f1c3b7345543,,single doi match
 Schi05b,9631891250b66696348d177974c08c5ff523bde9,,single doi match
 Schi06,89d57c0dfb6c4a5d0f883a96648569f605ba8b61,,single doi match
-Schi06a,ccf65024e744697617e208593fd1d47f9c27d9aa,,single doi match
 Schi08,ce9b7e56072a7ffdebdd6516a3044975ae38ac73,,single doi match
 Schi09,7fcd3d506310b5c7deb6858027dfd9e6a3f40258,,single doi match
 Schi10,cbf00889d89fe8c70d66ad190cc94c3ed25f7f42,,single doi match
@@ -763,13 +756,11 @@ Veli10,e7326df695929ed141164de483b8e651d9b57d52,,single doi match
 Veli10a,5afc31c4d231f5f54b5ee029573b80ee72ead116,,single doi match
 Veli12,6e1eac7fb957bdd979dca2a234a9e02ee4656245,,single doi match
 Veli13,73de8d539bce0fed3f1d23153b169b00f35b4861,,single doi match
-Velt08,c9f43a2a6b42656bafb03163e1498dc087d0b80d,,single doi match
 Velz20,13c0cf335efd48efcb2f35187c5392e4a6e213b5,,single doi match
 Ven11a,448cddc81736e13b617d55f2550ae3665dfb447e,,single doi match
 Ven13,ef79b35cc95dd6c64d928f5043bc219be89d349f,,single doi match
 Ven13b,9662f207e1ded0224a86f85f40dbaf2fd28dadd2,,single doi match
 Ven16a,d267d21a0b48d6019c2fda657e64b4134b64a956,,single doi match
-Ven16f,bceba1685bbddd5368222e849db3237cb7c25745,,single doi match
 Vend17c,b51d0edf0370b89b246e7e67f58640ffebd2e224,,single doi match
 Vend18,acaba0aa6a8a55104ae2cb09f093aa30621ffb47,,single doi match
 Venh15b,ae6efa478f3ecc99f2273effad86f7a8a78a333a,,single doi match
@@ -806,7 +797,6 @@ Witt11,afda5ff4f4b03cd95f1f52ac8886397e46b5300d,,single doi match
 Witt12,2f3bebbb947b31dc3f81d4ac5f7e1414e3172f25,,single doi match
 Witt12a,2f10f440accedc9e5cac27b58f606939d41b9c0b,,single doi match
 Witt12b,55531229b8103969912f6d12933d5c2b30c616e2,,single doi match
-Xie20,a7e94f52d1dfb0c5c823032a0b9a70dd0acbb625,,single doi match
 Xie23,b0255ad2c81689cfd14ec8573780400a5fbf7b99,,single doi match
 Yaka10,45bced603af6c4b11db85018291705262a98768f,,single doi match
 Yaka11c,51c17b6d2b1fcd46fef6ceaa5569e39a951cb8a6,,single doi match
@@ -842,3 +832,7 @@ Scho23,69cec4aa46e33d973af972f7b78e5991d8f03601,,single doi match
 Eeke23,fc5eb96c03e65d357cb8425a5938f4a6b62be9bd,,single doi match
 Linm23,697be6a6398755ff665b968936fef868ec8974bf,,single doi match
 Jark22,c90825e6da28cd71598d38dacf09cd1023ad1a74,,single doi match
+Hend23a,9a589d8cc38a4770cf3d5819fc363a814902bb42,,single doi match
+Thij23,59545ee081348d9f15f20f3e3c8d64e67039d262,,single doi match
+Venk23,f9dd350b17a4b0bce9beef6c372a375315361aad,,single doi match
+Leeu23a,03a68b7a56dda9b3cecacfd01d4f7225998fe4c8,,single doi match
