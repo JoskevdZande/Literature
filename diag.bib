@@ -1333,7 +1333,7 @@
 }
 
 @Article{Alves22a,
-  author      = {Alves, Nat\'{a}lia and Schuurmans, Megan and Litjens, Geke and Bosma, Joeran and Hermans, John and Huisman, Henkjan},
+  author      = {Alves, Nat\'{a}lia and Schuurmans, Megan and Litjens, Geke and Bosma, Joeran S. and Hermans, John and Huisman, Henkjan},
   title       = {Fully Automatic Deep Learning Framework for Pancreatic Ductal Adenocarcinoma Detection on Computed Tomography},
   doi         = {https://doi.org/10.3390/cancers14020376},
   pages       = {376},
@@ -1346,7 +1346,7 @@
 }
 
 @Conference{Alves22b,
-  author    = {Alves, Nat\'{a}lia and Bosma, Joeran and Huisman, Henkjan},
+  author    = {Alves, Nat\'{a}lia and Bosma, Joeran S. and Huisman, Henkjan},
   booktitle = RSNA,
   title     = {Towards Safe Clinical Use of Artificial Intelligence for Cancer Detection Through Uncertainty Quantification},
   abstract  = {Purpose: Investigate whether quantifying deep learning (DL) models' uncertainty can help identify low performance cases that require expert attention. Materials and Methods: This retrospective study included two use cases: pancreatic cancer detection on contrast-enhanced computed tomography and clinically significant prostate cancer (csPCa) detection on biparametric magnetic resonance imaging. The pancreatic cohort consisted of 242 (119 cancer) in-house cases for training and 361 cases (80 healthy, 281 cancer) from two external, public datasets for testing. The csPCa cohort consisted of 7756 (3022 csPCa) in-house examinations for training and 300 cases (88 csPCa) from an external center for testing. All tumor cases in the independent test sets were histopathology confirmed. The uncertainty of the proposed automatic cancer detection algorithms was computed using model ensembling. Fifteen DL models were trained with the nnUNet framework and integrated into previously established pipelines for each use case. The models were applied independently to the test sets and uncertainty was quantified in a case level as the standard deviation (sd) of the ensemble. Cases with sd lower than 10% were classified as having low prediction uncertainty, while the remaining were classified as having high prediction uncertainty. The mean and 95% confidence intervals (CI) of the area under the receiver operating characteristic curves (AUC) for the high and low uncertainty groups were calculated. The permutation test was used to assess statistical significance. Results: The DL frameworks' performances for the uncertain groups were significantly lower than for the certain groups for both use cases. For pancreatic cancer detection, the mean AUC dropped from 98.0% (95%CI: 96.2%-99.8%) for the low uncertainty group to 78.0% (95%CI: 68.2%-87.8%) for the high uncertainty group (p<10-4). For csPCa, the mean AUC dropped from 92.4% (95%CI: 90.4%-94.4%) for the low uncertainty group to 65.7% (95%CI: 54.7%-76.7%) for the high uncertainty group (p<10-4). The low uncertainty groups included 41% of the pancreatic and 78% of the csPCa test sets. Conclusions: The proposed ensembling method can be used to identify cases where AI models' predictions are uncertain and show low performance. Clinical Relevance Statement: To be safely integrated in the clinic, AI can predict uncertainty and identify uncertain cases with lower performance that should be handled with extra care},
@@ -3028,7 +3028,7 @@ Our results show state-of-the-art performance on colon and head-and-neck cancer 
 }
 
 @conference{Bosma21a,
-  author = {Joeran Bosma and Anindo Saha and Matin Hosseinzadeh and Henkjan Huisman},
+  author = {Joeran S. Bosma and Anindo Saha and Matin Hosseinzadeh and Henkjan Huisman},
   booktitle = RSNA,
   title = {Augmenting AI with Automated Segmentation of Report Findings Applied to Prostate Cancer Detection in Biparametric MRI},
   abstract = {PURPOSE: To improve risk stratification of clinically significant prostate cancer (csPCa) with a 3D deep learning detection model, by augmenting the largest prostate MRI dataset reported in literature to date. MATERIALS AND METHODS: This retrospective study included 6,866 prostate bpMRI studies (axial T2- weighted, high b-value (>= 1400) and apparent diffusion coefficient scans) from 5,646 consecutive patients, with elevated PSA or clinical suspicion of PCa, between 2014-2020 for training. All studies were evaluated by experienced radiologists during clinical routine. The findings in 2,659 studies were manually segmented. We propose a hybrid framework to augment our detection model with more training data. After training with expert csPCa segmentations, we generate automatic cancer segmentations by masking our model predictions with the number of csPCa lesions automatically extracted from radiology reports. An augmented detection model is then trained jointly on manual and automatically generated csPCa segmentations. Models trained on expert or augmented cancer segmentations are evaluated on 296 visits of 296 consecutive men with elevated PSA or clinical suspicion of prostate cancer from an independent, external, centre. Ground truth is provided by MR-guided and TRUS-guided biopsies, and radical prostatectomy when available. Studies are considered positive if they have at least one Gleason grade group >= 2 lesion (csPCa). We trained our models on expert and augmented segmentations with 5-fold cross-validation and 5 restarts. Diagnostic performance was evaluated using the Area under the Receiver Operating Characteristic curve (AUROC). We performed a permutation test to obtain the statistical significance level. RESULTS: Augmenting the training set with automatic csPCa segmentations guided by report findings, sig- nificantly improves the case-level risk stratification of csPCa. For the external test set, the AUROC increased from 85.7 +- 2.5% to 89.0 +- 1.2% (P < 0.0001). On the external test set, experienced radiologists had a sensitivity of 91.4+-2.7% at 78.3+-2.4% specificity. At the same sensitivity, adding automatic segmentations improved the model's specificity from 46.8 +- 12.8% to 62.0 +- 7.1% (P < 0.0001). CONCLUSION: Augmenting training with automatic report driven segmentations of prostate cancer in bpMRI significantly improved the risk-stratification of the deep learning prostate cancer detection model. CLINICAL RELEVANCE: Risk stratification for clinically significant prostate cancer using prostate MRI is in- strumental to reduce over-treatment. Deep learning can assist, but requires expensive expert segmentations.},
@@ -3037,7 +3037,7 @@ Our results show state-of-the-art performance on colon and head-and-neck cancer 
 }
 
 @mastersthesis{Bosma21b,
-  author = {Joeran Bosma and Anindo Saha and Matin Hosseinzadeh and Henkjan Huisman},
+  author = {Joeran S. Bosma and Anindo Saha and Matin Hosseinzadeh and Henkjan Huisman},
   title = {Augmenting AI with Automated Segmentation of Report Findings Applied to Prostate Cancer Detection in Biparametric MRI},
   abstract = {Prostate MRI interpreted by expert radiologists provides the best non-invasive diagnosis of clinically significant prostate cancer (csPCa), but is a limited resource. Deep learning has the potential to assist, but requires expensive expert annotations. We developed an automatic labelling procedure guided by radiology reports from clinical routine, capable of generating high quality voxel-level annotations. First, we parse the radiology report to extract the number of clinically significant findings (nsig), and then generate annotation by keeping the nsig most confident lesion candidates from a csPCa segmentation model. We included 7,756 prostate bpMRI studies (axial T2, high b-value and ADC scans), of which 3,052 were manually annotated and 4,704 were automatically annotated, resulting in the largest prostate MRI dataset reported in literature. We evaluated the automatic annotation procedure using the manual annotations: our score extraction correctly identified nsig for 99.3% of the visits, our prostate cancer segmentation model correctly localised 83.7 +- 3.0% of the lesions, and the automatic annotations of correctly localised lesions have good spatial congruence, with Dice similarity coefficients of 0.71+-0.15. Augmenting the training set with automatically labelled visits significantly improved prostate cancer detection performance, as evaluated on 296 visits from an independent, external, centre with ground truth provided by MR-guided and TRUS-guided biopsies, or radical prostatectomy when available. Patient-based diagnostic AUROC increased from 86.6 +- 1.8% to 88.7 +- 1.1% (P = 0.047) and lesion-based diagnostic pAUC increased from 1.940+-0.082 to 2.050+-0.031 (P = 0.016), with mean+-std. over 25 independent runs.},
   url = {Bosma21b.pdf:pdf\\Bosma21b.pdf:PDF},
@@ -6165,6 +6165,21 @@ In future work, we could extend this detector to additional tissues and immunohi
   month = {11},
 }
 
+@conference{Fransen22,
+  author = {S. J. Fransen, C. Roest, Q. Y. van Lohuizen, J. S. Bosma, T. C. Kwee, D. Yakar, and H. Huisman},
+  booktitle = RSNA,
+  title = {Diagnostic AI to speed up MRI protocols by identifying redundant sequences: are all diffusion-weighted prostate MRI sequences necessary?},
+  abstract = {PURPOSE: To explore if an expert-level diagnostic AI can help speed up MRI by identifying redundant sequences in diffusion-weighted imaging (DWI) for the diagnostic detection of clinically significant prostate cancer (csPCa).
+MATERIALS AND METHODS: Existing deep learning AI architectures detects csPCa based on bpMRI at expert-level. We developed a method in which this AI assesses the added diagnostic value of a sequence. This retrospective study included 840 patients with a bi-parametric prostate MRI (bpMRI) for initial detection of csPCa. The bmMRI comprises a T2-weighted image and DWI with b-values of 50, 400, and 800 s/mm² on a 3T scanner (Skyra and Prima). Our method entails computing ADC and b1400 maps based on different DWI combinations: 1) b800 excluded, 2) b400 excluded, 3) complete set. AI models for the various bpMRI combination were trained 5-fold and statistically compared with receiver operating curve (ROC) analysis at patient and lesion level using respectively the DeLong's and permutation test.
+RESULTS: The mean area under the ROC of the three combinations were respectively 0.78 +-0.027 (SD), 0.76 +-0.051, and 0.77 +- 0.057. The partial area under of the free ROC between 0.1 and 2.5 false positives lesions per patient was respectively 1.44 +- 0.22, 1.58 +- 0.18 and 1.50 +- 0.12. The slight difference in diagnostic performance (patient-level 0.01, lesion-level 0.06 ) when omitting sequence DWI b800 is not significant (respectively p = 0.2 and p = 0.43).
+CONCLUSION: We conclude that expert-level AI can identify redundant sequences in MRI. Furthermore, our method provides evidence that in DWI for csPCa detection, the b800 series can be omitted from the regular bpMRI protocol decreasing total MRI scan time by 33\%. These results can provide significant speed-up of any MRI.
+},
+  optnote = {DIAG, RADIOLOGY},
+  year = {2022},
+}
+
+
+Clinical Relevance: An increasing demand for MRI scans puts pressure on reducing scan time without losing diagnostic quality. We have developed an AI-assisted system that can spot redundant MRI sequences. This can provide a breakthrough in AI for the clinical assessment of MRI protocols and provide a solution to meet the increasing demand for MRI scans.
 @article{Fuch03,
   author = {Michael H Fuchsj\"ager and Cornelia M {Schaefer-Prokop} and Edith Eisenhuber and Peter Homolka and Michael Weber and Martin A Funovics and Mathias Prokop},
   title = {Impact of ambient light and window settings on the detectability of catheters on soft-copy display of chest radiographs at bedside},
@@ -14537,6 +14552,19 @@ Clinical Relevance/Application: The market of AI products for radiology is growi
   optnote = {DIAG},
 }
 
+@conference{Lohuizen23a,
+  author = {Q. Y. van Lohuizen, C. Roest, F. F. J. Simonis, S. J. Fransen, T. C. Kwee, D. Yakar, and H. Huisman},
+  booktitle = RSNA,
+  title = {Diagnostic AI to speed up MRI protocols by identifying redundant sequences: are all diffusion-weighted prostate MRI sequences necessary?},
+  abstract = {PURPOSE: Studies showed that AI reconstruction of accelerated MRI improves visual quality, but it is unclear whether this improves diagnostic value. We investigated a novel framework for accelerated MRI by assessing reconstruction quality (naïve- vs AI-reconstructed) by comparing diagnostic performance and visual similarity as an outcome for prostate cancer detection.
+METHODS: A retrospective multi-site study was performed on a cohort of 1535 patients who underwent bi-parametric prostate MRI between 2016-2020. An expert radiologist delineated all clinically significant prostate cancer (csPCa) lesions (PI-RADS ≥ 4). T2W scans were retrospectively undersampled in k-space, simulating four (R4) and eight (R8) times acceleration. A 3D U-Net was used to reconstruct undersampled images. The resulting images were fed to an existing state-of-the-art csPCa detection AI to evaluate the effect of AI reconstruction on diagnosis. Visual image quality (SSIM) was compared with a Wilcoxon test. Lesion level diagnostics were evaluated by comparing the partial area-under-the-FROC-curve over the false positive interval 0.1-2.5 (pAUC) using permutation tests.
+RESULTS: AI-based reconstruction significantly improved visual quality compared to naïve (IFFT) reconstruction MRI at R4 (SSIM 0.78±0.02 vs 0.68±0.03, p<0.001) and R8 (SSIM 0.67±0.03 vs 0.51±0.03, p<0.001), however, no significant improvements in diagnostic performance were observed for R4 (pAUC FROC 1.33 [CI 1.28-1.39] vs 1.29 [CI 1.23-1.35], p=0.37), nor R8 (pAUC FROC 1.12 [CI 1.07-1.17] vs 0.95 [CI 1.89-1.01], p=0.067). AI-based reconstruction resulted in 0.1 or more decrease in sensitivity compared to unaccelerated MRI.
+CONCLUSION: Recovery of visual quality in reconstructions does not correlate with recovering diagnostic quality, emphasizing the importance of measuring diagnostic value rather than visual similarity. AI reconstruction tools should be approached with care because they might have been optimized to reconstruct visually appealing images instead of diagnostic images.
+},
+  optnote = {DIAG, RADIOLOGY},
+  year = {2023},
+}
+
 @article{Loka10,
   author = {Mariette A J M Lokate and Michiel G J Kallenberg and Nico Karssemeijer and Maurice A A J van den Bosch and Petra H M Peeters and Carla H van Gils},
   title = {Volumetric breast density from full-field digital mammograms and its association with breast cancer risk factors: a comparison with a threshold method},
@@ -20284,7 +20312,7 @@ Clinical Relevance/Application: The market of AI products for radiology is growi
 }
 
 @inproceedings{Saha21b,
-  author = {Anindo Saha and Joeran Bosma and Jasper Linmans and Matin Hosseinzadeh and Henkjan Huisman},
+  author = {Anindo Saha and Joeran S. Bosma and Jasper Linmans and Matin Hosseinzadeh and Henkjan Huisman},
   title = {Anatomical and Diagnostic Bayesian Segmentation in Prostate {MRI} -- Should Different Clinical Objectives Mandate Different Loss Functions?},
   booktitle = {Medical Imaging Meets NeurIPS Workshop - 35th Conference on Neural Information Processing Systems (NeurIPS)},
   year = {2021},
@@ -20294,7 +20322,7 @@ Clinical Relevance/Application: The market of AI products for radiology is growi
 }
 
 @conference{Saha21c,
-  author = {Anindo Saha and Joeran Bosma and Christian Roest and Matin Hosseinzadeh and Jurgen Futterer and Henkjan Huisman},
+  author = {Anindo Saha and Joeran S. Bosma and Christian Roest and Matin Hosseinzadeh and Jurgen Futterer and Henkjan Huisman},
   booktitle = RSNA,
   title = {Deep Learning with Bayesian Inference for Prostate Cancer Diagnosis across Longitudinal Biparametric MRI},
   abstract = {BACKGROUND: Despite increasing use of active surveillance via biparametric MR imaging (bpMRI) for prostate cancer (PCa) management, there is a lack of research in medical image computing that utilize longitudinal studies to assist present-day diagnosis. PURPOSE: To investigate the efficacy of a deep learning-based PCa detection model, that integrates past bpMRI exams and population-level ana-tomical priors via Bayesian inference. MATERIALS AND METHODS: This retrospective study included 250 consecutive biopsy-naive men (median age: 64 yrs; IQR: 60-69) with elevated levels of PSA (me-dian level: 8 ng/mL; IQR: 5-11), who underwent at least two consecutive MRI exams between 2016-2018 (N=500). Intra-patient bpMRI scans were rigidly registered, paired with expert voxel-level annotations of PI-RADS 2-5 lesions and subsequently used to train a deep learning model to predict and localize all PI-RADS findings. Radiologists utilize prior studies to inform present-day diagnosis. Similar-ly, for each patient case, computer-aided diagnosis for the follow-up bpMRI exam was derived via Bayesian modelling; probabilistical-ly integrating past bpMRI exams and a population prior for spatial PCa prevalence and zonal anatomy. Diagnostic performance was evaluated by the ability to accurately discriminate patients with benign prostatic tissue (n=10) or PI-RADS <= 3 lesions (n=159), from those carrying PI-RADS >= 4 lesions (n=81), over 5-fold cross-validation. Normalized Wilcoxon Mann-Whitney U statistic was used to derive AUROC and confidence intervals were computed over 5000 replications of bootstrapping. RESULTS: Computer-aided diagnosis of follow-up studies without priori, yielded an AUROC of 0.77 (95% CI: 0.71, 0.83), F0.5 score of 0.51 (95% CI: 0.42, 0.61), positive predictive value (PPV) of 0.51 (95% CI: 0.40, 0.60) and negative predictive value (NPV) of 0.78 (95% CI: 0.71, 0.83). Computer-aided diagnosis of follow-up studies with the inclusion of priori via Bayesian inference yielded an AUROC of 0.80 (95% CI: 0.76, 0.84), F0.5 score of 0.58 (95% CI: 0.48, 0.68), PPV of 0.60 (95% CI: 0.48, 0.72) and NPV of 0.78 (95% CI: 0.72, 0.85).In comparison to stand-alone diagnosis, factoring in prior studies resulted in a 41.4% reduction of AUROC standard deviation across each fold. CONCLUSION: Incorporating past studies and clinical priors via Bayesian inference can improve diagnostic certainty and robustness of deep learning in follow-up patient exams. CLINICAL RELEVANCE/APPLICATION: Prostate cancer is one of the most prevalent cancers in men worldwide. In the absence of experienced radiologists, its morphological heterogeneity can lead to low inter-reader agreement. Automated, reliable detection algorithms can improve diagnostic accuracy with consistent quantitative analysis.},
@@ -20303,7 +20331,7 @@ Clinical Relevance/Application: The market of AI products for radiology is growi
 }
 
 @conference{Saha22a,
-  author = {Anindo Saha and Joeran Bosma and Jasper Twilt and Bram van Ginneken and Derya Yakar and Mattijs Elschot and Jeroen Veltman and Jurgen Futterer and Maarten de Rooij and Henkjan Huisman},
+  author = {Anindo Saha and Joeran S. Bosma and Jasper Twilt and Bram van Ginneken and Derya Yakar and Mattijs Elschot and Jeroen Veltman and Jurgen Futterer and Maarten de Rooij and Henkjan Huisman},
   booktitle = RSNA,
   title = {Artificial Intelligence and Radiologists at Prostate Cancer Detection in MRI: The PI-CAI Challenge},
   abstract = {PURPOSE: The PI-CAI challenge aims to validate the diagnostic performance of artificial intelligence (AI) and radiologists at clinically significant prostate cancer (csPCa) detection/diagnosis in MRI, with histopathology and follow-up (>= 3 years) as reference. The study hypothesizes that state-of-the-art AI algorithms, trained using thousands of patient exams, are non-inferior to radiologists reading bpMRI. MATERIALS AND METHODS: This retrospective study tentatively includes 12,373 prostate MRI exams (11,193 patients) between 2012 and 2021, curated from three Dutch centers and one Norwegian center. All patient exams are of men suspected of harboring csPCa, without a history of treatment or prior positive histopathology (Gleason Grade Group >= 2) findings. Acquisitions were obtained using Siemens Healthineers or Philips Medical Systems-based 1.5T/3T MRI scanners. In total, 11,373 cases are available to develop and train AI solutions in the framework of a grand challenge. The remaining 1000 unseen cases are reserved for testing. A subset of 400 testing cases is used to facilitate a reader study with 63 radiologists (42 centers, 18 countries; 1-23 years of experience reading prostate MRI {median: 9 years}). Readers perform their assessments sequentially for each patient: first, using bpMRI sequences only; secondly, using full mpMRI sequences (in compliance with PI-RADS v2.1). Multi-reader multi-case (MRMC) analysis is used to compare the overall patient-level diagnostic performance of readers against that of the top five AI algorithms. Non-inferiority is tested with a significance margin of 0.05. Permutation tests are used to statistically compare AI and radiologists' performance at PI-RADS operating points. The PI-CAI challenge spans 7 months (May-November 2022) in duration. Key aspects of its study protocol have been established in conjunction with an international scientific advisory board of 16 experts in prostate AI, radiology, and urology --to unify and standardize present-day guidelines, and ensure meaningful validation of prostate-AI towards clinical translation. RESULTS: Preliminary results of the PI-CAI challenge will be presented. CLINICAL RELEVANCE: Prostate MRI assessments show high inter-reader variability (>50%), long reporting times, and strong dependence on expertise. A thorough comparison of AI with radiologists builds trust, allowing AI to help improve diagnostic accuracy and reduce workload.},
@@ -20321,7 +20349,7 @@ Clinical Relevance/Application: The market of AI products for radiology is growi
 }
 
 @inproceedings{Saha23b,
-  author = {Anindo Saha and Joeran Bosma and Jasper Twilt and Bram van Ginneken and Derya Yakar and Mattijs Elschot and Jeroen Veltman and Jurgen Fütterer and Maarten de Rooij and Henkjan Huisman},
+  author = {Anindo Saha and Joeran S. Bosma and Jasper Twilt and Bram van Ginneken and Derya Yakar and Mattijs Elschot and Jeroen Veltman and Jurgen Fütterer and Maarten de Rooij and Henkjan Huisman},
   title = {Artificial Intelligence and Radiologists at Prostate Cancer Detection in MRI: The PI-CAI Challenge},
   booktitle = MIDL,
   year = {2023},
@@ -24545,7 +24573,7 @@ We show that combined assessment of tumor-buds and T-cells has the potential to 
 }
 
 @conference{Twil23a,
-  author = {Jasper Twilt and Anindo Saha and Joeran Bosma and Bram van Ginneken and Derya Yakar and Mattijs Elschot and Jeroen Veltman and Jurgen Fütterer and Henkjan Huisman and Maarten de Rooij},
+  author = {Jasper Twilt and Anindo Saha and Joeran S. Bosma and Bram van Ginneken and Derya Yakar and Mattijs Elschot and Jeroen Veltman and Jurgen Fütterer and Henkjan Huisman and Maarten de Rooij},
   title = {Diagnostic Value of Dynamic Contrast-Enhanced MRI for the Detection of Clinically Significant Prostate Cancer in a Multi-Reader Study: Preliminary Results from the PI-CAI Consortium},
   booktitle = ECR,
   year = {2023},
@@ -24554,7 +24582,7 @@ We show that combined assessment of tumor-buds and T-cells has the potential to 
 }
 
 @conference{Twil23b,
-  author = {Jasper Twilt and Anindo Saha and Joeran Bosma and Bram van Ginneken and Derya Yakar and Mattijs Elschot and Jeroen Veltman and Jurgen Fütterer and Henkjan Huisman and Maarten de Rooij},
+  author = {Jasper Twilt and Anindo Saha and Joeran S. Bosma and Bram van Ginneken and Derya Yakar and Mattijs Elschot and Jeroen Veltman and Jurgen Fütterer and Henkjan Huisman and Maarten de Rooij},
   title = {EAU Plenary Gamechanging Session - Artificial Intelligence and Radiologists at Prostate Cancer Detection in MRI: Preliminary Results from the PI-CAI Challenge},
   booktitle = EAU,
   year = {2023},
@@ -27679,7 +27707,7 @@ Limitations: This study is a retrospective analysis on data from one screening t
 }
 
 @InProceedings{Bosma23a,
-  author    = {Joeran Bosma and Dr{\'e} Peeters and Nat{\'a}lia Alves and Anindo Saha and Zaigham Saghir and Colin Jacobs and Henkjan Huisman},
+  author    = {Joeran S. Bosma and Dr{\'e} Peeters and Nat{\'a}lia Alves and Anindo Saha and Zaigham Saghir and Colin Jacobs and Henkjan Huisman},
   booktitle = {Medical Imaging with Deep Learning},
   title     = {Reproducibility of Training Deep Learning Models for Medical Image Analysis},
   url       = {https://openreview.net/forum?id=MR01DcGST9},
@@ -28018,7 +28046,7 @@ These findings stress the importance of identifying and efficiently managing inc
 
 @article{Bosma23,
   title={Semi-supervised Learning with Report-guided Pseudo Labels for Deep Learning-based Prostate Cancer Detection Using Biparametric MRI},
-  author={Bosma, Joeran and Saha, Anindo and Hosseinzadeh, Matin and Slootweg, Ivan and de Rooij, Maarten and Huisman, Henkjan},
+  author={Bosma, Joeran S. and Saha, Anindo and Hosseinzadeh, Matin and Slootweg, Ivan and de Rooij, Maarten and Huisman, Henkjan},
   journal={Radiology: Artificial Intelligence},
   optnote = {DIAG, RADIOLOGY},
   doi = {10.1148/ryai.230031},
