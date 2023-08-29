@@ -26693,6 +26693,70 @@ We show that combined assessment of tumor-buds and T-cells has the potential to 
   volume = {86},
 }
 
+@phdthesis{Xie23a,
+  author = {Weiyi Xie},
+  title = {Deep Learning for Treatment Planning in Chronic Obstructive Pulmonary Diseases},
+  url = {https://repository.ubn.ru.nl/handle/294845},
+  abstract = {In Chapter 1, we introduced chronic obstructive pulmonary disease (COPD) and
+gave background information on COPD diagnosis and treatment planning. We de-
+scribed the role of quantitative CT analysis in COPD treatment planning. Further-
+more, we provided a short history of image analysis, from applying low-level image
+processing to deep learning-based CT analysis, explaining the reason behind deep
+learning prosperity on the road to being data-driven.
+In Chapter 2, we presented a novel method using relational two-stage convolu-
+tion neural networks for segmenting pulmonary lobes in CT images. The proposed
+method uses a non-local neural network to capture visual and geometric correspon-
+dence between high-level convolution features, which represents the relationships
+between objects and object parts. Our results demonstrate that learning feature cor-
+respondence improves the lobe segmentation performance substantially than the
+baseline on the COPD and the COVID-19 data set.
+In Chapter 3, we presented a method for labeling segmental airways given a seg-
+mented airway tree. First, we train a convolution neural network to extract features
+for representing airway branches. Then, these features are iteratively enriched in a
+graph neural network by collecting information from neighbors, where the graph is
+based on the airway tree connectivity. Furthermore, we leverage positional informa-
+tion in our graph neural network, where the position of each branch is encoded by its
+topological distance to a set of anchor branches. As a result, the learned features are
+structure- and position-aware, contributing to substantially improved branch classi-
+fication results compared with methods that use only convolution features or stan-
+dard graph neural networks.
+In Chapter 4, we proposed a novel weakly-supervised segmentation framework
+trained end-to-end, using only image-level supervision. We show that this approach
+can produce high-resolution segmentation maps without voxel-level annotations.
+The proposed method substantially outperforms other weakly-supervised methods,
+although a gap with the fully-supervised performance remains. Our method trained
+a segmentation network to predict per-image lesion percentage. We made this train-
+ing possible by proposing an interval regression loss, given only the upper and lower
+bound of the target percentage, not the exact percentage as supervision. Further-
+more, we stabilized the regression training using equivariant regularization. In the
+refinement process, we proposed an attention neural network module that updated
+activation maps in one location using nearby activations, acting similar to random
+walkers, and seeded regional growth in standard post-processing pipelines, yet ours
+is trained end-to-end.
+In Chapter 5, we expanded on the method outlined in Chapter 4 to predict emphy-
+sema subtypes. Our proposed algorithm generates high-resolution emphysema seg-135
+mentation maps to aid in interpreting the prediction process, offering an improved
+model interpretability compared to the baseline. To predict both subtypes together,
+we employ the overlapping loss to ensure that each voxel is only assigned to one
+subtype (centrilobular or paraseptal). We also use low-attenuation areas in the lung
+(LAA-950) as visual cues in regression training, providing the network with local-
+ized information. Our approach generates categorical visual scores, estimated em-
+physema percentages, and high-resolution segmentation maps for both centrilobular
+and paraseptal subtypes, making it more versatile than the baseline approach.
+Finally, in Chapter 6, we reflected on this thesis’s main findings and contributions.
+We also analyzed the advances and impact in the field and the existing limitations
+of the proposed methods. Additionally, we provided a future outlook for research
+opportunities in the field of deep learning for medical image analysis.},
+  copromotor = {C. Jacobs},
+  file = {Xie23a.pdf:pdf\\Xie23a.pdf:PDF},
+  optnote = {DIAG},
+  promotor = {B. van Ginneken},
+  school = {Radboud University, Nijmegen},
+  year = {2023},
+  journal = {PhD thesis},
+}
+}
+
 @article{Yaka10,
   author = {Yakar, Derya and Hambrock, Thomas and Huisman, Henkjan and Hulsbergen-van de Kaa, Christina A. and van Lin, Emile and Vergunst, Henk and Hoeks, Caroline M A. and van Oort, Inge M. and Witjes, J Alfred and Barentsz, Jelle O. and F\"utterer, Jurgen J.},
   title = {Feasibility of {3T} dynamic contrast-enhanced magnetic resonance-guided biopsy in localizing local recurrence of prostate cancer after external beam radiation therapy},
