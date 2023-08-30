@@ -1333,7 +1333,7 @@
 }
 
 @Article{Alves22a,
-  author      = {Alves, Nat\'{a}lia and Schuurmans, Megan and Litjens, Geke and Bosma, Joeran and Hermans, John and Huisman, Henkjan},
+  author      = {Alves, Nat\'{a}lia and Schuurmans, Megan and Litjens, Geke and Bosma, Joeran S. and Hermans, John and Huisman, Henkjan},
   title       = {Fully Automatic Deep Learning Framework for Pancreatic Ductal Adenocarcinoma Detection on Computed Tomography},
   doi         = {https://doi.org/10.3390/cancers14020376},
   pages       = {376},
@@ -1346,7 +1346,7 @@
 }
 
 @Conference{Alves22b,
-  author    = {Alves, Nat\'{a}lia and Bosma, Joeran and Huisman, Henkjan},
+  author    = {Alves, Nat\'{a}lia and Bosma, Joeran S. and Huisman, Henkjan},
   booktitle = RSNA,
   title     = {Towards Safe Clinical Use of Artificial Intelligence for Cancer Detection Through Uncertainty Quantification},
   abstract  = {Purpose: Investigate whether quantifying deep learning (DL) models' uncertainty can help identify low performance cases that require expert attention. Materials and Methods: This retrospective study included two use cases: pancreatic cancer detection on contrast-enhanced computed tomography and clinically significant prostate cancer (csPCa) detection on biparametric magnetic resonance imaging. The pancreatic cohort consisted of 242 (119 cancer) in-house cases for training and 361 cases (80 healthy, 281 cancer) from two external, public datasets for testing. The csPCa cohort consisted of 7756 (3022 csPCa) in-house examinations for training and 300 cases (88 csPCa) from an external center for testing. All tumor cases in the independent test sets were histopathology confirmed. The uncertainty of the proposed automatic cancer detection algorithms was computed using model ensembling. Fifteen DL models were trained with the nnUNet framework and integrated into previously established pipelines for each use case. The models were applied independently to the test sets and uncertainty was quantified in a case level as the standard deviation (sd) of the ensemble. Cases with sd lower than 10% were classified as having low prediction uncertainty, while the remaining were classified as having high prediction uncertainty. The mean and 95% confidence intervals (CI) of the area under the receiver operating characteristic curves (AUC) for the high and low uncertainty groups were calculated. The permutation test was used to assess statistical significance. Results: The DL frameworks' performances for the uncertain groups were significantly lower than for the certain groups for both use cases. For pancreatic cancer detection, the mean AUC dropped from 98.0% (95%CI: 96.2%-99.8%) for the low uncertainty group to 78.0% (95%CI: 68.2%-87.8%) for the high uncertainty group (p<10-4). For csPCa, the mean AUC dropped from 92.4% (95%CI: 90.4%-94.4%) for the low uncertainty group to 65.7% (95%CI: 54.7%-76.7%) for the high uncertainty group (p<10-4). The low uncertainty groups included 41% of the pancreatic and 78% of the csPCa test sets. Conclusions: The proposed ensembling method can be used to identify cases where AI models' predictions are uncertain and show low performance. Clinical Relevance Statement: To be safely integrated in the clinic, AI can predict uncertainty and identify uncertain cases with lower performance that should be handled with extra care},
@@ -3028,7 +3028,7 @@ Our results show state-of-the-art performance on colon and head-and-neck cancer 
 }
 
 @conference{Bosma21a,
-  author = {Joeran Bosma and Anindo Saha and Matin Hosseinzadeh and Henkjan Huisman},
+  author = {Joeran S. Bosma and Anindo Saha and Matin Hosseinzadeh and Henkjan Huisman},
   booktitle = RSNA,
   title = {Augmenting AI with Automated Segmentation of Report Findings Applied to Prostate Cancer Detection in Biparametric MRI},
   abstract = {PURPOSE: To improve risk stratification of clinically significant prostate cancer (csPCa) with a 3D deep learning detection model, by augmenting the largest prostate MRI dataset reported in literature to date. MATERIALS AND METHODS: This retrospective study included 6,866 prostate bpMRI studies (axial T2- weighted, high b-value (>= 1400) and apparent diffusion coefficient scans) from 5,646 consecutive patients, with elevated PSA or clinical suspicion of PCa, between 2014-2020 for training. All studies were evaluated by experienced radiologists during clinical routine. The findings in 2,659 studies were manually segmented. We propose a hybrid framework to augment our detection model with more training data. After training with expert csPCa segmentations, we generate automatic cancer segmentations by masking our model predictions with the number of csPCa lesions automatically extracted from radiology reports. An augmented detection model is then trained jointly on manual and automatically generated csPCa segmentations. Models trained on expert or augmented cancer segmentations are evaluated on 296 visits of 296 consecutive men with elevated PSA or clinical suspicion of prostate cancer from an independent, external, centre. Ground truth is provided by MR-guided and TRUS-guided biopsies, and radical prostatectomy when available. Studies are considered positive if they have at least one Gleason grade group >= 2 lesion (csPCa). We trained our models on expert and augmented segmentations with 5-fold cross-validation and 5 restarts. Diagnostic performance was evaluated using the Area under the Receiver Operating Characteristic curve (AUROC). We performed a permutation test to obtain the statistical significance level. RESULTS: Augmenting the training set with automatic csPCa segmentations guided by report findings, sig- nificantly improves the case-level risk stratification of csPCa. For the external test set, the AUROC increased from 85.7 +- 2.5% to 89.0 +- 1.2% (P < 0.0001). On the external test set, experienced radiologists had a sensitivity of 91.4+-2.7% at 78.3+-2.4% specificity. At the same sensitivity, adding automatic segmentations improved the model's specificity from 46.8 +- 12.8% to 62.0 +- 7.1% (P < 0.0001). CONCLUSION: Augmenting training with automatic report driven segmentations of prostate cancer in bpMRI significantly improved the risk-stratification of the deep learning prostate cancer detection model. CLINICAL RELEVANCE: Risk stratification for clinically significant prostate cancer using prostate MRI is in- strumental to reduce over-treatment. Deep learning can assist, but requires expensive expert segmentations.},
@@ -3037,7 +3037,7 @@ Our results show state-of-the-art performance on colon and head-and-neck cancer 
 }
 
 @mastersthesis{Bosma21b,
-  author = {Joeran Bosma and Anindo Saha and Matin Hosseinzadeh and Henkjan Huisman},
+  author = {Joeran S. Bosma and Anindo Saha and Matin Hosseinzadeh and Henkjan Huisman},
   title = {Augmenting AI with Automated Segmentation of Report Findings Applied to Prostate Cancer Detection in Biparametric MRI},
   abstract = {Prostate MRI interpreted by expert radiologists provides the best non-invasive diagnosis of clinically significant prostate cancer (csPCa), but is a limited resource. Deep learning has the potential to assist, but requires expensive expert annotations. We developed an automatic labelling procedure guided by radiology reports from clinical routine, capable of generating high quality voxel-level annotations. First, we parse the radiology report to extract the number of clinically significant findings (nsig), and then generate annotation by keeping the nsig most confident lesion candidates from a csPCa segmentation model. We included 7,756 prostate bpMRI studies (axial T2, high b-value and ADC scans), of which 3,052 were manually annotated and 4,704 were automatically annotated, resulting in the largest prostate MRI dataset reported in literature. We evaluated the automatic annotation procedure using the manual annotations: our score extraction correctly identified nsig for 99.3% of the visits, our prostate cancer segmentation model correctly localised 83.7 +- 3.0% of the lesions, and the automatic annotations of correctly localised lesions have good spatial congruence, with Dice similarity coefficients of 0.71+-0.15. Augmenting the training set with automatically labelled visits significantly improved prostate cancer detection performance, as evaluated on 296 visits from an independent, external, centre with ground truth provided by MR-guided and TRUS-guided biopsies, or radical prostatectomy when available. Patient-based diagnostic AUROC increased from 86.6 +- 1.8% to 88.7 +- 1.1% (P = 0.047) and lesion-based diagnostic pAUC increased from 1.940+-0.082 to 2.050+-0.031 (P = 0.016), with mean+-std. over 25 independent runs.},
   url = {Bosma21b.pdf:pdf\\Bosma21b.pdf:PDF},
@@ -3320,19 +3320,6 @@ Our results show state-of-the-art performance on colon and head-and-neck cancer 
   gscites = {21},
 }
 
-@phdthesis{Brec12a,
-  author = {Brecheisen, R.},
-  title = {Visualization of uncertainty in fiber tracking based on diffusion tensor imaging},
-  year = {2012},
-  url = {http://repository.tue.nl/732944},
-  abstract = {Diffusion tensor imaging (DTI) is an imaging technique based on magnetic resonance that describes, in each point of the tissue, the distribution of diffusing water molecules. The distribution is mathematically modelled using a second-order tensor. In fibrous tissues the diffusion tensor will have an elongated, ellipsoid shape whose main axis is assumed to be aligned with the underlying fiber structure. Fiber tractography traces paths through the tensor field by following each tensor's main direction thereby resulting in a three-dimensional reconstruction of the fibers. This is particularly interesting for the exploration and visualization of neuronal connections in brain white matter and has great potential for applications in neuroscience and neurosurgery. DTI and fiber tractography are unique in that they provide insight into white matter structures in vivo and non-invasively. However, despite these capabilities the application of DTI and fiber tractography in clinical practice remains limited. The image acquisition and post-processing pipeline is complex and consists of many stages. At each stage errors and uncertainties are introduced due to image noise, magnetic distortions, partial volume effects, scanner settings, diffusion model assumptions and user parameters. These uncertainties are propagated through the pipeline and possibly enhanced in subsequent stages thereby leading to potentially unreliable results in the final tractography output. To the user the processing pipeline behaves like a black box whose internal details remain hidden and whose quality of output cannot be reliably assessed. Contrary to standard CT and MR images it is not possible to look at the "raw" diffusion-weighted images. Without further processing the images are practically meaningless. This means the user either has to accept (and trust) the processing output or refrain from using fiber tracking all together. In this thesis we assume that the user has certain reservations about the quality of the tractography output. Unfortunately, there is no gold standard against which the output of tractography can be validated. Consequently, we cannot make definitive statements about the "true" certainty or uncertainty of fiber reconstructions. We can, however, discuss tractography output in terms of stability and reproducibility. The output of tractography algorithms can be subject to large variations. In this thesis we present a number of visualization strategies that make these variations visible to the user and allow a better assessment of the reliability of fiber reconstructions obtained from any given tractography algorithm.},
-  copromotor = {B. Platel and A. Vilanova},
-  file = {Brec12a.pdf:pdf/Brec12a.pdf:PDF},
-  optnote = {DIAG, RADIOLOGY},
-  promotor = {B. M. Ter Haar Romeny},
-  school = {Eindhoven University of Technology},
-  journal = {PhD thesis},
-}
 
 @article{Breu14,
   author = {Breuninger, Marianne and van Ginneken, Bram and Philipsen, Rick H H M. and Mhimbira, Francis and Hella, Jerry J. and Lwilla, Fred and van den Hombergh, Jan and Ross, Amanda and Jugheli, Levan and Wagner, Dirk and Reither, Klaus},
@@ -6165,6 +6152,21 @@ In future work, we could extend this detector to additional tissues and immunohi
   month = {11},
 }
 
+@conference{Fransen22,
+  author = {S. J. Fransen and C. Roest and Q. Y. van Lohuizen and J. S. Bosma and T. C. Kwee and D. Yakar, and H. Huisman},
+  booktitle = RSNA,
+  title = {Diagnostic AI to speed up MRI protocols by identifying redundant sequences: are all diffusion-weighted prostate MRI sequences necessary?},
+  abstract = {PURPOSE: To explore if an expert-level diagnostic AI can help speed up MRI by identifying redundant sequences in diffusion-weighted imaging (DWI) for the diagnostic detection of clinically significant prostate cancer (csPCa).
+MATERIALS AND METHODS: Existing deep learning AI architectures detects csPCa based on bpMRI at expert-level. We developed a method in which this AI assesses the added diagnostic value of a sequence. This retrospective study included 840 patients with a bi-parametric prostate MRI (bpMRI) for initial detection of csPCa. The bmMRI comprises a T2-weighted image and DWI with b-values of 50, 400, and 800 s/mm² on a 3T scanner (Skyra and Prima). Our method entails computing ADC and b1400 maps based on different DWI combinations: 1) b800 excluded, 2) b400 excluded, 3) complete set. AI models for the various bpMRI combination were trained 5-fold and statistically compared with receiver operating curve (ROC) analysis at patient and lesion level using respectively the DeLong's and permutation test.
+RESULTS: The mean area under the ROC of the three combinations were respectively 0.78 +-0.027 (SD), 0.76 +-0.051, and 0.77 +- 0.057. The partial area under of the free ROC between 0.1 and 2.5 false positives lesions per patient was respectively 1.44 +- 0.22, 1.58 +- 0.18 and 1.50 +- 0.12. The slight difference in diagnostic performance (patient-level 0.01, lesion-level 0.06 ) when omitting sequence DWI b800 is not significant (respectively p = 0.2 and p = 0.43).
+CONCLUSION: We conclude that expert-level AI can identify redundant sequences in MRI. Furthermore, our method provides evidence that in DWI for csPCa detection, the b800 series can be omitted from the regular bpMRI protocol decreasing total MRI scan time by 33\%. These results can provide significant speed-up of any MRI.
+},
+  optnote = {DIAG, RADIOLOGY},
+  year = {2022},
+}
+
+
+Clinical Relevance: An increasing demand for MRI scans puts pressure on reducing scan time without losing diagnostic quality. We have developed an AI-assisted system that can spot redundant MRI sequences. This can provide a breakthrough in AI for the clinical assessment of MRI protocols and provide a solution to meet the increasing demand for MRI scans.
 @article{Fuch03,
   author = {Michael H Fuchsj\"ager and Cornelia M {Schaefer-Prokop} and Edith Eisenhuber and Peter Homolka and Michael Weber and Martin A Funovics and Mathias Prokop},
   title = {Impact of ambient light and window settings on the detectability of catheters on soft-copy display of chest radiographs at bedside},
@@ -8526,6 +8528,7 @@ Conclusion: Based on our findings, we were capable of training a segmentation mo
   abstract = {},
   optnote = {DIAG, RADIOLOGY},
 }
+
 
 @article{Hadj22,
   author = {Lubomir Hadjiiski and Kenny Cha and Heang-Ping Chan and Karen Drukker and Lia Morra and Janne J. Näppi and Berkman Sahiner and Hiroyuki Yoshida and Quan Chen and Thomas M. Deserno and Hayit Greenspan and Henkjan Huisman and Zhimin Huo and Richard Mazurchuk and Nicholas Petrick and Daniele Regge and Ravi Samala and Ronald M. Summers and Kenji Suzuki and Georgia Tourassi and Daniel Vergara and Samuel G. Armato III},
@@ -12849,18 +12852,6 @@ To address these important issues, the American Association of Physicists in Med
   optnote = {DIAG, RADIOLOGY},
 }
 
-@phdthesis{Lafe08,
-  author = {S Lafebre},
-  title = {From cosmic particle to radio pulse},
-  year = {2008},
-  url = {http://repository.ubn.ru.nl/handle/2066/72526},
-  abstract = {Trough detailed simulations of air showers and their geosynchrotron radio emission, we have derived an empirical relation between the relative delay of the radio pulse emitted by the air shower front and the atmospheric depth of the shower maximum. By analysis of the radio pulse arrival delays in radio antennas in an array of low-frequency radioantennas, this relation can be used to estimate the depth-of-maximum if the impact position is known or vice versa. We have confirmed that bothmethodswork in principle, with no information other than radio signal delays used in the reconstruction. When the algorithm is tested under realistic conditions, however, the accuracy of the method is reduced. In the case of determining the shower maximum, reconstruction down to a useful con!dence level is possible only for shower maxima up to ~7 km away, and only if the shower core impact position is known down to a few meters. When the parameterization is used to derive this position, the critical quantity is the accuracy in the zenith angle of the shower, which needs to be signi!cantly less than a degree to reconstruct the shower impact location to an accuracy of 10m at high inclinations up to 60 degrees.},
-  file = {Lafe08.pdf:pdf/Lafe08.pdf:PDF},
-  optnote = {DIAG, RADIOLOGY},
-  promotor = {H. Falcke and J. Kuijpers},
-  school = {Radboud University, Nijmegen},
-  journal = {PhD thesis},
-}
 
 @article{Lang18,
   author = {de Lange, S V and Bakker, M F and Monninkhof, E M and Peeters, P H M and de Koekkoek-Doll, P K and Mann, R M and Rutten, M J C M and Bisschops, R H C and Veltman, J and Duvivier, K M and Lobbes, M B I and de Koning, H J and Karssemeijer, N and Pijnappel, R M and Veldhuis, W B and van Gils, C H},
@@ -14535,6 +14526,19 @@ Clinical Relevance/Application: The market of AI products for radiology is growi
   booktitle = {European Stroke Organization},
   year = {2015},
   optnote = {DIAG},
+}
+
+@conference{Lohuizen23a,
+  author = {Q. Y. van Lohuizen and C. Roest and F. F. J. Simonis and S. J. Fransen and T. C. Kwee and D. Yakar and H. Huisman},
+  booktitle = RSNA,
+  title = {Diagnostic AI to speed up MRI protocols by identifying redundant sequences: are all diffusion-weighted prostate MRI sequences necessary?},
+  abstract = {PURPOSE: Studies showed that AI reconstruction of accelerated MRI improves visual quality, but it is unclear whether this improves diagnostic value. We investigated a novel framework for accelerated MRI by assessing reconstruction quality (naïve- vs AI-reconstructed) by comparing diagnostic performance and visual similarity as an outcome for prostate cancer detection.
+METHODS: A retrospective multi-site study was performed on a cohort of 1535 patients who underwent bi-parametric prostate MRI between 2016-2020. An expert radiologist delineated all clinically significant prostate cancer (csPCa) lesions (PI-RADS ≥ 4). T2W scans were retrospectively undersampled in k-space, simulating four (R4) and eight (R8) times acceleration. A 3D U-Net was used to reconstruct undersampled images. The resulting images were fed to an existing state-of-the-art csPCa detection AI to evaluate the effect of AI reconstruction on diagnosis. Visual image quality (SSIM) was compared with a Wilcoxon test. Lesion level diagnostics were evaluated by comparing the partial area-under-the-FROC-curve over the false positive interval 0.1-2.5 (pAUC) using permutation tests.
+RESULTS: AI-based reconstruction significantly improved visual quality compared to naïve (IFFT) reconstruction MRI at R4 (SSIM 0.78±0.02 vs 0.68±0.03, p<0.001) and R8 (SSIM 0.67±0.03 vs 0.51±0.03, p<0.001), however, no significant improvements in diagnostic performance were observed for R4 (pAUC FROC 1.33 [CI 1.28-1.39] vs 1.29 [CI 1.23-1.35], p=0.37), nor R8 (pAUC FROC 1.12 [CI 1.07-1.17] vs 0.95 [CI 1.89-1.01], p=0.067). AI-based reconstruction resulted in 0.1 or more decrease in sensitivity compared to unaccelerated MRI.
+CONCLUSION: Recovery of visual quality in reconstructions does not correlate with recovering diagnostic quality, emphasizing the importance of measuring diagnostic value rather than visual similarity. AI reconstruction tools should be approached with care because they might have been optimized to reconstruct visually appealing images instead of diagnostic images.
+},
+  optnote = {DIAG, RADIOLOGY},
+  year = {2023},
 }
 
 @article{Loka10,
@@ -16941,20 +16945,7 @@ Clinical Relevance/Application: The market of AI products for radiology is growi
   gscites = {12},
 }
 
-@phdthesis{Mori16,
-  author = {Moriakov, N.},
-  title = {{Entropy and Kolmogorov complexity}},
-  year = {2016},
-  pages = {122},
-  doi = {10.4233/uuid:565eb3e7-e0ea-4a88-abbb-eb0ae2c6c36f},
-  url = {http://dx.doi.org/10.4233/uuid:565eb3e7-e0ea-4a88-abbb-eb0ae2c6c36f},
-  abstract = {This thesis is dedicated to studying the theory of entropy and its relation to the Kolmogorov complexity. Originating in physics, the notion of entropy was introduced to mathematics by C. E. Shannon as a way of measuring the rate at which information is coming from a data source. There are, however, a few different ways of telling how much information there is: an alternative approach to quantifying the amount of information is the Kolmogorov complexity, which was proposed by A. N. Kolmogorov. The Shannon entropy is the key ingredient in the definition of the Kolmogorov-Sinai entropy of a measure-preserving systems. Roughly speaking, the Kolmogorov-Sinai entropy is the expected amount of information in `Shannon sense' that one obtains per unit of time by observing the evolution of a measure-preserving system. In topological dynamics, the topological entropy takes place of the Kolmogorov-Sinai entropy. For metrizable systems, the topological entropy measures the exponential growth rate of the number of distinguishable partial orbits of length n as n tends to infinity. Originally defined for Z-actions, the 'classical' theories of entropy were later extended to actions of amenable groups.We provide a necessary background on amenable groups, topological/measurepreserving dynamics and the entropy theory in Chapters 1, 2, 3 and 5.The main focus of this thesis is extending the following results. First of all, a common generalization of the topological and the Kolmogorov-Sinai entropy theories for Z-systems was suggested by G. Palm. We provide an abstract generalization of the work of Palm for actions of discrete amenable groups in the language of measurement functors in Chapter 6.Secondly, we investigate the connection of entropy and Kolmogorov complexity.Originally, the equality between the topological entropy and a certain quantity measuring maximal asymptotic Kolmogorov complexity of the trajectories was established by A. A. Brudno for subshifts over Z. Later, he proved the equality of the Kolmogorov-Sinai entropy and the asymptotic Kolmogorov complexity of almost every trajectory for ergodic subshifts over Z. We provide a generalization of these results as follows. Firstly, in Chapter 4 we give a background on computability and Kolmogorov complexity and, further, introduce computable Folner monotilings, which are central in our extensions of Brudno's results. We treat the 'first' and the 'second' theorems of Brudno in Chapter 7.The first theorem is generalized for subshifts over computable groups admitting computable Folner monotilings, while the second theorem is proved under the assertion of regularity of the monotiling, which we introduce in Chapter 7 as well.},
-  file = {Mor16.pdf:pdf:},
-  optnote = {DIAG},
-  promotor = {B. de Pagter and M. H. A. Haase},
-  school = {Delft University of Technology},
-  journal = {PhD thesis},
-}
+
 
 @article{Mori17,
   author = {Moriakov, Nikita},
@@ -20284,7 +20275,7 @@ Clinical Relevance/Application: The market of AI products for radiology is growi
 }
 
 @inproceedings{Saha21b,
-  author = {Anindo Saha and Joeran Bosma and Jasper Linmans and Matin Hosseinzadeh and Henkjan Huisman},
+  author = {Anindo Saha and Joeran S. Bosma and Jasper Linmans and Matin Hosseinzadeh and Henkjan Huisman},
   title = {Anatomical and Diagnostic Bayesian Segmentation in Prostate {MRI} -- Should Different Clinical Objectives Mandate Different Loss Functions?},
   booktitle = {Medical Imaging Meets NeurIPS Workshop - 35th Conference on Neural Information Processing Systems (NeurIPS)},
   year = {2021},
@@ -20294,7 +20285,7 @@ Clinical Relevance/Application: The market of AI products for radiology is growi
 }
 
 @conference{Saha21c,
-  author = {Anindo Saha and Joeran Bosma and Christian Roest and Matin Hosseinzadeh and Jurgen Futterer and Henkjan Huisman},
+  author = {Anindo Saha and Joeran S. Bosma and Christian Roest and Matin Hosseinzadeh and Jurgen Futterer and Henkjan Huisman},
   booktitle = RSNA,
   title = {Deep Learning with Bayesian Inference for Prostate Cancer Diagnosis across Longitudinal Biparametric MRI},
   abstract = {BACKGROUND: Despite increasing use of active surveillance via biparametric MR imaging (bpMRI) for prostate cancer (PCa) management, there is a lack of research in medical image computing that utilize longitudinal studies to assist present-day diagnosis. PURPOSE: To investigate the efficacy of a deep learning-based PCa detection model, that integrates past bpMRI exams and population-level ana-tomical priors via Bayesian inference. MATERIALS AND METHODS: This retrospective study included 250 consecutive biopsy-naive men (median age: 64 yrs; IQR: 60-69) with elevated levels of PSA (me-dian level: 8 ng/mL; IQR: 5-11), who underwent at least two consecutive MRI exams between 2016-2018 (N=500). Intra-patient bpMRI scans were rigidly registered, paired with expert voxel-level annotations of PI-RADS 2-5 lesions and subsequently used to train a deep learning model to predict and localize all PI-RADS findings. Radiologists utilize prior studies to inform present-day diagnosis. Similar-ly, for each patient case, computer-aided diagnosis for the follow-up bpMRI exam was derived via Bayesian modelling; probabilistical-ly integrating past bpMRI exams and a population prior for spatial PCa prevalence and zonal anatomy. Diagnostic performance was evaluated by the ability to accurately discriminate patients with benign prostatic tissue (n=10) or PI-RADS <= 3 lesions (n=159), from those carrying PI-RADS >= 4 lesions (n=81), over 5-fold cross-validation. Normalized Wilcoxon Mann-Whitney U statistic was used to derive AUROC and confidence intervals were computed over 5000 replications of bootstrapping. RESULTS: Computer-aided diagnosis of follow-up studies without priori, yielded an AUROC of 0.77 (95% CI: 0.71, 0.83), F0.5 score of 0.51 (95% CI: 0.42, 0.61), positive predictive value (PPV) of 0.51 (95% CI: 0.40, 0.60) and negative predictive value (NPV) of 0.78 (95% CI: 0.71, 0.83). Computer-aided diagnosis of follow-up studies with the inclusion of priori via Bayesian inference yielded an AUROC of 0.80 (95% CI: 0.76, 0.84), F0.5 score of 0.58 (95% CI: 0.48, 0.68), PPV of 0.60 (95% CI: 0.48, 0.72) and NPV of 0.78 (95% CI: 0.72, 0.85).In comparison to stand-alone diagnosis, factoring in prior studies resulted in a 41.4% reduction of AUROC standard deviation across each fold. CONCLUSION: Incorporating past studies and clinical priors via Bayesian inference can improve diagnostic certainty and robustness of deep learning in follow-up patient exams. CLINICAL RELEVANCE/APPLICATION: Prostate cancer is one of the most prevalent cancers in men worldwide. In the absence of experienced radiologists, its morphological heterogeneity can lead to low inter-reader agreement. Automated, reliable detection algorithms can improve diagnostic accuracy with consistent quantitative analysis.},
@@ -20303,7 +20294,7 @@ Clinical Relevance/Application: The market of AI products for radiology is growi
 }
 
 @conference{Saha22a,
-  author = {Anindo Saha and Joeran Bosma and Jasper Twilt and Bram van Ginneken and Derya Yakar and Mattijs Elschot and Jeroen Veltman and Jurgen Futterer and Maarten de Rooij and Henkjan Huisman},
+  author = {Anindo Saha and Joeran S. Bosma and Jasper Twilt and Bram van Ginneken and Derya Yakar and Mattijs Elschot and Jeroen Veltman and Jurgen Futterer and Maarten de Rooij and Henkjan Huisman},
   booktitle = RSNA,
   title = {Artificial Intelligence and Radiologists at Prostate Cancer Detection in MRI: The PI-CAI Challenge},
   abstract = {PURPOSE: The PI-CAI challenge aims to validate the diagnostic performance of artificial intelligence (AI) and radiologists at clinically significant prostate cancer (csPCa) detection/diagnosis in MRI, with histopathology and follow-up (>= 3 years) as reference. The study hypothesizes that state-of-the-art AI algorithms, trained using thousands of patient exams, are non-inferior to radiologists reading bpMRI. MATERIALS AND METHODS: This retrospective study tentatively includes 12,373 prostate MRI exams (11,193 patients) between 2012 and 2021, curated from three Dutch centers and one Norwegian center. All patient exams are of men suspected of harboring csPCa, without a history of treatment or prior positive histopathology (Gleason Grade Group >= 2) findings. Acquisitions were obtained using Siemens Healthineers or Philips Medical Systems-based 1.5T/3T MRI scanners. In total, 11,373 cases are available to develop and train AI solutions in the framework of a grand challenge. The remaining 1000 unseen cases are reserved for testing. A subset of 400 testing cases is used to facilitate a reader study with 63 radiologists (42 centers, 18 countries; 1-23 years of experience reading prostate MRI {median: 9 years}). Readers perform their assessments sequentially for each patient: first, using bpMRI sequences only; secondly, using full mpMRI sequences (in compliance with PI-RADS v2.1). Multi-reader multi-case (MRMC) analysis is used to compare the overall patient-level diagnostic performance of readers against that of the top five AI algorithms. Non-inferiority is tested with a significance margin of 0.05. Permutation tests are used to statistically compare AI and radiologists' performance at PI-RADS operating points. The PI-CAI challenge spans 7 months (May-November 2022) in duration. Key aspects of its study protocol have been established in conjunction with an international scientific advisory board of 16 experts in prostate AI, radiology, and urology --to unify and standardize present-day guidelines, and ensure meaningful validation of prostate-AI towards clinical translation. RESULTS: Preliminary results of the PI-CAI challenge will be presented. CLINICAL RELEVANCE: Prostate MRI assessments show high inter-reader variability (>50%), long reporting times, and strong dependence on expertise. A thorough comparison of AI with radiologists builds trust, allowing AI to help improve diagnostic accuracy and reduce workload.},
@@ -20321,7 +20312,7 @@ Clinical Relevance/Application: The market of AI products for radiology is growi
 }
 
 @inproceedings{Saha23b,
-  author = {Anindo Saha and Joeran Bosma and Jasper Twilt and Bram van Ginneken and Derya Yakar and Mattijs Elschot and Jeroen Veltman and Jurgen Fütterer and Maarten de Rooij and Henkjan Huisman},
+  author = {Anindo Saha and Joeran S. Bosma and Jasper Twilt and Bram van Ginneken and Derya Yakar and Mattijs Elschot and Jeroen Veltman and Jurgen Fütterer and Maarten de Rooij and Henkjan Huisman},
   title = {Artificial Intelligence and Radiologists at Prostate Cancer Detection in MRI: The PI-CAI Challenge},
   booktitle = MIDL,
   year = {2023},
@@ -20575,7 +20566,7 @@ Clinical Relevance/Application: The market of AI products for radiology is growi
 }
 
 @phdthesis{Sanc08b,
-  author = {S\'{a}nchez, C. I.},
+  author = {C.I. S\'{a}nchez},
   title = {Retinal image analysis by mixture model based clustering and discriminant analysis for automatic detection of hard exudates and haemorhages: A tool for diabetic retinopathy screening},
   abstract = {Diabetic Retinopathy (DR) is a disorder of the retinal vasculature that eventually develops to some degree in nearly all patients with diabetes. The growing incidence of diabetes has caused DR to become the major cause of blindness and vision defects in developed countries. In view of the increasing prevalence of diabetes mellitus and DR throughout most of the world, mass screening is time consuming and requires many trained graders to examine the fundus photographs searching for retinal lesions. A reliable method for automated assessment of the presence of lesions in fundus images would be a valuable tool in assisting the limited number of professional and reducing the examination time. Additionally, this system could be a useful clinical aid in the routine eye care by displaying retinal images with enhanced details and facilitating diagnosis. This thesis aims at developing a Computer-Aided Diagnosis (CAD) technology to assist ophthalmologists in DR screening programs, in order to detect and quantify early signs associated with DR in fundus photographs. In the onset of the disease, several visual retinal abnormalities appear in the retinal fundus, including red lesions, such as microaneurysms and haemorrhages, and white lesions, such as hard exudates and cotton-wool spots. Among these lesions, haemorrhages and hard exudates are the most prevalent in background retinopathy Therefore, their detection is critical for DR mass screening. Additionally, hard exudates represent the most specific maker for the presence of coexistent retinal oedema, the major cause of visual loss in the nonproliferative forms of DR. The principal aim of this work is to develop novel computer methods to automatically detect and quantify haemorrhages and hard exudates in retinal images as an aid for the DR diagnosis in screening programs. As a first step, several methods are studied for the automatic detection of anatomical structures: the optic disk, the blood vessels and the posterior pole. The detection of these features provides a retinal coordinate system for retinopathy grading. Besides, their localization is indispensable to reduce the number of false detections due to their similarities to retinal signs in terms of brightness and contrast. Different image analysis techniques, such as wavelets, mathematical morphology and Expectation Maximization algorithm, are investigated to address the localisation of the optic disk, blood vessels and the vascular arcades. The automatic detection of haemorrhages and hard exudates relies on an innovative initial image segmentation based on mixture model based clustering, followed by a subsequent refinement stage using supervised classification. The clustering process considers the probability distribution function of the entire image as a mixture of individual distributions. The resulting pixel-cluster memberships provide a transformation of the pixels into different image regions which are suspected of corresponding to retinal lesions. Finally, a study of different discriminant analysis techniques, such as linear discriminant analysis, quadratic discriminant analysis, logistic regression and k nearest neighbours, is performed to classify regions into haemorrhages or hard exudates. Therefore, an interpretation of the retinal image will be achieved detecting DR signs and identifying retinal images with the presence of these ocular symptoms.},
   file = {Sanc08b.pdf:pdf\\Sanc08b.pdf:PDF},
@@ -24294,20 +24285,7 @@ We show that combined assessment of tumor-buds and T-cells has the potential to 
   optnote = {DIAG},
 }
 
-@phdthesis{Teuw16,
-  author = {Teuwen, J.},
-  title = {{Shedding new light on gaussian harmonic analysis}},
-  year = {2016},
-  pages = {139},
-  doi = {10.4233/uuid:bcfb2d09-5828-4ad8-bfe6-e6cfe3b83c3f},
-  url = {http://dx.doi.org/10.4233/uuid:bcfb2d09-5828-4ad8-bfe6-e6cfe3b83c3f},
-  abstract = {This dissertation consists out of two parts. One part concerns some results on Gaussian harmonic analysis and the other on an optimization problem in optics. In the first part we study the Ornstein-Uhlenbeck process with respect to the Gaussian measure. We focus on two areas. One is on "Gaussian? analogues of classical results in harmonic analysis, and in the second area we study the higher time-derivatives of the integral kernels associated to the Ornstein-Uhlenbeck operator. After introducing the necessary preliminaries on Hermite polynomials, we look at the non-tangential maximal function for the Ornstein-Uhlenbeck semigroup and we prove analogues to classical results. An important distinction here with the classical case is that the maximal function result for the Laplacian allows for t > 0, whereas our result only holds for certain 0 < t < 1 where the exact range depends on the position in space. Next, we compute an explicit formula for the higher time-derivatives of the integral kernel related to the Ornstein-Uhlenbeck operator. As an application we show several kernel bounds using our formula. Finally, as far as the mathematical part is concerned, we study off-diagonal estimates related to the Ornstein-Uhlenbeck operator. It is well-known that these hold for the Laplacian with respect to the Lebesgue measure, but do these hold for the Ornstein-Uhlenbeck operator with respect to the Gaussian measure? It is known that we always would have L2-L2 bounds, even for all t > 0, but in applications one often wants L2-L1 bounds. Even though these do hold for the Laplacian, we show that these cannot hold for the Ornstein-Uhlenbeck operator even for small 0 < t < 1. Moreover, our proof shows that letting the maximal t depend on the position in space will not work either. In the final part of this dissertation we study a problem in theoretical optics. Here we study the optimization of the electric field induced by light as a plane wave in a disk with given radius. We study the electric fields in the lens pupil and the focal region for several radii in the orde of magnitude of the wave length of the light used.},
-  file = {Teuw16.pdf:pdf\\Teuw16.pdf:PDF},
-  optnote = {DIAG},
-  promotor = {J. M. A. M van Neerven and P. Urbach},
-  school = {Delft University of Technology},
-  journal = {PhD thesis},
-}
+
 
 @article{Teuw16b,
   author = {Teuwen, J.},
@@ -24545,7 +24523,7 @@ We show that combined assessment of tumor-buds and T-cells has the potential to 
 }
 
 @conference{Twil23a,
-  author = {Jasper Twilt and Anindo Saha and Joeran Bosma and Bram van Ginneken and Derya Yakar and Mattijs Elschot and Jeroen Veltman and Jurgen Fütterer and Henkjan Huisman and Maarten de Rooij},
+  author = {Jasper Twilt and Anindo Saha and Joeran S. Bosma and Bram van Ginneken and Derya Yakar and Mattijs Elschot and Jeroen Veltman and Jurgen Fütterer and Henkjan Huisman and Maarten de Rooij},
   title = {Diagnostic Value of Dynamic Contrast-Enhanced MRI for the Detection of Clinically Significant Prostate Cancer in a Multi-Reader Study: Preliminary Results from the PI-CAI Consortium},
   booktitle = ECR,
   year = {2023},
@@ -24554,7 +24532,7 @@ We show that combined assessment of tumor-buds and T-cells has the potential to 
 }
 
 @conference{Twil23b,
-  author = {Jasper Twilt and Anindo Saha and Joeran Bosma and Bram van Ginneken and Derya Yakar and Mattijs Elschot and Jeroen Veltman and Jurgen Fütterer and Henkjan Huisman and Maarten de Rooij},
+  author = {Jasper Twilt and Anindo Saha and Joeran S. Bosma and Bram van Ginneken and Derya Yakar and Mattijs Elschot and Jeroen Veltman and Jurgen Fütterer and Henkjan Huisman and Maarten de Rooij},
   title = {EAU Plenary Gamechanging Session - Artificial Intelligence and Radiologists at Prostate Cancer Detection in MRI: Preliminary Results from the PI-CAI Challenge},
   booktitle = EAU,
   year = {2023},
@@ -26715,6 +26693,36 @@ We show that combined assessment of tumor-buds and T-cells has the potential to 
   volume = {86},
 }
 
+@article{Xie23b,
+ author={Weiyi Xie and Colin Jacobs and Jean-Paul Charbonnier and Dirk Jan Slebos and Bram van Ginneken},
+ title={Emphysema subtyping on thoracic computed tomography scans using deep neural networks},
+ journal={Scientific Reports},
+ volume={13},
+ year={2023},
+ doi = {10.1038/s41598-023-40116-6},
+ pages = {14147},
+}
+
+@phdthesis{Xie23a,
+  author = {Weiyi Xie},
+  title = {Deep Learning for Treatment Planning in Chronic Obstructive Pulmonary Diseases},
+  url = {https://repository.ubn.ru.nl/bitstream/handle/2066/294845/294845.pdf},
+  abstract = {In Chapter 1, we introduced chronic obstructive pulmonary disease (COPD) and gave background information on COPD diagnosis and treatment planning. We described the role of quantitative CT analysis in COPD treatment planning. Furthermore, we provided a short history of image analysis, from applying low-level image processing to deep learning-based CT analysis, explaining the reason behind deep learning prosperity on the road to being data-driven.
+In Chapter 2, we presented a novel method using relational two-stage convolu-tion neural networks for segmenting pulmonary lobes in CT images. The proposed method uses a non-local neural network to capture visual and geometric correspondence between high-level convolution features, which represents the relationships between objects and object parts. Our results demonstrate that learning feature correspondence improves the lobe segmentation performance substantially than the baseline on the COPD and the COVID-19 data set.
+In Chapter 3, we presented a method for labeling segmental airways given a segmented airway tree. First, we train a convolution neural network to extract features for representing airway branches. Then, these features are iteratively enriched in agraph neural network by collecting information from neighbors, where the graph is based on the airway tree connectivity. Furthermore, we leverage positional information in our graph neural network, where the position of each branch is encoded by its topological distance to a set of anchor branches. As a result, the learned features are structure- and position-aware, contributing to substantially improved branch classification results compared with methods that use only convolution features or standard graph neural networks.
+In Chapter 4, we proposed a novel weakly-supervised segmentation framework trained end-to-end, using only image-level supervision. We show that this approach can produce high-resolution segmentation maps without voxel-level annotations.The proposed method substantially outperforms other weakly-supervised methods,although a gap with the fully-supervised performance remains. Our method trained a segmentation network to predict per-image lesion percentage. We made this training possible by proposing an interval regression loss, given only the upper and lower bound of the target percentage, not the exact percentage as supervision. Furthermore, we stabilized the regression training using equivariant regularization. In the refinement process, we proposed an attention neural network module that updated activation maps in one location using nearby activations, acting similar to random walkers, and seeded regional growth in standard post-processing pipelines, yet ours is trained end-to-end.
+In Chapter 5, we expanded on the method outlined in Chapter 4 to predict emphysema subtypes. Our proposed algorithm generates high-resolution emphysema segmentation maps to aid in interpreting the prediction process, offering an improved model interpretability compared to the baseline. To predict both subtypes together, we employ the overlapping loss to ensure that each voxel is only assigned to onesubtype (centrilobular or paraseptal). We also use low-attenuation areas in the lung(LAA-950) as visual cues in regression training, providing the network with localized information. Our approach generates categorical visual scores, estimated emphysema percentages, and high-resolution segmentation maps for both centrilobularand paraseptal subtypes, making it more versatile than the baseline approach.
+Finally, in Chapter 6, we reflected on this thesis’s main findings and contributions.We also analyzed the advances and impact in the field and the existing limitations of the proposed methods. Additionally, we provided a future outlook for research opportunities in the field of deep learning for medical image analysis.},
+  copromotor = {C. Jacobs},
+  file = {Xie23a.pdf:pdf\\Xie23a.pdf:PDF},
+  optnote = {DIAG},
+  promotor = {B. van Ginneken},
+  school = {Radboud University, Nijmegen},
+  year = {2023},
+  journal = {PhD thesis},
+}
+}
+
 @article{Yaka10,
   author = {Yakar, Derya and Hambrock, Thomas and Huisman, Henkjan and Hulsbergen-van de Kaa, Christina A. and van Lin, Emile and Vergunst, Henk and Hoeks, Caroline M A. and van Oort, Inge M. and Witjes, J Alfred and Barentsz, Jelle O. and F\"utterer, Jurgen J.},
   title = {Feasibility of {3T} dynamic contrast-enhanced magnetic resonance-guided biopsy in localizing local recurrence of prostate cancer after external beam radiation therapy},
@@ -27679,7 +27687,7 @@ Limitations: This study is a retrospective analysis on data from one screening t
 }
 
 @InProceedings{Bosma23a,
-  author    = {Joeran Bosma and Dr{\'e} Peeters and Nat{\'a}lia Alves and Anindo Saha and Zaigham Saghir and Colin Jacobs and Henkjan Huisman},
+  author    = {Joeran S. Bosma and Dr{\'e} Peeters and Nat{\'a}lia Alves and Anindo Saha and Zaigham Saghir and Colin Jacobs and Henkjan Huisman},
   booktitle = {Medical Imaging with Deep Learning},
   title     = {Reproducibility of Training Deep Learning Models for Medical Image Analysis},
   url       = {https://openreview.net/forum?id=MR01DcGST9},
@@ -28018,7 +28026,7 @@ These findings stress the importance of identifying and efficiently managing inc
 
 @article{Bosma23,
   title={Semi-supervised Learning with Report-guided Pseudo Labels for Deep Learning-based Prostate Cancer Detection Using Biparametric MRI},
-  author={Bosma, Joeran and Saha, Anindo and Hosseinzadeh, Matin and Slootweg, Ivan and de Rooij, Maarten and Huisman, Henkjan},
+  author={Bosma, Joeran S. and Saha, Anindo and Hosseinzadeh, Matin and Slootweg, Ivan and de Rooij, Maarten and Huisman, Henkjan},
   journal={Radiology: Artificial Intelligence},
   optnote = {DIAG, RADIOLOGY},
   doi = {10.1148/ryai.230031},
@@ -28081,7 +28089,30 @@ A DL algorithm using current and prior low-dose CT examinations was more effecti
   year           = {2023},
 }
 
-@Article{Leeu23a,
+@article{Leeu23b,
+author={K.G.van Leeuwen and M.J. Becks and D. Grob and F. de Lange and J.H.E. Rutten and S. Schalekamp and M.J.C.M. Rutten and B. van Ginneken and M. de Rooij and F.J.A. Meijer},
+title={AI-support for the detection of intracranial large vessel occlusions: One-year prospective evaluation},
+doi={10.1016/j.heliyon.2023.e19065},
+abstract={Purpose
+Few studies have evaluated real-world performance of radiological AI-tools in clinical practice. Over one-year, we prospectively evaluated the use of AI software to support the detection of intracranial large vessel occlusions (LVO) on CT angiography (CTA).
+Method
+Quantitative measures (user log-in attempts, AI standalone performance) and qualitative data (user surveys) were reviewed by a key-user group at three timepoints. A total of 491 CTA studies of 460 patients were included for analysis.
+Results
+The overall accuracy of the AI-tool for LVO detection and localization was 87.6\%, sensitivity 69.1\% and specificity 91.2\%. Out of 81 LVOs, 31 of 34 (91\%) M1 occlusions were detected correctly, 19 of 38 (50\%) M2 occlusions, and 6 of 9 (67\%) ICA occlusions. The product was considered user-friendly. The diagnostic confidence of the users for LVO detection remained the same over the year. The last measured net promotor score was −56\%. The use of the AI-tool fluctuated over the year with a declining trend.
+Conclusions
+Our pragmatic approach of evaluating the AI-tool used in clinical practice, helped us to monitor the usage, to estimate the perceived added value by the users of the AI-tool, and to make an informed decision about the continuation of the use of the AI-tool.},
+citation-count = {0},
+  file           = {Leeu23b.pdf:pdf\Leeu23b.pdf:PDF},
+  journal        = {Heliyon},
+  issue 	 = {8},
+  volume	 = {9},
+  optnote        = {DIAG, RADIOLOGY},
+  year           = {2023},
+}
+}
+Heliyon 9 (2023) e19065Available online 10 August 20232405-8440/©  2023  The  Authors.Published  by  Elsevier  Ltd.This  is  an  open  access  article  under  the  CC  BY  license(http://creativecommons.org/licenses/by/4.0/).
+
+@article{Leeu23a,
   author         = {van Leeuwen, Kicky G. and de Rooij, Maarten and Schalekamp, Steven and van Ginneken, Bram and Rutten, Matthieu J. C. M.},
   title          = {Clinical use of artificial intelligence products for radiology in the Netherlands between 2020 and 2022},
   doi            = {10.1007/s00330-023-09991-5},
