@@ -1,21 +1,21 @@
 import requests
 from bs4 import BeautifulSoup
 import re
-import pickle
+from scripts.script_data.accent_mappings import accent_mappings
 
 
 class GetBiblatex:
-    def __init__(self, doi, diag_bib, kind):
+    def __init__(self, doi, diag_bib):
         self.doi = doi
         self.diag_bib = diag_bib
-        self.kind = kind
 
-        # redirect to own directory
-        with open(r"\accent_mappings.pkl", "rb") as f:
-            accent_mappings = pickle.load(f)
         self.accent_mappings = accent_mappings
 
     def _get_doi_csl(self):
+        """
+        Main function to get doi information like authors, title, abstract
+        :return: dictionary with doi information
+        """
         response = requests.get(
             f"https://doi.org/{self.doi}",
             headers={"Accept": "application/vnd.citationstyles.csl+json"},
@@ -26,6 +26,10 @@ class GetBiblatex:
         return response.json()
 
     def _convert_to_biblatex_format(self, author_name):
+        """
+        :param author_name:
+        :return:
+        """
         for char, biblatex_char in self.accent_mappings.items():
             author_name = author_name.replace(char, biblatex_char)
         return author_name
@@ -114,6 +118,13 @@ class GetBiblatex:
             response_json = self._get_doi_csl()
             abstract = self._get_doi_abstract()
 
+            if 'proceedings-article' in response_json['type']:
+                kind = 'inproceedings'
+            elif 'journal-article' in response_json['type']:
+                kind = 'article'
+            elif 'book-chapter' in response_json['type']:
+                kind = 'book'
+
             author_string = "{"
             for index, author in enumerate(response_json["author"]):
                 if index == len(response_json["author"])-1:
@@ -126,16 +137,18 @@ class GetBiblatex:
                         author_string = author_string + f"{author['family']}, {author['given']} and "
                     else:
                         author_string = author_string + f"{author['family']} and "
-
+            author_string = self._convert_to_biblatex_format(author_name=author_string)
             newline = '\n'
             tab = '\t'
-            author_abbreviation = response_json['author'][0]['family'][:4]
+            author_abbreviation = response_json['author'][0]['family'].rsplit(' ')[-1]
+            author_abbreviation = author_abbreviation.replace("'", "").lower().capitalize()[:4]
+
             year = str(response_json["published"]["date-parts"][0][0])[2:]
             author_abbreviation = self._clean_author_abbreviation(author_abbreviation, year, self.diag_bib)
             title = response_json["title"]
             optnote = "DIAG, RADIOLOGY"
 
-            biblatex = f"@{self.kind}{{{author_abbreviation}, {newline}" \
+            biblatex = f"@{kind}{{{author_abbreviation}, {newline}" \
                        f"{tab}author = {author_string}, {newline} " \
                        f"{tab}title = {{{title}}}, {newline}" \
                        f"{tab}doi = {{{response_json['DOI']}}}, {newline}" \
@@ -146,7 +159,23 @@ class GetBiblatex:
                        f"{tab}optnote = {{{optnote}}}, {newline}" \
                        f"{tab}journal = {{{response_json['container-title']}}}, {newline}" \
                        f"{tab}citation-count = {{{response_json['is-referenced-by-count']}}}, {newline}" \
-                       f"}}{newline}"
+                       f"{tab}automatic = yes, {newline}" \
+                       # f"}}{newline}"
+
+            if 'page' in response_json.keys() and 'volume' in response_json.keys():
+                biblatex = biblatex + f"{tab}pages = {response_json['page']},{newline}" + f"{tab}volume = {response_json['volume']}, {newline}" + f"}}{newline}"
+            elif 'page' in response_json.keys():
+                biblatex = biblatex + f"{tab}pages = {response_json['page']},{newline}" + f"}}{newline}"
+            elif 'volume' in response_json.keys():
+                print(response_json['volume'])
+                biblatex = biblatex + f"{tab}volume = {response_json['volume']}, {newline}" + f"}}{newline}"
+            else:
+                biblatex = biblatex + f"}}{newline}"
+
+            # replace any EN DASH with Hyphen
+            if "–" in biblatex:
+                biblatex = biblatex.replace("–", "-")
+
         except Exception as e:
             print(f'Unable to generate bibtext for {self.doi}')
             print(e)
