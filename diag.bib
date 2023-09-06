@@ -6152,17 +6152,16 @@ In future work, we could extend this detector to additional tissues and immunohi
   month = {11},
 }
 
-@conference{Fransen22,
-  author = {S. J. Fransen and C. Roest and Q. Y. van Lohuizen and J. S. Bosma and T. C. Kwee and D. Yakar, and H. Huisman},
+@Conference{Fransen22,
+  author    = {S. J. Fransen and C. Roest and Q. Y. van Lohuizen and J. S. Bosma and T. C. Kwee and D. Yakar, and H. Huisman},
   booktitle = RSNA,
-  title = {Diagnostic AI to speed up MRI protocols by identifying redundant sequences: are all diffusion-weighted prostate MRI sequences necessary?},
-  abstract = {PURPOSE: To explore if an expert-level diagnostic AI can help speed up MRI by identifying redundant sequences in diffusion-weighted imaging (DWI) for the diagnostic detection of clinically significant prostate cancer (csPCa).
+  title     = {Diagnostic AI to speed up MRI protocols by identifying redundant sequences: are all diffusion-weighted prostate MRI sequences necessary?},
+  abstract  = {PURPOSE: To explore if an expert-level diagnostic AI can help speed up MRI by identifying redundant sequences in diffusion-weighted imaging (DWI) for the diagnostic detection of clinically significant prostate cancer (csPCa).
 MATERIALS AND METHODS: Existing deep learning AI architectures detects csPCa based on bpMRI at expert-level. We developed a method in which this AI assesses the added diagnostic value of a sequence. This retrospective study included 840 patients with a bi-parametric prostate MRI (bpMRI) for initial detection of csPCa. The bmMRI comprises a T2-weighted image and DWI with b-values of 50, 400, and 800 s/mm² on a 3T scanner (Skyra and Prima). Our method entails computing ADC and b1400 maps based on different DWI combinations: 1) b800 excluded, 2) b400 excluded, 3) complete set. AI models for the various bpMRI combination were trained 5-fold and statistically compared with receiver operating curve (ROC) analysis at patient and lesion level using respectively the DeLong's and permutation test.
 RESULTS: The mean area under the ROC of the three combinations were respectively 0.78 +-0.027 (SD), 0.76 +-0.051, and 0.77 +- 0.057. The partial area under of the free ROC between 0.1 and 2.5 false positives lesions per patient was respectively 1.44 +- 0.22, 1.58 +- 0.18 and 1.50 +- 0.12. The slight difference in diagnostic performance (patient-level 0.01, lesion-level 0.06 ) when omitting sequence DWI b800 is not significant (respectively p = 0.2 and p = 0.43).
-CONCLUSION: We conclude that expert-level AI can identify redundant sequences in MRI. Furthermore, our method provides evidence that in DWI for csPCa detection, the b800 series can be omitted from the regular bpMRI protocol decreasing total MRI scan time by 33\%. These results can provide significant speed-up of any MRI.
-},
-  optnote = {DIAG, RADIOLOGY},
-  year = {2022},
+CONCLUSION: We conclude that expert-level AI can identify redundant sequences in MRI. Furthermore, our method provides evidence that in DWI for csPCa detection, the b800 series can be omitted from the regular bpMRI protocol decreasing total MRI scan time by 33\%. These results can provide significant speed-up of any MRI.},
+  optnote   = {DIAG, RADIOLOGY},
+  year      = {2022},
 }
 
 
@@ -14528,17 +14527,16 @@ Clinical Relevance/Application: The market of AI products for radiology is growi
   optnote = {DIAG},
 }
 
-@conference{Lohuizen23a,
-  author = {Q. Y. van Lohuizen and C. Roest and F. F. J. Simonis and S. J. Fransen and T. C. Kwee and D. Yakar and H. Huisman},
+@Conference{Lohuizen23a,
+  author    = {Q. Y. van Lohuizen and C. Roest and F. F. J. Simonis and S. J. Fransen and T. C. Kwee and D. Yakar and H. Huisman},
   booktitle = RSNA,
-  title = {Diagnostic AI to speed up MRI protocols by identifying redundant sequences: are all diffusion-weighted prostate MRI sequences necessary?},
-  abstract = {PURPOSE: Studies showed that AI reconstruction of accelerated MRI improves visual quality, but it is unclear whether this improves diagnostic value. We investigated a novel framework for accelerated MRI by assessing reconstruction quality (naïve- vs AI-reconstructed) by comparing diagnostic performance and visual similarity as an outcome for prostate cancer detection.
+  title     = {Diagnostic AI to speed up MRI protocols by identifying redundant sequences: are all diffusion-weighted prostate MRI sequences necessary?},
+  abstract  = {PURPOSE: Studies showed that AI reconstruction of accelerated MRI improves visual quality, but it is unclear whether this improves diagnostic value. We investigated a novel framework for accelerated MRI by assessing reconstruction quality (naïve- vs AI-reconstructed) by comparing diagnostic performance and visual similarity as an outcome for prostate cancer detection.
 METHODS: A retrospective multi-site study was performed on a cohort of 1535 patients who underwent bi-parametric prostate MRI between 2016-2020. An expert radiologist delineated all clinically significant prostate cancer (csPCa) lesions (PI-RADS ≥ 4). T2W scans were retrospectively undersampled in k-space, simulating four (R4) and eight (R8) times acceleration. A 3D U-Net was used to reconstruct undersampled images. The resulting images were fed to an existing state-of-the-art csPCa detection AI to evaluate the effect of AI reconstruction on diagnosis. Visual image quality (SSIM) was compared with a Wilcoxon test. Lesion level diagnostics were evaluated by comparing the partial area-under-the-FROC-curve over the false positive interval 0.1-2.5 (pAUC) using permutation tests.
 RESULTS: AI-based reconstruction significantly improved visual quality compared to naïve (IFFT) reconstruction MRI at R4 (SSIM 0.78±0.02 vs 0.68±0.03, p<0.001) and R8 (SSIM 0.67±0.03 vs 0.51±0.03, p<0.001), however, no significant improvements in diagnostic performance were observed for R4 (pAUC FROC 1.33 [CI 1.28-1.39] vs 1.29 [CI 1.23-1.35], p=0.37), nor R8 (pAUC FROC 1.12 [CI 1.07-1.17] vs 0.95 [CI 1.89-1.01], p=0.067). AI-based reconstruction resulted in 0.1 or more decrease in sensitivity compared to unaccelerated MRI.
-CONCLUSION: Recovery of visual quality in reconstructions does not correlate with recovering diagnostic quality, emphasizing the importance of measuring diagnostic value rather than visual similarity. AI reconstruction tools should be approached with care because they might have been optimized to reconstruct visually appealing images instead of diagnostic images.
-},
-  optnote = {DIAG, RADIOLOGY},
-  year = {2023},
+CONCLUSION: Recovery of visual quality in reconstructions does not correlate with recovering diagnostic quality, emphasizing the importance of measuring diagnostic value rather than visual similarity. AI reconstruction tools should be approached with care because they might have been optimized to reconstruct visually appealing images instead of diagnostic images.},
+  optnote   = {DIAG, RADIOLOGY},
+  year      = {2023},
 }
 
 @article{Loka10,
@@ -26721,6 +26719,7 @@ Finally, in Chapter 6, we reflected on this thesis’s main findings and contrib
   year = {2023},
   journal = {PhD thesis},
 }
+
 }
 
 @article{Yaka10,
@@ -28109,6 +28108,7 @@ citation-count = {0},
   optnote        = {DIAG, RADIOLOGY},
   year           = {2023},
 }
+
 }
 Heliyon 9 (2023) e19065Available online 10 August 20232405-8440/©  2023  The  Authors.Published  by  Elsevier  Ltd.This  is  an  open  access  article  under  the  CC  BY  license(http://creativecommons.org/licenses/by/4.0/).
 
@@ -28165,6 +28165,36 @@ Heliyon 9 (2023) e19065Available online 10 August 20232405-8440/©  2023  The  A
   school   = {Radboud University Medical Center},
   year     = {2023},
 }
+
+@Article{Vina23,
+  author         = {Vinayahalingam, Shankeeth and Kempers, Steven and Schoep, Julian and Hsu, Tzu-Ming Harry and Moin, David Anssari and van Ginneken, Bram and Fl\"{u}gge, Tabea and Hanisch, Marcel and Xi, Tong},
+  title          = {Intra-oral scan segmentation using deep learning},
+  doi            = {10.1186/s12903-023-03362-8},
+  url            = {http://dx.doi.org/10.1186/s12903-023-03362-8},
+  volume         = {23},
+  abstract       = {Abstract
+                Objective
+                Intra-oral scans and gypsum cast scans (OS) are widely used in orthodontics, prosthetics, implantology, and orthognathic surgery to plan patient-specific treatments, which require teeth segmentations with high accuracy and resolution. Manual teeth segmentation, the gold standard up until now, is time-consuming, tedious, and observer-dependent. This study aims to develop an automated teeth segmentation and labeling system using deep learning.
+              
+                Material and methods
+                As a reference, 1750 OS were manually segmented and labeled. A deep-learning approach based on PointCNN and 3D U-net in combination with a rule-based heuristic algorithm and a combinatorial search algorithm was trained and validated on 1400 OS. Subsequently, the trained algorithm was applied to a test set consisting of 350 OS. The intersection over union (IoU), as a measure of accuracy, was calculated to quantify the degree of similarity between the annotated ground truth and the model predictions.
+              
+                Results
+                The model achieved accurate teeth segmentations with a mean IoU score of 0.915. The FDI labels of the teeth were predicted with a mean accuracy of 0.894. The optical inspection showed excellent position agreements between the automatically and manually segmented teeth components. Minor flaws were mostly seen at the edges.
+              
+                Conclusion
+                The proposed method forms a promising foundation for time-effective and observer-independent teeth segmentation and labeling on intra-oral scans.
+              
+                Clinical significance
+                Deep learning may assist clinicians in virtual treatment planning in orthodontics, prosthetics, implantology, and orthognathic surgery. The impact of using such models in clinical practice should be explored.},
+  citation-count = {0},
+  file           = {Vina23.pdf:pdf\Vina23.pdf:PDF},
+  journal        = {BMC Oral Health},
+  optnote        = {DIAG, RADIOLOGY},
+  pmid           = {37670290},
+  year           = {2023},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}
 
 @Comment{jabref-meta: saveActions:disabled;
