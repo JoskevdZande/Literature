@@ -159,16 +159,16 @@ class GetBiblatex:
                        f"{tab}optnote = {{{optnote}}}, {newline}" \
                        f"{tab}journal = {{{response_json['container-title']}}}, {newline}" \
                        f"{tab}citation-count = {{{response_json['is-referenced-by-count']}}}, {newline}" \
-                       f"{tab}automatic = yes, {newline}" \
+                       f"{tab}automatic = {{yes}}, {newline}" \
                        # f"}}{newline}"
 
             if 'page' in response_json.keys() and 'volume' in response_json.keys():
-                biblatex = biblatex + f"{tab}pages = {response_json['page']},{newline}" + f"{tab}volume = {response_json['volume']}, {newline}" + f"}}{newline}"
+                biblatex = biblatex + f"{tab}pages = {{{response_json['page']}}},{newline}" + f"{tab}volume = {{{response_json['volume']}}}, {newline}" + f"}}{newline}"
             elif 'page' in response_json.keys():
-                biblatex = biblatex + f"{tab}pages = {response_json['page']},{newline}" + f"}}{newline}"
+                biblatex = biblatex + f"{tab}pages = {{{response_json['page']}}},{newline}" + f"}}{newline}"
             elif 'volume' in response_json.keys():
                 print(response_json['volume'])
-                biblatex = biblatex + f"{tab}volume = {response_json['volume']}, {newline}" + f"}}{newline}"
+                biblatex = biblatex + f"{tab}volume = {{{response_json['volume']}}}, {newline}" + f"}}{newline}"
             else:
                 biblatex = biblatex + f"}}{newline}"
 
