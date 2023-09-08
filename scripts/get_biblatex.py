@@ -5,10 +5,10 @@ from scripts.script_data.accent_mappings import accent_mappings
 
 
 class GetBiblatex:
-    def __init__(self, doi, diag_bib):
+    def __init__(self, doi, diag_bib, num_citations):
         self.doi = doi
         self.diag_bib = diag_bib
-
+        self.num_citations = num_citations
         self.accent_mappings = accent_mappings
 
     def _get_doi_csl(self):

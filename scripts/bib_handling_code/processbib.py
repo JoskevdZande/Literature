@@ -46,7 +46,7 @@ from pdf2image.exceptions import (
 allowed_fields = frozenset(
     ['author', 'title', 'journal', 'year', 'volume', 'issue', 'month', 'pages', 'doi', 'abstract', 'file',
      'optnote', 'pmid', 'gsid', 'gscites', 'booktitle', 'school', 'number', 'url', 'copromotor', 'promotor',
-     'publisher', 'series', 'algorithm', 'code', 'taverne_url', 'ss_id', 'all_ss_ids'])
+     'publisher', 'series', 'algorithm', 'code', 'taverne_url', 'ss_id', 'all_ss_ids', 'automatic', 'citation-count'])
 
 
 def recode(chars):
