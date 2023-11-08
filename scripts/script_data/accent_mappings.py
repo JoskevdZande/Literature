@@ -78,5 +78,6 @@ accent_mappings = {
     'ċ': "\\.{c}",
     'Č': "\\v{C}",
     'č': "\\v{c}",
-    'ş': "\\c{s}"
+    'ş': "\\c{s}",
+    '$κ_w$': r"$\kappa$\textsubscript{w}"
 }
