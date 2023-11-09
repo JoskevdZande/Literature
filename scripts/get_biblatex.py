@@ -177,7 +177,7 @@ class GetBiblatex:
                        f"{tab}year = {{{year}}}, {newline}" \
                        f"{tab}abstract = {{{abstract}}}, {newline}" \
                        f"{tab}url = {{{response_json['URL']}}}, {newline}" \
-                       f"{tab}file = {{{author_abbreviation}.pdf:pdf\\{author_abbreviation}.pdf:PDF}}, {newline}" \
+                       f"{tab}file = {{{author_abbreviation}.pdf:pdf\\\\{author_abbreviation}.pdf:PDF}}, {newline}" \
                        f"{tab}optnote = {{{optnote}}}, {newline}" \
                        f"{tab}journal = {{{journal}}}, {newline}" \
                        f"{tab}automatic = {{yes}}, {newline}" \
