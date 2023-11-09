@@ -1798,23 +1798,23 @@
   month = {3},
 }
 
-@article{Ayat20,
-  author = {Ayatollahi, Fazael and Shokouhi, Shahriar B. and Teuwen, Jonas},
-  title = {Differentiating Benign and Malignant Mass and non-Mass Lesions in Breast {DCE-MRI} using Normalized Frequency-based Features},
-  doi = {10.1007/s11548-019-02103-z},
-  issue = {2},
-  pages = {297-307},
-  volume = {15},
+@Article{Ayat20,
+  author   = {Ayatollahi, Fazael and Shokouhi, Shahriar B. and Teuwen, Jonas},
+  title    = {Differentiating Benign and Malignant Mass and non-Mass Lesions in Breast {DCE-MRI} using Normalized Frequency-based Features},
+  doi      = {10.1007/s11548-019-02103-z},
+  issue    = {2},
+  pages    = {297-307},
+  volume   = {15},
   abstract = {Purpose: In this study we propose a new computer-aided diagnosis (CADx) to distinguish between malign and benign mass and non-mass lesions in breast DCE-MRI. For this purpose, we introduce new frequency textural features.
                              Methods: In this paper we propose novel normalized frequency-based features. These are obtained by applying the dual-tree complex wavelet transform to MRI slices containing a lesion for specific decomposition levels. The low-pass and band-pass frequency coefficients of the dual-tree complex wavelet transform represent the general shape and texture features respectively of the lesion. The extraction of these features is computationally efficient. We employ a support vector machine (SVM) to classify the lesions, and investigate modified cost functions and under- and oversampling strategies to handle the class imbalance.
                              Results: The proposed method has been tested on a dataset of 80 patients containing 103 lesions. An area under the curve (AUC) of 0.98 for the mass and 0.94 for the non-mass lesions is obtained. Similarly, accuracies of 96.9% and 89.8%, sensitivities of 93.8% and 84.6% and specificities of 98% and 92.3% are obtained for the mass and non-mass lesions respectively.
                              Conclusions: Normalized frequency-based features can characterize benign and malignant lesions efficiently in both mass and non-mass like lesions. Additionally, the combination of normalized frequency-based features and three dimensional shape descriptors improve the CADx performance.},
-  file = {Ayat19.pdf:pdf\\Ayat19.pdf:PDF},
-  journal = IJCARS,
-  optnote = {DIAG, RADIOLOGY},
-  pmid = {31838643},
-  year = {2020},
-  month = {12},
+  file     = {Ayat19.pdf:pdf\\Ayat19.pdf:PDF},
+  journal  = IJCARS,
+  month    = {12},
+  optnote  = {DIAG, RADIOLOGY},
+  pmid     = {31838643},
+  year     = {2020},
 }
 
 @mastersthesis{Bagu18,
@@ -2161,24 +2161,24 @@ Conclusion: Automatic mitosis counting is a promising complementary aid for mito
   gscites = {54},
 }
 
-@article{Band19a,
-  author = {B\'{a}ndi, P. and Balkenhol, Maschenka and van Ginneken, Bram and van der Laak, Jeroen and Litjens, Geert},
-  title = {Resolution-agnostic tissue segmentation in whole-slide histopathology images with convolutional neural networks},
-  doi = {10.7717/peerj.8242},
-  pages = {e8242},
-  url = {https://peerj.com/articles/8242/},
-  volume = {7},
+@Article{Band19a,
+  author   = {B\'{a}ndi, P. and Balkenhol, Maschenka and van Ginneken, Bram and van der Laak, Jeroen and Litjens, Geert},
+  title    = {Resolution-agnostic tissue segmentation in whole-slide histopathology images with convolutional neural networks},
+  doi      = {10.7717/peerj.8242},
+  pages    = {e8242},
+  url      = {https://peerj.com/articles/8242/},
+  volume   = {7},
   abstract = {Modern pathology diagnostics is being driven toward large scale digitization of microscopic tissue sections. A prerequisite for its safe implementation is the guarantee that all tissue present on a glass slide can also be found back in the digital image. Whole-slide scanners perform a tissue segmentation in a low resolution overview image to prevent inefficient high-resolution scanning of empty background areas. However, currently applied algorithms can fail in detecting all tissue regions.
                              In this study, we developed convolutional neural networks to distinguish tissue from background. We collected 100 whole-slide images of 10 tissue samples--staining categories from five medical centers for development and testing. Additionally, eight more images of eight unfamiliar categories were collected for testing only. We compared our fully-convolutional neural networks to three traditional methods on a range of resolution levels using Dice score and sensitivity.
                              We also tested whether a single neural network can perform equivalently to multiple networks, each specialized in a single resolution. Overall, our solutions outperformed the traditional methods on all the tested resolutions. The resolution-agnostic network achieved average Dice scores between 0.97 and 0.98 across the tested resolution levels, only 0.0069 less than the resolution-specific networks. Finally, its excellent generalization performance was demonstrated by achieving averages of 0.98 Dice score and 0.97 sensitivity on the eight unfamiliar images. A future study should test this network prospectively.},
-  file = {Band19a.pdf:pdf\\Band19a.pdf:PDF},
-  journal = PRJ,
-  optnote = {DIAG, RADIOLOGY},
-  pmid = {31871843},
-  year = {2019},
-  month = {12},
-  gsid = {12477234465933785268},
-  gscites = {2},
+  file     = {Band19a.pdf:pdf\\Band19a.pdf:PDF},
+  gscites  = {2},
+  gsid     = {12477234465933785268},
+  journal  = PRJ,
+  month    = {12},
+  optnote  = {DIAG, RADIOLOGY},
+  pmid     = {31871843},
+  year     = {2019},
 }
 
 @Article{Band23,
@@ -28456,6 +28456,19 @@ Limitations: This study is a retrospective analysis on data from two screening t
   journal        = {Bildverarbeitung fur die Medizin, Workshop},
   optnote        = {DIAG, RADIOLOGY},
   year           = {2023},
+}
+
+@Article{Mama23,
+  author    = {Mamani, Gabriel Efrain Humpire and Lessmann, Nikolas and Scholten, Ernst Th. and Prokop, Mathias and Jacobs, Colin and van Ginneken, Bram},
+  title     = {Kidney abnormality segmentation in thorax-abdomen CT scans},
+  doi       = {10.48550/ARXIV.2309.03383},
+  url       = {https://arxiv.org/abs/2309.03383},
+  abstract  = {In this study, we introduce a deep learning approach for segmenting kidney parenchyma and kidney abnormalities to support clinicians in identifying and quantifying renal abnormalities such as cysts, lesions, masses, metastases, and primary tumors. Our end-to-end segmentation method was trained on 215 contrast-enhanced thoracic-abdominal CT scans, with half of these scans containing one or more abnormalities. We began by implementing our own version of the original 3D U-Net network and incorporated four additional components: an end-to-end multi-resolution approach, a set of task-specific data augmentations, a modified loss function using top-$k$, and spatial dropout. Furthermore, we devised a tailored post-processing strategy. Ablation studies demonstrated that each of the four modifications enhanced kidney abnormality segmentation performance, while three out of four improved kidney parenchyma segmentation. Subsequently, we trained the nnUNet framework on our dataset. By ensembling the optimized 3D U-Net and the nnUNet with our specialized post-processing, we achieved marginally superior results. Our best-performing model attained Dice scores of 0.965 and 0.947 for segmenting kidney parenchyma in two test sets (20 scans without abnormalities and 30 with abnormalities), outperforming an independent human observer who scored 0.944 and 0.925, respectively. In segmenting kidney abnormalities within the 30 test scans containing them, the top-performing method achieved a Dice score of 0.585, while an independent second human observer reached a score of 0.664, suggesting potential for further improvement in computerized methods. All training data is available to the research community under a CC-BY 4.0 license on https://doi.org/10.5281/zenodo.8014289},
+  automatic = {yes},
+  file      = {Mama23.pdf:pdf\\Mama23.pdf:PDF},
+  journal   = {arXiv:2309.03383},
+  optnote   = {DIAG, RADIOLOGY},
+  year      = {2023},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}
