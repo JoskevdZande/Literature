@@ -28501,6 +28501,45 @@ Limitations: This study is a retrospective analysis on data from two screening t
   year           = {2023},
 }
 
+@Article{Hump23,
+  author    = {Humpire-Mamani, Gabriel Efrain and Jacobs, Colin and Prokop, Mathias and van Ginneken, Bram and Lessmann, Nikolas},
+  title     = {Transfer learning from a sparsely annotated dataset of 3D medical images},
+  doi       = {10.48550/ARXIV.2311.05032},
+  url       = {https://arxiv.org/abs/2311.05032},
+  abstract  = {Transfer learning leverages pre-trained model features from a large dataset to save time and resources when training new models for various tasks, potentially enhancing performance. Due to the lack of large datasets in the medical imaging domain, transfer learning from one medical imaging model to other medical imaging models has not been widely explored. This study explores the use of transfer learning to improve the performance of deep convolutional neural networks for organ segmentation in medical imaging. A base segmentation model (3D U-Net) was trained on a large and sparsely annotated dataset; its weights were used for transfer learning on four new down-stream segmentation tasks for which a fully annotated dataset was available. We analyzed the training set size's influence to simulate scarce data. The results showed that transfer learning from the base model was beneficial when small datasets were available, providing significant performance improvements; where fine-tuning the base model is more beneficial than updating all the network weights with vanilla transfer learning. Transfer learning with fine-tuning increased the performance by up to 0.129 (+28\%) Dice score than experiments trained from scratch, and on average 23 experiments increased the performance by 0.029 Dice score in the new segmentation tasks. The study also showed that cross-modality transfer learning using CT scans was beneficial. The findings of this study demonstrate the potential of transfer learning to improve the efficiency of annotation and increase the accessibility of accurate organ segmentation in medical imaging, ultimately leading to improved patient care. We made the network definition and weights publicly available to benefit other users and researchers.},
+  automatic = {yes},
+  file      = {Hump23.pdf:pdf\\Hump23.pdf:PDF},
+  journal   = {arXiv:2311.05032},
+  optnote   = {DIAG, RADIOLOGY},
+  year      = {2023},
+}
+
+@Article{Aswo23,
+  author         = {Aswolinskiy, Witali and Munari, Enrico and Horlings, Hugo M. and Mulder, Lennart and Bogina, Giuseppe and Sanders, Joyce and Liu, Yat-Hee and van den Belt-Dusebout, Alexandra W. and Tessier, Leslie and Balkenhol, Maschenka and Stegeman, Michelle and Hoven, Jeffrey and Wesseling, Jelle and van der Laak, Jeroen and Lips, Esther H. and Ciompi, Francesco},
+  title          = {PROACTING: predicting pathological complete response to neoadjuvant chemotherapy in breast cancer from routine diagnostic histopathology biopsies with deep learning},
+  doi            = {10.1186/s13058-023-01726-0},
+  url            = {http://dx.doi.org/10.1186/s13058-023-01726-0},
+  volume         = {25},
+  abstract       = {Abstract
+                Background
+                Invasive breast cancer patients are increasingly being treated with neoadjuvant chemotherapy; however, only a fraction of the patients respond to it completely. To prevent overtreatment, there is an urgent need for biomarkers to predict treatment response before administering the therapy.
+              
+                Methods
+                In this retrospective study, we developed hypothesis-driven interpretable biomarkers based on deep learning, to predict the pathological complete response (pCR, i.e., the absence of tumor cells in the surgical resection specimens) to neoadjuvant chemotherapy solely using digital pathology H&amp;E images of pre-treatment breast biopsies. Our approach consists of two steps: First, we use deep learning to characterize aspects of the tumor micro-environment by detecting mitoses and segmenting tissue into several morphology compartments including tumor, lymphocytes and stroma. Second, we derive computational biomarkers from the segmentation and detection output to encode slide-level relationships of components of the tumor microenvironment, such as tumor and mitoses, stroma, and tumor infiltrating lymphocytes�(TILs).
+              
+                Results
+                We developed and evaluated our method on slides from n�=�721 patients from three European medical centers with triple-negative and Luminal B breast cancers and performed external independent validation on n�=�126 patients from a public dataset. We report the predictive value of the investigated biomarkers for predicting pCR with areas under the receiver operating characteristic curve between 0.66 and 0.88 across the tested cohorts.
+              
+                Conclusion
+                The proposed computational biomarkers predict pCR, but will require more evaluation and finetuning for clinical application. Our results further corroborate the potential role of deep learning to automate TILs quantification, and their predictive value in breast cancer neoadjuvant treatment planning, along with automated mitoses quantification. We made our method publicly available to extract segmentation-based biomarkers for research purposes.},
+  automatic      = {yes},
+  citation-count = {0},
+  file           = {Aswo23.pdf:pdf\\Aswo23.pdf:PDF},
+  journal        = {Breast Cancer Research},
+  optnote        = {DIAG, RADIOLOGY},
+  year           = {2023},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}
 
 @Comment{jabref-meta: saveActions:disabled;
