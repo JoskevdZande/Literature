@@ -135,6 +135,14 @@ class GetBiblatex:
                 kind = 'book'
                 journal = response_json['container-title']
 
+            elif 'posted-content' in response_json['type']:
+                kind = 'article'
+                journal = 'bio/med archive'
+
+
+
+                
+
             author_string = "{"
             for index, author in enumerate(response_json["author"]):
                 if index == len(response_json["author"])-1:
@@ -144,7 +152,7 @@ class GetBiblatex:
                     if 'given' in author:
                         author_string = author_string + f"{author['family']}, {author['given']}" + "}"
                     else:
-                        author_string = author_string + f"{author['family']} and "
+                        author_string = author_string + f"{author['family']}" + "}"
                 else:
                     if 'name' in author:
                         author_string = author_string + f"{author['name']} and "
@@ -192,7 +200,6 @@ class GetBiblatex:
             elif 'page' in response_json.keys():
                 biblatex = biblatex + f"{tab}pages = {{{response_json['page']}}},{newline}" + f"}}{newline}"
             elif 'volume' in response_json.keys():
-                print(response_json['volume'])
                 biblatex = biblatex + f"{tab}volume = {{{response_json['volume']}}}, {newline}" + f"}}{newline}"
             else:
                 biblatex = biblatex + f"}}{newline}"
