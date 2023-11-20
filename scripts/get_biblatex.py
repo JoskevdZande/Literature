@@ -137,7 +137,7 @@ class GetBiblatex:
 
             elif 'posted-content' in response_json['type']:
                 kind = 'article'
-                journal = 'bio/med archive'
+                journal = 'Preprint'
 
 
 
@@ -174,7 +174,7 @@ class GetBiblatex:
             year = str(published.get('date-parts')[0][0])
             # year = str(response_json["published"]["date-parts"][0][0])[2:]
             author_abbreviation = self._clean_author_abbreviation(author_abbreviation, year_short, self.diag_bib)
-            title = response_json["title"]
+            title = 'NEW_ADDED_ITEM' + response_json["title"]
             title = self._convert_to_biblatex_format(author_name=title)
             optnote = "DIAG, RADIOLOGY"
 
