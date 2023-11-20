@@ -18,7 +18,7 @@ class GetBiblatex:
         response = requests.get(
             f"https://doi.org/{self.doi}",
             headers={"Accept": "application/vnd.citationstyles.csl+json"},
-            timeout=5,
+            timeout=20,
         )
         response.raise_for_status()
 
