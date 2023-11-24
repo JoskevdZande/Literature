@@ -107,6 +107,7 @@ staff_id,staff_name,ss_year,ss_id,title,doi,Should be in diag.bib,Reason
 2913408.0,Nikolas Lessman,2019,6f8fe54a656d0f1e448a6142a41c41316605c98f,P3411Prevalence and risk factors of multifocal cardiovascular calcification in patients at high cardiovascular risk,10.1093/eurheartj/ehz745.0285,no,poster session abstract
 "[8038506, 123637526]","[8038506, 123637526]",2017,01df4624e9578fd597b0f0ee6d81ac508363e1eb,Fully automated detection of hyperreflective foci in optical coherence tomography,,no,ARVO Annual Meeting Abstract
 "[144085811, 32187701]","[144085811, 32187701]",2015,06d272dcc4260690637651022e281399880d1c4d,The role of age-related macular degeneration associated variants in drusen progression,,no,ARVO Annual Meeting Abstract
+"[145441238, 145388932]","[145441238, 145388932]",2019,06ee6ed85131848ef70da625806ba480915aa2e0,Axillary lymph nodes in breast cancer cases,10.23698/AIDA/BRLN,no,
 [4960344],[4960344],2017,086a39a4b16055705aa074381c0dc9a0c685fc1a,OP05. ARTERIAL SPIN LABELLING MRI OF CEREBRAL TUMOURS IN RATS,10.1093/neuonc/now292.004,no,Oral presentation
 "[144085811, 32187701]","[144085811, 32187701]",2018,14ef2e5ac0d3a7203a104ff84dfaee4ba26f1043,A Novel Method for Micro aneurysm Detection and Diabetic Retinopathy Diagnosis,,no,No Diag member in author list
 "[8038506, 123637526]","[8038506, 123637526]",2015,1b3956b3bb8477f0958b775906da32812d0de574,Automatic detection of eye diseases using automated color fundus image analysis,,no,ARVO Annual Meeting Abstract
@@ -141,6 +142,8 @@ staff_id,staff_name,ss_year,ss_id,title,doi,Should be in diag.bib,Reason
 "[8038506, 123637526]","[8038506, 123637526]",2019,de09e056b22d7e29e93f5656154d10c88181f7a5,Deep Learning in Image Diagnostics: Recent Results and Outlook,,no,not sure? keynote lecture
 "[8038506, 123637526]","[8038506, 123637526]",2018,e2e2e9f858ffc3bde5ee7a6929c9b0e7d52c1a43,Deep learning based automatic liver tumor segmentation in CT with shape-based post-processing,,no,rejected MIDL submission
 "[1419819133, 1445069528, 1400632685]","[1419819133, 1445069528, 1400632685]",2019,e5ee780f7926cd2403349bf40725814e4eb7e889,Aquilion ONE Clinical Evidence: Subtraction Contrast Enhancement Boost Technique at Aortic Computed Tomography Angiography: Added Value for the Evaluation of Type II Endoleaks After Endovascular Aortic Aneurysm Repair,,no,not sure what this is?
+[143613202],[143613202],2018,e717ffb38990d5da64a82f8b8715bfb56daf9762,COMPAY 2018 preface,10.1007/978-3-030-00949-6,no,volume editor
+"[1419819133, 1445069528, 1400632685]","[1419819133, 1445069528, 1400632685]",2021,eb6e86cf9697391771d1e2fbad3f49c1448e3411,Radiology Structured Reporting Handbook,10.1055/B000000232,no,book
 "[32649341, 119024451]","[32649341, 119024451]",2019,f2ad6e4c7023da74ed85a65de6572dc10ee91f19,Latest AI applications in breast imaging Executive Summary,,no,"no doi, does not seem to be a proper peer reviewed article"
 [153744566],[153744566],2021,f574d9f2b018d707ff0c2dbcd250fcd4ee2856ae,Learn2Reg - The Challenge (2021),10.5281/ZENODO.4573968,no,refers to a dataset
 [1745574],[1745574],2020,f7a9b39199077be3c0abf852d9665d65b1029027,Bringing tomosynthesis to screening,,no,"no doi, cannot find that this is a proper publication"
