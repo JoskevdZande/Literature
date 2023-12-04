@@ -1,7 +1,12 @@
 import requests
 from bs4 import BeautifulSoup
 import re
-from scripts.script_data.accent_mappings import accent_mappings
+import os
+import sys
+current_script_directory = os.path.dirname(os.path.realpath(__file__))
+project_root = os.path.abspath(os.path.join(current_script_directory, os.pardir))
+sys.path.append(os.path.join(project_root))
+from script_data.accent_mappings import accent_mappings
 
 
 class GetBiblatex:
