@@ -111,7 +111,12 @@ def add_ss_id_doi_pmid_to_existing_bibkey(diag_bib_raw, item_row):
             # if there is already something in all_ss_ids
             if 'all_ss_ids' in entry.fields.keys():
                 if not entry.fields['all_ss_ids'] == '{' + str(ss_id) + '}': # this should never happen, right? (from Keelin!)
-                    previous = literal_eval(entry.fields['all_ss_ids'].strip('{}'))
+                    try:
+                        previous = literal_eval(entry.fields['all_ss_ids'].strip('{}'))
+                    except:
+                        previous = entry.fields['all_ss_ids'].strip('{}')
+                        previous_list = [previous]
+                        previous = [item.strip('[]') for item in previous_list]  
                     new = ss_id
                     combined = list(set(previous) | set([new]))
                     # update the entry
@@ -216,7 +221,7 @@ def get_latest_manual_check_file(directory):
     return os.path.join(directory, latest_filename)
 
 
-def loop_manual_check(manually_checked):
+def loop_manual_check(manually_checked, diag_bib_orig):
     # Iterate through all items in the manually checked csv
     blacklist_items = []
     items_to_add = ''
@@ -295,7 +300,7 @@ def main():
     with open(diag_bib_path, 'r', encoding="utf8") as orig_bib_file:
         diag_bib_orig = orig_bib_file.read()
 
-    blacklist_items, items_to_add, items_to_update, failed_new_items, failed_updated_items, failed_to_find_actions, dict_new_items_bibkey_pmid = loop_manual_check(manually_checked)
+    blacklist_items, items_to_add, items_to_update, failed_new_items, failed_updated_items, failed_to_find_actions, dict_new_items_bibkey_pmid = loop_manual_check(manually_checked, diag_bib_orig)
     # Add new bib entries to the diag.bib file
     diag_bib_added_items = diag_bib_orig + items_to_add  
     with open('diag.bib', 'w', encoding="utf8") as bibtex_file:
