@@ -90,9 +90,8 @@ def get_bib_info(diag_bib_file, item): #diag_bib_file is the file read in as a s
             print('similar doi already exists in bib file, but new item will be added for ', item['ss_doi'], item['ss_id'])
 
     # Get BibLatex information based on DOI if not in the file
-    reader = GetBiblatex(doi=item['ss_doi'], diag_bib=diag_bib_file)
+    reader = GetBiblatex(doi=item['ss_doi'], ss_id=item['ss_id'], diag_bib=diag_bib_file)
     bibtext = reader.get_bib_text()
-
     # Return the bibtext if it is not 'empty', otherwise return None
     return bibtext if bibtext != 'empty' else None
 
@@ -246,7 +245,6 @@ def loop_manual_check(manually_checked, diag_bib_orig):
         elif "[add new item]" == bib_item['action'].strip():
            
            bib_item_text = get_bib_info(diag_bib_orig, bib_item)
-    
            if bib_item_text is not None:
                items_to_add += bib_item_text
                # if there is a pmid note it to be added afterwards

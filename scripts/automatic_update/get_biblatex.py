@@ -10,9 +10,10 @@ from script_data.accent_mappings import accent_mappings
 
 
 class GetBiblatex:
-    def __init__(self, doi, diag_bib):
+    def __init__(self, doi, ss_id, diag_bib):
         self.doi = doi
         self.diag_bib = diag_bib
+        self.ss_id = ss_id
         self.accent_mappings = accent_mappings
 
     def _get_doi_csl(self):
@@ -118,104 +119,106 @@ class GetBiblatex:
         return auth_abr
 
     def get_bib_text(self):
-        try:
-            response_json = self._get_doi_csl()
-            abstract = self._get_doi_abstract()
-            abstract = self._convert_to_biblatex_format(author_name=abstract)
 
-            if 'proceedings-article' in response_json['type']:
-                kind = 'inproceedings'
-                journal = response_json['container-title']
-            elif 'journal-article' in response_json['type']:
-                kind = 'article'
-                journal = response_json['container-title']
-            elif 'article' in response_json['type']:
-                kind = 'article'
+        #try:
+        response_json = self._get_doi_csl()
+        abstract = self._get_doi_abstract()
+        abstract = self._convert_to_biblatex_format(author_name=abstract)
 
-                # Convert doi to arXiv journal format "arXiv:xxxx.xxxxx"
-                index = self.doi.find('arXiv')
-                arxiv_id = self.doi[index:]
-                journal = arxiv_id.replace('.', ':', 1)
-            elif 'book-chapter' in response_json['type']:
-                kind = 'book'
-                journal = response_json['container-title']
+        if 'proceedings-article' in response_json['type']:
+            kind = 'inproceedings'
+            journal = response_json['container-title']
+        elif 'journal-article' in response_json['type']:
+            kind = 'article'
+            journal = response_json['container-title']
+        elif 'article' in response_json['type']:
+            kind = 'article'
 
-            elif 'posted-content' in response_json['type']:
-                kind = 'article'
-                journal = 'Preprint'
+            # Convert doi to arXiv journal format "arXiv:xxxx.xxxxx"
+            index = self.doi.find('arXiv')
+            arxiv_id = self.doi[index:]
+            journal = arxiv_id.replace('.', ':', 1)
+        elif 'book-chapter' in response_json['type']:
+            kind = 'book'
+            journal = response_json['container-title']
+
+        elif 'posted-content' in response_json['type']:
+            kind = 'article'
+            journal = 'Preprint'
 
 
 
-                
+            
 
-            author_string = "{"
-            for index, author in enumerate(response_json["author"]):
-                if index == len(response_json["author"])-1:
-                    if 'name' in author:  # Add research groups. For example COPD Investigators
-                        author_string = author_string + f"{author['name']}" + "}"
-                        continue
-                    if 'given' in author:
-                        author_string = author_string + f"{author['family']}, {author['given']}" + "}"
-                    else:
-                        author_string = author_string + f"{author['family']}" + "}"
+        author_string = "{"
+        for index, author in enumerate(response_json["author"]):
+            if index == len(response_json["author"])-1:
+                if 'name' in author:  # Add research groups. For example COPD Investigators
+                    author_string = author_string + f"{author['name']}" + "}"
+                    continue
+                if 'given' in author:
+                    author_string = author_string + f"{author['family']}, {author['given']}" + "}"
                 else:
-                    if 'name' in author:
-                        author_string = author_string + f"{author['name']} and "
-                        continue
-                    if 'given' in author:
-                        author_string = author_string + f"{author['family']}, {author['given']} and "
-                    else:
-                        author_string = author_string + f"{author['family']} and "
-            author_string = self._convert_to_biblatex_format(author_name=author_string)
-            newline = '\n'
-            tab = '\t'
-            author_abbreviation = response_json['author'][0]['family'].rsplit(' ')[-1]
-            author_abbreviation = author_abbreviation.replace("'", "").lower().capitalize()[:4]
-
-            published = response_json.get("published")
-            if published is None:
-                published = response_json.get("issued")
-            year_short = str(published.get('date-parts')[0][0])[2:]
-            year = str(published.get('date-parts')[0][0])
-            # year = str(response_json["published"]["date-parts"][0][0])[2:]
-            author_abbreviation = self._clean_author_abbreviation(author_abbreviation, year_short, self.diag_bib)
-            title = response_json["title"]
-            title = self._convert_to_biblatex_format(author_name=title)
-            optnote = "DIAG, RADIOLOGY"
-
-            biblatex = f"@{kind}{{{author_abbreviation}, {newline}" \
-                       f"{tab}author = {author_string}, {newline} " \
-                       f"{tab}title = {{{title}}}, {newline}" \
-                       f"{tab}doi = {{{response_json['DOI']}}}, {newline}" \
-                       f"{tab}year = {{{year}}}, {newline}" \
-                       f"{tab}abstract = {{{abstract}}}, {newline}" \
-                       f"{tab}url = {{{response_json['URL']}}}, {newline}" \
-                       f"{tab}file = {{{author_abbreviation}.pdf:pdf\\\\{author_abbreviation}.pdf:PDF}}, {newline}" \
-                       f"{tab}optnote = {{{optnote}}}, {newline}" \
-                       f"{tab}journal = {{{journal}}}, {newline}" \
-                       f"{tab}automatic = {{yes}}, {newline}" \
-                       # f"{tab}citation-count = {{{response_json['is-referenced-by-count']}}}, {newline}" \
-                       # f"}}{newline}"
-
-            if 'is-referenced-by-count' in response_json.keys():
-                biblatex = biblatex + f"{tab}citation-count = {{{response_json['is-referenced-by-count']}}}, {newline}"
-
-            if 'page' in response_json.keys() and 'volume' in response_json.keys():
-                biblatex = biblatex + f"{tab}pages = {{{response_json['page']}}},{newline}" + f"{tab}volume = {{{response_json['volume']}}}, {newline}" + f"}}{newline}"
-            elif 'page' in response_json.keys():
-                biblatex = biblatex + f"{tab}pages = {{{response_json['page']}}},{newline}" + f"}}{newline}"
-            elif 'volume' in response_json.keys():
-                biblatex = biblatex + f"{tab}volume = {{{response_json['volume']}}}, {newline}" + f"}}{newline}"
+                    author_string = author_string + f"{author['family']}" + "}"
             else:
-                biblatex = biblatex + f"}}{newline}"
+                if 'name' in author:
+                    author_string = author_string + f"{author['name']} and "
+                    continue
+                if 'given' in author:
+                    author_string = author_string + f"{author['family']}, {author['given']} and "
+                else:
+                    author_string = author_string + f"{author['family']} and "
+        author_string = self._convert_to_biblatex_format(author_name=author_string)
+        newline = '\n'
+        tab = '\t'
+        author_abbreviation = response_json['author'][0]['family'].rsplit(' ')[-1]
+        author_abbreviation = author_abbreviation.replace("'", "").lower().capitalize()[:4]
 
-            # replace any EN DASH with Hyphen
-            if "–" in biblatex:
-                biblatex = biblatex.replace("–", "-")
+        published = response_json.get("published")
+        if published is None:
+            published = response_json.get("issued")
+        year_short = str(published.get('date-parts')[0][0])[2:]
+        year = str(published.get('date-parts')[0][0])
+        # year = str(response_json["published"]["date-parts"][0][0])[2:]
+        author_abbreviation = self._clean_author_abbreviation(author_abbreviation, year_short, self.diag_bib)
+        title = response_json["title"]
+        title = self._convert_to_biblatex_format(author_name=title)
+        optnote = "DIAG, RADIOLOGY"
+        self.ss_id = "['"+self.ss_id+"']"
+        biblatex = f"@{kind}{{{author_abbreviation}, {newline}" \
+                    f"{tab}author = {author_string}, {newline} " \
+                    f"{tab}title = {{{title}}}, {newline}" \
+                    f"{tab}doi = {{{response_json['DOI']}}}, {newline}" \
+                    f"{tab}year = {{{year}}}, {newline}" \
+                    f"{tab}abstract = {{{abstract}}}, {newline}" \
+                    f"{tab}url = {{{response_json['URL']}}}, {newline}" \
+                    f"{tab}file = {{{author_abbreviation}.pdf:pdf\\\\{author_abbreviation}.pdf:PDF}}, {newline}" \
+                    f"{tab}optnote = {{{optnote}}}, {newline}" \
+                    f"{tab}journal = {{{journal}}}, {newline}" \
+                    f"{tab}automatic = {{yes}}, {newline}" \
+                    f"{tab}all_ss_ids = {{{self.ss_id}}}, {newline}"
+                    # f"{tab}citation-count = {{{response_json['is-referenced-by-count']}}}, {newline}" \
+                    # f"}}{newline}"
+        
+        if 'is-referenced-by-count' in response_json.keys():
+            biblatex = biblatex + f"{tab}citation-count = {{{response_json['is-referenced-by-count']}}}, {newline}"
 
-        except Exception as e:
-            print(f'Unable to generate bibtext for {self.doi}')
-            print(e)
-            biblatex = 'empty'
+        if 'page' in response_json.keys() and 'volume' in response_json.keys():
+            biblatex = biblatex + f"{tab}pages = {{{response_json['page']}}},{newline}" + f"{tab}volume = {{{response_json['volume']}}}, {newline}" + f"}}{newline}"
+        elif 'page' in response_json.keys():
+            biblatex = biblatex + f"{tab}pages = {{{response_json['page']}}},{newline}" + f"}}{newline}"
+        elif 'volume' in response_json.keys():
+            biblatex = biblatex + f"{tab}volume = {{{response_json['volume']}}}, {newline}" + f"}}{newline}"
+        else:
+            biblatex = biblatex + f"}}{newline}"
+
+        # replace any EN DASH with Hyphen
+        if "–" in biblatex:
+            biblatex = biblatex.replace("–", "-")
+
+        #except Exception as e:
+        #    print(f'Unable to generate bibtext for {self.doi}')
+        #    print(e)
+        #    biblatex = 'empty'
 
         return biblatex
