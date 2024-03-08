@@ -11,25 +11,25 @@ from difflib import SequenceMatcher
 from collections import defaultdict
 from datetime import datetime
 
-staff_id_dict = {'Bram van Ginneken': [8038506, 123637526],
-'Francesco Ciompi': [143613202],
+staff_id_dict = {'Bram van Ginneken': [8038506, 123637526, 2238811617, 2237665783, 2064076416],
+'Francesco Ciompi': [143613202, 2246376566],
 'Alessa Hering': [153744566],
-'Henkjan Huisman': [34754023, 2247422768],
+'Henkjan Huisman': [34754023, 2247422768, 2242473717],
 'Colin Jacobs': [2895994],
 'Peter Koopmans': [34726383],
-'Jeroen van der Laak': [145441238, 145388932],
+'Jeroen van der Laak': [145441238, 145388932, 2347447, 2255290517, 2259038560],
 'Geert Litjens': [145959882],
 'James Meakin': [4960344],
 'Keelin Murphy': [35730362],
 'Ajay Patel': [2109170880, 2116215861],
-'Cornelia Schaefer-Prokop': [1419819133, 1445069528, 1400632685],
-'Matthieu Rutten': [2074975080, 2156546],
+'Cornelia Schaefer-Prokop': [1419819133, 1445069528, 1400632685, 2242581221, 2262278647, 2240604857, 2250313247],
+'Matthieu Rutten': [2074975080, 2156546, 47920520, 2238355627, 2239745868],
 'Jos Thannhauser': [5752941],
 "Bram Platel" : [1798137], 
 "Nico Karssemeijer" : [1745574], 
 "Clarisa Sanchez" : [144085811, 32187701], 
 "Nikolas Lessman" : [2913408], 
-"Jonas Teuwen" : [32649341, 119024451], 
+"Jonas Teuwen" : [32649341, 119024451, 2259899370], 
 "Rashindra Manniesing" : [2657081],
 "Nadieh Khalili": [144870959]}
 
