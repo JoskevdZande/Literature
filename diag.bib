@@ -23321,17 +23321,17 @@
   month = {10},
 }
 
-@conference{Peet23,
-  author = {Peeters, Dr\'{e} and Alves, Nat\'{a}lia and Venkadesh, K and Dinnessen, R and Saghir, Z and Scholten, E and Huisman, H and Schaefer-Prokop, C and Vliegenthart, R and Prokop, M and Jacobs, C},
+@Conference{Peet23,
+  author    = {Peeters, Dr\'{e} and Alves, Nat\'{a}lia and Venkadesh, K and Dinnessen, R and Saghir, Z and Scholten, E and Huisman, H and Schaefer-Prokop, C and Vliegenthart, R and Prokop, M and Jacobs, C},
   booktitle = ECR,
-  title = {The effect of applying an uncertainty estimation method on the performance of a deep learning model for nodule malignancy risk estimation},
-  abstract = {Purpose: Artificial Intelligence (AI) algorithms often lack uncertainty estimation for classification tasks. Uncertainty estimation may however be an important requirement for clinical adoption of AI algorithms. In this study, we integrate a method for uncertainty estimation into a previously developed AI algorithm and investigate the performance when applying different uncertainty thresholds.
+  title     = {The effect of applying an uncertainty estimation method on the performance of a deep learning model for nodule malignancy risk estimation},
+  abstract  = {Purpose: Artificial Intelligence (AI) algorithms often lack uncertainty estimation for classification tasks. Uncertainty estimation may however be an important requirement for clinical adoption of AI algorithms. In this study, we integrate a method for uncertainty estimation into a previously developed AI algorithm and investigate the performance when applying different uncertainty thresholds.
               Methods and materials: We used a retrospective external validation dataset from the Danish Lung Cancer Screening Trial, containing 818 benign and 65 malignant nodules. Our previously developed AI algorithm for nodule malignancy risk estimation was extended with a method for measuring the prediction uncertainty. The uncertainty score (UnS) was calculated by measuring the standard deviation over 20 different predictions of an ensemble of AI models. Two UnS thresholds at the 90th and 95th percentile were applied to retain 90% and 95% of all cases as certain, respectively. For these scenarios, we calculated the area under the ROC curve (AUC) for certain and uncertain cases, and for the full set of nodules.
               Results: On the full set of 883 nodules, the AUC of the AI risk score was 0.932. For the 90th and 95th percentile, the AUC of the AI risk score for certain cases was 0.934 and 0.935, respectively, and for the uncertain cases was 0.710 and 0.688, respectively.
               Conclusion: In this retrospective data set, we demonstrate that integrating an uncertainty estimation method into a deep learning-based nodule malignancy risk estimation algorithm slightly increased the performance on certain cases. The AI performance is substantially worse on uncertain cases and therefore in need of human visual review.
               Limitations: This study is a retrospective analysis on data from one single lung cancer screening trial. More external validation is needed.},
-  optnote = {DIAG, RADIOLOGY},
-  year = {2023},
+  optnote   = {DIAG, RADIOLOGY},
+  year      = {2023},
 }
 
 @conference{Pegg17a,
@@ -34382,6 +34382,19 @@
     Results: No statistical difference in size was detected between the malignant and benign nodules (median [range]: 10.8 [5.8, 15.4]; 10.4 [5.8, 15.1]; respectively). Cases with malignant nodules had a significantly lower number of nodules (p=0.001). The AI algorithm significantly outperformed the Brock model (p<0.001). AUC [95% CI] of the AI algorithm and Brock model were 0.87 [0.80-0.94] and 0.59 [0.48-0.69], respectively. The AI algorithm had a higher sensitivity (0.60 [0.46-0.74]) and specificity (0.87 [0.75-0.95]) than the Brock model (0.42 [0.28-0.56]; 0.75 [0.62-0.86]; respectively).
     Conclusion: The AI algorithm outperformed the Brock model in a clinical dataset with a more heterogeneous population than a screening population. The AI algorithm demonstrated the potential for nodule risk stratification in a clinical setting, which can aid clinicians in decisions in nodule management, thereby potentially reducing unnecessary follow-up.
     Limitations: This is a retrospective validation on a single-centre dataset. More research is needed to test the performance in larger and multi-centre data.},
+  optnote   = {DIAG, RADIOLOGY},
+  year      = {2024},
+}
+
+@Conference{Obre24,
+  author    = {Obreja, B and Venkadesh, K and Hendrix, W and Saghir, Z and Prokop, M and Jacobs, C},
+  booktitle = ECR,
+  title     = {Deep Learning for estimating pulmonary nodule malignancy risk: How much data does AI need to reach radiologist level performance?},
+  abstract  = {Deep learning algorithms require large training datasets to achieve optimal performance. For many AI tasks, it is unclear whether algorithm performance would improve further if more training data was added. The aim of this study is to quantify the number of CT training samples required to achieve radiologist-level performance for a deep learning AI algorithm that estimates pulmonary nodule malignancy risk.        
+Methods and materials: For estimating pulmonary nodule malignancy risk, we used the NLST dataset (malignant nodules:1249, benign nodules:14828) to train a deep learning algorithm. The dataset was split: 80% training and 20% internal validation. The algorithm was trained on random subsets of the training set with subset sizes ranging from 10% to 100%, with a class distribution of malignant≈7.77% and benign≈92.23%. The trained AI algorithms were validated on a size-matched cancer-enriched cohort (malignant:59, benign:118) from DLCST. The performance was compared against a group of 11 clinicians that also scored the test set, which included 4 thoracic radiologists.      
+Results: Using training data subsets of 10%, 20%, and 30%, the AI achieved AUC values of 0.74 (95%CI:0.67-0.82), 0.79 (95%CI:0.72-0.85), and 0.81 (95%CI:0.74-0.87) respectively. When the training data set size reached 60% (malignant:602, benign:7112), the performance saturated, reaching an AUC of 0.82 (95%CI:0.75-0.88). This was comparable to the average AUC of all clinicians (0.82,95%CI:0.77-0.86,p>0.99) and of the 4 thoracic radiologists (0.82,95%CI:0.74-0.89,p>0.99).     
+Conclusion: The AI was able to reach the level of an experienced thoracic radiologist when it was trained on 7714 nodules (malignant:602) from the NLST dataset. These findings have potential implications for the allocation of resources in developing deep learning algorithms for lung cancer medical imaging diagnostics.
+Limitations: The generalizability of these findings is constrained by heterogeneity and geographical limitations of the datasets used in this study.},
   optnote   = {DIAG, RADIOLOGY},
   year      = {2024},
 }
