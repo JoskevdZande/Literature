@@ -14,7 +14,7 @@ from datetime import datetime
 staff_id_dict = {'Bram van Ginneken': [8038506, 123637526, 2238811617, 2237665783, 2064076416],
 'Francesco Ciompi': [143613202, 2246376566],
 'Alessa Hering': [153744566],
-'Henkjan Huisman': [34754023, 2247422768, 2242473717],
+'Henkjan Huisman': [34754023, 2247422768, 2242473717, 2275450757],
 'Colin Jacobs': [2895994],
 'Peter Koopmans': [34726383],
 'Jeroen van der Laak': [145441238, 145388932, 2347447, 2255290517, 2259038560],
