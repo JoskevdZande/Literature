@@ -147,3 +147,8 @@ staff_id,staff_name,ss_year,ss_id,title,doi,Should be in diag.bib,Reason
 "[32649341, 119024451]","[32649341, 119024451]",2019,f2ad6e4c7023da74ed85a65de6572dc10ee91f19,Latest AI applications in breast imaging Executive Summary,,no,"no doi, does not seem to be a proper peer reviewed article"
 [153744566],[153744566],2021,f574d9f2b018d707ff0c2dbcd250fcd4ee2856ae,Learn2Reg - The Challenge (2021),10.5281/ZENODO.4573968,no,refers to a dataset
 [1745574],[1745574],2020,f7a9b39199077be3c0abf852d9665d65b1029027,Bringing tomosynthesis to screening,,no,"no doi, cannot find that this is a proper publication"
+1745574,1745574,2015,36fb5c86a92b941f0754cb864e2c4c70b21b7b7d,Assessment of Breast Density,10.1201/B18191-7,no,
+1745574,1745574,2015,36fb5c86a92b941f0754cb864e2c4c70b21b7b7d,Assessment of Breast Density,10.1201/B18191-7,no,
+1745574,1745574,2015,36fb5c86a92b941f0754cb864e2c4c70b21b7b7d,Assessment of Breast Density,10.1201/B18191-7,no,
+8038506,8038506,2018,6ee162830c7e15350eb475210b3f410657cdd808,"Model-based Segmentation of the Prostate using CNN-based Boundary Detection * * * January 22 , 2018 1",,no,
+2259038560,2259038560,2023,9bcf7878dadb645347aa1eff25c56a49d0b7d668,"Banff Digital Pathology Working Group: Image Bank, Artificial Intelligence Algorithm, and Challenge Trial Developments",10.3389/ti.2023.11783,no,
