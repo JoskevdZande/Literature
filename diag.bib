@@ -34428,19 +34428,19 @@ Limitations: The generalizability of these findings is constrained by heterogene
   abstract       = {Abstract
               Objective
               To investigate the effect of uncertainty estimation on the performance of a Deep Learning (DL) algorithm for estimating malignancy risk of pulmonary nodules.
-            
+
               Methods and materials
               In this retrospective study, we integrated an uncertainty estimation method into a previously developed DL algorithm for nodule malignancy risk estimation. Uncertainty thresholds were developed using CT data from the Danish Lung Cancer Screening Trial (DLCST), containing 883 nodules (65 malignant) collected between 2004 and 2010. We used thresholds on the 90th and 95th percentiles of the uncertainty score distribution to categorize nodules into certain and uncertain groups. External validation was performed on clinical CT data from a tertiary academic center containing 374 nodules (207 malignant) collected between 2004 and 2012. DL performance was measured using area under the ROC curve (AUC) for the full set of nodules, for the certain cases and for the uncertain cases. Additionally, nodule characteristics were compared to identify trends for inducing uncertainty.
-            
+
               Results
               The DL algorithm performed significantly worse in the uncertain group compared to the certain group of DLCST (AUC 0.62 (95% CI: 0.49, 0.76) vs 0.93 (95% CI: 0.88, 0.97); p < .001) and the clinical dataset (AUC 0.62 (95% CI: 0.50, 0.73) vs 0.90 (95% CI: 0.86, 0.94); p < .001). The uncertain group included larger benign nodules as well as more part-solid and non-solid nodules than the certain group.
-            
+
               Conclusion
               The integrated uncertainty estimation showed excellent performance for identifying uncertain cases in which the DL-based nodule malignancy risk estimation algorithm had significantly worse performance.
-            
+
               Clinical relevance statement
               Deep Learning algorithms often lack the ability to gauge and communicate uncertainty. For safe clinical implementation, uncertainty estimation is of pivotal importance to identify cases where the deep learning algorithm harbors doubt in its prediction.
-            
+
               Key Points
               * Deep learning (DL) algorithms often lack uncertainty estimation, which potentially reduce the risk of errors and improve safety during clinical adoption of the DL algorithm.
               * Uncertainty estimation identifies pulmonary nodules in which the discriminative performance of the DL algorithm is significantly worse.
