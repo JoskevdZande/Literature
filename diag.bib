@@ -35088,3 +35088,96 @@
   year = {2017},
   optnote = {DIAG},
 }
+
+@Conference{Peet24a,
+  author    = {Peeters, Dr\'{e} and Venkadesh, K and Dinnessen, R and Saghir, Z and Scholten, E and Vliegenthart, R and Prokop, M and Jacobs, C},
+  booktitle = ESTI,
+  title     = {Towards safe and reliable implementation of AI models for nodule malignancy estimation using distance-based out-of-distribution detection},
+  abstract  = {Purpose:
+Artificial Intelligence (AI) models may fail or suffer from reduced performance when applied to unseen data that differs from the training data distribution. Automatic detection of out-of-distribution (OOD) data helps to ensure safe and reliable clinical implementation of AI models. In this study, we integrate different OOD detection methods into a previously developed AI model for nodule malignancy risk estimation and evaluate their performance for OOD detection.
+Methods and materials:
+We used retrospective datasets from three sources: the National Lung Cancer Screening Trial (NLST, 16077 nodules with 1249 malignant), the Danish Lung Cancer Screening Trial (DLCST, 883 nodules with 65 malignant) and Clinical Routine data from a Dutch academic hospital (374 nodules with 207 malignant). NLST represents in-distribution data since it was used in the development of the AI model. DLCST, also comprising screening data, is categorized as near-OOD data. Clinical Routine data represents far-OOD data because of its diversity in CT protocols and disease incidence. We integrated the following three techniques into our AI model for malignancy risk estimation to calculate OOD scores for all nodules: maximum softmax probability (MSP), energy scoring (ES), and mahalanobis distance (MD) between the features of a test sample and the features of in-distribution samples. MSP takes the highest softmax output probability, while ES computes the log of the summed exponential values from the softmax output. MSP and ES exploit lower confidence in softmax outputs for OOD data. By categorizing NLST as in-distribution, and DLCST and Clinical routine as OOD, we assessed OOD detection performance using area under the ROC curve (AUC). For this, NLST was treated as negative samples, while DLCST and Clinical Routine were treated as positive samples.
+Results:
+For DLCST and Clinical Routine, the OOD methods based on MSP and ES showed a moderate ability to separate the data from NLST data with AUCs of 0.53 and 0.66, respectively. The OOD detection method based on MD demonstrated outstanding performance, achieving AUCs of 0.99 and 1.00, respectively.
+Conclusion:
+The MD-based OOD detection approach can be seamlessly integrated in an existing AI model and demonstrated to successfully detect far-OOD and near-OOD data. Integration of this approach could be a helpful tool to limit the AI model from failing silently on unseen and abnormal data, thereby enhancing patient safety.},
+  optnote   = {DIAG, RADIOLOGY},
+  year      = {2024},
+}
+
+@Conference{Anto24a,
+  author    = {Antonissen, N and Venkadesh, K and Gietema, H and Vliegenthart, R and Saghir, Z and Scholten, E. Th and Prokop, M and Schaefer-Prokop, C and Jacobs, C},
+  booktitle = ESTI,
+  title     = {Retrospective validation and comparison of deep learning based risk thresholds versus growth-centric protocols in pulmonary nodule assessment in screening},
+  abstract  = {Purpose/Objectives:
+We previously developed a deep learning (DL) algorithm for estimating malignancy risk in screen-detected nodules using a current and prior low-dose CT scan to assess 3-year malignancy risk of persisting pulmonary nodules. Existing nodule management guidelines have diverse criteria for intensified follow-up actions (short-term follow-up, PET-CT, or biopsy) based on nodule growth. Key criteria include more than 1.5 mm diameter growth within 12 months for Lung-RADS or subsequent scans in the International Lung Screen Trial (ILST) protocol, and 25% volume growth for nodules over 100 mm³ in the updated NELSON protocol, among other more detailed criteria. This study evaluates a deep learning-based method for determining the malignancy risk of persisting nodules in comparison to growth-centric protocols.
+
+Methods and materials:
+For this study we used 679 pairs of annual low-dose CT scans from the Danish Lung Cancer Screening Trial. This data set was constructed by selecting scans preceding lung cancer diagnosis for malignant cases and equivalent periods for benign cases in individuals without lung cancer, including 1,116 screen-annotated nodules across 639 non-cancer and 40 cancer cases. The DL-based malignancy risk was computed for all screen-detected nodules using a malignancy risk cut-off point of 5% as threshold for a positive screen. This 5% threshold aligns with the recommendations of the American College of Chest Physicians (ACCP), considering that nodules with less than 5% risk are deemed to have a very low risk of malignancy. We applied the published growth criteria from Lung-RADS, ILST and updated NELSON protocols to define a positive screening outcome. Sensitivity and specificity were calculated for all cases (n=679) using the risk dominant nodule per scan.
+
+Results:
+The deep learning (DL) model, with a 5% threshold, achieved a sensitivity of 90%, surpassing Lung-RADS at 77.5% and the NELSON protocol at 82.5%, while closely aligning with ILST at 92.5%. In specificity, the model excelled with 95.5%, outperforming Lung-RADS at 88.3%, ILST at 80.9%, and the NELSON protocol at 88%.
+
+Conclusion :
+In this study, a deep learning (DL) algorithm for lung cancer screening, which analyses both current and prior low-dose CT scans, showed notable performance by achieving a sensitivity of 90%, exceeding Lung-RADS, NELSON, and closely rivalling ILST. More notably, its specificity of 95.9% surpassed all compared protocols. These findings suggest that the deep learning algorithm considers other factors beyond nodule growth for malignancy risk estimation, highlighting the algorithm's efficiency not only in detecting lung cancer but also in potentially reducing false positives. In conclusion, the integration of prior CT scans coupled with the use of deep learning potentially provides a more precise assessment than traditional growth rate-based protocols.},
+  optnote   = {DIAG, RADIOLOGY},
+  year      = {2024},
+}
+
+@Conference{Graa24c,
+  author    = {van der Graaf, Fennie and Antonissen, Noa and Scholten, E and Prokop, M and Jacobs, C},
+  booktitle = ESTI,
+  title     = {Assessing the agreement between privacy-preserving Llama model and human experts when labelling radiology reports for specific significant incidental findings in lung cancer screening},
+  abstract  = {Purpose/Objectives:
+The ERS/ESTS/ESTRO/ESR/ESTI/EFOMP statement on management of incidental findings from low dose CT screening for lung cancer recognizes nine specific significant incidental findings (SIFs). To detect these SIFs efficiently and accurately during lung cancer screening, artificial intelligence algorithms may aid human experts. Automatic identification of scans with SIFs would be required to effectively train AI systems to detect these SIFs. In this study, we investigate the agreement between out-of-box Llama2-7b-chat, privacy–preserving, large language model (LLM) and human experts in labeling SIFs in thorax-abdomen radiology reports.
+Methods & Materials:
+In this study, 100 CT radiology reports from Radboud University Medical Center were examined for nine specific SIFs. The LLM generated outputs for the presence (1) or absence (0) of the SIFs, using an engineered system prompt. Agreements between LLM outputs and two human experts, the agreement between five runs of the LLM, and the agreement between the two human experts was assessed using Fleiss κ, with bootstrapped 95% confidence intervals.
+Results:
+The interobserver agreement for the nine specific SIFs for the two human experts was substantial, median κ = 0.763 (0.479, 0.891). The agreement between the LLM and the first human expert was moderate, median κ = 0.427 (0.181, 0.661) and between the LLM and the second human expert was fair, median κ = 0.395 (0.101, 0.619), for the nine SIFs. The agreement between the five runs of the LLM was almost perfect κ = 0.970 (0.912, 1.000). When analyzing agreement in specific SIFs, we found substantial agreement between the LLM and each observer for bronchiectasis (κ = 0.667 (0.327, 0.884) and κ = 0.634 (0.293, 0.878)), and coronary artery calcifications (κ = 0.627 (0.433, 0.792) and κ = 0.610 (0.381, 0.793), and poor agreement for thyroid abnormalities (κ = -0.027 (-0.048, -0.005), κ = -0.020 (-0.042, -0.005)). The agreement between the human experts was substantial for bronchiectasis κ = 0.889 (0.693, 1.000), and for thyroid abnormalities κ = 0.884 (0.479, 1.000), and poor for interstitial lung abnormalities κ = 0.321 (-0.053, 0.628), and for mediastinal masses κ = 0.313 (-0.036, 0.795).
+Conclusion:
+This study demonstrates that there is a large difference between the agreement of each human observer and the LLM, compared to the agreement between the two human observers. This study highlights the potential for LLMs to automatically label radiology reports for SIFs and indicates which SIFs can be more reliably labeled than others. Further research is needed, to fine tune the LLM with labelled radiology reports to improve agreement with human experts, when labelling for SIFs.},
+  optnote   = {DIAG, RADIOLOGY},
+  year      = {2024},
+}
+
+@PhdThesis{Venk24,
+  author     = {Kiran Venkadesh},
+  title      = {AI for lung cancer screening},
+  url        = {https://hdl.handle.net/2066/305547},
+  abstract   = {Lung cancer is the deadliest type of cancer worldwide. Detecting lung cancer early is crucial to improve survival rates and offer better treatment options. Evidence from several large studies shows that screening high-risk groups with low-dose computed tomography (CT) effectively reduces lung cancer mortality. Several countries, particularly the United States, have started lung cancer screening programs. Moreover, many countries are planning to start population-wide lung cancer screening. Although CT screening is very good at detecting lung cancer early, it does have problems, such as false positives that lead to unnecessary follow-up tests, which need to be monitored closely. Another issue is the shortage of radiologists to interpret screening CT examinations, which calls for new solutions. Artificial Intelligence (AI) is increasingly being viewed as a solution to help radiologists review screening examinations more accurately and with less effort. This thesis explores AI solutions that could make lung cancer screening more cost-effective. These solutions could help radiologists avoid unnecessary tests and reduce their workload},
+  copromotor = {C. Jacobs and A.D. Hering},
+  file       = {:pdf/Venk24.pdf:PDF},
+  journal    = {PhD thesis},
+  optnote    = {DIAG, RADIOLOGY},
+  promotor   = {B. van Ginneken and M. Prokop},
+  school     = {Radboud University, Nijmegen},
+  year       = {2024},
+}
+
+@PhdThesis{Bokh24,
+  author   = {John-Melle Bokhorst},
+  title    = {Hidden in plain sight. Automatic detection of tumor budding in digital pathology images of colorectal cancer},
+  url      = {https://hdl.handle.net/2066/305478},
+  abstract = {Tumor budding (TB), the presence of single cells or small clusters of up to four tumor cells, at the invasive front of colorectal cancer (CRC) is a proven risk factor for adverse outcomes. Despite their prognostic value, the potential of TBs as prognostic biomarkers is currently underused within clinical practice, partly due to observer variability among pathologists and partly because it is very time-consuming. Therefore, we dedicate this thesis to the development of deep learning algorithms for the automatic, efficient, and precise detection of these tumor buds},
+  file     = {:pdf/Bokh24.pdf:PDF},
+  journal  = {PhD thesis},
+  optnote  = {DIAG, PATHOLOGY},
+  promotor = {J. van der Laak and I. Nagtegaal and F. Ciompi},
+  school   = {Radboud University, Nijmegen},
+  year     = {2024},
+}
+
+@PhdThesis{Hoss24,
+  author   = {Matin Hosseinzadeh},
+  title    = {Prostate Cancer Detection in MRI using Deep Learning},
+  url      = {https://hdl.handle.net/2066/304143},
+  abstract = {This thesis focuses on prostate cancer, a significant medical issue for men. The prostate is a component of the male reproductive system, comprising the penis, prostate, seminal vesicles, and testicles. Located below the bladder and in front of the rectum, the prostate is approximately the size of a walnut and encloses the urethra, the tube responsible for urine excretion. The prostate comprises distinct zones: the peripheral zone, which is commonly associated with prostate cancer, and the transition zone. The prostate produces fluid that contributes to semen composition. Prostate cancer ranks as the second most common cancer in men and the fourth most common cancer overall. Globally, over 1.4 million new cases of prostate cancer are diagnosed per year. Statistically, one in eight men will be diagnosed with prostate cancer in their lifetime, but only one in 41 will die as a result of the disease. This thesis aims to identify clinically significant prostate cancer (csPCa), which is curable if detected early.},
+  file     = {:pdf/Hoss24.pdf:PDF},
+  journal  = {PhD thesis},
+  optnote  = {DIAG, RADIOLOGY},
+  promotor = {H. Huisman and B. van Ginneken},
+  school   = {Radboud University, Nijmegen},
+  year     = {2024},
+}
+
+@Comment{jabref-meta: databaseType:biblatex;}
