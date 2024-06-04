@@ -35089,22 +35089,6 @@
   optnote = {DIAG},
 }
 
-@Conference{Peet24a,
-  author    = {Peeters, Dr\'{e} and Venkadesh, K and Dinnessen, R and Saghir, Z and Scholten, E and Vliegenthart, R and Prokop, M and Jacobs, C},
-  booktitle = ESTI,
-  title     = {Towards safe and reliable implementation of AI models for nodule malignancy estimation using distance-based out-of-distribution detection},
-  abstract  = {Purpose:
-Artificial Intelligence (AI) models may fail or suffer from reduced performance when applied to unseen data that differs from the training data distribution. Automatic detection of out-of-distribution (OOD) data helps to ensure safe and reliable clinical implementation of AI models. In this study, we integrate different OOD detection methods into a previously developed AI model for nodule malignancy risk estimation and evaluate their performance for OOD detection.
-Methods and materials:
-We used retrospective datasets from three sources: the National Lung Cancer Screening Trial (NLST, 16077 nodules with 1249 malignant), the Danish Lung Cancer Screening Trial (DLCST, 883 nodules with 65 malignant) and Clinical Routine data from a Dutch academic hospital (374 nodules with 207 malignant). NLST represents in-distribution data since it was used in the development of the AI model. DLCST, also comprising screening data, is categorized as near-OOD data. Clinical Routine data represents far-OOD data because of its diversity in CT protocols and disease incidence. We integrated the following three techniques into our AI model for malignancy risk estimation to calculate OOD scores for all nodules: maximum softmax probability (MSP), energy scoring (ES), and mahalanobis distance (MD) between the features of a test sample and the features of in-distribution samples. MSP takes the highest softmax output probability, while ES computes the log of the summed exponential values from the softmax output. MSP and ES exploit lower confidence in softmax outputs for OOD data. By categorizing NLST as in-distribution, and DLCST and Clinical routine as OOD, we assessed OOD detection performance using area under the ROC curve (AUC). For this, NLST was treated as negative samples, while DLCST and Clinical Routine were treated as positive samples.
-Results:
-For DLCST and Clinical Routine, the OOD methods based on MSP and ES showed a moderate ability to separate the data from NLST data with AUCs of 0.53 and 0.66, respectively. The OOD detection method based on MD demonstrated outstanding performance, achieving AUCs of 0.99 and 1.00, respectively.
-Conclusion:
-The MD-based OOD detection approach can be seamlessly integrated in an existing AI model and demonstrated to successfully detect far-OOD and near-OOD data. Integration of this approach could be a helpful tool to limit the AI model from failing silently on unseen and abnormal data, thereby enhancing patient safety.},
-  optnote   = {DIAG, RADIOLOGY},
-  year      = {2024},
-}
-
 @Conference{Anto24a,
   author    = {Antonissen, N and Venkadesh, K and Gietema, H and Vliegenthart, R and Saghir, Z and Scholten, E. Th and Prokop, M and Schaefer-Prokop, C and Jacobs, C},
   booktitle = ESTI,
