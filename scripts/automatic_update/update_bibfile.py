@@ -14,6 +14,34 @@ from collections import defaultdict
 from semanticscholar import SemanticScholar, SemanticScholarException
 
 
+def from_bib_to_csv(diag_bib_raw):
+    """Convert bib file to a csv."""
+    bib_data = []
+    bib_columns = ['bibkey', 'type', 'title', 'authors', 'doi', 'gs_citations', 'journal', 'year', 'all_ss_ids', 'pmid']
+    
+    for bib_entry in diag_bib_raw:
+        if bib_entry.type == 'string':
+            continue
+
+        bibkey = bib_entry.key
+        bib_type = bib_entry.type
+        fields = bib_entry.fields
+        
+        bib_authors = fields.get('author', '').strip('{}')
+        bib_title = fields.get('title', '').strip('{}')
+        bib_doi = fields.get('doi', '').strip('{}')
+        bib_gscites = fields.get('gscites', '').strip('{}')
+        bib_journal = fields.get('journal', '').strip('{}')
+        bib_year = fields.get('year', '').strip('{}')
+        bib_all_ss_ids = fields.get('all_ss_ids', '').strip('{}')
+        bib_pmid = fields.get('pmid', '').strip('{}')
+        
+        bib_data.append([bibkey, bib_type, bib_title, bib_authors, bib_doi, bib_gscites, bib_journal, bib_year, bib_all_ss_ids, bib_pmid])
+
+    df_bib_data = pd.DataFrame(bib_data, columns=bib_columns)
+    return df_bib_data
+
+
 def get_item_to_blacklist(item): # item here is a row from the manually checked csv file
     #Add item to blacklist.csv
     move_to_blacklist = {
@@ -164,8 +192,8 @@ def update_citation_count(diag_bib_raw):
 
     sch = SemanticScholar(timeout=40)
     sch.timeout=40
-
     for ind, entry in enumerate(diag_bib_raw):
+        break
         # print('checking citations', ind, 'of', num_entries)
         flag=0
         if entry.type == 'string':
@@ -242,9 +270,10 @@ def loop_manual_check(manually_checked, diag_bib_orig):
             continue
     
         # Add new item to diag.bib
-        elif "[add new item]" == bib_item['action'].strip():
+        elif "[add new item]" == bib_item['action'].strip() or "[update item]" == bib_item['action'].strip():
            
            bib_item_text = get_bib_info(diag_bib_orig, bib_item)
+           print(bib_item_text)
            if bib_item_text is not None:
                items_to_add += bib_item_text
                # if there is a pmid note it to be added afterwards
@@ -270,7 +299,7 @@ def loop_manual_check(manually_checked, diag_bib_orig):
             blacklist_items.append(blacklist_item)
     
         # Get None items
-        elif '[None]' in bib_item['action'].strip():
+        elif '[None]' in bib_item['action'].strip() or '[update item]' in bib_item['action'].strip():
             continue
             
         else:
@@ -293,22 +322,31 @@ def main():
     manually_checked['ss_doi'] = manually_checked['ss_doi'].fillna('')
     
     
+
     # load bib file just for reading at this point
     diag_bib_path = os.path.join('diag.bib')
+
+    diag_bib_raw = read_bibfile(None, diag_bib_path)
+    remove_items = manually_checked[manually_checked['action']=='[update item]']['bibkey'].tolist()
+    diag_bib_raw = [entry for entry in diag_bib_raw if entry.key not in remove_items]
+    save_to_file(diag_bib_raw, None, 'diag.bib')
+
+
     with open(diag_bib_path, 'r', encoding="utf8") as orig_bib_file:
         diag_bib_orig = orig_bib_file.read()
 
     blacklist_items, items_to_add, items_to_update, failed_new_items, failed_updated_items, failed_to_find_actions, dict_new_items_bibkey_pmid = loop_manual_check(manually_checked, diag_bib_orig)
-    # Add new bib entries to the diag.bib file
+    
+    #Add new bib entries to the diag.bib file
     diag_bib_added_items = diag_bib_orig + items_to_add  
     with open('diag.bib', 'w', encoding="utf8") as bibtex_file:
         bibtex_file.write(diag_bib_added_items)
 
-    # Update newly added items with pmids where possible
+    # # Update newly added items with pmids where possible
     diag_bib_raw = read_bibfile(None, 'diag.bib')
     diag_bib_raw = add_pmid_where_possible(diag_bib_raw, dict_new_items_bibkey_pmid)
 
-    # Update existing bib entries with new ss_ids (and dois, pmids where possible)
+    #Update existing bib entries with new ss_ids (and dois, pmids where possible)
     for item_to_update in items_to_update:
         [diag_bib_raw, result] = add_ss_id_doi_pmid_to_existing_bibkey(diag_bib_raw, item_to_update)
         if(result=='Fail'):

@@ -158,12 +158,32 @@ def return_existing_ssids(bib_file):
     return all_ss_ids
 
 
+def normalize_doi(doi):
+    # Convert to lowercase
+    doi = doi.lower()
+    # Remove 'https://doi.org/' if present
+    if doi.startswith("https://doi.org/"):
+        doi = doi[len("https://doi.org/"):]
+    return doi
+
+
+def return_existing_dois(df_bib):
+    all_dois=[]
+    for idx, row in df_bib.iterrows():
+        if row['doi'] != '':
+            all_dois.append(normalize_doi(row['doi']))
+    return all_dois
+
+
 def find_doi_match(df_bib, df_found_items, found_items, found_dois, actions_list):
     """Find DOI matches between the bib items and found items."""
     
     list_doi_match = []
     not_new = []
     ss_id_match = []
+    update_item = []
+    update_item_ssid = []
+    all_dois = return_existing_dois(df_bib)
     for index, row in df_bib.iterrows():
         doi = row.iloc[4]
         ss_ids = row.iloc[8]
@@ -176,7 +196,17 @@ def find_doi_match(df_bib, df_found_items, found_items, found_dois, actions_list
         # Check if any existing bib-item has the same ss_id as an item on found_items 
         for ss_id in all_ss_ids:
             if ss_id in found_items:
-                not_new.append(ss_id)
+                ss_doi = df_found_items[df_found_items['ss_id'] == ss_id]['doi'].item()
+                if ss_doi:
+                    ss_doi = normalize_doi(ss_doi)
+                    doi = normalize_doi(doi)
+                    if ss_doi != doi and ss_doi not in all_dois and (doi == '' or 'arxiv' in doi):
+                        update_item.append((row.iloc[0], ss_id, f'https://www.semanticscholar.org/paper/{ss_id}', 1, doi, ss_doi, row.iloc[2], df_found_items[df_found_items['ss_id']==ss_id]['title'].item(), df_found_items[df_found_items['ss_id']==ss_id]['staff_id'].item(), df_found_items[df_found_items['ss_id']==ss_id]['staff_name'].item(), row.iloc[3], df_found_items[df_found_items['ss_id']==ss_id]['authors'].item(), row.iloc[6], df_found_items[df_found_items['ss_id']==ss_id]['journal'].item(), row.iloc[7], df_found_items[df_found_items['ss_id']==ss_id]['ss_year'].item(), row.iloc[1], df_found_items[df_found_items['ss_id']==ss_id]['pmid'].item(), 'update item', actions_list))
+                        update_item_ssid.append(ss_id)
+                    else:
+                        not_new.append(ss_id)
+                else:
+                    not_new.append(ss_id)
             
         # Check if any existing bib-item has the same doi as an item on found_items
         if doi is not None and doi in found_dois:
@@ -194,7 +224,7 @@ def find_doi_match(df_bib, df_found_items, found_items, found_dois, actions_list
                 ratio = SequenceMatcher(a=ss_title,b=row.iloc[2]).ratio()
                 ss_id_match.append(ss_id)
                 list_doi_match.append((row.iloc[0], ss_id, 'https://www.semanticscholar.org/paper/'+ss_id, ratio, doi, doi, row.iloc[2], ss_title, staff_id, staff_name, row.iloc[3], ss_authors, row.iloc[6], ss_journal, row.iloc[7], ss_year, row.iloc[1], pmid, 'doi match', actions_list))
-    return not_new, ss_id_match, list_doi_match
+    return not_new, ss_id_match, list_doi_match, update_item, update_item_ssid
 
 
 def find_title_match_or_new_items(new_items, df_bib, actions_list):
@@ -275,11 +305,11 @@ def main():
     
     # Extract ss_ids from the bib file
     existing_items = return_existing_ssids(diag_bib_raw)
-    actions_list = '[add ss_id, blacklist ss_id, add new item, add manually, None]'
+    actions_list = '[add ss_id, blacklist ss_id, add new item, add manually, update_item, None]'
     # Find DOI matches
-    not_new, ss_id_match, list_doi_match = find_doi_match(df_bib, df_found_items, found_items, found_dois, actions_list)
+    not_new, ss_id_match, list_doi_match, update_item, update_item_ssid = find_doi_match(df_bib, df_found_items, found_items, found_dois, actions_list)
     # Remove ss_ids that are already in bibfile and ss_id with doi match
-    to_add = set(found_items)-set(not_new)-set(ss_id_match)
+    to_add = set(found_items)-set(not_new)-set(ss_id_match)-set(update_item_ssid)
     new_items = df_found_items[df_found_items['ss_id'].isin(to_add)]
     
     # Remove blacklist items
@@ -291,7 +321,7 @@ def main():
     
     # Find title matches, items without dois, new items
     list_title_match, list_no_dois, list_to_add = find_title_match_or_new_items(new_items, df_bib, actions_list)
-    total_list = list_to_add + list_no_dois + list_title_match + list_doi_match
+    total_list = list_to_add + list_no_dois + list_title_match + list_doi_match + update_item
 
     # Save manual check file
     columns = ['bibkey', 'ss_id', 'url', 'match score', 'bib_doi', 'ss_doi', 'bib_title', 'ss_title', 'staff_id', 'staff_name', 'bib_authors', 'ss_authors', 'bib_journal', 'ss_journal', 'bib_year', 'ss_year', 'bib_type', 'ss_pmid', 'reason', 'action']
