@@ -193,7 +193,6 @@ def update_citation_count(diag_bib_raw):
     sch = SemanticScholar(timeout=40)
     sch.timeout=40
     for ind, entry in enumerate(diag_bib_raw):
-        break
         # print('checking citations', ind, 'of', num_entries)
         flag=0
         if entry.type == 'string':
