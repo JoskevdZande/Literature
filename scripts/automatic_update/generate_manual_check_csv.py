@@ -12,7 +12,7 @@ from collections import defaultdict
 from datetime import datetime
 
 staff_id_dict = {'Bram van Ginneken': [8038506, 123637526, 2238811617, 2237665783, 2064076416],
-'Francesco Ciompi': [143613202, 2246376566],
+'Francesco Ciompi': [143613202, 2246376566, 2291304571],
 'Alessa Hering': [153744566],
 'Henkjan Huisman': [34754023, 2247422768, 2242473717, 2275450757],
 'Colin Jacobs': [2895994],
